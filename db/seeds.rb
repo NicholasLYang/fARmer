@@ -143,11 +143,11 @@ plant = Plant.create!([
 communities = Community.create!([
                                   { name: "Cliff Haven",
                                     address: "417 Riverside Drive, 10025"},
-                                  { name: "212 Warren St, 10282",
-                                    address: "212 Warren St",
+                                  { name: "212 Warren St",
+                                    address: "212 Warren St, 10282",
                                   },
-                                  { name: "1738 West 12th, 11223",
-                                    address: "1738 West 12th"
+                                  { name: "1738 West 12th",
+                                    address: "1738 West 12th, 11223"
                                   }
                                 ])
 
