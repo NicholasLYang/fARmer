@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   get '/plots_json', to: 'plots#index_json'
   get '/plant_json/:id', to: 'plants#show_json'
   get '/user_json/:id', to: 'users#show_json'
-  get '/current_user', to: 'users#current'
+  get '/users_json', to: 'users#index_json'
   get '/communities_json', to: 'communities#index_json'
   get '/seed', to: 'plots#seed'
 

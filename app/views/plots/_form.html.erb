@@ -13,7 +13,7 @@
   <% end %>
 
   <div class="field">
-      <span class="form-label"> Pick what you want to grow! </span>
+      <span class="form-label"> <%= f.label :plant %> </span>
       <%= f.select(:plant_id) do %>
           <% @plants.each do |p| -%>
               <%= content_tag(:option, p.name, value: p.id) %>

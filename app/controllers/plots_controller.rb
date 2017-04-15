@@ -1,5 +1,6 @@
 class PlotsController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index, :index_json, :create, :seed]
+  skip_before_action :verify_authenticity_token, :only => [:index_json, :create]
   before_action :set_plot, only: [:show, :edit, :update, :destroy]
 
   # GET /plots
