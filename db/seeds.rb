@@ -11,11 +11,11 @@ users = User.create({name: "Nicholas",
                      community_id: 1})
 
 plant = Plant.create!([
-                       # { name: 'Artichokes',
+                       # { name: 'Artichoke',
                        #   expected_yield: 2,
                        #   image: "http://cdn.c.photoshelter.com/img-get/I0000JWQs6wHUSFw/s/750/750/Jerusalem-Artichokes-8350e.jpg" },
 
-                       # { name: 'Beans',
+                       # { name: 'Bean',
                        #   expected_yield: 6,
                        #   image: "http://cdn.c.photoshelter.com/img-get/I0000Q9ZJAfdKcOE/s/750/750/Heirloom-Lima-Beans-34375.jpg" },
 
@@ -35,7 +35,7 @@ plant = Plant.create!([
                        #   expected_yield: 6,
                        #   image: "http://cdn.c.photoshelter.com/img-get/I0000meDD0nm3EPQ/s/750/750/Cabbage-Quick-Step-14002.jpg"},
 
-                        { name: 'Carrots',
+                        { name: 'Carrot',
                           expected_yield: 4,
                           image: "http://cdn.c.photoshelter.com/img-get/I0000sZw54wToLjM/s/750/750/Carrots-Growing-G019863.jpg"},
 
@@ -110,7 +110,7 @@ plant = Plant.create!([
                        #   expected_yield: 5,
                        #   image: "http://cdn.c.photoshelter.com/img-get/I0000pioFO.nJKgc/s/750/750/Potato-Anya-Second-Early-31751.jpg" },
 
-                        { name: 'Pumpkins',
+                        { name: 'Pumpkin',
                           expected_yield: 12,
                           image: "http://cdn.c.photoshelter.com/img-get/I0000veE2D.UwHL4/s/750/750/Pumpkin-Baby-Bear-16472.jpg" },
 
@@ -126,11 +126,11 @@ plant = Plant.create!([
                        #   expected_yield: 9,
                        #   image: "http://cdn.c.photoshelter.com/img-get/I00000gKgM.EMDFo/s/750/750/Butternut-Squash-JAW3284.jpg" },
 
-                        { name: 'Tomatoes',
+                        { name: 'Tomato',
                           expected_yield: 7,
                           image: "http://cdn.c.photoshelter.com/img-get/I0000EcKRgKRmLUE/s/750/750/Tomato-Marglobe-18215fc.jpg"},
 
-                        { name: 'Turnips',
+                        { name: 'Turnip',
                           expected_yield: 6,
                           image: "http://cdn.c.photoshelter.com/img-get/I0000t77Kjr0XJgg/s/750/750/Turnip-Growing-10979.jpg" },
 

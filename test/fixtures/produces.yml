@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  plant_id: MyString
+  quantity: 1
+  units: MyString
+
+two:
+  plant_id: MyString
+  quantity: 1
+  units: MyString
