@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :plants
+  resources :plots
   get 'welcome/index'
 
   devise_for :users, controllers: {
