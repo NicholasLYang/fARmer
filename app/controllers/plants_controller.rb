@@ -1,5 +1,6 @@
 class PlantsController < ApplicationController
   skip_before_action :authenticate_user!, only: [:show_json]
+  skip_before_action :verify_authenticity_token, :only => [:show_json]
   before_action :set_plant, only: [:show, :edit, :update, :destroy]
 
   # GET /plants
