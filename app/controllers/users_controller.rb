@@ -9,4 +9,8 @@ class UsersController < ApplicationController
     render json: @user
   end
 
+  def index_json
+    @users = User.all
+    render json: @users
+  end
 end
