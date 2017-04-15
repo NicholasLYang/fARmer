@@ -5,6 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+users = User.create({name: "Nicholas",
+                     email: "nick@nicholasyang.com",
+                     password: "fucking",
+                     community_id: 1})
+
 plant = Plant.create!([
                        # { name: 'Artichokes',
                        #   expected_yield: 2,
@@ -133,16 +138,6 @@ plant = Plant.create!([
                        #   expected_yield: 4,
                        #   image: "http://cdn.c.photoshelter.com/img-get/I0000alH0ON8mVkU/s/750/750/Watermelon-8462.jpg"}
                      ])
-users = User.create({name: "Nicholas",
-                     email: "nick@nicholasyang.com",
-                     password: "fucking",
-                     community_id: 1})
-
-plots = Plot.create!([
-                      {user_id: 1, plant_id: 2},
-                      {user_id: 1, plant_id: 3},
-                      {user_id: 1, plant_id: 1},
-                      {user_id: 1, plant_id: 2},])
 
 communities = Community.create!([
                                   { name: "Cliff Haven",
