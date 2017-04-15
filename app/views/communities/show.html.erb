@@ -1,14 +1,18 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @community.name %>
-</p>
+<h3>  <%= @community.name %> </h3>
 
-<p>
   <strong>Address:</strong>
   <%= @community.address %>
-</p>
 
+  <h4> Plots </h4>
+  <% @community.users.each do |user| %>
+      <%= link_to(user.name, user_path) %> has
+      <% Plot.where(user_id: user.id).each do |plot| %>
+          <% plant = Plant.find(plot.plant_id) %>
+          <span class="plant-name"> <%= plant.name.downcase %> </span>
+          <%= image_tag(plant.image, class: 'hover-plant-image')%>
+      <% end %>
+  <% end %>
 <%= link_to 'Edit', edit_community_path(@community) %> |
 <%= link_to 'Back', communities_path %>

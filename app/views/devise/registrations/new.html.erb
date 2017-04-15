@@ -27,6 +27,16 @@
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 
+
+
+  <div class="field">
+    <%= f.select(:community_id) do %>
+        <% Community.all.each do |c| -%>
+            <%= content_tag(:option, c.name, value: c.id) %>
+        <% end %>
+    <% end %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>

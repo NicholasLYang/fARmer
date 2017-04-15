@@ -44,6 +44,7 @@ class PlotsController < ApplicationController
   def create
     @plot = current_user.plots.new(plot_params)
 
+    @plot.community_id = current_user.community_id
     respond_to do |format|
       if @plot.save
         format.html { redirect_to @plot, notice: 'Plot was successfully created.' }

@@ -4,11 +4,10 @@ Rails.application.routes.draw do
   resources :plots
   get 'welcome/index'
 
-  devise_for :users, controllers: {
-               sessions: 'sessions',
-               registrations: 'registrations'
-             }
 
+  devise_for :users, controllers: {
+               sessions: 'users/sessions'
+             }
   get '/users/:id', to: 'users#show', as: 'user'
   get '/plots_json', to: 'plots#index_json'
   get '/plant_json/:id', to: 'plants#show_json'

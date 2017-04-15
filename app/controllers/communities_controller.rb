@@ -1,4 +1,5 @@
 class CommunitiesController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:index]
   before_action :set_community, only: [:show, :edit, :update, :destroy]
 
   # GET /communities

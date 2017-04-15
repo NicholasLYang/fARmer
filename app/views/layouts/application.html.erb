@@ -13,13 +13,27 @@
     <h1> fARmer </h1>
     <% end %>
       <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+    <p class="alert"><%= alert %></p>
+    <span class="navbar">
+      <strong class="navbar-link">
+        <%= link_to('Communities', communities_path) %>
+      </strong>
       <% if user_signed_in? %>
-      <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
-      <%= link_to('Create Plot', new_plot_path, :method => :delete) %>
+      <strong class="navbar-link">
+        <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+      </strong>
+      <strong class="navbar-link">
+        <%= link_to('Create Plot', new_plot_path) %>
+      </strong>
       <% else %>
-        <%= link_to('Login', new_user_session_path)  %>  
+      <strong class="navbar-link">
+          <%= link_to('Login', new_user_session_path)  %>
+      </strong>
+      <strong>
+        <%= link_to('Create Account', new_user_registration_path) %>
+      </strong>
       <% end %>
+    </span>
     <%= yield %>
   </body>
 </html>

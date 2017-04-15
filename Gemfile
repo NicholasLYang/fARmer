@@ -70,4 +70,4 @@ gem 'capistrano-rbenv', '~> 2.1'
 # gem 'capistrano-rvm'
 gem 'pg'
 gem 'carrierwave', '~> 1.0'
-
+gem 'jquery-rails'
