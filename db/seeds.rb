@@ -142,8 +142,7 @@ plant = Plant.create!([
 
 communities = Community.create!([
                                   { name: "Cliff Haven",
-                                    address: "417 Riverside Drive",
-                                    image: "http://images2.blocksy.com/L_4066202/176389g/original.jpeg"},
+                                    address: "417 Riverside Drive, 10025"},
                                   { name: "212 Warren St",
                                     address: "212 Warren St",
                                   },
