@@ -7,11 +7,14 @@
 
   <h4> Plots </h4>
   <% @community.users.each do |user| %>
-      <%= link_to(user.name, user_path) %> has
-      <% Plot.where(user_id: user.id).each do |plot| %>
-          <% plant = Plant.find(plot.plant_id) %>
-          <span class="plant-name"> <%= plant.name.downcase %> </span>
-          <%= image_tag(plant.image, class: 'hover-plant-image')%>
+      <% plots = Plot.where(user_id: user.id) %>
+      <% unless plots.empty? %>
+          <%= link_to(user.name, user_path) %> is growing
+          <% plots.each do |plot| %>
+              <% plant = Plant.find(plot.plant_id) %>
+              <span class="plant-name"> <%= plant.name.downcase %> </span>
+              <%= image_tag(plant.image, class: 'hover-plant-image')%>
+          <% end %>
       <% end %>
   <% end %>
 <%= link_to 'Edit', edit_community_path(@community) %> |
