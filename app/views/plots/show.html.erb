@@ -1,19 +1,17 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>User:</strong>
-  <%= @plot.user_id %>
-</p>
-
-<p>
-  <strong>Plant:</strong>
-  <%= @plot.plant_id %>
-</p>
+<h3>
+  <%= @plot.user.name %>'s
+  <% plant = Plant.find(@plot.plant_id) %>
+  <%= plant.name.pluralize %>
+</h3>
 
 <p>
   <strong>Community:</strong>
-  <%= @plot.community_id %>
+  <%= Community.find(@plot.community_id).name %>
 </p>
 
-<%= link_to 'Edit', edit_plot_path(@plot) %> |
+<%= image_tag plant.image, class: 'large-plant-image' %> <br>
+
+<%= link_to 'Destroy', plot_path(@plot), method: :delete %> 
 <%= link_to 'Back', plots_path %>

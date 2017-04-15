@@ -73,9 +73,14 @@ class PlotsController < ApplicationController
   # DELETE /plots/1
   # DELETE /plots/1.json
   def destroy
-    @plot.destroy
-    respond_to do |format|
-      format.html { redirect_to plots_url, notice: 'Plot was successfully destroyed.' }
+    if current_user.id == @plot.user_id
+      @plot.destroy
+      respond_to do |format|
+        format.html { redirect_to plots_url, notice: 'Plot was successfully destroyed.' }
+        format.json { head :no_content }
+      end
+    else
+      format.html { redirect_to plots_url, alert: 'Unable to destroy plot; you do not own it' }
       format.json { head :no_content }
     end
   end

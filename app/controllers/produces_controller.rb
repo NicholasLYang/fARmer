@@ -25,8 +25,7 @@ class ProducesController < ApplicationController
   # POST /produces
   # POST /produces.json
   def create
-    @produce = Produce.new(produce_params)
-
+    @produce = current_user.produces.new(produce_params)
     respond_to do |format|
       if @produce.save
         format.html { redirect_to @produce, notice: 'Produce was successfully created.' }

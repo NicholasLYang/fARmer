@@ -1,19 +1,15 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Plant:</strong>
-  <%= @produce.plant_id %>
-</p>
+<h3>
+  <%= @produce.user.name %>'s
+  <% plant = Plant.find(@produce.plant_id) %>
+  <%= plant.name.pluralize %>
+</h3>
+<%= image_tag plant.image, class: 'large-plant-image' %> <br>
+<strong>
+  Quantity:
+</strong>
+<%= @produce.quantity %> <%= @produce.units %> <br>
 
-<p>
-  <strong>Quantity:</strong>
-  <%= @produce.quantity %>
-</p>
-
-<p>
-  <strong>Units:</strong>
-  <%= @produce.units %>
-</p>
-
-<%= link_to 'Edit', edit_produce_path(@produce) %> |
-<%= link_to 'Back', produces_path %>
+<%= link_to 'Destroy', produce_path(@produce), method: :delete %>  |
+<%= link_to 'Back', root_path %>
