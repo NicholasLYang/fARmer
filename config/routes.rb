@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :communities
   resources :plants
   resources :plots
   get 'welcome/index'
