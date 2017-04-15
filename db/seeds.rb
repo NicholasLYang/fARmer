@@ -141,9 +141,8 @@ users = User.create({name: "Nicholas",
 plots = Plot.create!([
                       {user_id: 1, plant_id: 2},
                       {user_id: 1, plant_id: 3},
-                      {user_id: 1, plant_id: 10},
-                      {user_id: 1, plant_id: 11},
-                      {user_id: 1, plant_id: 23},])
+                      {user_id: 1, plant_id: 1},
+                      {user_id: 1, plant_id: 2},])
 
 communities = Community.create!([
                                   { name: "Cliff Haven",
