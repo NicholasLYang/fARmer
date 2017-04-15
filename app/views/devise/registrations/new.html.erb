@@ -27,8 +27,6 @@
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 
-
-
   <div class="field">
     <%= f.select(:community_id) do %>
         <% Community.all.each do |c| -%>
