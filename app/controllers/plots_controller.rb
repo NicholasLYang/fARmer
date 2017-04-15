@@ -1,4 +1,6 @@
 class PlotsController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:index, :index_json, :create, :seed]
+  skip_before_action :verify_authenticity_token, :only => [:index_json, :create]
   before_action :set_plot, only: [:show, :edit, :update, :destroy]
 
   # GET /plots
@@ -7,8 +9,19 @@ class PlotsController < ApplicationController
     @plots = Plot.all
     respond_to do |format|
       format.html
-      format.json { render json: @plots}
     end
+  end
+
+  def seed
+    Rails.application.load_seed
+    respond_to do |format|
+      format.html {redirect_to root_path, notice: "Seeded"}
+    end
+  end
+
+  def index_json
+    @plots = Plot.all
+    render json: @plots
   end
 
   # GET /plots/1
@@ -19,6 +32,7 @@ class PlotsController < ApplicationController
   # GET /plots/new
   def new
     @plot = current_user.plots.build
+    @plants = Plant.all
   end
 
   # GET /plots/1/edit
@@ -28,7 +42,7 @@ class PlotsController < ApplicationController
   # POST /plots
   # POST /plots.json
   def create
-    @plot = Plot.new(plot_params)
+    @plot = current_user.plots.new(plot_params)
 
     respond_to do |format|
       if @plot.save

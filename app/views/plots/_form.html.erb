@@ -13,9 +13,14 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :plant_id %>
-    <%= f.number_field :plant_id %>
+    <%= f.select(:plant_id) do %>
+        <% @plants.each do |p| -%>
+            <%= content_tag(:option, p.name, value: p.id) %>
+        <% end %>
+    <% end %>
   </div>
+
+
 
   <div class="actions">
     <%= f.submit %>

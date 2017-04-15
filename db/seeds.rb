@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-plant = Plant.create([
+plant = Plant.create!([
                        { name: 'Artichoke',
                          expected_yield: 2,
                          image: "http://cdn.c.photoshelter.com/img-get/I0000JWQs6wHUSFw/s/750/750/Jerusalem-Artichokes-8350e.jpg" },
@@ -134,11 +134,11 @@ plant = Plant.create([
                          image: "http://cdn.c.photoshelter.com/img-get/I0000alH0ON8mVkU/s/750/750/Watermelon-8462.jpg"}
                      ])
 
-plot = Plot.create([
-                     { user_id: 2, plant_id: 1 },
-                     { user_id: 2, plant_id: 2 },
-                     { user_id: 2, plant_id: 3 },
-                     { user_id: 2, plant_id: 4 }
-                   ])
+plots = Plot.create!([
+                      {user_id: 1, plant_id: 2},
+                      {user_id: 1, plant_id: 3},
+                      {user_id: 1, plant_id: 10},
+                      {user_id: 1, plant_id: 11},
+                      {user_id: 1, plant_id: 23},])
 
 

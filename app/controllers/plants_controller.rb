@@ -1,4 +1,5 @@
 class PlantsController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:show_json]
   before_action :set_plant, only: [:show, :edit, :update, :destroy]
 
   # GET /plants
@@ -12,6 +13,10 @@ class PlantsController < ApplicationController
   def show
   end
 
+  def show_json
+    @plant = Plant.find(params[:id])
+    render json: @plant
+  end
   # GET /plants/new
   def new
     @plant = Plant.new
