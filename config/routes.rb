@@ -9,7 +9,8 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
                sessions: 'users/sessions'
              }
-  get '/users/:id', to: 'users#show', as: 'user'
+
+  get '/user/:id', to: 'users#show', as: 'user'
   get '/plots_json', to: 'plots#index_json'
   get '/plant_json/:id', to: 'plants#show_json'
   get '/user_json/:id', to: 'users#show_json'
