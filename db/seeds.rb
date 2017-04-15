@@ -137,9 +137,11 @@ plant = Plant.create!([
                        # { name: 'Watermelons',
                        #   expected_yield: 4,
                        #   image: "http://cdn.c.photoshelter.com/img-get/I0000alH0ON8mVkU/s/750/750/Watermelon-8462.jpg"}
-                     ])
+                      ])
+
 
 communities = Community.create!([
                                   { name: "Cliff Haven",
                                     address: "417 Riverside Drive"}
                                 ])
+
