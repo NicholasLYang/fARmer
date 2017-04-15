@@ -5,6 +5,10 @@ class PlotsController < ApplicationController
   # GET /plots.json
   def index
     @plots = Plot.all
+    respond_to do |format|
+      format.html
+      format.json { render json: @plots}
+    end
   end
 
   # GET /plots/1
@@ -14,7 +18,7 @@ class PlotsController < ApplicationController
 
   # GET /plots/new
   def new
-    @plot = Plot.new
+    @plot = current_user.plots.build
   end
 
   # GET /plots/1/edit

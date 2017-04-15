@@ -1,3 +1,28 @@
 // Place all the styles related to the plants controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.plant-image {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.image-div {
+    padding: 10px;
+}
+
+table.plant-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    text-align: center;
+    border-spacing: 10px 10px;
+}
+
+
+th.plant-header {
+    height: 50px;
+    text-align: center;
+}

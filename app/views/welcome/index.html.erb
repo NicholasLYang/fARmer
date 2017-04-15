@@ -1,5 +1,9 @@
-<h1> Welcome to fARmer </h1>
-<% unless current_user.nil? %>
-<%= current_user %>
-<% end %>
+<h1> Welcome to fARmer! </h1>
+
+<div class="greeting">
+    <% if user_signed_in? %>
+        Hello <%= current_user.name %>!
+    <% end %>
+    <%= link_to "Create a plot", new_plot_url %>
+</div>
 
