@@ -15,28 +15,6 @@ class CommunitiesController < ApplicationController
   # GET /communities/1
   # GET /communities/1.json
   def show
-    @community = Community.find(params[:id])
-    @user_plants = {}
-    @user_produce = {}
-
-    @community.users.each do |user|
-      plots = Plot.where(user_id: user.id)
-      produces = Produce.where(user_id: user.id)
-      plot_plants = []
-      produce_plants = []
-
-      produces.each do |produce|
-        plant_name = Plant.find(produce.plant_id).name.pluralize.downcase
-        produce = "#{produce.quantity} #{produce.units} of #{plant_name}"
-        produce_plants << produce
-      end
-
-      plots.each do |plot|
-        plot_plants << Plant.find(plot.plant_id).name.pluralize.downcase
-      end
-      @user_produce[user.id] = produce_plants
-      @user_plants[user.id] = plot_plants
-    end
   end
 
   # GET /communities/new

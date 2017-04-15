@@ -4,18 +4,18 @@
 
   <strong>Address:</strong>
   <%= @community.address %>
-<div class="plots">
+
   <h4> Plots </h4>
-  <% @user_plants.each do |user, plots| %>
-      <%= link_to User.find(user).name, user_path(user) %> is growing <%= plots.to_sentence %>
+  <% @community.users.each do |user| %>
+      <% plots = Plot.where(user_id: user.id) %>
+      <% unless plots.empty? %>
+          <%= link_to(user.name, user_path) %> is growing
+          <% plots.each do |plot| %>
+              <% plant = Plant.find(plot.plant_id) %>
+              <span class="plant-name"> <%= plant.name.downcase %> </span>
+              <%= image_tag(plant.image, class: 'hover-plant-image')%>
+          <% end %>
+      <% end %>
   <% end %>
-</div>
-<div class="Produce">
-    <div class="produce">
-        <h4> Produce </h4>
-        <% @user_produce.each do |user, produce| %>
-            <%= link_to User.find(user).name, user_path(user) %> harvested <%= produce.to_sentence %>
-        <% end %>
-</div>
 <%= link_to 'Edit', edit_community_path(@community) %> |
-<%= link_to 'Back', root_path %>
+<%= link_to 'Back', communities_path %>
