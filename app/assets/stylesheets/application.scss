@@ -20,11 +20,28 @@
 
 body {
     padding: 8%;
+    background-color: #D7CEC7;
 }
 
 .navbar {
     font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-color: #565656;
 }
 .navbar-link {
     padding: 10px;
 }
+
+.header {
+    font-family: "Slabo 27px", serif;
+    font-size: 5em;
+    color: #76323F;
+}
+
+a {
+    text-decoration: none;
+}
+.content {
+    font-family: 'Open Sans', sans-serif;
+}
+

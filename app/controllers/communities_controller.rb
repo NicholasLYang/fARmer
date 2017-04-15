@@ -1,5 +1,5 @@
 class CommunitiesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:index]
+  skip_before_action :authenticate_user!, only: [:index, :index_json]
   before_action :set_community, only: [:show, :edit, :update, :destroy]
 
   # GET /communities
@@ -8,6 +8,10 @@ class CommunitiesController < ApplicationController
     @communities = Community.all
   end
 
+  def index_json
+    @communities = Community.all
+    render json: @communities
+  end
   # GET /communities/1
   # GET /communities/1.json
   def show
