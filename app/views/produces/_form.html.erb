@@ -15,7 +15,7 @@
     <%= f.label :plant %>
     <%= f.select(:plant_id) do %>
         <% @plants.each do |p| -%>
-            <%= content_tag(:option, p.name, value: p.id) %>
+        <%= content_tag(:option, p.name, value: p.id) %>
         <% end %>
     <% end %>
   </div>
@@ -27,7 +27,13 @@
 
   <div class="field">
     <%= f.label :units %>
-    <%= f.text_field :units %>
+    <%= f.select(:units) do %>
+        <option value="lbs"> lbs </option>
+    <option value="oz"> oz </option>
+    <option value="kg"> kg </option>
+    <option value="grams"> grams </option>
+    <option value="handful"> handful </option>
+    <% end %>
   </div>
 
   <div class="actions">
