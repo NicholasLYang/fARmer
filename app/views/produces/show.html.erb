@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Plant:</strong>
+  <%= @produce.plant_id %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @produce.quantity %>
+</p>
+
+<p>
+  <strong>Units:</strong>
+  <%= @produce.units %>
+</p>
+
+<%= link_to 'Edit', edit_produce_path(@produce) %> |
+<%= link_to 'Back', produces_path %>

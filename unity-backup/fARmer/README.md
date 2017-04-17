@@ -1,0 +1,5 @@
+- if any problems, butterfly should be moved to the same directory as fArmer, not inside.
+- also cloud backup on Unity Cloud. username jkao1 (email), password: capital only
+- marker tutorial was the trump game one; buildto ios <a href="https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game-ios-device-testing">here</a>.
+- vuforia username jkao1, password: capital only. license in develop-->license manager, target/marker database in target manager-->TrumpVideo
+- /unity-backup/fARmer/build (latest)/Libraries/libiPhone-lib.a was too big to push to GitHub. It is stored separately in dropbox (85 email, p: no special) and should be put back in the aforementioned directory.

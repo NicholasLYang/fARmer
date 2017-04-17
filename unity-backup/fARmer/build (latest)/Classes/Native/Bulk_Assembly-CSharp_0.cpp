@@ -1,0 +1,17371 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_U3CModuleU3E3783534214.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1568637717.h"
+#include "AssemblyU2DCSharp_ButtonController1741881492.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction4025899511.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button2872111280.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
+#include "UnityEngine_UnityEngine_Component3819376471.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button_ButtonClicked2455055323.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent408735097.h"
+#include "UnityEngine_UnityEngine_FontStyle2764949590.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "mscorlib_System_String2029220233.h"
+#include "UnityEngine_UnityEngine_GUI_WindowFunction3486805455.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
+#include "mscorlib_System_Char3454481338.h"
+#include "UnityEngine_UnityEngine_GUISkin1436893342.h"
+#include "UnityEngine_UnityEngine_GUIStyle1799908754.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "AssemblyU2DCSharp_JSONObject1971882247.h"
+#include "AssemblyU2DCSharp_JSONObject_Type1314578890.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1341003379.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365.h"
+#include "mscorlib_System_Int64909078037.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3943999495.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_En969056901.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E3601534125.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21701344717.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_g38854645.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3886661509.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_En911718915.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21644006731.h"
+#include "AssemblyU2DCSharp_JSONObject_AddJSONContents3850664647.h"
+#include "mscorlib_System_FormatException2948921286.h"
+#include "AssemblyU2DCSharp_JSONObject_FieldNotFound865402053.h"
+#include "mscorlib_System_UInt322149682021.h"
+#include "AssemblyU2DCSharp_JSONObject_GetFieldResponse1259369279.h"
+#include "AssemblyU2DCSharp_JSONObject_U3CBakeAsyncU3Ec__Ite1149809410.h"
+#include "mscorlib_System_Text_StringBuilder1221177846.h"
+#include "AssemblyU2DCSharp_JSONObject_U3CPrintAsyncU3Ec__Ite716304657.h"
+#include "AssemblyU2DCSharp_JSONObject_U3CStringifyAsyncU3Ec4037879552.h"
+#include "UnityEngine_UnityEngine_WWWForm3950226929.h"
+#include "mscorlib_System_RuntimeFieldHandle2331729674.h"
+#include "System_System_Diagnostics_Stopwatch1380178105.h"
+#include "mscorlib_System_NotSupportedException1793819818.h"
+#include "mscorlib_System_TimeSpan3430258949.h"
+#include "mscorlib_System_Double4078015681.h"
+#include "mscorlib_System_AsyncCallback163412349.h"
+#include "AssemblyU2DCSharp_JSONTemplates3006274921.h"
+#include "mscorlib_System_RuntimeTypeHandle2330101084.h"
+#include "mscorlib_System_Reflection_FieldInfo255040150.h"
+#include "mscorlib_System_Reflection_MethodInfo3330546337.h"
+#include "mscorlib_System_Reflection_PropertyInfo2253729065.h"
+#include "System_Core_System_Collections_Generic_HashSet_1_g1022910149.h"
+#include "mscorlib_System_Type1303803226.h"
+#include "mscorlib_System_Reflection_MemberInfo4043097260.h"
+#include "mscorlib_System_Reflection_MethodBase904190842.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
+#include "UnityEngine_UnityEngine_Vector42243707581.h"
+#include "UnityEngine_UnityEngine_Matrix4x42933234003.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918.h"
+#include "UnityEngine_UnityEngine_LayerMask3188175821.h"
+#include "UnityEngine_UnityEngine_RectOffset3387826427.h"
+#include "UnityEngine_UnityEngine_AnimationCurve3306541151.h"
+#include "UnityEngine_UnityEngine_Keyframe1449471340.h"
+#include "UnityEngine_UnityEngine_WrapMode255797857.h"
+#include "AssemblyU2DCSharp_LabelManager143950751.h"
+#include "System_System_Net_WebClient1432723993.h"
+#include "AssemblyU2DCSharp_LabelManager_Plant3013319763.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic2426225576.h"
+#include "AssemblyU2DCSharp_LabelManager_User4014293785.h"
+#include "AssemblyU2DCSharp_Login3555589017.h"
+#include "AssemblyU2DCSharp_LoginScreen661941525.h"
+#include "AssemblyU2DCSharp_LoginScreen_Farmer3686397137.h"
+#include "UnityEngine_UnityEngine_WWW2919945039.h"
+#include "mscorlib_System_Collections_Hashtable909839986.h"
+#include "UnityEngine_UnityEngine_Coroutine2299508840.h"
+#include "AssemblyU2DCSharp_LoginScreen_U3CWaitForRequestU3E3361062884.h"
+#include "AssemblyU2DCSharp_PlotButtonController1946637431.h"
+#include "AssemblyU2DCSharp_PlotButtonController_Plant1764122003.h"
+#include "AssemblyU2DCSharp_PlotButtonController_User750149389.h"
+#include "AssemblyU2DCSharp_PlottButtonController3427406767.h"
+#include "AssemblyU2DCSharp_PlottButtonController_Plant3145691443.h"
+#include "AssemblyU2DCSharp_PlottButtonController_User1704395377.h"
+#include "AssemblyU2DCSharp_VRIntegrationHelper556656694.h"
+#include "UnityEngine_UnityEngine_Camera189460977.h"
+#include "System_Core_System_Action3226471752.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaARControlle4061728485.h"
+#include "Vuforia_UnityExtensions_Vuforia_DigitalEyewearARCo1398758191.h"
+#include "Vuforia_UnityExtensions_Vuforia_HideExcessAreaAbst2687577327.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "AssemblyU2DCSharp_Vuforia_BackgroundPlaneBehaviour2431285219.h"
+#include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "Vuforia_UnityExtensions_Vuforia_BackgroundPlaneAbs3732945727.h"
+#include "AssemblyU2DCSharp_Vuforia_AndroidUnityPlayer852788525.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaUnity_InitE2149396216.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaRenderer_Ren804170727.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaRenderer2933102835.h"
+#include "UnityEngine_UnityEngine_ScreenOrientation4019489636.h"
+#include "AssemblyU2DCSharp_Vuforia_CloudRecoBehaviour3077176941.h"
+#include "Vuforia_UnityExtensions_Vuforia_CloudRecoAbstractB2070832277.h"
+#include "AssemblyU2DCSharp_Vuforia_ComponentFactoryStarterB3249343815.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera2234397143.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera1593300101.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2699667469.h"
+#include "mscorlib_System_Attribute542643598.h"
+#include "mscorlib_System_Reflection_BindingFlags1082350898.h"
+#include "Vuforia_UnityExtensions_Vuforia_FactorySetter648583075.h"
+#include "mscorlib_System_Delegate3022476291.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaBehaviourComponen1383853028.h"
+#include "AssemblyU2DCSharp_Vuforia_CylinderTargetBehaviour2091399712.h"
+#include "Vuforia_UnityExtensions_Vuforia_CylinderTargetAbstr665872082.h"
+#include "AssemblyU2DCSharp_Vuforia_DefaultInitializationErro965510117.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaRuntime2075282796.h"
+#include "mscorlib_System_Action_1_gen1951195598.h"
+#include "AssemblyU2DCSharp_Vuforia_DefaultSmartTerrainEventH870608571.h"
+#include "AssemblyU2DCSharp_Vuforia_ReconstructionBehaviour4009935945.h"
+#include "mscorlib_System_Action_1_gen245871341.h"
+#include "Vuforia_UnityExtensions_Vuforia_ReconstructionAbst3509595417.h"
+#include "mscorlib_System_Action_1_gen2023440477.h"
+#include "Vuforia_UnityExtensions_Vuforia_PropAbstractBehavi1047177596.h"
+#include "AssemblyU2DCSharp_Vuforia_PropBehaviour966064926.h"
+#include "Vuforia_UnityExtensions_Vuforia_SurfaceAbstractBeh2669615494.h"
+#include "AssemblyU2DCSharp_Vuforia_SurfaceBehaviour2405314212.h"
+#include "AssemblyU2DCSharp_Vuforia_DefaultTrackableEventHan1082256726.h"
+#include "Vuforia_UnityExtensions_Vuforia_TrackableBehaviour1779888572.h"
+#include "Vuforia_UnityExtensions_Vuforia_TrackableBehaviour4057911311.h"
+#include "UnityEngine_UnityEngine_Renderer257310565.h"
+#include "UnityEngine_UnityEngine_Collider3497673348.h"
+#include "AssemblyU2DCSharp_Vuforia_GLErrorHandler3809113141.h"
+#include "AssemblyU2DCSharp_Vuforia_HideExcessAreaBehaviour3495034315.h"
+#include "AssemblyU2DCSharp_Vuforia_ImageTargetBehaviour2654589389.h"
+#include "Vuforia_UnityExtensions_Vuforia_ImageTargetAbstrac3327552701.h"
+#include "AssemblyU2DCSharp_Vuforia_IOSUnityPlayer3656371703.h"
+#include "Vuforia_UnityExtensions_iOS_Vuforia_VuforiaNativeI1210651633.h"
+#include "AssemblyU2DCSharp_Vuforia_MaskOutBehaviour2994129365.h"
+#include "Vuforia_UnityExtensions_Vuforia_MaskOutAbstractBeh3489038957.h"
+#include "UnityEngine_UnityEngine_Material193706927.h"
+#include "AssemblyU2DCSharp_Vuforia_MultiTargetBehaviour3504654311.h"
+#include "Vuforia_UnityExtensions_Vuforia_MultiTargetAbstrac3616801211.h"
+#include "AssemblyU2DCSharp_Vuforia_ObjectTargetBehaviour3836044259.h"
+#include "Vuforia_UnityExtensions_Vuforia_ObjectTargetAbstra2805337095.h"
+#include "AssemblyU2DCSharp_Vuforia_ReconstructionFromTarget2111803406.h"
+#include "Vuforia_UnityExtensions_Vuforia_ReconstructionFrom4122236588.h"
+#include "AssemblyU2DCSharp_Vuforia_TextRecoBehaviour3400239837.h"
+#include "Vuforia_UnityExtensions_Vuforia_TextRecoAbstractBe2386081773.h"
+#include "AssemblyU2DCSharp_Vuforia_TurnOffBehaviour3058161409.h"
+#include "Vuforia_UnityExtensions_Vuforia_TurnOffAbstractBeh4084926705.h"
+#include "UnityEngine_UnityEngine_MeshRenderer1268241104.h"
+#include "UnityEngine_UnityEngine_MeshFilter3026937449.h"
+#include "AssemblyU2DCSharp_Vuforia_TurnOffWordBehaviour584991835.h"
+#include "AssemblyU2DCSharp_Vuforia_UserDefinedTargetBuildin4184040062.h"
+#include "Vuforia_UnityExtensions_Vuforia_UserDefinedTargetB3589690572.h"
+#include "AssemblyU2DCSharp_Vuforia_VideoBackgroundBehaviour3161817952.h"
+#include "Vuforia_UnityExtensions_Vuforia_VideoBackgroundAbst395384314.h"
+#include "AssemblyU2DCSharp_Vuforia_VirtualButtonBehaviour2515041812.h"
+#include "Vuforia_UnityExtensions_Vuforia_VirtualButtonAbstr2478279366.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaBehaviour359035403.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractBeh3319870759.h"
+#include "Vuforia_UnityExtensions_Vuforia_WordAbstractBehavi2878458725.h"
+#include "AssemblyU2DCSharp_Vuforia_WordBehaviour3366478421.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuMarkAbstractBeha1830666997.h"
+#include "AssemblyU2DCSharp_Vuforia_VuMarkBehaviour2060629989.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractCon1891710424.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaConfiguration3823746026.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaRuntimeInitializa1850075444.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractCon3866211740.h"
+#include "UnityEngine_UnityEngine_RuntimePlatform1869584967.h"
+#include "Vuforia_UnityExtensions_Vuforia_NullUnityPlayer754446093.h"
+#include "Vuforia_UnityExtensions_Vuforia_PlayModeUnityPlayer918240325.h"
+#include "AssemblyU2DCSharp_Vuforia_WSAUnityPlayer425981959.h"
+#include "AssemblyU2DCSharp_Vuforia_WireframeBehaviour2494532455.h"
+#include "UnityEngine_UnityEngine_Mesh1356156583.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaManager2424874861.h"
+#include "UnityEngine_UnityEngine_Behaviour955675639.h"
+#include "AssemblyU2DCSharp_Vuforia_WireframeTrackableEventH1535150527.h"
+#include "UnityEngine_UnityEngine_DeviceOrientation895964084.h"
+
+// ButtonController
+struct ButtonController_t1741881492;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t1158329972;
+// UnityEngine.Component
+struct Component_t3819376471;
+// UnityEngine.GameObject
+struct GameObject_t1756533147;
+// UnityEngine.UI.Button
+struct Button_t2872111280;
+// System.Object
+struct Il2CppObject;
+// UnityEngine.UI.Button/ButtonClickedEvent
+struct ButtonClickedEvent_t2455055323;
+// UnityEngine.Events.UnityAction
+struct UnityAction_t4025899511;
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_t408735097;
+// UnityEngine.UI.Text
+struct Text_t356221433;
+// System.String
+struct String_t;
+// System.String[]
+struct StringU5BU5D_t1642385972;
+// System.Char[]
+struct CharU5BU5D_t1328083999;
+// UnityEngine.GUISkin
+struct GUISkin_t1436893342;
+// UnityEngine.GUIStyle
+struct GUIStyle_t1799908754;
+// UnityEngine.GUI/WindowFunction
+struct WindowFunction_t3486805455;
+// JSONObject
+struct JSONObject_t1971882247;
+// System.Collections.Generic.List`1<JSONObject>
+struct List_1_t1341003379;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_t2058570427;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_t1398341365;
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t3943999495;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t2281509423;
+// System.Collections.Generic.Dictionary`2<System.String,JSONObject>
+struct Dictionary_2_t3886661509;
+// JSONObject/AddJSONContents
+struct AddJSONContents_t3850664647;
+// JSONObject[]
+struct JSONObjectU5BU5D_t2270799614;
+// System.Collections.Generic.IEnumerable`1<JSONObject>
+struct IEnumerable_1_t2264009292;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_t2981576340;
+// System.Collections.Generic.IEnumerable`1<System.String>
+struct IEnumerable_1_t2321347278;
+// JSONObject/FieldNotFound
+struct FieldNotFound_t865402053;
+// JSONObject/GetFieldResponse
+struct GetFieldResponse_t1259369279;
+// System.Collections.IEnumerable
+struct IEnumerable_t2911409499;
+// JSONObject/<BakeAsync>c__Iterator0
+struct U3CBakeAsyncU3Ec__Iterator0_t1149809410;
+// System.Text.StringBuilder
+struct StringBuilder_t1221177846;
+// JSONObject/<PrintAsync>c__Iterator1
+struct U3CPrintAsyncU3Ec__Iterator1_t716304657;
+// JSONObject/<StringifyAsync>c__Iterator2
+struct U3CStringifyAsyncU3Ec__Iterator2_t4037879552;
+// UnityEngine.WWWForm
+struct WWWForm_t3950226929;
+// System.Array
+struct Il2CppArray;
+// System.Diagnostics.Stopwatch
+struct Stopwatch_t1380178105;
+// System.NotSupportedException
+struct NotSupportedException_t1793819818;
+// System.Collections.IEnumerator
+struct IEnumerator_t1466026749;
+// System.Collections.Generic.IEnumerator`1<System.Object>
+struct IEnumerator_1_t164973122;
+// System.Collections.Generic.IEnumerator`1<System.String>
+struct IEnumerator_1_t3799711356;
+// System.IAsyncResult
+struct IAsyncResult_t1999651008;
+// System.AsyncCallback
+struct AsyncCallback_t163412349;
+// System.Collections.Generic.HashSet`1<System.Object>
+struct HashSet_1_t1022910149;
+// System.Type
+struct Type_t;
+// System.Reflection.FieldInfo[]
+struct FieldInfoU5BU5D_t125053523;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// System.Reflection.MethodBase
+struct MethodBase_t904190842;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// System.Reflection.PropertyInfo[]
+struct PropertyInfoU5BU5D_t1736152084;
+// System.Reflection.FieldInfo
+struct FieldInfo_t;
+// System.Reflection.PropertyInfo
+struct PropertyInfo_t;
+// UnityEngine.RectOffset
+struct RectOffset_t3387826427;
+// UnityEngine.AnimationCurve
+struct AnimationCurve_t3306541151;
+// UnityEngine.Keyframe[]
+struct KeyframeU5BU5D_t449065829;
+// LabelManager
+struct LabelManager_t143950751;
+// System.Net.WebClient
+struct WebClient_t1432723993;
+// LabelManager/Plant
+struct Plant_t3013319763;
+// LabelManager/User
+struct User_t4014293785;
+// Login
+struct Login_t3555589017;
+// LoginScreen
+struct LoginScreen_t661941525;
+// LoginScreen/Farmer
+struct Farmer_t3686397137;
+// UnityEngine.WWW
+struct WWW_t2919945039;
+// System.Collections.Hashtable
+struct Hashtable_t909839986;
+// UnityEngine.Coroutine
+struct Coroutine_t2299508840;
+// LoginScreen/<WaitForRequest>c__Iterator0
+struct U3CWaitForRequestU3Ec__Iterator0_t3361062884;
+// PlotButtonController
+struct PlotButtonController_t1946637431;
+// PlotButtonController/Plant
+struct Plant_t1764122003;
+// PlotButtonController/User
+struct User_t750149389;
+// PlottButtonController
+struct PlottButtonController_t3427406767;
+// PlottButtonController/Plant
+struct Plant_t3145691443;
+// PlottButtonController/User
+struct User_t1704395377;
+// VRIntegrationHelper
+struct VRIntegrationHelper_t556656694;
+// UnityEngine.Camera
+struct Camera_t189460977;
+// Vuforia.VuforiaARController
+struct VuforiaARController_t4061728485;
+// System.Action
+struct Action_t3226471752;
+// Vuforia.DigitalEyewearARController
+struct DigitalEyewearARController_t1398758191;
+// Vuforia.HideExcessAreaAbstractBehaviour
+struct HideExcessAreaAbstractBehaviour_t2687577327;
+// UnityEngine.Transform
+struct Transform_t3275118058;
+// Vuforia.BackgroundPlaneBehaviour
+struct BackgroundPlaneBehaviour_t2431285219;
+// Vuforia.BackgroundPlaneAbstractBehaviour
+struct BackgroundPlaneAbstractBehaviour_t3732945727;
+// UnityEngine.Object
+struct Object_t1021602117;
+// Vuforia.AndroidUnityPlayer
+struct AndroidUnityPlayer_t852788525;
+// Vuforia.VuforiaRenderer
+struct VuforiaRenderer_t2933102835;
+// Vuforia.CloudRecoBehaviour
+struct CloudRecoBehaviour_t3077176941;
+// Vuforia.CloudRecoAbstractBehaviour
+struct CloudRecoAbstractBehaviour_t2070832277;
+// Vuforia.ComponentFactoryStarterBehaviour
+struct ComponentFactoryStarterBehaviour_t3249343815;
+// System.Collections.Generic.List`1<System.Reflection.MethodInfo>
+struct List_1_t2699667469;
+// System.Collections.Generic.IEnumerable`1<System.Reflection.MethodInfo>
+struct IEnumerable_1_t3622673382;
+// System.Delegate
+struct Delegate_t3022476291;
+// Vuforia.VuforiaBehaviourComponentFactory
+struct VuforiaBehaviourComponentFactory_t1383853028;
+// Vuforia.IBehaviourComponentFactory
+struct IBehaviourComponentFactory_t3575155525;
+// Vuforia.CylinderTargetBehaviour
+struct CylinderTargetBehaviour_t2091399712;
+// Vuforia.CylinderTargetAbstractBehaviour
+struct CylinderTargetAbstractBehaviour_t665872082;
+// Vuforia.DefaultInitializationErrorHandler
+struct DefaultInitializationErrorHandler_t965510117;
+// Vuforia.VuforiaRuntime
+struct VuforiaRuntime_t2075282796;
+// System.Action`1<Vuforia.VuforiaUnity/InitError>
+struct Action_1_t1951195598;
+// Vuforia.DefaultSmartTerrainEventHandler
+struct DefaultSmartTerrainEventHandler_t870608571;
+// Vuforia.ReconstructionBehaviour
+struct ReconstructionBehaviour_t4009935945;
+// System.Action`1<Vuforia.Prop>
+struct Action_1_t245871341;
+// System.Action`1<System.Object>
+struct Action_1_t2491248677;
+// Vuforia.ReconstructionAbstractBehaviour
+struct ReconstructionAbstractBehaviour_t3509595417;
+// System.Action`1<Vuforia.Surface>
+struct Action_1_t2023440477;
+// Vuforia.Prop
+struct Prop_t444071959;
+// Vuforia.PropAbstractBehaviour
+struct PropAbstractBehaviour_t1047177596;
+// Vuforia.Surface
+struct Surface_t2221641095;
+// Vuforia.SurfaceAbstractBehaviour
+struct SurfaceAbstractBehaviour_t2669615494;
+// Vuforia.DefaultTrackableEventHandler
+struct DefaultTrackableEventHandler_t1082256726;
+// Vuforia.TrackableBehaviour
+struct TrackableBehaviour_t1779888572;
+// Vuforia.ITrackableEventHandler
+struct ITrackableEventHandler_t696806248;
+// UnityEngine.Renderer[]
+struct RendererU5BU5D_t2810717544;
+// UnityEngine.Collider[]
+struct ColliderU5BU5D_t462843629;
+// UnityEngine.Renderer
+struct Renderer_t257310565;
+// UnityEngine.Collider
+struct Collider_t3497673348;
+// Vuforia.GLErrorHandler
+struct GLErrorHandler_t3809113141;
+// Vuforia.HideExcessAreaBehaviour
+struct HideExcessAreaBehaviour_t3495034315;
+// Vuforia.ImageTargetBehaviour
+struct ImageTargetBehaviour_t2654589389;
+// Vuforia.ImageTargetAbstractBehaviour
+struct ImageTargetAbstractBehaviour_t3327552701;
+// Vuforia.IOSUnityPlayer
+struct IOSUnityPlayer_t3656371703;
+// Vuforia.VuforiaNativeIosWrapper
+struct VuforiaNativeIosWrapper_t1210651633;
+// Vuforia.IVuforiaWrapper
+struct IVuforiaWrapper_t2426275120;
+// Vuforia.MaskOutBehaviour
+struct MaskOutBehaviour_t2994129365;
+// Vuforia.MaskOutAbstractBehaviour
+struct MaskOutAbstractBehaviour_t3489038957;
+// UnityEngine.Material[]
+struct MaterialU5BU5D_t3123989686;
+// UnityEngine.Material
+struct Material_t193706927;
+// Vuforia.MultiTargetBehaviour
+struct MultiTargetBehaviour_t3504654311;
+// Vuforia.MultiTargetAbstractBehaviour
+struct MultiTargetAbstractBehaviour_t3616801211;
+// Vuforia.ObjectTargetBehaviour
+struct ObjectTargetBehaviour_t3836044259;
+// Vuforia.ObjectTargetAbstractBehaviour
+struct ObjectTargetAbstractBehaviour_t2805337095;
+// Vuforia.PropBehaviour
+struct PropBehaviour_t966064926;
+// Vuforia.ReconstructionFromTargetBehaviour
+struct ReconstructionFromTargetBehaviour_t2111803406;
+// Vuforia.ReconstructionFromTargetAbstractBehaviour
+struct ReconstructionFromTargetAbstractBehaviour_t4122236588;
+// Vuforia.SurfaceBehaviour
+struct SurfaceBehaviour_t2405314212;
+// Vuforia.TextRecoBehaviour
+struct TextRecoBehaviour_t3400239837;
+// Vuforia.TextRecoAbstractBehaviour
+struct TextRecoAbstractBehaviour_t2386081773;
+// Vuforia.TurnOffBehaviour
+struct TurnOffBehaviour_t3058161409;
+// Vuforia.TurnOffAbstractBehaviour
+struct TurnOffAbstractBehaviour_t4084926705;
+// UnityEngine.MeshRenderer
+struct MeshRenderer_t1268241104;
+// UnityEngine.MeshFilter
+struct MeshFilter_t3026937449;
+// Vuforia.TurnOffWordBehaviour
+struct TurnOffWordBehaviour_t584991835;
+// Vuforia.UserDefinedTargetBuildingBehaviour
+struct UserDefinedTargetBuildingBehaviour_t4184040062;
+// Vuforia.UserDefinedTargetBuildingAbstractBehaviour
+struct UserDefinedTargetBuildingAbstractBehaviour_t3589690572;
+// Vuforia.VideoBackgroundBehaviour
+struct VideoBackgroundBehaviour_t3161817952;
+// Vuforia.VideoBackgroundAbstractBehaviour
+struct VideoBackgroundAbstractBehaviour_t395384314;
+// Vuforia.VirtualButtonBehaviour
+struct VirtualButtonBehaviour_t2515041812;
+// Vuforia.VirtualButtonAbstractBehaviour
+struct VirtualButtonAbstractBehaviour_t2478279366;
+// Vuforia.VuforiaBehaviour
+struct VuforiaBehaviour_t359035403;
+// Vuforia.VuforiaAbstractBehaviour
+struct VuforiaAbstractBehaviour_t3319870759;
+// Vuforia.WordAbstractBehaviour
+struct WordAbstractBehaviour_t2878458725;
+// Vuforia.WordBehaviour
+struct WordBehaviour_t3366478421;
+// Vuforia.VuMarkAbstractBehaviour
+struct VuMarkAbstractBehaviour_t1830666997;
+// Vuforia.VuMarkBehaviour
+struct VuMarkBehaviour_t2060629989;
+// Vuforia.VuforiaAbstractConfiguration
+struct VuforiaAbstractConfiguration_t1891710424;
+// Vuforia.VuforiaConfiguration
+struct VuforiaConfiguration_t3823746026;
+// Vuforia.IUnityPlayer
+struct IUnityPlayer_t2720985375;
+// Vuforia.VuforiaAbstractConfiguration/GenericVuforiaConfiguration
+struct GenericVuforiaConfiguration_t3866211740;
+// Vuforia.NullUnityPlayer
+struct NullUnityPlayer_t754446093;
+// Vuforia.PlayModeUnityPlayer
+struct PlayModeUnityPlayer_t918240325;
+// Vuforia.WSAUnityPlayer
+struct WSAUnityPlayer_t425981959;
+// Vuforia.WireframeBehaviour
+struct WireframeBehaviour_t2494532455;
+// Vuforia.VuforiaManager
+struct VuforiaManager_t2424874861;
+// UnityEngine.Camera[]
+struct CameraU5BU5D_t3079764780;
+// UnityEngine.Mesh
+struct Mesh_t1356156583;
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t1172311765;
+// System.Int32[]
+struct Int32U5BU5D_t3030399641;
+// UnityEngine.Behaviour
+struct Behaviour_t955675639;
+// Vuforia.WireframeTrackableEventHandler
+struct WireframeTrackableEventHandler_t1535150527;
+// Vuforia.WireframeBehaviour[]
+struct WireframeBehaviourU5BU5D_t2935582494;
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisButton_t2872111280_m1008560876_MethodInfo_var;
+extern const MethodInfo* ButtonController_click_m2753885283_MethodInfo_var;
+extern const uint32_t ButtonController_Start_m2642750965_MetadataUsageId;
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern Il2CppClass* WindowFunction_t3486805455_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisText_t356221433_m1217399699_MethodInfo_var;
+extern const MethodInfo* ButtonController_ShowGUI_m2309303214_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2185426783;
+extern const uint32_t ButtonController_OnGUI_m2504152647_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2390908680;
+extern Il2CppCodeGenString* _stringLiteral4172065;
+extern Il2CppCodeGenString* _stringLiteral1209145989;
+extern Il2CppCodeGenString* _stringLiteral2017181611;
+extern Il2CppCodeGenString* _stringLiteral1367191880;
+extern Il2CppCodeGenString* _stringLiteral767612235;
+extern Il2CppCodeGenString* _stringLiteral3728410346;
+extern Il2CppCodeGenString* _stringLiteral1251128667;
+extern Il2CppCodeGenString* _stringLiteral2208078908;
+extern Il2CppCodeGenString* _stringLiteral2685117479;
+extern Il2CppCodeGenString* _stringLiteral2679653168;
+extern Il2CppCodeGenString* _stringLiteral292738907;
+extern Il2CppCodeGenString* _stringLiteral2041362128;
+extern const uint32_t ButtonController_ShowGUI_m2309303214_MetadataUsageId;
+extern Il2CppClass* List_1_t1341003379_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1398341365_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3984043222_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3854603248_MethodInfo_var;
+extern const uint32_t JSONObject__ctor_m4071571216_MetadataUsageId;
+extern Il2CppClass* JSONObject_t1971882247_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2895728349_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1989408781_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m1372024679_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m4061286785_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m1710042386_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3057035458_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4005245300_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m882561911_MethodInfo_var;
+extern const uint32_t JSONObject__ctor_m1919544205_MetadataUsageId;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3045170719_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1832947439_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m2781186853_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m1726882906_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m1874977526_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m214092148_MethodInfo_var;
+extern const uint32_t JSONObject__ctor_m3429744944_MetadataUsageId;
+extern const MethodInfo* List_1__ctor_m32801174_MethodInfo_var;
+extern const uint32_t JSONObject__ctor_m398818817_MetadataUsageId;
+extern const MethodInfo* List_1_get_Count_m3485821544_MethodInfo_var;
+extern const uint32_t JSONObject_get_Count_m2165978410_MetadataUsageId;
+extern const uint32_t JSONObject_get_nullJO_m3951718059_MetadataUsageId;
+extern const uint32_t JSONObject_get_obj_m3201114506_MetadataUsageId;
+extern const uint32_t JSONObject_get_arr_m437956224_MetadataUsageId;
+extern const uint32_t JSONObject_StringObject_m2324803274_MetadataUsageId;
+extern const MethodInfo* List_1_AddRange_m3291711728_MethodInfo_var;
+extern const MethodInfo* List_1_AddRange_m1157143463_MethodInfo_var;
+extern const uint32_t JSONObject_Absorb_m287377368_MetadataUsageId;
+extern const uint32_t JSONObject_Create_m134949822_MetadataUsageId;
+extern const uint32_t JSONObject_Create_m2024843434_MetadataUsageId;
+extern const uint32_t JSONObject_Create_m322727955_MetadataUsageId;
+extern const uint32_t JSONObject_Create_m4234548109_MetadataUsageId;
+extern const uint32_t JSONObject_Create_m2780992853_MetadataUsageId;
+extern const uint32_t JSONObject_Create_m1974423762_MetadataUsageId;
+extern const uint32_t JSONObject_CreateStringObject_m227421806_MetadataUsageId;
+extern const uint32_t JSONObject_CreateBakedObject_m1414246618_MetadataUsageId;
+extern const uint32_t JSONObject_Create_m1582109667_MetadataUsageId;
+extern const uint32_t JSONObject_Create_m2296526109_MetadataUsageId;
+extern const uint32_t JSONObject_Create_m2408207271_MetadataUsageId;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppClass* FormatException_t2948921286_il2cpp_TypeInfo_var;
+extern const MethodInfo* Array_IndexOf_TisChar_t3454481338_m3847818391_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral916993783;
+extern Il2CppCodeGenString* _stringLiteral3323263070;
+extern Il2CppCodeGenString* _stringLiteral2609877245;
+extern Il2CppCodeGenString* _stringLiteral1743624307;
+extern Il2CppCodeGenString* _stringLiteral1751346954;
+extern Il2CppCodeGenString* _stringLiteral376316188;
+extern Il2CppCodeGenString* _stringLiteral452738781;
+extern Il2CppCodeGenString* _stringLiteral372029316;
+extern Il2CppCodeGenString* _stringLiteral150668183;
+extern const uint32_t JSONObject_Parse_m547301692_MetadataUsageId;
+extern const uint32_t JSONObject_Add_m4073537166_MetadataUsageId;
+extern const uint32_t JSONObject_Add_m3120056428_MetadataUsageId;
+extern const uint32_t JSONObject_Add_m449104870_MetadataUsageId;
+extern const uint32_t JSONObject_Add_m930192605_MetadataUsageId;
+extern const uint32_t JSONObject_Add_m3191854140_MetadataUsageId;
+extern const uint32_t JSONObject_Add_m3618328192_MetadataUsageId;
+extern const uint32_t JSONObject_AddField_m1448237390_MetadataUsageId;
+extern const uint32_t JSONObject_AddField_m2712088548_MetadataUsageId;
+extern const uint32_t JSONObject_AddField_m894980766_MetadataUsageId;
+extern const uint32_t JSONObject_AddField_m1600793269_MetadataUsageId;
+extern const uint32_t JSONObject_AddField_m733507028_MetadataUsageId;
+extern const uint32_t JSONObject_AddField_m757984985_MetadataUsageId;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const uint32_t JSONObject_AddField_m1721386152_MetadataUsageId;
+extern const uint32_t JSONObject_SetField_m4067629664_MetadataUsageId;
+extern const uint32_t JSONObject_SetField_m2028330731_MetadataUsageId;
+extern const uint32_t JSONObject_SetField_m484187805_MetadataUsageId;
+extern const uint32_t JSONObject_SetField_m3929609445_MetadataUsageId;
+extern const MethodInfo* List_1_Remove_m1073513939_MethodInfo_var;
+extern const MethodInfo* List_1_Remove_m3019523498_MethodInfo_var;
+extern const uint32_t JSONObject_SetField_m1180592005_MetadataUsageId;
+extern const MethodInfo* List_1_IndexOf_m2492943723_MethodInfo_var;
+extern const MethodInfo* List_1_RemoveAt_m2823081968_MethodInfo_var;
+extern const uint32_t JSONObject_RemoveField_m3901079654_MetadataUsageId;
+extern const MethodInfo* List_1_get_Item_m429614411_MethodInfo_var;
+extern const uint32_t JSONObject_GetField_m2238877236_MetadataUsageId;
+extern const uint32_t JSONObject_GetField_m2524002016_MetadataUsageId;
+extern const uint32_t JSONObject_GetField_m3356332928_MetadataUsageId;
+extern const uint32_t JSONObject_GetField_m1787897363_MetadataUsageId;
+extern const uint32_t JSONObject_GetField_m2149788417_MetadataUsageId;
+extern const uint32_t JSONObject_GetField_m204744839_MetadataUsageId;
+extern const uint32_t JSONObject_GetField_m3040698632_MetadataUsageId;
+extern const MethodInfo* List_1_get_Item_m566484697_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m780127360_MethodInfo_var;
+extern const uint32_t JSONObject_GetField_m887332132_MetadataUsageId;
+extern const MethodInfo* List_1_Contains_m2369280605_MethodInfo_var;
+extern const uint32_t JSONObject_HasFields_m1144058745_MetadataUsageId;
+extern const uint32_t JSONObject_HasField_m3030985834_MetadataUsageId;
+extern const MethodInfo* List_1_Clear_m2818091657_MethodInfo_var;
+extern const MethodInfo* List_1_Clear_m2928955906_MethodInfo_var;
+extern const uint32_t JSONObject_Clear_m992277887_MetadataUsageId;
+extern const uint32_t JSONObject_Copy_m3864269401_MetadataUsageId;
+extern const uint32_t JSONObject_Merge_m1969546983_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3451532966;
+extern const uint32_t JSONObject_MergeRecur_m848026001_MetadataUsageId;
+extern Il2CppClass* U3CBakeAsyncU3Ec__Iterator0_t1149809410_il2cpp_TypeInfo_var;
+extern const uint32_t JSONObject_BakeAsync_m2553896557_MetadataUsageId;
+extern Il2CppClass* StringBuilder_t1221177846_il2cpp_TypeInfo_var;
+extern const uint32_t JSONObject_Print_m4113013869_MetadataUsageId;
+extern Il2CppClass* U3CPrintAsyncU3Ec__Iterator1_t716304657_il2cpp_TypeInfo_var;
+extern const uint32_t JSONObject_PrintAsync_m1157769192_MetadataUsageId;
+extern Il2CppClass* U3CStringifyAsyncU3Ec__Iterator2_t4037879552_il2cpp_TypeInfo_var;
+extern const uint32_t JSONObject_StringifyAsync_m1504868741_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2041690406;
+extern Il2CppCodeGenString* _stringLiteral1554931876;
+extern Il2CppCodeGenString* _stringLiteral372029399;
+extern Il2CppCodeGenString* _stringLiteral372029352;
+extern Il2CppCodeGenString* _stringLiteral372029349;
+extern Il2CppCodeGenString* _stringLiteral845265362;
+extern Il2CppCodeGenString* _stringLiteral372029314;
+extern Il2CppCodeGenString* _stringLiteral372029393;
+extern Il2CppCodeGenString* _stringLiteral372029431;
+extern Il2CppCodeGenString* _stringLiteral372029425;
+extern const uint32_t JSONObject_Stringify_m3496252199_MetadataUsageId;
+extern Il2CppClass* WWWForm_t3950226929_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029312;
+extern const uint32_t JSONObject_op_Implicit_m146727933_MetadataUsageId;
+extern const uint32_t JSONObject_get_Item_m481309353_MetadataUsageId;
+extern const MethodInfo* List_1_set_Item_m254334392_MethodInfo_var;
+extern const uint32_t JSONObject_set_Item_m2332624254_MetadataUsageId;
+extern Il2CppClass* Dictionary_2_t3943999495_il2cpp_TypeInfo_var;
+extern Il2CppClass* Single_t2076509932_il2cpp_TypeInfo_var;
+extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m760167321_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Add_m3686231158_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral942984848;
+extern Il2CppCodeGenString* _stringLiteral688080911;
+extern Il2CppCodeGenString* _stringLiteral3109692691;
+extern const uint32_t JSONObject_ToDictionary_m1765493061_MetadataUsageId;
+extern Il2CppClass* Stopwatch_t1380178105_il2cpp_TypeInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305143____U24fieldU2D87137E630C3837BC71D4E9D0A4EB1E7CF85C9909_0_FieldInfo_var;
+extern const uint32_t JSONObject__cctor_m3703431513_MetadataUsageId;
+extern Il2CppClass* IEnumerable_1_t2321347278_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_1_t3799711356_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const uint32_t U3CBakeAsyncU3Ec__Iterator0_MoveNext_m913392635_MetadataUsageId;
+extern const uint32_t U3CBakeAsyncU3Ec__Iterator0_Dispose_m3935130108_MetadataUsageId;
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CBakeAsyncU3Ec__Iterator0_Reset_m1787939058_MetadataUsageId;
+extern const uint32_t U3CBakeAsyncU3Ec__Iterator0_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3677305720_MetadataUsageId;
+extern Il2CppClass* IEnumerable_t2911409499_il2cpp_TypeInfo_var;
+extern const uint32_t U3CPrintAsyncU3Ec__Iterator1_MoveNext_m2236606538_MetadataUsageId;
+extern const uint32_t U3CPrintAsyncU3Ec__Iterator1_Dispose_m655283723_MetadataUsageId;
+extern const uint32_t U3CPrintAsyncU3Ec__Iterator1_Reset_m1797953401_MetadataUsageId;
+extern const uint32_t U3CPrintAsyncU3Ec__Iterator1_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m157685351_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2162321587;
+extern const uint32_t U3CStringifyAsyncU3Ec__Iterator2_MoveNext_m4115355999_MetadataUsageId;
+extern const uint32_t U3CStringifyAsyncU3Ec__Iterator2_Dispose_m640875482_MetadataUsageId;
+extern const uint32_t U3CStringifyAsyncU3Ec__Iterator2_Reset_m3967791656_MetadataUsageId;
+extern const uint32_t U3CStringifyAsyncU3Ec__Iterator2_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3780376918_MetadataUsageId;
+extern const Il2CppType* JSONTemplates_t3006274921_0_0_0_var;
+extern const Il2CppType* String_t_0_0_0_var;
+extern Il2CppClass* JSONTemplates_t3006274921_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* StringU5BU5D_t1642385972_il2cpp_TypeInfo_var;
+extern const MethodInfo* HashSet_1_Add_m199171953_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2967033390;
+extern Il2CppCodeGenString* _stringLiteral2122037725;
+extern Il2CppCodeGenString* _stringLiteral1264830171;
+extern Il2CppCodeGenString* _stringLiteral2539188669;
+extern Il2CppCodeGenString* _stringLiteral1638831994;
+extern const uint32_t JSONTemplates_TOJSON_m2221174251_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral372029398;
+extern Il2CppCodeGenString* _stringLiteral372029397;
+extern const uint32_t JSONTemplates_ToVector2_m4255645740_MetadataUsageId;
+extern const uint32_t JSONTemplates_FromVector2_m1084394455_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral372029400;
+extern const uint32_t JSONTemplates_FromVector3_m3510317143_MetadataUsageId;
+extern const uint32_t JSONTemplates_ToVector3_m4142347206_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral372029387;
+extern const uint32_t JSONTemplates_FromVector4_m3216565463_MetadataUsageId;
+extern const uint32_t JSONTemplates_ToVector4_m362392788_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral104528321;
+extern Il2CppCodeGenString* _stringLiteral104528322;
+extern Il2CppCodeGenString* _stringLiteral104528323;
+extern Il2CppCodeGenString* _stringLiteral104528324;
+extern Il2CppCodeGenString* _stringLiteral2833411676;
+extern Il2CppCodeGenString* _stringLiteral2833411677;
+extern Il2CppCodeGenString* _stringLiteral2833411678;
+extern Il2CppCodeGenString* _stringLiteral2833411679;
+extern Il2CppCodeGenString* _stringLiteral3236696203;
+extern Il2CppCodeGenString* _stringLiteral3236696204;
+extern Il2CppCodeGenString* _stringLiteral3236696205;
+extern Il2CppCodeGenString* _stringLiteral3236696206;
+extern Il2CppCodeGenString* _stringLiteral1670612262;
+extern Il2CppCodeGenString* _stringLiteral1670612263;
+extern Il2CppCodeGenString* _stringLiteral1670612264;
+extern Il2CppCodeGenString* _stringLiteral1670612265;
+extern const uint32_t JSONTemplates_FromMatrix4x4_m3949774999_MetadataUsageId;
+extern Il2CppClass* Matrix4x4_t2933234003_il2cpp_TypeInfo_var;
+extern const uint32_t JSONTemplates_ToMatrix4x4_m3802232620_MetadataUsageId;
+extern const uint32_t JSONTemplates_FromQuaternion_m2649516947_MetadataUsageId;
+extern const uint32_t JSONTemplates_ToQuaternion_m3034868414_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral372029392;
+extern Il2CppCodeGenString* _stringLiteral372029371;
+extern Il2CppCodeGenString* _stringLiteral372029376;
+extern Il2CppCodeGenString* _stringLiteral372029373;
+extern const uint32_t JSONTemplates_FromColor_m773919959_MetadataUsageId;
+extern Il2CppClass* Color_t2020392075_il2cpp_TypeInfo_var;
+extern const uint32_t JSONTemplates_ToColor_m1289362228_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1803325615;
+extern const uint32_t JSONTemplates_FromLayerMask_m1188911255_MetadataUsageId;
+extern Il2CppClass* LayerMask_t3188175821_il2cpp_TypeInfo_var;
+extern const uint32_t JSONTemplates_ToLayerMask_m1877598044_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1113197259;
+extern Il2CppCodeGenString* _stringLiteral1366542454;
+extern const uint32_t JSONTemplates_FromRect_m2670430419_MetadataUsageId;
+extern Il2CppClass* Rect_t3681755626_il2cpp_TypeInfo_var;
+extern const uint32_t JSONTemplates_ToRect_m4037111550_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral70907419;
+extern Il2CppCodeGenString* _stringLiteral3423761043;
+extern Il2CppCodeGenString* _stringLiteral109637592;
+extern Il2CppCodeGenString* _stringLiteral1502598707;
+extern const uint32_t JSONTemplates_FromRectOffset_m2102731279_MetadataUsageId;
+extern Il2CppClass* RectOffset_t3387826427_il2cpp_TypeInfo_var;
+extern const uint32_t JSONTemplates_ToRectOffset_m75654846_MetadataUsageId;
+extern Il2CppClass* AnimationCurve_t3306541151_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1857677462;
+extern Il2CppCodeGenString* _stringLiteral4185425568;
+extern Il2CppCodeGenString* _stringLiteral10864839;
+extern const uint32_t JSONTemplates_ToAnimationCurve_m2654279102_MetadataUsageId;
+extern Il2CppClass* WrapMode_t255797857_il2cpp_TypeInfo_var;
+extern const uint32_t JSONTemplates_FromAnimationCurve_m448168407_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3457519049;
+extern Il2CppCodeGenString* _stringLiteral2674127958;
+extern Il2CppCodeGenString* _stringLiteral3634190493;
+extern Il2CppCodeGenString* _stringLiteral602706040;
+extern const uint32_t JSONTemplates_ToKeyframe_m1491004926_MetadataUsageId;
+extern const uint32_t JSONTemplates_FromKeyframe_m1523648219_MetadataUsageId;
+extern Il2CppClass* HashSet_1_t1022910149_il2cpp_TypeInfo_var;
+extern const MethodInfo* HashSet_1__ctor_m2858247305_MethodInfo_var;
+extern const uint32_t JSONTemplates__cctor_m1639877595_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2305923669;
+extern const uint32_t LabelManager_OnGUI_m261736172_MetadataUsageId;
+extern Il2CppClass* WebClient_t1432723993_il2cpp_TypeInfo_var;
+extern const MethodInfo* JsonUtility_FromJson_TisPlant_t3013319763_m2100183654_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1030302089;
+extern Il2CppCodeGenString* _stringLiteral1713711700;
+extern Il2CppCodeGenString* _stringLiteral3623672911;
+extern Il2CppCodeGenString* _stringLiteral3423762541;
+extern Il2CppCodeGenString* _stringLiteral2311316693;
+extern Il2CppCodeGenString* _stringLiteral2077569160;
+extern Il2CppCodeGenString* _stringLiteral3243454296;
+extern Il2CppCodeGenString* _stringLiteral1220271277;
+extern Il2CppCodeGenString* _stringLiteral1039696168;
+extern const uint32_t LabelManager_Start_m107276652_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral4242585515;
+extern Il2CppCodeGenString* _stringLiteral4183275671;
+extern Il2CppCodeGenString* _stringLiteral649186604;
+extern Il2CppCodeGenString* _stringLiteral4074786919;
+extern Il2CppCodeGenString* _stringLiteral3215131492;
+extern Il2CppCodeGenString* _stringLiteral2409952154;
+extern const uint32_t LoginScreen__ctor_m2646521748_MetadataUsageId;
+extern const MethodInfo* JsonUtility_FromJson_TisFarmer_t3686397137_m2723585572_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1601817335;
+extern Il2CppCodeGenString* _stringLiteral3078646566;
+extern const uint32_t LoginScreen_Start_m1663382812_MetadataUsageId;
+extern const MethodInfo* LoginScreen_WindowFunction_m357295039_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4283667535;
+extern const uint32_t LoginScreen_OnGUI_m3544280548_MetadataUsageId;
+extern Il2CppClass* LoginScreen_t661941525_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029320;
+extern Il2CppCodeGenString* _stringLiteral1743401691;
+extern Il2CppCodeGenString* _stringLiteral3587504426;
+extern Il2CppCodeGenString* _stringLiteral3538072371;
+extern Il2CppCodeGenString* _stringLiteral1111077458;
+extern Il2CppCodeGenString* _stringLiteral2328219947;
+extern Il2CppCodeGenString* _stringLiteral3563093647;
+extern const uint32_t LoginScreen_WindowFunction_m357295039_MetadataUsageId;
+extern Il2CppClass* Hashtable_t909839986_il2cpp_TypeInfo_var;
+extern Il2CppClass* WWW_t2919945039_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1048821954;
+extern Il2CppCodeGenString* _stringLiteral1391431453;
+extern Il2CppCodeGenString* _stringLiteral2619694;
+extern Il2CppCodeGenString* _stringLiteral1459918900;
+extern const uint32_t LoginScreen_POST_m3524912867_MetadataUsageId;
+extern Il2CppClass* U3CWaitForRequestU3Ec__Iterator0_t3361062884_il2cpp_TypeInfo_var;
+extern const uint32_t LoginScreen_WaitForRequest_m3689414047_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral519239747;
+extern Il2CppCodeGenString* _stringLiteral1958703310;
+extern const uint32_t U3CWaitForRequestU3Ec__Iterator0_MoveNext_m1213905015_MetadataUsageId;
+extern const uint32_t U3CWaitForRequestU3Ec__Iterator0_Reset_m764187872_MetadataUsageId;
+extern const MethodInfo* PlotButtonController_click_m712899154_MethodInfo_var;
+extern const uint32_t PlotButtonController_Start_m3431965750_MetadataUsageId;
+extern const MethodInfo* JsonUtility_FromJson_TisPlant_t1764122003_m2966961052_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2044715813;
+extern const uint32_t PlotButtonController_OnGUI_m242821910_MetadataUsageId;
+extern const MethodInfo* PlottButtonController_click_m4088373808_MethodInfo_var;
+extern const uint32_t PlottButtonController_Start_m2924495264_MetadataUsageId;
+extern const MethodInfo* JsonUtility_FromJson_TisPlant_t3145691443_m4230761498_MethodInfo_var;
+extern const uint32_t PlottButtonController_OnGUI_m3128299908_MetadataUsageId;
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m1978993906_MethodInfo_var;
+extern const uint32_t VRIntegrationHelper_Awake_m681899862_MetadataUsageId;
+extern Il2CppClass* VuforiaARController_t4061728485_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t3226471752_il2cpp_TypeInfo_var;
+extern const MethodInfo* VRIntegrationHelper_OnVuforiaStarted_m1154042475_MethodInfo_var;
+extern const uint32_t VRIntegrationHelper_Start_m536586683_MetadataUsageId;
+extern Il2CppClass* DigitalEyewearARController_t1398758191_il2cpp_TypeInfo_var;
+extern Il2CppClass* VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011_MethodInfo_var;
+extern const uint32_t VRIntegrationHelper_OnVuforiaStarted_m1154042475_MetadataUsageId;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponentInChildren_TisBackgroundPlaneBehaviour_t2431285219_m4080560834_MethodInfo_var;
+extern const uint32_t VRIntegrationHelper_LateUpdate_m4039758880_MetadataUsageId;
+extern Il2CppClass* VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var;
+extern const uint32_t VRIntegrationHelper_OnPreRender_m1211949763_MetadataUsageId;
+extern Il2CppClass* VuforiaRenderer_t2933102835_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidUnityPlayer_InitializeVuforia_m3815589415_MetadataUsageId;
+extern Il2CppClass* SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidUnityPlayer_Update_m4198269979_MetadataUsageId;
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidUnityPlayer_OnPause_m2222496097_MetadataUsageId;
+extern const uint32_t AndroidUnityPlayer_OnResume_m3489453528_MetadataUsageId;
+extern const uint32_t AndroidUnityPlayer_OnDestroy_m3206719289_MetadataUsageId;
+extern const uint32_t AndroidUnityPlayer_InitializeSurface_m1417263607_MetadataUsageId;
+extern const uint32_t AndroidUnityPlayer_CheckOrientation_m2044239264_MetadataUsageId;
+extern Il2CppClass* BackgroundPlaneAbstractBehaviour_t3732945727_il2cpp_TypeInfo_var;
+extern const uint32_t BackgroundPlaneBehaviour__ctor_m2808006244_MetadataUsageId;
+extern const Il2CppType* Action_t3226471752_0_0_0_var;
+extern Il2CppClass* Attribute_t542643598_il2cpp_TypeInfo_var;
+extern Il2CppClass* FactorySetter_t648583075_il2cpp_TypeInfo_var;
+extern const MethodInfo* Enumerable_ToList_TisMethodInfo_t_m2736443864_MethodInfo_var;
+extern const MethodInfo* List_1_AddRange_m1093450066_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m2150560895_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1945415651_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2294671071_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m186564181_MethodInfo_var;
+extern const uint32_t ComponentFactoryStarterBehaviour_Awake_m583572645_MetadataUsageId;
+extern Il2CppClass* VuforiaBehaviourComponentFactory_t1383853028_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1055265386;
+extern const uint32_t ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m3496159002_MetadataUsageId;
+extern const uint32_t DefaultInitializationErrorHandler__ctor_m2781804906_MetadataUsageId;
+extern Il2CppClass* VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t1951195598_il2cpp_TypeInfo_var;
+extern const MethodInfo* DefaultInitializationErrorHandler_OnVuforiaInitializationError_m1319028211_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3262798437_MethodInfo_var;
+extern const uint32_t DefaultInitializationErrorHandler_Awake_m2567656739_MetadataUsageId;
+extern const MethodInfo* DefaultInitializationErrorHandler_DrawWindowContent_m1741663736_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3233100706;
+extern const uint32_t DefaultInitializationErrorHandler_OnGUI_m2796165714_MetadataUsageId;
+extern const uint32_t DefaultInitializationErrorHandler_OnDestroy_m3502240837_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3033402446;
+extern const uint32_t DefaultInitializationErrorHandler_DrawWindowContent_m1741663736_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral649327173;
+extern Il2CppCodeGenString* _stringLiteral819182375;
+extern Il2CppCodeGenString* _stringLiteral2499172356;
+extern Il2CppCodeGenString* _stringLiteral2968979042;
+extern Il2CppCodeGenString* _stringLiteral3603496816;
+extern Il2CppCodeGenString* _stringLiteral3442848064;
+extern Il2CppCodeGenString* _stringLiteral1812102461;
+extern Il2CppCodeGenString* _stringLiteral2487108583;
+extern Il2CppCodeGenString* _stringLiteral2986049441;
+extern Il2CppCodeGenString* _stringLiteral557470275;
+extern Il2CppCodeGenString* _stringLiteral2104855582;
+extern const uint32_t DefaultInitializationErrorHandler_SetErrorCode_m617037449_MetadataUsageId;
+extern Il2CppClass* Action_1_t245871341_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_1_t2023440477_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisReconstructionBehaviour_t4009935945_m3509900328_MethodInfo_var;
+extern const MethodInfo* DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m206058748_MethodInfo_var;
+extern const MethodInfo* DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1475023678_MethodInfo_var;
+extern const uint32_t DefaultSmartTerrainEventHandler_Start_m2088335438_MetadataUsageId;
+extern const uint32_t DefaultSmartTerrainEventHandler_OnDestroy_m904284311_MetadataUsageId;
+extern const uint32_t DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MetadataUsageId;
+extern const uint32_t DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MetadataUsageId;
+extern const MethodInfo* Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957_MethodInfo_var;
+extern const uint32_t DefaultTrackableEventHandler_Start_m93544099_MetadataUsageId;
+extern const MethodInfo* Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var;
+extern const MethodInfo* Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1040926105;
+extern Il2CppCodeGenString* _stringLiteral759218142;
+extern const uint32_t DefaultTrackableEventHandler_OnTrackingFound_m1963976755_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3033297088;
+extern const uint32_t DefaultTrackableEventHandler_OnTrackingLost_m3813626281_MetadataUsageId;
+extern Il2CppClass* GLErrorHandler_t3809113141_il2cpp_TypeInfo_var;
+extern const uint32_t GLErrorHandler_SetError_m381241178_MetadataUsageId;
+extern const MethodInfo* GLErrorHandler_DrawWindowContent_m161374698_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2015436302;
+extern const uint32_t GLErrorHandler_OnGUI_m3766403336_MetadataUsageId;
+extern const uint32_t GLErrorHandler_DrawWindowContent_m161374698_MetadataUsageId;
+extern const uint32_t GLErrorHandler__cctor_m454494933_MetadataUsageId;
+extern Il2CppClass* VuforiaNativeIosWrapper_t1210651633_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaWrapper_t3750170617_il2cpp_TypeInfo_var;
+extern const uint32_t IOSUnityPlayer_LoadNativeLibraries_m1172109064_MetadataUsageId;
+extern const uint32_t IOSUnityPlayer_InitializeVuforia_m260052685_MetadataUsageId;
+extern const uint32_t IOSUnityPlayer_Update_m3611099589_MetadataUsageId;
+extern const uint32_t IOSUnityPlayer_OnPause_m2518700507_MetadataUsageId;
+extern const uint32_t IOSUnityPlayer_OnResume_m921094382_MetadataUsageId;
+extern const uint32_t IOSUnityPlayer_OnDestroy_m3703758411_MetadataUsageId;
+extern const uint32_t IOSUnityPlayer_InitializeSurface_m4219932605_MetadataUsageId;
+extern const uint32_t IOSUnityPlayer_SetUnityScreenOrientation_m3793088327_MetadataUsageId;
+extern Il2CppClass* MaterialU5BU5D_t3123989686_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRenderer_t257310565_m2803939486_MethodInfo_var;
+extern const uint32_t MaskOutBehaviour_Start_m3914251470_MetadataUsageId;
+extern const MethodInfo* Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var;
+extern const uint32_t TurnOffBehaviour_Awake_m4285356927_MetadataUsageId;
+extern const uint32_t TurnOffWordBehaviour_Awake_m2854048885_MetadataUsageId;
+extern Il2CppClass* VideoBackgroundAbstractBehaviour_t395384314_il2cpp_TypeInfo_var;
+extern const uint32_t VideoBackgroundBehaviour__ctor_m2133855431_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisComponentFactoryStarterBehaviour_t3249343815_m658142107_MethodInfo_var;
+extern const uint32_t VuforiaBehaviour_Awake_m3772880569_MetadataUsageId;
+extern Il2CppClass* VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisVuforiaBehaviour_t359035403_m318208984_MethodInfo_var;
+extern const uint32_t VuforiaBehaviour_get_Instance_m790681192_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisMaskOutBehaviour_t2994129365_m1425322069_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m3602623915_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisVirtualButtonBehaviour_t2515041812_m3118105184_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m273150123_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisTurnOffBehaviour_t3058161409_m2052882313_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m3691970091_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisImageTargetBehaviour_t2654589389_m3351511077_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m110195307_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisMultiTargetBehaviour_t3504654311_m1135184387_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m1008182955_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisCylinderTargetBehaviour_t2091399712_m912348918_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m2573942991_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisWordBehaviour_t3366478421_m80916061_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddWordBehaviour_m3806508403_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisTextRecoBehaviour_t3400239837_m3447592645_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m2915043667_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisObjectTargetBehaviour_t3836044259_m2560584915_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m3475568395_MetadataUsageId;
+extern const MethodInfo* GameObject_AddComponent_TisVuMarkBehaviour_t2060629989_m1435287781_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_AddVuMarkBehaviour_m2639490483_MetadataUsageId;
+extern const MethodInfo* ScriptableObject_CreateInstance_TisVuforiaConfiguration_t3823746026_m559723354_MethodInfo_var;
+extern const uint32_t VuforiaBehaviourComponentFactory_CreateVuforiaConfiguration_m931474600_MetadataUsageId;
+extern Il2CppClass* VuforiaAbstractConfiguration_t1891710424_il2cpp_TypeInfo_var;
+extern const uint32_t VuforiaConfiguration__ctor_m2808042321_MetadataUsageId;
+extern const uint32_t VuforiaRuntimeInitialization_InitPlatform_m3197388960_MetadataUsageId;
+extern const uint32_t VuforiaRuntimeInitialization_InitVuforia_m2546903059_MetadataUsageId;
+extern Il2CppClass* NullUnityPlayer_t754446093_il2cpp_TypeInfo_var;
+extern Il2CppClass* AndroidUnityPlayer_t852788525_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSUnityPlayer_t3656371703_il2cpp_TypeInfo_var;
+extern Il2CppClass* PlayModeUnityPlayer_t918240325_il2cpp_TypeInfo_var;
+extern Il2CppClass* WSAUnityPlayer_t425981959_il2cpp_TypeInfo_var;
+extern const uint32_t VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109_MetadataUsageId;
+extern Il2CppClass* Material_t193706927_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral599011397;
+extern const uint32_t WireframeBehaviour_Start_m2184757344_MetadataUsageId;
+extern Il2CppClass* VuforiaManager_t2424874861_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisCamera_t189460977_m3116941434_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral895546098;
+extern const uint32_t WireframeBehaviour_OnRenderObject_m2411339956_MetadataUsageId;
+extern const uint32_t WireframeBehaviour_OnDrawGizmos_m4179942854_MetadataUsageId;
+extern const uint32_t WireframeTrackableEventHandler_Start_m1475947192_MetadataUsageId;
+extern const MethodInfo* Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706_MethodInfo_var;
+extern const uint32_t WireframeTrackableEventHandler_OnTrackingFound_m563781220_MetadataUsageId;
+extern const uint32_t WireframeTrackableEventHandler_OnTrackingLost_m3180126272_MetadataUsageId;
+extern const uint32_t WSAUnityPlayer_Update_m3453039605_MetadataUsageId;
+extern const uint32_t WSAUnityPlayer_OnPause_m2815166635_MetadataUsageId;
+extern const uint32_t WSAUnityPlayer_OnResume_m2572251502_MetadataUsageId;
+extern const uint32_t WSAUnityPlayer_OnDestroy_m3845019931_MetadataUsageId;
+extern const uint32_t WSAUnityPlayer_InitializeSurface_m2485130165_MetadataUsageId;
+extern const uint32_t WSAUnityPlayer_SetUnityScreenOrientation_m3964512799_MetadataUsageId;
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern const uint32_t WSAUnityPlayer_GetActualScreenOrientation_m2906081196_MetadataUsageId;
+
+// System.String[]
+struct StringU5BU5D_t1642385972  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+public:
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Char[]
+struct CharU5BU5D_t1328083999  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppChar m_Items[1];
+
+public:
+	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		m_Items[index] = value;
+	}
+};
+// JSONObject[]
+struct JSONObjectU5BU5D_t2270799614  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) JSONObject_t1971882247 * m_Items[1];
+
+public:
+	inline JSONObject_t1971882247 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline JSONObject_t1971882247 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, JSONObject_t1971882247 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline JSONObject_t1971882247 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline JSONObject_t1971882247 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, JSONObject_t1971882247 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Reflection.FieldInfo[]
+struct FieldInfoU5BU5D_t125053523  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) FieldInfo_t * m_Items[1];
+
+public:
+	inline FieldInfo_t * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline FieldInfo_t ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, FieldInfo_t * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline FieldInfo_t * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline FieldInfo_t ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, FieldInfo_t * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Object[]
+struct ObjectU5BU5D_t3614634134  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppObject * m_Items[1];
+
+public:
+	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Il2CppObject * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Reflection.PropertyInfo[]
+struct PropertyInfoU5BU5D_t1736152084  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) PropertyInfo_t * m_Items[1];
+
+public:
+	inline PropertyInfo_t * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline PropertyInfo_t ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, PropertyInfo_t * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline PropertyInfo_t * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline PropertyInfo_t ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, PropertyInfo_t * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Keyframe[]
+struct KeyframeU5BU5D_t449065829  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Keyframe_t1449471340  m_Items[1];
+
+public:
+	inline Keyframe_t1449471340  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Keyframe_t1449471340 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Keyframe_t1449471340  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Keyframe_t1449471340  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Keyframe_t1449471340 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Keyframe_t1449471340  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Reflection.MethodInfo[]
+struct MethodInfoU5BU5D_t152480188  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) MethodInfo_t * m_Items[1];
+
+public:
+	inline MethodInfo_t * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline MethodInfo_t ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, MethodInfo_t * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline MethodInfo_t * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline MethodInfo_t ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, MethodInfo_t * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Renderer[]
+struct RendererU5BU5D_t2810717544  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Renderer_t257310565 * m_Items[1];
+
+public:
+	inline Renderer_t257310565 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Renderer_t257310565 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Renderer_t257310565 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Renderer_t257310565 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Renderer_t257310565 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Renderer_t257310565 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Collider[]
+struct ColliderU5BU5D_t462843629  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Collider_t3497673348 * m_Items[1];
+
+public:
+	inline Collider_t3497673348 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Collider_t3497673348 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Collider_t3497673348 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Collider_t3497673348 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Collider_t3497673348 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Collider_t3497673348 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Material[]
+struct MaterialU5BU5D_t3123989686  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Material_t193706927 * m_Items[1];
+
+public:
+	inline Material_t193706927 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Material_t193706927 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Material_t193706927 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Material_t193706927 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Material_t193706927 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Material_t193706927 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Camera[]
+struct CameraU5BU5D_t3079764780  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Camera_t189460977 * m_Items[1];
+
+public:
+	inline Camera_t189460977 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Camera_t189460977 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Camera_t189460977 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Camera_t189460977 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Camera_t189460977 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Camera_t189460977 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t1172311765  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Vector3_t2243707580  m_Items[1];
+
+public:
+	inline Vector3_t2243707580  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t2243707580 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t2243707580  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t2243707580  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t2243707580 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t2243707580  value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Int32[]
+struct Int32U5BU5D_t3030399641  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+public:
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// Vuforia.WireframeBehaviour[]
+struct WireframeBehaviourU5BU5D_t2935582494  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) WireframeBehaviour_t2494532455 * m_Items[1];
+
+public:
+	inline WireframeBehaviour_t2494532455 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline WireframeBehaviour_t2494532455 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, WireframeBehaviour_t2494532455 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline WireframeBehaviour_t2494532455 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline WireframeBehaviour_t2494532455 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, WireframeBehaviour_t2494532455 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+
+
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m4211544902_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
+extern "C"  void List_1__ctor_m310736118_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// System.Collections.Generic.Dictionary`2/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::GetEnumerator()
+extern "C"  Enumerator_t3601534125  Dictionary_2_GetEnumerator_m3077639147_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Collections.Generic.KeyValuePair`2<!0,!1> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_Current()
+extern "C"  KeyValuePair_2_t38854645  Enumerator_get_Current_m1091361971_gshared (Enumerator_t3601534125 * __this, const MethodInfo* method);
+// !0 System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
+extern "C"  Il2CppObject * KeyValuePair_2_get_Key_m3385717033_gshared (KeyValuePair_2_t38854645 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::Add(!0)
+extern "C"  void List_1_Add_m4157722533_gshared (List_1_t2058570427 * __this, Il2CppObject * p0, const MethodInfo* method);
+// !1 System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Value()
+extern "C"  Il2CppObject * KeyValuePair_2_get_Value_m1251901674_gshared (KeyValuePair_2_t38854645 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
+extern "C"  bool Enumerator_MoveNext_m3349738440_gshared (Enumerator_t3601534125 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::Dispose()
+extern "C"  void Enumerator_Dispose_m1905011127_gshared (Enumerator_t3601534125 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor(System.Collections.Generic.IEnumerable`1<!0>)
+extern "C"  void List_1__ctor_m2848015482_gshared (List_1_t2058570427 * __this, Il2CppObject* p0, const MethodInfo* method);
+// System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
+extern "C"  int32_t List_1_get_Count_m2375293942_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::AddRange(System.Collections.Generic.IEnumerable`1<!0>)
+extern "C"  void List_1_AddRange_m3537433232_gshared (List_1_t2058570427 * __this, Il2CppObject* p0, const MethodInfo* method);
+// System.Int32 System.Array::IndexOf<System.Char>(!!0[],!!0)
+extern "C"  int32_t Array_IndexOf_TisChar_t3454481338_m3847818391_gshared (Il2CppObject * __this /* static, unused */, CharU5BU5D_t1328083999* p0, Il2CppChar p1, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.List`1<System.Object>::Remove(!0)
+extern "C"  bool List_1_Remove_m3164383811_gshared (List_1_t2058570427 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Int32 System.Collections.Generic.List`1<System.Object>::IndexOf(!0)
+extern "C"  int32_t List_1_IndexOf_m3376464728_gshared (List_1_t2058570427 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
+extern "C"  void List_1_RemoveAt_m3615096820_gshared (List_1_t2058570427 * __this, int32_t p0, const MethodInfo* method);
+// !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
+extern "C"  Il2CppObject * List_1_get_Item_m2062981835_gshared (List_1_t2058570427 * __this, int32_t p0, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.List`1<System.Object>::Contains(!0)
+extern "C"  bool List_1_Contains_m1658838094_gshared (List_1_t2058570427 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::Clear()
+extern "C"  void List_1_Clear_m4254626809_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1<System.Object>::set_Item(System.Int32,!0)
+extern "C"  void List_1_set_Item_m4246197648_gshared (List_1_t2058570427 * __this, int32_t p0, Il2CppObject * p1, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
+extern "C"  void Dictionary_2__ctor_m584589095_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(!0,!1)
+extern "C"  void Dictionary_2_Add_m4209421183_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
+extern "C"  bool HashSet_1_Add_m199171953_gshared (HashSet_1_t1022910149 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
+extern "C"  void HashSet_1__ctor_m2858247305_gshared (HashSet_1_t1022910149 * __this, const MethodInfo* method);
+// !!0 UnityEngine.JsonUtility::FromJson<System.Object>(System.String)
+extern "C"  Il2CppObject * JsonUtility_FromJson_TisIl2CppObject_m3451544451_gshared (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method);
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+// !!0 UnityEngine.Component::GetComponentInChildren<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponentInChildren_TisIl2CppObject_m2641795278_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  List_1_t2058570427 * Enumerable_ToList_TisIl2CppObject_m2472981332_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, const MethodInfo* method);
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
+extern "C"  Enumerator_t1593300101  List_1_GetEnumerator_m2837081829_gshared (List_1_t2058570427 * __this, const MethodInfo* method);
+// !0 System.Collections.Generic.List`1/Enumerator<System.Object>::get_Current()
+extern "C"  Il2CppObject * Enumerator_get_Current_m2577424081_gshared (Enumerator_t1593300101 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Object>::MoveNext()
+extern "C"  bool Enumerator_MoveNext_m44995089_gshared (Enumerator_t1593300101 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
+extern "C"  void Enumerator_Dispose_m3736175406_gshared (Enumerator_t1593300101 * __this, const MethodInfo* method);
+// System.Void System.Action`1<Vuforia.VuforiaUnity/InitError>::.ctor(System.Object,System.IntPtr)
+extern "C"  void Action_1__ctor_m3262798437_gshared (Action_1_t1951195598 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
+extern "C"  void Action_1__ctor_m584977596_gshared (Action_1_t2491248677 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// !!0[] UnityEngine.Component::GetComponentsInChildren<System.Object>(System.Boolean)
+extern "C"  ObjectU5BU5D_t3614634134* Component_GetComponentsInChildren_TisIl2CppObject_m4164830438_gshared (Component_t3819376471 * __this, bool p0, const MethodInfo* method);
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
+extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m758847274_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+// !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
+extern "C"  Il2CppObject * ScriptableObject_CreateInstance_TisIl2CppObject_m926060499_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>()
+extern "C"  ObjectU5BU5D_t3614634134* GameObject_GetComponentsInChildren_TisIl2CppObject_m1163966231_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+extern "C"  void MonoBehaviour__ctor_m2464341955 (MonoBehaviour_t1158329972 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+extern "C"  GameObject_t1756533147 * Component_get_gameObject_m3105766835 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Button>()
+#define GameObject_GetComponent_TisButton_t2872111280_m1008560876(__this, method) ((  Button_t2872111280 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m4211544902_gshared)(__this, method)
+// UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::get_onClick()
+extern "C"  ButtonClickedEvent_t2455055323 * Button_get_onClick_m1595880935 (Button_t2872111280 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
+extern "C"  void UnityAction__ctor_m2649891629 (UnityAction_t4025899511 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
+extern "C"  void UnityEvent_AddListener_m1596810379 (UnityEvent_t408735097 * __this, UnityAction_t4025899511 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Text>()
+#define GameObject_GetComponent_TisText_t356221433_m1217399699(__this, method) ((  Text_t356221433 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m4211544902_gshared)(__this, method)
+// System.String[] System.String::Split(System.Char[])
+extern "C"  StringU5BU5D_t1642385972* String_Split_m3326265864 (String_t* __this, CharU5BU5D_t1328083999* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GUISkin UnityEngine.GUI::get_skin()
+extern "C"  GUISkin_t1436893342 * GUI_get_skin_m2309570990 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GUIStyle UnityEngine.GUISkin::get_window()
+extern "C"  GUIStyle_t1799908754 * GUISkin_get_window_m304699482 (GUISkin_t1436893342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GUIStyle::set_fontStyle(UnityEngine.FontStyle)
+extern "C"  void GUIStyle_set_fontStyle_m3960530579 (GUIStyle_t1799908754 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GUIStyle::set_fontSize(System.Int32)
+extern "C"  void GUIStyle_set_fontSize_m4015341543 (GUIStyle_t1799908754 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_white()
+extern "C"  Color_t2020392075  Color_get_white_m3987539815 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GUI::set_backgroundColor(UnityEngine.Color)
+extern "C"  void GUI_set_backgroundColor_m1176185368 (Il2CppObject * __this /* static, unused */, Color_t2020392075  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_magenta()
+extern "C"  Color_t2020392075  Color_get_magenta_m3193089961 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GUI::set_color(UnityEngine.Color)
+extern "C"  void GUI_set_color_m3547334264 (Il2CppObject * __this /* static, unused */, Color_t2020392075  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Screen::get_width()
+extern "C"  int32_t Screen_get_width_m41137238 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Screen::get_height()
+extern "C"  int32_t Screen_get_height_m1051800773 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::.ctor(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void Rect__ctor_m1220545469 (Rect_t3681755626 * __this, float p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GUI/WindowFunction::.ctor(System.Object,System.IntPtr)
+extern "C"  void WindowFunction__ctor_m977095815 (WindowFunction_t3486805455 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String)
+extern "C"  String_t* String_Concat_m2596409543 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Rect UnityEngine.GUI::Window(System.Int32,UnityEngine.Rect,UnityEngine.GUI/WindowFunction,System.String)
+extern "C"  Rect_t3681755626  GUI_Window_m2988139263 (Il2CppObject * __this /* static, unused */, int32_t p0, Rect_t3681755626  p1, WindowFunction_t3486805455 * p2, String_t* p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GUIStyle UnityEngine.GUISkin::get_label()
+extern "C"  GUIStyle_t1799908754 * GUISkin_get_label_m2703078986 (GUISkin_t1436893342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::op_Equality(System.String,System.String)
+extern "C"  bool String_op_Equality_m1790663636 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GUI::Label(UnityEngine.Rect,System.String)
+extern "C"  void GUI_Label_m2412846501 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.GUI::Button(UnityEngine.Rect,System.String)
+extern "C"  bool GUI_Button_m3054448581 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Object::.ctor()
+extern "C"  void Object__ctor_m2551263788 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<JSONObject>::.ctor()
+#define List_1__ctor_m3984043222(__this, method) ((  void (*) (List_1_t1341003379 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.String>::.ctor()
+#define List_1__ctor_m3854603248(__this, method) ((  void (*) (List_1_t1398341365 *, const MethodInfo*))List_1__ctor_m310736118_gshared)(__this, method)
+// System.Collections.Generic.Dictionary`2/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2<System.String,System.String>::GetEnumerator()
+#define Dictionary_2_GetEnumerator_m2895728349(__this, method) ((  Enumerator_t969056901  (*) (Dictionary_2_t3943999495 *, const MethodInfo*))Dictionary_2_GetEnumerator_m3077639147_gshared)(__this, method)
+// System.Collections.Generic.KeyValuePair`2<!0,!1> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::get_Current()
+#define Enumerator_get_Current_m1989408781(__this, method) ((  KeyValuePair_2_t1701344717  (*) (Enumerator_t969056901 *, const MethodInfo*))Enumerator_get_Current_m1091361971_gshared)(__this, method)
+// !0 System.Collections.Generic.KeyValuePair`2<System.String,System.String>::get_Key()
+#define KeyValuePair_2_get_Key_m1372024679(__this, method) ((  String_t* (*) (KeyValuePair_2_t1701344717 *, const MethodInfo*))KeyValuePair_2_get_Key_m3385717033_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.String>::Add(!0)
+#define List_1_Add_m4061286785(__this, p0, method) ((  void (*) (List_1_t1398341365 *, String_t*, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// !1 System.Collections.Generic.KeyValuePair`2<System.String,System.String>::get_Value()
+#define KeyValuePair_2_get_Value_m1710042386(__this, method) ((  String_t* (*) (KeyValuePair_2_t1701344717 *, const MethodInfo*))KeyValuePair_2_get_Value_m1251901674_gshared)(__this, method)
+// JSONObject JSONObject::CreateStringObject(System.String)
+extern "C"  JSONObject_t1971882247 * JSONObject_CreateStringObject_m227421806 (Il2CppObject * __this /* static, unused */, String_t* ___val0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<JSONObject>::Add(!0)
+#define List_1_Add_m3057035458(__this, p0, method) ((  void (*) (List_1_t1341003379 *, JSONObject_t1971882247 *, const MethodInfo*))List_1_Add_m4157722533_gshared)(__this, p0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::MoveNext()
+#define Enumerator_MoveNext_m4005245300(__this, method) ((  bool (*) (Enumerator_t969056901 *, const MethodInfo*))Enumerator_MoveNext_m3349738440_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::Dispose()
+#define Enumerator_Dispose_m882561911(__this, method) ((  void (*) (Enumerator_t969056901 *, const MethodInfo*))Enumerator_Dispose_m1905011127_gshared)(__this, method)
+// System.Collections.Generic.Dictionary`2/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2<System.String,JSONObject>::GetEnumerator()
+#define Dictionary_2_GetEnumerator_m3045170719(__this, method) ((  Enumerator_t911718915  (*) (Dictionary_2_t3886661509 *, const MethodInfo*))Dictionary_2_GetEnumerator_m3077639147_gshared)(__this, method)
+// System.Collections.Generic.KeyValuePair`2<!0,!1> System.Collections.Generic.Dictionary`2/Enumerator<System.String,JSONObject>::get_Current()
+#define Enumerator_get_Current_m1832947439(__this, method) ((  KeyValuePair_2_t1644006731  (*) (Enumerator_t911718915 *, const MethodInfo*))Enumerator_get_Current_m1091361971_gshared)(__this, method)
+// !0 System.Collections.Generic.KeyValuePair`2<System.String,JSONObject>::get_Key()
+#define KeyValuePair_2_get_Key_m2781186853(__this, method) ((  String_t* (*) (KeyValuePair_2_t1644006731 *, const MethodInfo*))KeyValuePair_2_get_Key_m3385717033_gshared)(__this, method)
+// !1 System.Collections.Generic.KeyValuePair`2<System.String,JSONObject>::get_Value()
+#define KeyValuePair_2_get_Value_m1726882906(__this, method) ((  JSONObject_t1971882247 * (*) (KeyValuePair_2_t1644006731 *, const MethodInfo*))KeyValuePair_2_get_Value_m1251901674_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,JSONObject>::MoveNext()
+#define Enumerator_MoveNext_m1874977526(__this, method) ((  bool (*) (Enumerator_t911718915 *, const MethodInfo*))Enumerator_MoveNext_m3349738440_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,JSONObject>::Dispose()
+#define Enumerator_Dispose_m214092148(__this, method) ((  void (*) (Enumerator_t911718915 *, const MethodInfo*))Enumerator_Dispose_m1905011127_gshared)(__this, method)
+// System.Void JSONObject/AddJSONContents::Invoke(JSONObject)
+extern "C"  void AddJSONContents_Invoke_m1742311611 (AddJSONContents_t3850664647 * __this, JSONObject_t1971882247 * ___self0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<JSONObject>::.ctor(System.Collections.Generic.IEnumerable`1<!0>)
+#define List_1__ctor_m32801174(__this, p0, method) ((  void (*) (List_1_t1341003379 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m2848015482_gshared)(__this, p0, method)
+// System.Void JSONObject::Parse(System.String,System.Int32,System.Boolean,System.Boolean)
+extern "C"  void JSONObject_Parse_m547301692 (JSONObject_t1971882247 * __this, String_t* ___str0, int32_t ___maxDepth1, bool ___storeExcessLevels2, bool ___strict3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Generic.List`1<JSONObject>::get_Count()
+#define List_1_get_Count_m3485821544(__this, method) ((  int32_t (*) (List_1_t1341003379 *, const MethodInfo*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// JSONObject JSONObject::Create(JSONObject/Type)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m2024843434 (Il2CppObject * __this /* static, unused */, int32_t ___t0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<JSONObject>::AddRange(System.Collections.Generic.IEnumerable`1<!0>)
+#define List_1_AddRange_m3291711728(__this, p0, method) ((  void (*) (List_1_t1341003379 *, Il2CppObject*, const MethodInfo*))List_1_AddRange_m3537433232_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<System.String>::AddRange(System.Collections.Generic.IEnumerable`1<!0>)
+#define List_1_AddRange_m1157143463(__this, p0, method) ((  void (*) (List_1_t1398341365 *, Il2CppObject*, const MethodInfo*))List_1_AddRange_m3537433232_gshared)(__this, p0, method)
+// System.Void JSONObject::.ctor()
+extern "C"  void JSONObject__ctor_m3429292120 (JSONObject_t1971882247 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::Create()
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m134949822 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::IsNullOrEmpty(System.String)
+extern "C"  bool String_IsNullOrEmpty_m2802126737 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Trim(System.Char[])
+extern "C"  String_t* String_Trim_m3982520224 (String_t* __this, CharU5BU5D_t1328083999* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Char System.String::get_Chars(System.Int32)
+extern "C"  Il2CppChar String_get_Chars_m4230566705 (String_t* __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::LogWarning(System.Object)
+extern "C"  void Debug_LogWarning_m2503577968 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.String::get_Length()
+extern "C"  int32_t String_get_Length_m1606060069 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.String::Compare(System.String,System.String,System.Boolean)
+extern "C"  int32_t String_Compare_m2851607672 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, bool p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Substring(System.Int32,System.Int32)
+extern "C"  String_t* String_Substring_m12482732 (String_t* __this, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single System.Convert::ToSingle(System.String)
+extern "C"  float Convert_ToSingle_m1977583125 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::Contains(System.String)
+extern "C"  bool String_Contains_m4017059963 (String_t* __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.Convert::ToInt64(System.String)
+extern "C"  int64_t Convert_ToInt64_m3181519185 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Array::IndexOf<System.Char>(!!0[],!!0)
+#define Array_IndexOf_TisChar_t3454481338_m3847818391(__this /* static, unused */, p0, p1, method) ((  int32_t (*) (Il2CppObject * /* static, unused */, CharU5BU5D_t1328083999*, Il2CppChar, const MethodInfo*))Array_IndexOf_TisChar_t3454481338_m3847818391_gshared)(__this /* static, unused */, p0, p1, method)
+// JSONObject JSONObject::Create(System.String,System.Int32,System.Boolean,System.Boolean)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m1582109667 (Il2CppObject * __this /* static, unused */, String_t* ___val0, int32_t ___maxDepth1, bool ___storeExcessLevels2, bool ___strict3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::CreateBakedObject(System.String)
+extern "C"  JSONObject_t1971882247 * JSONObject_CreateBakedObject_m1414246618 (Il2CppObject * __this /* static, unused */, String_t* ___val0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::Create(System.Boolean)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m322727955 (Il2CppObject * __this /* static, unused */, bool ___val0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::Add(JSONObject)
+extern "C"  void JSONObject_Add_m3618328192 (JSONObject_t1971882247 * __this, JSONObject_t1971882247 * ___obj0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::Create(System.Single)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m4234548109 (Il2CppObject * __this /* static, unused */, float ___val0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::Create(System.Int32)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m2780992853 (Il2CppObject * __this /* static, unused */, int32_t ___val0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::Create(JSONObject/AddJSONContents)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m2296526109 (Il2CppObject * __this /* static, unused */, AddJSONContents_t3850664647 * ___content0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean JSONObject::op_Implicit(JSONObject)
+extern "C"  bool JSONObject_op_Implicit_m2214727230 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___o0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::AddField(System.String,JSONObject)
+extern "C"  void JSONObject_AddField_m1721386152 (JSONObject_t1971882247 * __this, String_t* ___name0, JSONObject_t1971882247 * ___obj1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::Create(System.Int64)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m1974423762 (Il2CppObject * __this /* static, unused */, int64_t ___val0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.Object,System.Object)
+extern "C"  String_t* String_Concat_m56707527 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::SetField(System.String,JSONObject)
+extern "C"  void JSONObject_SetField_m1180592005 (JSONObject_t1971882247 * __this, String_t* ___name0, JSONObject_t1971882247 * ___obj1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean JSONObject::HasField(System.String)
+extern "C"  bool JSONObject_HasField_m3030985834 (JSONObject_t1971882247 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::get_Item(System.String)
+extern "C"  JSONObject_t1971882247 * JSONObject_get_Item_m2638456294 (JSONObject_t1971882247 * __this, String_t* ___index0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.List`1<JSONObject>::Remove(!0)
+#define List_1_Remove_m1073513939(__this, p0, method) ((  bool (*) (List_1_t1341003379 *, JSONObject_t1971882247 *, const MethodInfo*))List_1_Remove_m3164383811_gshared)(__this, p0, method)
+// System.Boolean System.Collections.Generic.List`1<System.String>::Remove(!0)
+#define List_1_Remove_m3019523498(__this, p0, method) ((  bool (*) (List_1_t1398341365 *, String_t*, const MethodInfo*))List_1_Remove_m3164383811_gshared)(__this, p0, method)
+// System.Int32 System.Collections.Generic.List`1<System.String>::IndexOf(!0)
+#define List_1_IndexOf_m2492943723(__this, p0, method) ((  int32_t (*) (List_1_t1398341365 *, String_t*, const MethodInfo*))List_1_IndexOf_m3376464728_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<JSONObject>::RemoveAt(System.Int32)
+#define List_1_RemoveAt_m2823081968(__this, p0, method) ((  void (*) (List_1_t1341003379 *, int32_t, const MethodInfo*))List_1_RemoveAt_m3615096820_gshared)(__this, p0, method)
+// System.Boolean JSONObject::GetField(System.Boolean&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m2238877236 (JSONObject_t1971882247 * __this, bool* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !0 System.Collections.Generic.List`1<JSONObject>::get_Item(System.Int32)
+#define List_1_get_Item_m429614411(__this, p0, method) ((  JSONObject_t1971882247 * (*) (List_1_t1341003379 *, int32_t, const MethodInfo*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
+// System.Void JSONObject/FieldNotFound::Invoke(System.String)
+extern "C"  void FieldNotFound_Invoke_m1722936676 (FieldNotFound_t865402053 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean JSONObject::GetField(System.Single&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m2524002016 (JSONObject_t1971882247 * __this, float* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean JSONObject::GetField(System.Int32&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m3356332928 (JSONObject_t1971882247 * __this, int32_t* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean JSONObject::get_IsObject()
+extern "C"  bool JSONObject_get_IsObject_m1916105538 (JSONObject_t1971882247 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean JSONObject::GetField(System.Int64&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m1787897363 (JSONObject_t1971882247 * __this, int64_t* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean JSONObject::GetField(System.UInt32&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m2149788417 (JSONObject_t1971882247 * __this, uint32_t* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean JSONObject::GetField(System.String&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m204744839 (JSONObject_t1971882247 * __this, String_t** ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject/GetFieldResponse::Invoke(JSONObject)
+extern "C"  void GetFieldResponse_Invoke_m4134964043 (GetFieldResponse_t1259369279 * __this, JSONObject_t1971882247 * ___obj0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !0 System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)
+#define List_1_get_Item_m566484697(__this, p0, method) ((  String_t* (*) (List_1_t1398341365 *, int32_t, const MethodInfo*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
+// System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()
+#define List_1_get_Count_m780127360(__this, method) ((  int32_t (*) (List_1_t1398341365 *, const MethodInfo*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.String>::Contains(!0)
+#define List_1_Contains_m2369280605(__this, p0, method) ((  bool (*) (List_1_t1398341365 *, String_t*, const MethodInfo*))List_1_Contains_m1658838094_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.List`1<JSONObject>::Clear()
+#define List_1_Clear_m2818091657(__this, method) ((  void (*) (List_1_t1341003379 *, const MethodInfo*))List_1_Clear_m4254626809_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.String>::Clear()
+#define List_1_Clear_m2928955906(__this, method) ((  void (*) (List_1_t1398341365 *, const MethodInfo*))List_1_Clear_m4254626809_gshared)(__this, method)
+// System.String JSONObject::Print(System.Boolean)
+extern "C"  String_t* JSONObject_Print_m4113013869 (JSONObject_t1971882247 * __this, bool ___pretty0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::MergeRecur(JSONObject,JSONObject)
+extern "C"  void JSONObject_MergeRecur_m848026001 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___left0, JSONObject_t1971882247 * ___right1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::Absorb(JSONObject)
+extern "C"  void JSONObject_Absorb_m287377368 (JSONObject_t1971882247 * __this, JSONObject_t1971882247 * ___obj0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::get_Item(System.Int32)
+extern "C"  JSONObject_t1971882247 * JSONObject_get_Item_m481309353 (JSONObject_t1971882247 * __this, int32_t ___index0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean JSONObject::get_isContainer()
+extern "C"  bool JSONObject_get_isContainer_m3175857226 (JSONObject_t1971882247 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 JSONObject::get_Count()
+extern "C"  int32_t JSONObject_get_Count_m2165978410 (JSONObject_t1971882247 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::LogError(System.Object)
+extern "C"  void Debug_LogError_m3715728798 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::set_Item(System.Int32,JSONObject)
+extern "C"  void JSONObject_set_Item_m2332624254 (JSONObject_t1971882247 * __this, int32_t ___index0, JSONObject_t1971882247 * ___value1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject/<BakeAsync>c__Iterator0::.ctor()
+extern "C"  void U3CBakeAsyncU3Ec__Iterator0__ctor_m2863786865 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Text.StringBuilder::.ctor()
+extern "C"  void StringBuilder__ctor_m3946851802 (StringBuilder_t1221177846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::Stringify(System.Int32,System.Text.StringBuilder,System.Boolean)
+extern "C"  void JSONObject_Stringify_m3496252199 (JSONObject_t1971882247 * __this, int32_t ___depth0, StringBuilder_t1221177846 * ___builder1, bool ___pretty2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject/<PrintAsync>c__Iterator1::.ctor()
+extern "C"  void U3CPrintAsyncU3Ec__Iterator1__ctor_m918627686 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject/<StringifyAsync>c__Iterator2::.ctor()
+extern "C"  void U3CStringifyAsyncU3Ec__Iterator2__ctor_m3369090517 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::Log(System.Object)
+extern "C"  void Debug_Log_m920475918 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+extern "C"  StringBuilder_t1221177846 * StringBuilder_Append_m3636508479 (StringBuilder_t1221177846 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)
+extern "C"  StringBuilder_t1221177846 * StringBuilder_AppendFormat_m3265503696 (StringBuilder_t1221177846 * __this, String_t* p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Int64::ToString()
+extern "C"  String_t* Int64_ToString_m689375889 (int64_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Single::IsInfinity(System.Single)
+extern "C"  bool Single_IsInfinity_m3331110346 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Single::IsNegativeInfinity(System.Single)
+extern "C"  bool Single_IsNegativeInfinity_m2615809279 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Single::IsNaN(System.Single)
+extern "C"  bool Single_IsNaN_m2349591895 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Single::ToString()
+extern "C"  String_t* Single_ToString_m1813392066 (float* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Text.StringBuilder::get_Length()
+extern "C"  int32_t StringBuilder_get_Length_m1608241323 (StringBuilder_t1221177846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Text.StringBuilder::set_Length(System.Int32)
+extern "C"  void StringBuilder_set_Length_m3039225444 (StringBuilder_t1221177846 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.WWWForm::.ctor()
+extern "C"  void WWWForm__ctor_m2129424870 (WWWForm_t3950226929 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Replace(System.String,System.String)
+extern "C"  String_t* String_Replace_m1941156251 (String_t* __this, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.WWWForm::AddField(System.String,System.String)
+extern "C"  void WWWForm_AddField_m1334606983 (WWWForm_t3950226929 * __this, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.List`1<JSONObject>::set_Item(System.Int32,!0)
+#define List_1_set_Item_m254334392(__this, p0, p1, method) ((  void (*) (List_1_t1341003379 *, int32_t, JSONObject_t1971882247 *, const MethodInfo*))List_1_set_Item_m4246197648_gshared)(__this, p0, p1, method)
+// JSONObject JSONObject::GetField(System.String)
+extern "C"  JSONObject_t1971882247 * JSONObject_GetField_m887332132 (JSONObject_t1971882247 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::.ctor()
+#define Dictionary_2__ctor_m760167321(__this, method) ((  void (*) (Dictionary_2_t3943999495 *, const MethodInfo*))Dictionary_2__ctor_m584589095_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1)
+#define Dictionary_2_Add_m3686231158(__this, p0, p1, method) ((  void (*) (Dictionary_2_t3943999495 *, String_t*, String_t*, const MethodInfo*))Dictionary_2_Add_m4209421183_gshared)(__this, p0, p1, method)
+// System.String System.String::Concat(System.String,System.String,System.String)
+extern "C"  String_t* String_Concat_m612901809 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, String_t* p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
+extern "C"  void RuntimeHelpers_InitializeArray_m3920580167 (Il2CppObject * __this /* static, unused */, Il2CppArray * p0, RuntimeFieldHandle_t2331729674  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.Stopwatch::.ctor()
+extern "C"  void Stopwatch__ctor_m589309528 (Stopwatch_t1380178105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.IEnumerable`1<System.String> JSONObject::PrintAsync(System.Boolean)
+extern "C"  Il2CppObject* JSONObject_PrintAsync_m1157769192 (JSONObject_t1971882247 * __this, bool ___pretty0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.NotSupportedException::.ctor()
+extern "C"  void NotSupportedException__ctor_m3232764727 (NotSupportedException_t1793819818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.IEnumerator`1<System.Object> JSONObject/<BakeAsync>c__Iterator0::System.Collections.Generic.IEnumerable<object>.GetEnumerator()
+extern "C"  Il2CppObject* U3CBakeAsyncU3Ec__Iterator0_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3677305720 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Threading.Interlocked::CompareExchange(System.Int32&,System.Int32,System.Int32)
+extern "C"  int32_t Interlocked_CompareExchange_m3339239614 (Il2CppObject * __this /* static, unused */, int32_t* p0, int32_t p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.Stopwatch::Reset()
+extern "C"  void Stopwatch_Reset_m3196507227 (Stopwatch_t1380178105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Diagnostics.Stopwatch::Start()
+extern "C"  void Stopwatch_Start_m2051791460 (Stopwatch_t1380178105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IEnumerable JSONObject::StringifyAsync(System.Int32,System.Text.StringBuilder,System.Boolean)
+extern "C"  Il2CppObject * JSONObject_StringifyAsync_m1504868741 (JSONObject_t1971882247 * __this, int32_t ___depth0, StringBuilder_t1221177846 * ___builder1, bool ___pretty2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.IEnumerator`1<System.String> JSONObject/<PrintAsync>c__Iterator1::System.Collections.Generic.IEnumerable<string>.GetEnumerator()
+extern "C"  Il2CppObject* U3CPrintAsyncU3Ec__Iterator1_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m157685351 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.TimeSpan System.Diagnostics.Stopwatch::get_Elapsed()
+extern "C"  TimeSpan_t3430258949  Stopwatch_get_Elapsed_m3190561196 (Stopwatch_t1380178105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Double System.TimeSpan::get_TotalSeconds()
+extern "C"  double TimeSpan_get_TotalSeconds_m1295026915 (TimeSpan_t3430258949 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.IEnumerator`1<System.Object> JSONObject/<StringifyAsync>c__Iterator2::System.Collections.Generic.IEnumerable<object>.GetEnumerator()
+extern "C"  Il2CppObject* U3CStringifyAsyncU3Ec__Iterator2_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3780376918 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
+#define HashSet_1_Add_m199171953(__this, p0, method) ((  bool (*) (HashSet_1_t1022910149 *, Il2CppObject *, const MethodInfo*))HashSet_1_Add_m199171953_gshared)(__this, p0, method)
+// JSONObject JSONObject::get_obj()
+extern "C"  JSONObject_t1971882247 * JSONObject_get_obj_m3201114506 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Object::GetType()
+extern "C"  Type_t * Object_GetType_m191970594 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.FieldInfo[] System.Type::GetFields()
+extern "C"  FieldInfoU5BU5D_t125053523* Type_GetFields_m445058499 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONObject::get_nullJO()
+extern "C"  JSONObject_t1971882247 * JSONObject_get_nullJO_m3951718059 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+extern "C"  Type_t * Type_GetTypeFromHandle_m432505302 (Il2CppObject * __this /* static, unused */, RuntimeTypeHandle_t2330101084  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.MethodInfo System.Type::GetMethod(System.String)
+extern "C"  MethodInfo_t * Type_GetMethod_m1197504218 (Type_t * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Reflection.MethodBase::Invoke(System.Object,System.Object[])
+extern "C"  Il2CppObject * MethodBase_Invoke_m1075809207 (MethodBase_t904190842 * __this, Il2CppObject * p0, ObjectU5BU5D_t3614634134* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String[])
+extern "C"  String_t* String_Concat_m626692867 (Il2CppObject * __this /* static, unused */, StringU5BU5D_t1642385972* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.PropertyInfo[] System.Type::GetProperties()
+extern "C"  PropertyInfoU5BU5D_t1736152084* Type_GetProperties_m2803026104 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single JSONObject::get_f()
+extern "C"  float JSONObject_get_f_m1158093019 (JSONObject_t1971882247 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
+extern "C"  void Vector2__ctor_m3067419446 (Vector2_t2243707579 * __this, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::AddField(System.String,System.Single)
+extern "C"  void JSONObject_AddField_m2712088548 (JSONObject_t1971882247 * __this, String_t* ___name0, float ___val1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
+extern "C"  void Vector3__ctor_m2638739322 (Vector3_t2243707580 * __this, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector4::.ctor(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void Vector4__ctor_m1222289168 (Vector4_t2243707581 * __this, float p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Quaternion::.ctor(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void Quaternion__ctor_m3196903881 (Quaternion_t4030073918 * __this, float p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.LayerMask::get_value()
+extern "C"  int32_t LayerMask_get_value_m251765876 (LayerMask_t3188175821 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::AddField(System.String,System.Int32)
+extern "C"  void JSONObject_AddField_m894980766 (JSONObject_t1971882247 * __this, String_t* ___name0, int32_t ___val1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.LayerMask::set_value(System.Int32)
+extern "C"  void LayerMask_set_value_m3659587097 (LayerMask_t3188175821 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_x()
+extern "C"  float Rect_get_x_m1393582490 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_y()
+extern "C"  float Rect_get_y_m1393582395 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_height()
+extern "C"  float Rect_get_height_m3128694305 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Rect::get_width()
+extern "C"  float Rect_get_width_m1138015702 (Rect_t3681755626 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::set_x(System.Single)
+extern "C"  void Rect_set_x_m3783700513 (Rect_t3681755626 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::set_y(System.Single)
+extern "C"  void Rect_set_y_m4294916608 (Rect_t3681755626 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::set_height(System.Single)
+extern "C"  void Rect_set_height_m2019122814 (Rect_t3681755626 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::set_width(System.Single)
+extern "C"  void Rect_set_width_m1921257731 (Rect_t3681755626 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.RectOffset::get_bottom()
+extern "C"  int32_t RectOffset_get_bottom_m4112328858 (RectOffset_t3387826427 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.RectOffset::get_left()
+extern "C"  int32_t RectOffset_get_left_m439065308 (RectOffset_t3387826427 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.RectOffset::get_right()
+extern "C"  int32_t RectOffset_get_right_m281378687 (RectOffset_t3387826427 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.RectOffset::get_top()
+extern "C"  int32_t RectOffset_get_top_m3629049358 (RectOffset_t3387826427 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RectOffset::.ctor()
+extern "C"  void RectOffset__ctor_m2227510254 (RectOffset_t3387826427 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RectOffset::set_bottom(System.Int32)
+extern "C"  void RectOffset_set_bottom_m4065521443 (RectOffset_t3387826427 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RectOffset::set_left(System.Int32)
+extern "C"  void RectOffset_set_left_m620681523 (RectOffset_t3387826427 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RectOffset::set_right(System.Int32)
+extern "C"  void RectOffset_set_right_m1671272302 (RectOffset_t3387826427 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RectOffset::set_top(System.Int32)
+extern "C"  void RectOffset_set_top_m3579196427 (RectOffset_t3387826427 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationCurve::.ctor()
+extern "C"  void AnimationCurve__ctor_m3707994114 (AnimationCurve_t3306541151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Keyframe JSONTemplates::ToKeyframe(JSONObject)
+extern "C"  Keyframe_t1449471340  JSONTemplates_ToKeyframe_m1491004926 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.AnimationCurve::AddKey(UnityEngine.Keyframe)
+extern "C"  int32_t AnimationCurve_AddKey_m1034249733 (AnimationCurve_t3306541151 * __this, Keyframe_t1449471340  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationCurve::set_preWrapMode(UnityEngine.WrapMode)
+extern "C"  void AnimationCurve_set_preWrapMode_m2999148321 (AnimationCurve_t3306541151 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AnimationCurve::set_postWrapMode(UnityEngine.WrapMode)
+extern "C"  void AnimationCurve_set_postWrapMode_m262982620 (AnimationCurve_t3306541151 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.WrapMode UnityEngine.AnimationCurve::get_preWrapMode()
+extern "C"  int32_t AnimationCurve_get_preWrapMode_m1489197552 (AnimationCurve_t3306541151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::AddField(System.String,System.String)
+extern "C"  void JSONObject_AddField_m757984985 (JSONObject_t1971882247 * __this, String_t* ___name0, String_t* ___val1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.WrapMode UnityEngine.AnimationCurve::get_postWrapMode()
+extern "C"  int32_t AnimationCurve_get_postWrapMode_m1346218857 (AnimationCurve_t3306541151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Keyframe[] UnityEngine.AnimationCurve::get_keys()
+extern "C"  KeyframeU5BU5D_t449065829* AnimationCurve_get_keys_m162753017 (AnimationCurve_t3306541151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// JSONObject JSONTemplates::FromKeyframe(UnityEngine.Keyframe)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromKeyframe_m1523648219 (Il2CppObject * __this /* static, unused */, Keyframe_t1449471340  ___k0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Keyframe::.ctor(System.Single,System.Single)
+extern "C"  void Keyframe__ctor_m2042404667 (Keyframe_t1449471340 * __this, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Keyframe::set_inTangent(System.Single)
+extern "C"  void Keyframe_set_inTangent_m4280114775 (Keyframe_t1449471340 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Keyframe::set_outTangent(System.Single)
+extern "C"  void Keyframe_set_outTangent_m1054927214 (Keyframe_t1449471340 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Keyframe::set_tangentMode(System.Int32)
+extern "C"  void Keyframe_set_tangentMode_m1073266123 (Keyframe_t1449471340 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Keyframe::get_inTangent()
+extern "C"  float Keyframe_get_inTangent_m3256944616 (Keyframe_t1449471340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Keyframe::get_outTangent()
+extern "C"  float Keyframe_get_outTangent_m1894374085 (Keyframe_t1449471340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Keyframe::get_tangentMode()
+extern "C"  int32_t Keyframe_get_tangentMode_m1869200796 (Keyframe_t1449471340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Keyframe::get_time()
+extern "C"  float Keyframe_get_time_m2226372497 (Keyframe_t1449471340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Keyframe::get_value()
+extern "C"  float Keyframe_get_value_m979894315 (Keyframe_t1449471340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
+#define HashSet_1__ctor_m2858247305(__this, method) ((  void (*) (HashSet_1_t1022910149 *, const MethodInfo*))HashSet_1__ctor_m2858247305_gshared)(__this, method)
+// System.Int32 UnityEngine.PlayerPrefs::GetInt(System.String)
+extern "C"  int32_t PlayerPrefs_GetInt_m2889062785 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Net.WebClient::.ctor()
+extern "C"  void WebClient__ctor_m660733025 (WebClient_t1432723993 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Net.WebClient::DownloadString(System.String)
+extern "C"  String_t* WebClient_DownloadString_m1757636243 (WebClient_t1432723993 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void JSONObject::.ctor(System.String,System.Int32,System.Boolean,System.Boolean)
+extern "C"  void JSONObject__ctor_m1387305321 (JSONObject_t1971882247 * __this, String_t* ___str0, int32_t ___maxDepth1, bool ___storeExcessLevels2, bool ___strict3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
+extern "C"  GameObject_t1756533147 * GameObject_Find_m836511350 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.JsonUtility::FromJson<LabelManager/Plant>(System.String)
+#define JsonUtility_FromJson_TisPlant_t3013319763_m2100183654(__this /* static, unused */, p0, method) ((  Plant_t3013319763 * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonUtility_FromJson_TisIl2CppObject_m3451544451_gshared)(__this /* static, unused */, p0, method)
+// UnityEngine.Color UnityEngine.Color::get_green()
+extern "C"  Color_t2020392075  Color_get_green_m2671273823 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.JsonUtility::FromJson<LoginScreen/Farmer>(System.String)
+#define JsonUtility_FromJson_TisFarmer_t3686397137_m2723585572(__this /* static, unused */, p0, method) ((  Farmer_t3686397137 * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonUtility_FromJson_TisIl2CppObject_m3451544451_gshared)(__this /* static, unused */, p0, method)
+// System.Void UnityEngine.PlayerPrefs::SetString(System.String,System.String)
+extern "C"  void PlayerPrefs_SetString_m2547809843 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.PlayerPrefs::SetInt(System.String,System.Int32)
+extern "C"  void PlayerPrefs_SetInt_m3351928596 (Il2CppObject * __this /* static, unused */, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GUIStyle UnityEngine.GUISkin::get_textField()
+extern "C"  GUIStyle_t1799908754 * GUISkin_get_textField_m757680403 (GUISkin_t1436893342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.GUI::TextField(UnityEngine.Rect,System.String,System.Int32)
+extern "C"  String_t* GUI_TextField_m4173740298 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  p0, String_t* p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.GUI::PasswordField(UnityEngine.Rect,System.String,System.Char,System.Int32)
+extern "C"  String_t* GUI_PasswordField_m1606459861 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  p0, String_t* p1, Il2CppChar p2, int32_t p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Application::LoadLevel(System.String)
+extern "C"  void Application_LoadLevel_m393995325 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.WWW LoginScreen::POST()
+extern "C"  WWW_t2919945039 * LoginScreen_POST_m3524912867 (LoginScreen_t661941525 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Hashtable::.ctor()
+extern "C"  void Hashtable__ctor_m1884964176 (Hashtable_t909839986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.WWW::.ctor(System.String,UnityEngine.WWWForm)
+extern "C"  void WWW__ctor_m578693146 (WWW_t2919945039 * __this, String_t* p0, WWWForm_t3950226929 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IEnumerator LoginScreen::WaitForRequest(UnityEngine.WWW)
+extern "C"  Il2CppObject * LoginScreen_WaitForRequest_m3689414047 (LoginScreen_t661941525 * __this, WWW_t2919945039 * ___data0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
+extern "C"  Coroutine_t2299508840 * MonoBehaviour_StartCoroutine_m2470621050 (MonoBehaviour_t1158329972 * __this, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void LoginScreen/<WaitForRequest>c__Iterator0::.ctor()
+extern "C"  void U3CWaitForRequestU3Ec__Iterator0__ctor_m2208388177 (U3CWaitForRequestU3Ec__Iterator0_t3361062884 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.WWW::get_error()
+extern "C"  String_t* WWW_get_error_m3092701216 (WWW_t2919945039 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.WWW::get_text()
+extern "C"  String_t* WWW_get_text_m1558985139 (WWW_t2919945039 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.JsonUtility::FromJson<PlotButtonController/Plant>(System.String)
+#define JsonUtility_FromJson_TisPlant_t1764122003_m2966961052(__this /* static, unused */, p0, method) ((  Plant_t1764122003 * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonUtility_FromJson_TisIl2CppObject_m3451544451_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.JsonUtility::FromJson<PlottButtonController/Plant>(System.String)
+#define JsonUtility_FromJson_TisPlant_t3145691443_m4230761498(__this /* static, unused */, p0, method) ((  Plant_t3145691443 * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonUtility_FromJson_TisIl2CppObject_m3451544451_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
+#define Component_GetComponent_TisCamera_t189460977_m1978993906(__this, method) ((  Camera_t189460977 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Void UnityEngine.Camera::set_fieldOfView(System.Single)
+extern "C"  void Camera_set_fieldOfView_m3974156396 (Camera_t189460977 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.VuforiaARController Vuforia.VuforiaARController::get_Instance()
+extern "C"  VuforiaARController_t4061728485 * VuforiaARController_get_Instance_m3759800119 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Action::.ctor(System.Object,System.IntPtr)
+extern "C"  void Action__ctor_m2606471964 (Action_t3226471752 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaARController::RegisterVuforiaStartedCallback(System.Action)
+extern "C"  void VuforiaARController_RegisterVuforiaStartedCallback_m2843633801 (VuforiaARController_t4061728485 * __this, Action_t3226471752 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.DigitalEyewearARController Vuforia.DigitalEyewearARController::get_Instance()
+extern "C"  DigitalEyewearARController_t1398758191 * DigitalEyewearARController_get_Instance_m277595763 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Camera Vuforia.DigitalEyewearARController::get_PrimaryCamera()
+extern "C"  Camera_t189460977 * DigitalEyewearARController_get_PrimaryCamera_m334515774 (DigitalEyewearARController_t1398758191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Camera Vuforia.DigitalEyewearARController::get_SecondaryCamera()
+extern "C"  Camera_t189460977 * DigitalEyewearARController_get_SecondaryCamera_m1083705270 (DigitalEyewearARController_t1398758191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<Vuforia.HideExcessAreaAbstractBehaviour>()
+#define Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011(__this, method) ((  HideExcessAreaAbstractBehaviour_t2687577327 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// UnityEngine.Transform Vuforia.DigitalEyewearARController::get_CentralAnchorPoint()
+extern "C"  Transform_t3275118058 * DigitalEyewearARController_get_CentralAnchorPoint_m1690577486 (DigitalEyewearARController_t1398758191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.Component::get_transform()
+extern "C"  Transform_t3275118058 * Component_get_transform_m2697483695 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Transform::get_localRotation()
+extern "C"  Quaternion_t4030073918  Transform_get_localRotation_m4001487205 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_localRotation(UnityEngine.Quaternion)
+extern "C"  void Transform_set_localRotation_m2055111962 (Transform_t3275118058 * __this, Quaternion_t4030073918  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_localPosition()
+extern "C"  Vector3_t2243707580  Transform_get_localPosition_m2533925116 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_localPosition(UnityEngine.Vector3)
+extern "C"  void Transform_set_localPosition_m1026930133 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Rect UnityEngine.Camera::get_pixelRect()
+extern "C"  Rect_t3681755626  Camera_get_pixelRect_m2084185953 (Camera_t189460977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_right()
+extern "C"  Vector3_t2243707580  Transform_get_right_m440863970 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_normalized()
+extern "C"  Vector3_t2243707580  Vector3_get_normalized_m936072361 (Vector3_t2243707580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Camera::get_stereoSeparation()
+extern "C"  float Camera_get_stereoSeparation_m287594473 (Camera_t189460977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
+extern "C"  Vector3_t2243707580  Vector3_op_Multiply_m1351554733 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+extern "C"  Vector3_t2243707580  Transform_get_position_m1104419803 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Vector3_op_Addition_m3146764857 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
+extern "C"  void Transform_set_position_m2469242620 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::set_pixelRect(UnityEngine.Rect)
+extern "C"  void Camera_set_pixelRect_m1366013782 (Camera_t189460977 * __this, Rect_t3681755626  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponentInChildren<Vuforia.BackgroundPlaneBehaviour>()
+#define Component_GetComponentInChildren_TisBackgroundPlaneBehaviour_t2431285219_m4080560834(__this, method) ((  BackgroundPlaneBehaviour_t2431285219 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInChildren_TisIl2CppObject_m2641795278_gshared)(__this, method)
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Vector3_op_Subtraction_m2407545601 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.BackgroundPlaneAbstractBehaviour::set_BackgroundOffset(UnityEngine.Vector3)
+extern "C"  void BackgroundPlaneAbstractBehaviour_set_BackgroundOffset_m48119280 (BackgroundPlaneAbstractBehaviour_t3732945727 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.HideExcessAreaAbstractBehaviour::set_PlaneOffset(UnityEngine.Vector3)
+extern "C"  void HideExcessAreaAbstractBehaviour_set_PlaneOffset_m3820567390 (HideExcessAreaAbstractBehaviour_t2687577327 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+extern "C"  bool Object_op_Inequality_m2402264703 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, Object_t1021602117 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_zero()
+extern "C"  Vector3_t2243707580  Vector3_get_zero_m1527993324 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaARController::UpdateState(System.Boolean,System.Boolean)
+extern "C"  void VuforiaARController_UpdateState_m2272296819 (VuforiaARController_t4061728485 * __this, bool p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 Vuforia.BackgroundPlaneAbstractBehaviour::get_BackgroundOffset()
+extern "C"  Vector3_t2243707580  BackgroundPlaneAbstractBehaviour_get_BackgroundOffset_m599181539 (BackgroundPlaneAbstractBehaviour_t3732945727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaARController::ApplyCorrectedProjectionMatrix(UnityEngine.Matrix4x4,System.Boolean)
+extern "C"  void VuforiaARController_ApplyCorrectedProjectionMatrix_m3388896403 (VuforiaARController_t4061728485 * __this, Matrix4x4_t2933234003  p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Camera::get_projectionMatrix()
+extern "C"  Matrix4x4_t2933234003  Camera_get_projectionMatrix_m2365994324 (Camera_t189460977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::SetStereoProjectionMatrices(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
+extern "C"  void Camera_SetStereoProjectionMatrices_m1833429783 (Camera_t189460977 * __this, Matrix4x4_t2933234003  p0, Matrix4x4_t2933234003  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Vuforia.VuforiaRuntimeUtilities::MatrixIsNaN(UnityEngine.Matrix4x4)
+extern "C"  bool VuforiaRuntimeUtilities_MatrixIsNaN_m431823786 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.AndroidUnityPlayer::LoadNativeLibrariesFromJava()
+extern "C"  void AndroidUnityPlayer_LoadNativeLibrariesFromJava_m2955245326 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.AndroidUnityPlayer::InitAndroidPlatform()
+extern "C"  void AndroidUnityPlayer_InitAndroidPlatform_m1583405850 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.VuforiaRenderer Vuforia.VuforiaRenderer::get_Instance()
+extern "C"  VuforiaRenderer_t2933102835 * VuforiaRenderer_get_Instance_m1621768183 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Vuforia.AndroidUnityPlayer::InitVuforia(System.Int32,System.String)
+extern "C"  int32_t AndroidUnityPlayer_InitVuforia_m2858754529 (AndroidUnityPlayer_t852788525 * __this, int32_t ___rendererAPI0, String_t* ___licenseKey1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.AndroidUnityPlayer::InitializeSurface()
+extern "C"  void AndroidUnityPlayer_InitializeSurface_m1417263607 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Vuforia.SurfaceUtilities::HasSurfaceBeenRecreated()
+extern "C"  bool SurfaceUtilities_HasSurfaceBeenRecreated_m2740261893 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.ScreenOrientation UnityEngine.Screen::get_orientation()
+extern "C"  int32_t Screen_get_orientation_m879255848 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.AndroidUnityPlayer::ResetUnityScreenOrientation()
+extern "C"  void AndroidUnityPlayer_ResetUnityScreenOrientation_m2917504922 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.AndroidUnityPlayer::CheckOrientation()
+extern "C"  void AndroidUnityPlayer_CheckOrientation_m2044239264 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaUnity::OnPause()
+extern "C"  void VuforiaUnity_OnPause_m2422224752 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaUnity::OnResume()
+extern "C"  void VuforiaUnity_OnResume_m2186520633 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaUnity::Deinit()
+extern "C"  void VuforiaUnity_Deinit_m4072609744 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.SurfaceUtilities::OnSurfaceCreated()
+extern "C"  void SurfaceUtilities_OnSurfaceCreated_m3675640541 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.SurfaceUtilities::SetSurfaceOrientation(UnityEngine.ScreenOrientation)
+extern "C"  void SurfaceUtilities_SetSurfaceOrientation_m3106547277 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.BackgroundPlaneAbstractBehaviour::.ctor()
+extern "C"  void BackgroundPlaneAbstractBehaviour__ctor_m1193949827 (BackgroundPlaneAbstractBehaviour_t3732945727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.CloudRecoAbstractBehaviour::.ctor()
+extern "C"  void CloudRecoAbstractBehaviour__ctor_m3604390285 (CloudRecoAbstractBehaviour_t2070832277 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Reflection.MethodInfo>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_ToList_TisMethodInfo_t_m2736443864(__this /* static, unused */, p0, method) ((  List_1_t2699667469 * (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_ToList_TisIl2CppObject_m2472981332_gshared)(__this /* static, unused */, p0, method)
+// System.Void System.Collections.Generic.List`1<System.Reflection.MethodInfo>::AddRange(System.Collections.Generic.IEnumerable`1<!0>)
+#define List_1_AddRange_m1093450066(__this, p0, method) ((  void (*) (List_1_t2699667469 *, Il2CppObject*, const MethodInfo*))List_1_AddRange_m3537433232_gshared)(__this, p0, method)
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Reflection.MethodInfo>::GetEnumerator()
+#define List_1_GetEnumerator_m2150560895(__this, method) ((  Enumerator_t2234397143  (*) (List_1_t2699667469 *, const MethodInfo*))List_1_GetEnumerator_m2837081829_gshared)(__this, method)
+// !0 System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::get_Current()
+#define Enumerator_get_Current_m1945415651(__this, method) ((  MethodInfo_t * (*) (Enumerator_t2234397143 *, const MethodInfo*))Enumerator_get_Current_m2577424081_gshared)(__this, method)
+// System.Delegate System.Delegate::CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo)
+extern "C"  Delegate_t3022476291 * Delegate_CreateDelegate_m2101460062 (Il2CppObject * __this /* static, unused */, Type_t * p0, Il2CppObject * p1, MethodInfo_t * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Action::Invoke()
+extern "C"  void Action_Invoke_m3801112262 (Action_t3226471752 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::MoveNext()
+#define Enumerator_MoveNext_m2294671071(__this, method) ((  bool (*) (Enumerator_t2234397143 *, const MethodInfo*))Enumerator_MoveNext_m44995089_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>::Dispose()
+#define Enumerator_Dispose_m186564181(__this, method) ((  void (*) (Enumerator_t2234397143 *, const MethodInfo*))Enumerator_Dispose_m3736175406_gshared)(__this, method)
+// System.Void Vuforia.VuforiaBehaviourComponentFactory::.ctor()
+extern "C"  void VuforiaBehaviourComponentFactory__ctor_m4023364043 (VuforiaBehaviourComponentFactory_t1383853028 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.BehaviourComponentFactory::set_Instance(Vuforia.IBehaviourComponentFactory)
+extern "C"  void BehaviourComponentFactory_set_Instance_m3406469245 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.CylinderTargetAbstractBehaviour::.ctor()
+extern "C"  void CylinderTargetAbstractBehaviour__ctor_m3025238902 (CylinderTargetAbstractBehaviour_t665872082 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.VuforiaRuntime Vuforia.VuforiaRuntime::get_Instance()
+extern "C"  VuforiaRuntime_t2075282796 * VuforiaRuntime_get_Instance_m4069915631 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Action`1<Vuforia.VuforiaUnity/InitError>::.ctor(System.Object,System.IntPtr)
+#define Action_1__ctor_m3262798437(__this, p0, p1, method) ((  void (*) (Action_1_t1951195598 *, Il2CppObject *, IntPtr_t, const MethodInfo*))Action_1__ctor_m3262798437_gshared)(__this, p0, p1, method)
+// System.Void Vuforia.VuforiaRuntime::RegisterVuforiaInitErrorCallback(System.Action`1<Vuforia.VuforiaUnity/InitError>)
+extern "C"  void VuforiaRuntime_RegisterVuforiaInitErrorCallback_m1800574616 (VuforiaRuntime_t2075282796 * __this, Action_1_t1951195598 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaRuntime::UnregisterVuforiaInitErrorCallback(System.Action`1<Vuforia.VuforiaUnity/InitError>)
+extern "C"  void VuforiaRuntime_UnregisterVuforiaInitErrorCallback_m2870938817 (VuforiaRuntime_t2075282796 * __this, Action_1_t1951195598 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Application::Quit()
+extern "C"  void Application_Quit_m3885595876 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.DefaultInitializationErrorHandler::SetErrorCode(Vuforia.VuforiaUnity/InitError)
+extern "C"  void DefaultInitializationErrorHandler_SetErrorCode_m617037449 (DefaultInitializationErrorHandler_t965510117 * __this, int32_t ___errorCode0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.DefaultInitializationErrorHandler::SetErrorOccurred(System.Boolean)
+extern "C"  void DefaultInitializationErrorHandler_SetErrorOccurred_m3043577076 (DefaultInitializationErrorHandler_t965510117 * __this, bool ___errorOccurred0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<Vuforia.ReconstructionBehaviour>()
+#define Component_GetComponent_TisReconstructionBehaviour_t4009935945_m3509900328(__this, method) ((  ReconstructionBehaviour_t4009935945 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
+extern "C"  bool Object_op_Implicit_m2856731593 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Action`1<Vuforia.Prop>::.ctor(System.Object,System.IntPtr)
+#define Action_1__ctor_m206058748(__this, p0, p1, method) ((  void (*) (Action_1_t245871341 *, Il2CppObject *, IntPtr_t, const MethodInfo*))Action_1__ctor_m584977596_gshared)(__this, p0, p1, method)
+// System.Void Vuforia.ReconstructionAbstractBehaviour::RegisterPropCreatedCallback(System.Action`1<Vuforia.Prop>)
+extern "C"  void ReconstructionAbstractBehaviour_RegisterPropCreatedCallback_m4192941617 (ReconstructionAbstractBehaviour_t3509595417 * __this, Action_1_t245871341 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Action`1<Vuforia.Surface>::.ctor(System.Object,System.IntPtr)
+#define Action_1__ctor_m1475023678(__this, p0, p1, method) ((  void (*) (Action_1_t2023440477 *, Il2CppObject *, IntPtr_t, const MethodInfo*))Action_1__ctor_m584977596_gshared)(__this, p0, p1, method)
+// System.Void Vuforia.ReconstructionAbstractBehaviour::RegisterSurfaceCreatedCallback(System.Action`1<Vuforia.Surface>)
+extern "C"  void ReconstructionAbstractBehaviour_RegisterSurfaceCreatedCallback_m3624331525 (ReconstructionAbstractBehaviour_t3509595417 * __this, Action_1_t2023440477 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterPropCreatedCallback(System.Action`1<Vuforia.Prop>)
+extern "C"  void ReconstructionAbstractBehaviour_UnregisterPropCreatedCallback_m2048741868 (ReconstructionAbstractBehaviour_t3509595417 * __this, Action_1_t245871341 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterSurfaceCreatedCallback(System.Action`1<Vuforia.Surface>)
+extern "C"  void ReconstructionAbstractBehaviour_UnregisterSurfaceCreatedCallback_m1039740100 (ReconstructionAbstractBehaviour_t3509595417 * __this, Action_1_t2023440477 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.PropAbstractBehaviour Vuforia.ReconstructionAbstractBehaviour::AssociateProp(Vuforia.PropAbstractBehaviour,Vuforia.Prop)
+extern "C"  PropAbstractBehaviour_t1047177596 * ReconstructionAbstractBehaviour_AssociateProp_m920258964 (ReconstructionAbstractBehaviour_t3509595417 * __this, PropAbstractBehaviour_t1047177596 * p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.SurfaceAbstractBehaviour Vuforia.ReconstructionAbstractBehaviour::AssociateSurface(Vuforia.SurfaceAbstractBehaviour,Vuforia.Surface)
+extern "C"  SurfaceAbstractBehaviour_t2669615494 * ReconstructionAbstractBehaviour_AssociateSurface_m4192971254 (ReconstructionAbstractBehaviour_t3509595417 * __this, SurfaceAbstractBehaviour_t2669615494 * p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<Vuforia.TrackableBehaviour>()
+#define Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957(__this, method) ((  TrackableBehaviour_t1779888572 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Void Vuforia.TrackableBehaviour::RegisterTrackableEventHandler(Vuforia.ITrackableEventHandler)
+extern "C"  void TrackableBehaviour_RegisterTrackableEventHandler_m1156666476 (TrackableBehaviour_t1779888572 * __this, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.DefaultTrackableEventHandler::OnTrackingFound()
+extern "C"  void DefaultTrackableEventHandler_OnTrackingFound_m1963976755 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.DefaultTrackableEventHandler::OnTrackingLost()
+extern "C"  void DefaultTrackableEventHandler_OnTrackingLost_m3813626281 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Renderer>(System.Boolean)
+#define Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, p0, method) ((  RendererU5BU5D_t2810717544* (*) (Component_t3819376471 *, bool, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m4164830438_gshared)(__this, p0, method)
+// !!0[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Collider>(System.Boolean)
+#define Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, p0, method) ((  ColliderU5BU5D_t462843629* (*) (Component_t3819376471 *, bool, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m4164830438_gshared)(__this, p0, method)
+// System.Void UnityEngine.Renderer::set_enabled(System.Boolean)
+extern "C"  void Renderer_set_enabled_m142717579 (Renderer_t257310565 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Collider::set_enabled(System.Boolean)
+extern "C"  void Collider_set_enabled_m3489100454 (Collider_t3497673348 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Vuforia.TrackableBehaviour::get_TrackableName()
+extern "C"  String_t* TrackableBehaviour_get_TrackableName_m3173853042 (TrackableBehaviour_t1779888572 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.HideExcessAreaAbstractBehaviour::.ctor()
+extern "C"  void HideExcessAreaAbstractBehaviour__ctor_m283987487 (HideExcessAreaAbstractBehaviour_t2687577327 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.ImageTargetAbstractBehaviour::.ctor()
+extern "C"  void ImageTargetAbstractBehaviour__ctor_m3584284597 (ImageTargetAbstractBehaviour_t3327552701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaNativeIosWrapper::.ctor()
+extern "C"  void VuforiaNativeIosWrapper__ctor_m1946048060 (VuforiaNativeIosWrapper_t1210651633 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaWrapper::SetImplementation(Vuforia.IVuforiaWrapper)
+extern "C"  void VuforiaWrapper_SetImplementation_m1019610825 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.IOSUnityPlayer::setPlatFormNative()
+extern "C"  void IOSUnityPlayer_setPlatFormNative_m2804175766 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Vuforia.IOSUnityPlayer::initQCARiOS(System.Int32,System.Int32,System.String)
+extern "C"  int32_t IOSUnityPlayer_initQCARiOS_m4109121394 (Il2CppObject * __this /* static, unused */, int32_t ___rendererAPI0, int32_t ___screenOrientation1, String_t* ___licenseKey2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.IOSUnityPlayer::InitializeSurface()
+extern "C"  void IOSUnityPlayer_InitializeSurface_m4219932605 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.IOSUnityPlayer::SetUnityScreenOrientation()
+extern "C"  void IOSUnityPlayer_SetUnityScreenOrientation_m3793088327 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.IOSUnityPlayer::setSurfaceOrientationiOS(System.Int32)
+extern "C"  void IOSUnityPlayer_setSurfaceOrientationiOS_m3165018273 (Il2CppObject * __this /* static, unused */, int32_t ___screenOrientation0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.MaskOutAbstractBehaviour::.ctor()
+extern "C"  void MaskOutAbstractBehaviour__ctor_m3743365693 (MaskOutAbstractBehaviour_t3489038957 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Vuforia.VuforiaRuntimeUtilities::IsVuforiaEnabled()
+extern "C"  bool VuforiaRuntimeUtilities_IsVuforiaEnabled_m1774515559 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Renderer>()
+#define Component_GetComponent_TisRenderer_t257310565_m2803939486(__this, method) ((  Renderer_t257310565 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// UnityEngine.Material[] UnityEngine.Renderer::get_materials()
+extern "C"  MaterialU5BU5D_t3123989686* Renderer_get_materials_m810004692 (Renderer_t257310565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Renderer::set_sharedMaterial(UnityEngine.Material)
+extern "C"  void Renderer_set_sharedMaterial_m391095487 (Renderer_t257310565 * __this, Material_t193706927 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Renderer::set_sharedMaterials(UnityEngine.Material[])
+extern "C"  void Renderer_set_sharedMaterials_m2669445156 (Renderer_t257310565 * __this, MaterialU5BU5D_t3123989686* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.MultiTargetAbstractBehaviour::.ctor()
+extern "C"  void MultiTargetAbstractBehaviour__ctor_m3602545575 (MultiTargetAbstractBehaviour_t3616801211 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.ObjectTargetAbstractBehaviour::.ctor()
+extern "C"  void ObjectTargetAbstractBehaviour__ctor_m4149910295 (ObjectTargetAbstractBehaviour_t2805337095 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.PropAbstractBehaviour::.ctor()
+extern "C"  void PropAbstractBehaviour__ctor_m1260771068 (PropAbstractBehaviour_t1047177596 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.ReconstructionAbstractBehaviour::.ctor()
+extern "C"  void ReconstructionAbstractBehaviour__ctor_m2037226869 (ReconstructionAbstractBehaviour_t3509595417 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.ReconstructionFromTargetAbstractBehaviour::.ctor()
+extern "C"  void ReconstructionFromTargetAbstractBehaviour__ctor_m2704257964 (ReconstructionFromTargetAbstractBehaviour_t4122236588 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.SurfaceAbstractBehaviour::.ctor()
+extern "C"  void SurfaceAbstractBehaviour__ctor_m4051989004 (SurfaceAbstractBehaviour_t2669615494 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.TextRecoAbstractBehaviour::.ctor()
+extern "C"  void TextRecoAbstractBehaviour__ctor_m3986867921 (TextRecoAbstractBehaviour_t2386081773 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.TurnOffAbstractBehaviour::.ctor()
+extern "C"  void TurnOffAbstractBehaviour__ctor_m1043676009 (TurnOffAbstractBehaviour_t4084926705 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.MeshRenderer>()
+#define Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477(__this, method) ((  MeshRenderer_t1268241104 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
+extern "C"  void Object_Destroy_m4145850038 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.MeshFilter>()
+#define Component_GetComponent_TisMeshFilter_t3026937449_m1427366350(__this, method) ((  MeshFilter_t3026937449 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// UnityEngine.Transform UnityEngine.Transform::FindChild(System.String)
+extern "C"  Transform_t3275118058 * Transform_FindChild_m2677714886 (Transform_t3275118058 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.UserDefinedTargetBuildingAbstractBehaviour::.ctor()
+extern "C"  void UserDefinedTargetBuildingAbstractBehaviour__ctor_m3581213318 (UserDefinedTargetBuildingAbstractBehaviour_t3589690572 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VideoBackgroundAbstractBehaviour::.ctor()
+extern "C"  void VideoBackgroundAbstractBehaviour__ctor_m397100456 (VideoBackgroundAbstractBehaviour_t395384314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VirtualButtonAbstractBehaviour::.ctor()
+extern "C"  void VirtualButtonAbstractBehaviour__ctor_m855896756 (VirtualButtonAbstractBehaviour_t2478279366 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaAbstractBehaviour::.ctor()
+extern "C"  void VuforiaAbstractBehaviour__ctor_m3900338923 (VuforiaAbstractBehaviour_t3319870759 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaBehaviour::AddOSSpecificExternalDatasetSearchDirs()
+extern "C"  void VuforiaBehaviour_AddOSSpecificExternalDatasetSearchDirs_m4168849520 (VuforiaBehaviour_t359035403 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.ComponentFactoryStarterBehaviour>()
+#define GameObject_AddComponent_TisComponentFactoryStarterBehaviour_t3249343815_m658142107(__this, method) ((  ComponentFactoryStarterBehaviour_t3249343815 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// System.Void Vuforia.VuforiaAbstractBehaviour::Awake()
+extern "C"  void VuforiaAbstractBehaviour_Awake_m232471254 (VuforiaAbstractBehaviour_t3319870759 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+extern "C"  bool Object_op_Equality_m3764089466 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, Object_t1021602117 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Object::FindObjectOfType<Vuforia.VuforiaBehaviour>()
+#define Object_FindObjectOfType_TisVuforiaBehaviour_t359035403_m318208984(__this /* static, unused */, method) ((  VuforiaBehaviour_t359035403 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m758847274_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.MaskOutBehaviour>()
+#define GameObject_AddComponent_TisMaskOutBehaviour_t2994129365_m1425322069(__this, method) ((  MaskOutBehaviour_t2994129365 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.VirtualButtonBehaviour>()
+#define GameObject_AddComponent_TisVirtualButtonBehaviour_t2515041812_m3118105184(__this, method) ((  VirtualButtonBehaviour_t2515041812 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.TurnOffBehaviour>()
+#define GameObject_AddComponent_TisTurnOffBehaviour_t3058161409_m2052882313(__this, method) ((  TurnOffBehaviour_t3058161409 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.ImageTargetBehaviour>()
+#define GameObject_AddComponent_TisImageTargetBehaviour_t2654589389_m3351511077(__this, method) ((  ImageTargetBehaviour_t2654589389 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.MultiTargetBehaviour>()
+#define GameObject_AddComponent_TisMultiTargetBehaviour_t3504654311_m1135184387(__this, method) ((  MultiTargetBehaviour_t3504654311 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.CylinderTargetBehaviour>()
+#define GameObject_AddComponent_TisCylinderTargetBehaviour_t2091399712_m912348918(__this, method) ((  CylinderTargetBehaviour_t2091399712 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.WordBehaviour>()
+#define GameObject_AddComponent_TisWordBehaviour_t3366478421_m80916061(__this, method) ((  WordBehaviour_t3366478421 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.TextRecoBehaviour>()
+#define GameObject_AddComponent_TisTextRecoBehaviour_t3400239837_m3447592645(__this, method) ((  TextRecoBehaviour_t3400239837 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.ObjectTargetBehaviour>()
+#define GameObject_AddComponent_TisObjectTargetBehaviour_t3836044259_m2560584915(__this, method) ((  ObjectTargetBehaviour_t3836044259 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Vuforia.VuMarkBehaviour>()
+#define GameObject_AddComponent_TisVuMarkBehaviour_t2060629989_m1435287781(__this, method) ((  VuMarkBehaviour_t2060629989 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 UnityEngine.ScriptableObject::CreateInstance<Vuforia.VuforiaConfiguration>()
+#define ScriptableObject_CreateInstance_TisVuforiaConfiguration_t3823746026_m559723354(__this /* static, unused */, method) ((  VuforiaConfiguration_t3823746026 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisIl2CppObject_m926060499_gshared)(__this /* static, unused */, method)
+// System.Void Vuforia.VuforiaAbstractConfiguration::.ctor()
+extern "C"  void VuforiaAbstractConfiguration__ctor_m1625969650 (VuforiaAbstractConfiguration_t1891710424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaUnity::SetStandardInitializationParameters()
+extern "C"  void VuforiaUnity_SetStandardInitializationParameters_m3220511984 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.IUnityPlayer Vuforia.VuforiaRuntimeInitialization::CreateUnityPlayer()
+extern "C"  Il2CppObject * VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaRuntime::InitPlatform(Vuforia.IUnityPlayer)
+extern "C"  void VuforiaRuntime_InitPlatform_m3306160978 (VuforiaRuntime_t2075282796 * __this, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.VuforiaAbstractConfiguration Vuforia.VuforiaAbstractConfiguration::get_Instance()
+extern "C"  VuforiaAbstractConfiguration_t1891710424 * VuforiaAbstractConfiguration_get_Instance_m3543652287 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.VuforiaAbstractConfiguration/GenericVuforiaConfiguration Vuforia.VuforiaAbstractConfiguration::get_Vuforia()
+extern "C"  GenericVuforiaConfiguration_t3866211740 * VuforiaAbstractConfiguration_get_Vuforia_m3334047132 (VuforiaAbstractConfiguration_t1891710424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Vuforia.VuforiaAbstractConfiguration/GenericVuforiaConfiguration::get_DelayedInitialization()
+extern "C"  bool GenericVuforiaConfiguration_get_DelayedInitialization_m282560601 (GenericVuforiaConfiguration_t3866211740 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuforiaRuntime::InitVuforia()
+extern "C"  void VuforiaRuntime_InitVuforia_m2353933398 (VuforiaRuntime_t2075282796 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.NullUnityPlayer::.ctor()
+extern "C"  void NullUnityPlayer__ctor_m483624113 (NullUnityPlayer_t754446093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
+extern "C"  int32_t Application_get_platform_m3989224144 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.AndroidUnityPlayer::.ctor()
+extern "C"  void AndroidUnityPlayer__ctor_m2233000524 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.IOSUnityPlayer::.ctor()
+extern "C"  void IOSUnityPlayer__ctor_m676692974 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Vuforia.VuforiaRuntimeUtilities::IsPlayMode()
+extern "C"  bool VuforiaRuntimeUtilities_IsPlayMode_m2939358997 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.PlayModeUnityPlayer::.ctor()
+extern "C"  void PlayModeUnityPlayer__ctor_m2126346857 (PlayModeUnityPlayer_t918240325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Vuforia.VuforiaRuntimeUtilities::IsWSARuntime()
+extern "C"  bool VuforiaRuntimeUtilities_IsWSARuntime_m3848252715 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.WSAUnityPlayer::.ctor()
+extern "C"  void WSAUnityPlayer__ctor_m1279021334 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.VuMarkAbstractBehaviour::.ctor()
+extern "C"  void VuMarkAbstractBehaviour__ctor_m326197713 (VuMarkAbstractBehaviour_t1830666997 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::.ctor(UnityEngine.Material)
+extern "C"  void Material__ctor_m1440882780 (Material_t193706927 * __this, Material_t193706927 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Vuforia.VuforiaManager Vuforia.VuforiaManager::get_Instance()
+extern "C"  VuforiaManager_t2424874861 * VuforiaManager_get_Instance_m425433003 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.Camera>()
+#define GameObject_GetComponentsInChildren_TisCamera_t189460977_m3116941434(__this, method) ((  CameraU5BU5D_t3079764780* (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisIl2CppObject_m1163966231_gshared)(__this, method)
+// UnityEngine.Camera UnityEngine.Camera::get_current()
+extern "C"  Camera_t189460977 * Camera_get_current_m2639890517 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Mesh UnityEngine.MeshFilter::get_sharedMesh()
+extern "C"  Mesh_t1356156583 * MeshFilter_get_sharedMesh_m1310789932 (MeshFilter_t3026937449 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3[] UnityEngine.Mesh::get_vertices()
+extern "C"  Vector3U5BU5D_t1172311765* Mesh_get_vertices_m626989480 (Mesh_t1356156583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32[] UnityEngine.Mesh::get_triangles()
+extern "C"  Int32U5BU5D_t3030399641* Mesh_get_triangles_m3988715512 (Mesh_t1356156583 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::PushMatrix()
+extern "C"  void GL_PushMatrix_m1979053131 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Transform::get_localToWorldMatrix()
+extern "C"  Matrix4x4_t2933234003  Transform_get_localToWorldMatrix_m2868579006 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::MultMatrix(UnityEngine.Matrix4x4)
+extern "C"  void GL_MultMatrix_m767401141 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Material::SetPass(System.Int32)
+extern "C"  bool Material_SetPass_m2448940266 (Material_t193706927 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::SetColor(System.String,UnityEngine.Color)
+extern "C"  void Material_SetColor_m650857509 (Material_t193706927 * __this, String_t* p0, Color_t2020392075  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::Begin(System.Int32)
+extern "C"  void GL_Begin_m3874173032 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::Vertex(UnityEngine.Vector3)
+extern "C"  void GL_Vertex_m4110027235 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::End()
+extern "C"  void GL_End_m2374230645 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::PopMatrix()
+extern "C"  void GL_PopMatrix_m856033754 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Behaviour::get_enabled()
+extern "C"  bool Behaviour_get_enabled_m4079055610 (Behaviour_t955675639 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.GameObject::get_transform()
+extern "C"  Transform_t3275118058 * GameObject_get_transform_m909382139 (GameObject_t1756533147 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
+extern "C"  Quaternion_t4030073918  Transform_get_rotation_m1033555130 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_lossyScale()
+extern "C"  Vector3_t2243707580  Transform_get_lossyScale_m1638545862 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::TRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
+extern "C"  Matrix4x4_t2933234003  Matrix4x4_TRS_m1913765359 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Quaternion_t4030073918  p1, Vector3_t2243707580  p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Gizmos::set_matrix(UnityEngine.Matrix4x4)
+extern "C"  void Gizmos_set_matrix_m1590313986 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Gizmos::set_color(UnityEngine.Color)
+extern "C"  void Gizmos_set_color_m494992840 (Il2CppObject * __this /* static, unused */, Color_t2020392075  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Gizmos::DrawLine(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  void Gizmos_DrawLine_m1315654064 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.WireframeTrackableEventHandler::OnTrackingFound()
+extern "C"  void WireframeTrackableEventHandler_OnTrackingFound_m563781220 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.WireframeTrackableEventHandler::OnTrackingLost()
+extern "C"  void WireframeTrackableEventHandler_OnTrackingLost_m3180126272 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0[] UnityEngine.Component::GetComponentsInChildren<Vuforia.WireframeBehaviour>(System.Boolean)
+#define Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706(__this, p0, method) ((  WireframeBehaviourU5BU5D_t2935582494* (*) (Component_t3819376471 *, bool, const MethodInfo*))Component_GetComponentsInChildren_TisIl2CppObject_m4164830438_gshared)(__this, p0, method)
+// System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
+extern "C"  void Behaviour_set_enabled_m1796096907 (Behaviour_t955675639 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.WordAbstractBehaviour::.ctor()
+extern "C"  void WordAbstractBehaviour__ctor_m1415816009 (WordAbstractBehaviour_t2878458725 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.WSAUnityPlayer::setPlatFormNative()
+extern "C"  void WSAUnityPlayer_setPlatFormNative_m413995854 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Vuforia.WSAUnityPlayer::initVuforiaWSA(System.String)
+extern "C"  int32_t WSAUnityPlayer_initVuforiaWSA_m2461582347 (Il2CppObject * __this /* static, unused */, String_t* ___licenseKey0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.WSAUnityPlayer::InitializeSurface()
+extern "C"  void WSAUnityPlayer_InitializeSurface_m2485130165 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.ScreenOrientation Vuforia.WSAUnityPlayer::GetActualScreenOrientation()
+extern "C"  int32_t WSAUnityPlayer_GetActualScreenOrientation_m2906081196 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.WSAUnityPlayer::SetUnityScreenOrientation()
+extern "C"  void WSAUnityPlayer_SetUnityScreenOrientation_m3964512799 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Vuforia.WSAUnityPlayer::setSurfaceOrientationWSA(System.Int32)
+extern "C"  void WSAUnityPlayer_setSurfaceOrientationWSA_m2082052129 (Il2CppObject * __this /* static, unused */, int32_t ___screenOrientation0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.DeviceOrientation UnityEngine.Input::get_deviceOrientation()
+extern "C"  int32_t Input_get_deviceOrientation_m2415424840 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void ButtonController::.ctor()
+extern "C"  void ButtonController__ctor_m1811141101 (ButtonController_t1741881492 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ButtonController::click()
+extern "C"  void ButtonController_click_m2753885283 (ButtonController_t1741881492 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_clicked_4((bool)1);
+		return;
+	}
+}
+// System.Void ButtonController::Start()
+extern "C"  void ButtonController_Start_m2642750965 (ButtonController_t1741881492 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ButtonController_Start_m2642750965_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Button_t2872111280 * V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Button_t2872111280 * L_1 = GameObject_GetComponent_TisButton_t2872111280_m1008560876(L_0, /*hidden argument*/GameObject_GetComponent_TisButton_t2872111280_m1008560876_MethodInfo_var);
+		V_0 = L_1;
+		Button_t2872111280 * L_2 = V_0;
+		NullCheck(L_2);
+		ButtonClickedEvent_t2455055323 * L_3 = Button_get_onClick_m1595880935(L_2, /*hidden argument*/NULL);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)ButtonController_click_m2753885283_MethodInfo_var);
+		UnityAction_t4025899511 * L_5 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_5, __this, L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		UnityEvent_AddListener_m1596810379(L_3, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ButtonController::OnGUI()
+extern "C"  void ButtonController_OnGUI_m2504152647 (ButtonController_t1741881492 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ButtonController_OnGUI_m2504152647_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	{
+		bool L_0 = __this->get_clicked_4();
+		if (!L_0)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Text_t356221433 * L_2 = GameObject_GetComponent_TisText_t356221433_m1217399699(L_1, /*hidden argument*/GameObject_GetComponent_TisText_t356221433_m1217399699_MethodInfo_var);
+		__this->set_text_2(L_2);
+		Text_t356221433 * L_3 = __this->get_text_2();
+		NullCheck(L_3);
+		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(71 /* System.String UnityEngine.UI.Text::get_text() */, L_3);
+		NullCheck(L_4);
+		StringU5BU5D_t1642385972* L_5 = String_Split_m3326265864(L_4, ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		V_0 = L_5;
+		StringU5BU5D_t1642385972* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = 0;
+		String_t* L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		__this->set_plant_name_3(L_8);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUISkin_t1436893342 * L_9 = GUI_get_skin_m2309570990(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		GUIStyle_t1799908754 * L_10 = GUISkin_get_window_m304699482(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		GUIStyle_set_fontStyle_m3960530579(L_10, 1, /*hidden argument*/NULL);
+		GUISkin_t1436893342 * L_11 = GUI_get_skin_m2309570990(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		GUIStyle_t1799908754 * L_12 = GUISkin_get_window_m304699482(L_11, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		GUIStyle_set_fontSize_m4015341543(L_12, ((int32_t)35), /*hidden argument*/NULL);
+		Color_t2020392075  L_13 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUI_set_backgroundColor_m1176185368(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		Color_t2020392075  L_14 = Color_get_magenta_m3193089961(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GUI_set_color_m3547334264(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		int32_t L_15 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_16 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_17;
+		memset(&L_17, 0, sizeof(L_17));
+		Rect__ctor_m1220545469(&L_17, (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_15/(int32_t)2))-(int32_t)((int32_t)300)))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_16/(int32_t)2))-(int32_t)((int32_t)200)))))), (500.0f), (400.0f), /*hidden argument*/NULL);
+		IntPtr_t L_18;
+		L_18.set_m_value_0((void*)(void*)ButtonController_ShowGUI_m2309303214_MethodInfo_var);
+		WindowFunction_t3486805455 * L_19 = (WindowFunction_t3486805455 *)il2cpp_codegen_object_new(WindowFunction_t3486805455_il2cpp_TypeInfo_var);
+		WindowFunction__ctor_m977095815(L_19, __this, L_18, /*hidden argument*/NULL);
+		String_t* L_20 = __this->get_plant_name_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_21 = String_Concat_m2596409543(NULL /*static, unused*/, L_20, _stringLiteral2185426783, /*hidden argument*/NULL);
+		GUI_Window_m2988139263(NULL /*static, unused*/, 0, L_17, L_19, L_21, /*hidden argument*/NULL);
+	}
+
+IL_00bf:
+	{
+		return;
+	}
+}
+// System.Void ButtonController::ShowGUI(System.Int32)
+extern "C"  void ButtonController_ShowGUI_m2309303214 (ButtonController_t1741881492 * __this, int32_t ___windowID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ButtonController_ShowGUI_m2309303214_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUISkin_t1436893342 * L_0 = GUI_get_skin_m2309570990(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GUIStyle_t1799908754 * L_1 = GUISkin_get_label_m2703078986(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GUIStyle_set_fontSize_m4015341543(L_1, ((int32_t)17), /*hidden argument*/NULL);
+		String_t* L_2 = __this->get_plant_name_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_3 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_2, _stringLiteral2390908680, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		Color_t2020392075  L_4 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_backgroundColor_m1176185368(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Rect_t3681755626  L_5;
+		memset(&L_5, 0, sizeof(L_5));
+		Rect__ctor_m1220545469(&L_5, (45.0f), (60.0f), (450.0f), (450.0f), /*hidden argument*/NULL);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_5, _stringLiteral4172065, /*hidden argument*/NULL);
+		goto IL_01b6;
+	}
+
+IL_0058:
+	{
+		String_t* L_6 = __this->get_plant_name_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_7 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_6, _stringLiteral1209145989, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		Color_t2020392075  L_8 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_backgroundColor_m1176185368(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		Rect_t3681755626  L_9;
+		memset(&L_9, 0, sizeof(L_9));
+		Rect__ctor_m1220545469(&L_9, (45.0f), (60.0f), (450.0f), (450.0f), /*hidden argument*/NULL);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_9, _stringLiteral2017181611, /*hidden argument*/NULL);
+		goto IL_01b6;
+	}
+
+IL_009f:
+	{
+		String_t* L_10 = __this->get_plant_name_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_11 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_10, _stringLiteral1367191880, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		Color_t2020392075  L_12 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_backgroundColor_m1176185368(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		Rect_t3681755626  L_13;
+		memset(&L_13, 0, sizeof(L_13));
+		Rect__ctor_m1220545469(&L_13, (45.0f), (60.0f), (450.0f), (450.0f), /*hidden argument*/NULL);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_13, _stringLiteral767612235, /*hidden argument*/NULL);
+		goto IL_01b6;
+	}
+
+IL_00e6:
+	{
+		String_t* L_14 = __this->get_plant_name_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_15 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_14, _stringLiteral3728410346, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_012d;
+		}
+	}
+	{
+		Color_t2020392075  L_16 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_backgroundColor_m1176185368(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		Rect_t3681755626  L_17;
+		memset(&L_17, 0, sizeof(L_17));
+		Rect__ctor_m1220545469(&L_17, (45.0f), (60.0f), (450.0f), (450.0f), /*hidden argument*/NULL);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_17, _stringLiteral1251128667, /*hidden argument*/NULL);
+		goto IL_01b6;
+	}
+
+IL_012d:
+	{
+		String_t* L_18 = __this->get_plant_name_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_19 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_18, _stringLiteral2208078908, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_0174;
+		}
+	}
+	{
+		Color_t2020392075  L_20 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_backgroundColor_m1176185368(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		Rect_t3681755626  L_21;
+		memset(&L_21, 0, sizeof(L_21));
+		Rect__ctor_m1220545469(&L_21, (45.0f), (60.0f), (450.0f), (450.0f), /*hidden argument*/NULL);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_21, _stringLiteral2685117479, /*hidden argument*/NULL);
+		goto IL_01b6;
+	}
+
+IL_0174:
+	{
+		String_t* L_22 = __this->get_plant_name_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_23 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_22, _stringLiteral2679653168, /*hidden argument*/NULL);
+		if (!L_23)
+		{
+			goto IL_01b6;
+		}
+	}
+	{
+		Color_t2020392075  L_24 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_set_backgroundColor_m1176185368(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		Rect_t3681755626  L_25;
+		memset(&L_25, 0, sizeof(L_25));
+		Rect__ctor_m1220545469(&L_25, (45.0f), (60.0f), (450.0f), (450.0f), /*hidden argument*/NULL);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_25, _stringLiteral292738907, /*hidden argument*/NULL);
+	}
+
+IL_01b6:
+	{
+		Rect_t3681755626  L_26;
+		memset(&L_26, 0, sizeof(L_26));
+		Rect__ctor_m1220545469(&L_26, (50.0f), (345.0f), (75.0f), (30.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		bool L_27 = GUI_Button_m3054448581(NULL /*static, unused*/, L_26, _stringLiteral2041362128, /*hidden argument*/NULL);
+		if (!L_27)
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		__this->set_clicked_4((bool)0);
+	}
+
+IL_01e5:
+	{
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(JSONObject/Type)
+extern "C"  void JSONObject__ctor_m4071571216 (JSONObject_t1971882247 * __this, int32_t ___t0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject__ctor_m4071571216_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		int32_t L_0 = ___t0;
+		__this->set_type_6(L_0);
+		int32_t L_1 = ___t0;
+		if ((((int32_t)L_1) == ((int32_t)4)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		int32_t L_2 = ___t0;
+		if ((((int32_t)L_2) == ((int32_t)3)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		goto IL_004b;
+	}
+
+IL_0020:
+	{
+		List_1_t1341003379 * L_3 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_3, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		__this->set_list_7(L_3);
+		goto IL_004b;
+	}
+
+IL_0030:
+	{
+		List_1_t1341003379 * L_4 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_4, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		__this->set_list_7(L_4);
+		List_1_t1398341365 * L_5 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_5, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_keys_8(L_5);
+		goto IL_004b;
+	}
+
+IL_004b:
+	{
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(System.Boolean)
+extern "C"  void JSONObject__ctor_m840431321 (JSONObject_t1971882247 * __this, bool ___b0, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		__this->set_type_6(5);
+		bool L_0 = ___b0;
+		__this->set_b_13(L_0);
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(System.Single)
+extern "C"  void JSONObject__ctor_m3839245543 (JSONObject_t1971882247 * __this, float ___f0, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		__this->set_type_6(2);
+		float L_0 = ___f0;
+		__this->set_n_10(L_0);
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(System.Int32)
+extern "C"  void JSONObject__ctor_m2801954363 (JSONObject_t1971882247 * __this, int32_t ___i0, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		__this->set_type_6(2);
+		int32_t L_0 = ___i0;
+		__this->set_i_12((((int64_t)((int64_t)L_0))));
+		__this->set_useInt_11((bool)1);
+		int32_t L_1 = ___i0;
+		__this->set_n_10((((float)((float)L_1))));
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(System.Int64)
+extern "C"  void JSONObject__ctor_m3964753740 (JSONObject_t1971882247 * __this, int64_t ___l0, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		__this->set_type_6(2);
+		int64_t L_0 = ___l0;
+		__this->set_i_12(L_0);
+		__this->set_useInt_11((bool)1);
+		int64_t L_1 = ___l0;
+		__this->set_n_10((((float)((float)L_1))));
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  void JSONObject__ctor_m1919544205 (JSONObject_t1971882247 * __this, Dictionary_2_t3943999495 * ___dic0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject__ctor_m1919544205_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	KeyValuePair_2_t1701344717  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Enumerator_t969056901  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		__this->set_type_6(3);
+		List_1_t1398341365 * L_0 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_0, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_keys_8(L_0);
+		List_1_t1341003379 * L_1 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_1, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		__this->set_list_7(L_1);
+		Dictionary_2_t3943999495 * L_2 = ___dic0;
+		NullCheck(L_2);
+		Enumerator_t969056901  L_3 = Dictionary_2_GetEnumerator_m2895728349(L_2, /*hidden argument*/Dictionary_2_GetEnumerator_m2895728349_MethodInfo_var);
+		V_1 = L_3;
+	}
+
+IL_002a:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0060;
+		}
+
+IL_002f:
+		{
+			KeyValuePair_2_t1701344717  L_4 = Enumerator_get_Current_m1989408781((&V_1), /*hidden argument*/Enumerator_get_Current_m1989408781_MethodInfo_var);
+			V_0 = L_4;
+			List_1_t1398341365 * L_5 = __this->get_keys_8();
+			String_t* L_6 = KeyValuePair_2_get_Key_m1372024679((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m1372024679_MethodInfo_var);
+			NullCheck(L_5);
+			List_1_Add_m4061286785(L_5, L_6, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+			List_1_t1341003379 * L_7 = __this->get_list_7();
+			String_t* L_8 = KeyValuePair_2_get_Value_m1710042386((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m1710042386_MethodInfo_var);
+			IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+			JSONObject_t1971882247 * L_9 = JSONObject_CreateStringObject_m227421806(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+			NullCheck(L_7);
+			List_1_Add_m3057035458(L_7, L_9, /*hidden argument*/List_1_Add_m3057035458_MethodInfo_var);
+		}
+
+IL_0060:
+		{
+			bool L_10 = Enumerator_MoveNext_m4005245300((&V_1), /*hidden argument*/Enumerator_MoveNext_m4005245300_MethodInfo_var);
+			if (L_10)
+			{
+				goto IL_002f;
+			}
+		}
+
+IL_006c:
+		{
+			IL2CPP_LEAVE(0x7F, FINALLY_0071);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0071;
+	}
+
+FINALLY_0071:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m882561911((&V_1), /*hidden argument*/Enumerator_Dispose_m882561911_MethodInfo_var);
+		IL2CPP_END_FINALLY(113)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(113)
+	{
+		IL2CPP_JUMP_TBL(0x7F, IL_007f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_007f:
+	{
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(System.Collections.Generic.Dictionary`2<System.String,JSONObject>)
+extern "C"  void JSONObject__ctor_m3429744944 (JSONObject_t1971882247 * __this, Dictionary_2_t3886661509 * ___dic0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject__ctor_m3429744944_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	KeyValuePair_2_t1644006731  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Enumerator_t911718915  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		__this->set_type_6(3);
+		List_1_t1398341365 * L_0 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_0, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_keys_8(L_0);
+		List_1_t1341003379 * L_1 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_1, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		__this->set_list_7(L_1);
+		Dictionary_2_t3886661509 * L_2 = ___dic0;
+		NullCheck(L_2);
+		Enumerator_t911718915  L_3 = Dictionary_2_GetEnumerator_m3045170719(L_2, /*hidden argument*/Dictionary_2_GetEnumerator_m3045170719_MethodInfo_var);
+		V_1 = L_3;
+	}
+
+IL_002a:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_005b;
+		}
+
+IL_002f:
+		{
+			KeyValuePair_2_t1644006731  L_4 = Enumerator_get_Current_m1832947439((&V_1), /*hidden argument*/Enumerator_get_Current_m1832947439_MethodInfo_var);
+			V_0 = L_4;
+			List_1_t1398341365 * L_5 = __this->get_keys_8();
+			String_t* L_6 = KeyValuePair_2_get_Key_m2781186853((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m2781186853_MethodInfo_var);
+			NullCheck(L_5);
+			List_1_Add_m4061286785(L_5, L_6, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+			List_1_t1341003379 * L_7 = __this->get_list_7();
+			JSONObject_t1971882247 * L_8 = KeyValuePair_2_get_Value_m1726882906((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m1726882906_MethodInfo_var);
+			NullCheck(L_7);
+			List_1_Add_m3057035458(L_7, L_8, /*hidden argument*/List_1_Add_m3057035458_MethodInfo_var);
+		}
+
+IL_005b:
+		{
+			bool L_9 = Enumerator_MoveNext_m1874977526((&V_1), /*hidden argument*/Enumerator_MoveNext_m1874977526_MethodInfo_var);
+			if (L_9)
+			{
+				goto IL_002f;
+			}
+		}
+
+IL_0067:
+		{
+			IL2CPP_LEAVE(0x7A, FINALLY_006c);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_006c;
+	}
+
+FINALLY_006c:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m214092148((&V_1), /*hidden argument*/Enumerator_Dispose_m214092148_MethodInfo_var);
+		IL2CPP_END_FINALLY(108)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(108)
+	{
+		IL2CPP_JUMP_TBL(0x7A, IL_007a)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_007a:
+	{
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(JSONObject/AddJSONContents)
+extern "C"  void JSONObject__ctor_m3888149271 (JSONObject_t1971882247 * __this, AddJSONContents_t3850664647 * ___content0, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		AddJSONContents_t3850664647 * L_0 = ___content0;
+		NullCheck(L_0);
+		AddJSONContents_Invoke_m1742311611(L_0, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(JSONObject[])
+extern "C"  void JSONObject__ctor_m398818817 (JSONObject_t1971882247 * __this, JSONObjectU5BU5D_t2270799614* ___objs0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject__ctor_m398818817_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		__this->set_type_6(4);
+		JSONObjectU5BU5D_t2270799614* L_0 = ___objs0;
+		List_1_t1341003379 * L_1 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m32801174(L_1, (Il2CppObject*)(Il2CppObject*)L_0, /*hidden argument*/List_1__ctor_m32801174_MethodInfo_var);
+		__this->set_list_7(L_1);
+		return;
+	}
+}
+// System.Void JSONObject::.ctor()
+extern "C"  void JSONObject__ctor_m3429292120 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::.ctor(System.String,System.Int32,System.Boolean,System.Boolean)
+extern "C"  void JSONObject__ctor_m1387305321 (JSONObject_t1971882247 * __this, String_t* ___str0, int32_t ___maxDepth1, bool ___storeExcessLevels2, bool ___strict3, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___str0;
+		int32_t L_1 = ___maxDepth1;
+		bool L_2 = ___storeExcessLevels2;
+		bool L_3 = ___strict3;
+		JSONObject_Parse_m547301692(__this, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean JSONObject::get_isContainer()
+extern "C"  bool JSONObject_get_isContainer_m3175857226 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = __this->get_type_6();
+		if ((((int32_t)L_0) == ((int32_t)4)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = __this->get_type_6();
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)3))? 1 : 0);
+		goto IL_0018;
+	}
+
+IL_0017:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0018:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Int32 JSONObject::get_Count()
+extern "C"  int32_t JSONObject_get_Count_m2165978410 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_get_Count_m2165978410_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1341003379 * L_0 = __this->get_list_7();
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (-1);
+	}
+
+IL_000d:
+	{
+		List_1_t1341003379 * L_1 = __this->get_list_7();
+		NullCheck(L_1);
+		int32_t L_2 = List_1_get_Count_m3485821544(L_1, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		return L_2;
+	}
+}
+// System.Single JSONObject::get_f()
+extern "C"  float JSONObject_get_f_m1158093019 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = __this->get_n_10();
+		return L_0;
+	}
+}
+// JSONObject JSONObject::get_nullJO()
+extern "C"  JSONObject_t1971882247 * JSONObject_get_nullJO_m3951718059 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_get_nullJO_m3951718059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m2024843434(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// JSONObject JSONObject::get_obj()
+extern "C"  JSONObject_t1971882247 * JSONObject_get_obj_m3201114506 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_get_obj_m3201114506_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m2024843434(NULL /*static, unused*/, 3, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// JSONObject JSONObject::get_arr()
+extern "C"  JSONObject_t1971882247 * JSONObject_get_arr_m437956224 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_get_arr_m437956224_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m2024843434(NULL /*static, unused*/, 4, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// JSONObject JSONObject::StringObject(System.String)
+extern "C"  JSONObject_t1971882247 * JSONObject_StringObject_m2324803274 (Il2CppObject * __this /* static, unused */, String_t* ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_StringObject_m2324803274_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___val0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_1 = JSONObject_CreateStringObject_m227421806(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void JSONObject::Absorb(JSONObject)
+extern "C"  void JSONObject_Absorb_m287377368 (JSONObject_t1971882247 * __this, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Absorb_m287377368_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1341003379 * L_0 = __this->get_list_7();
+		JSONObject_t1971882247 * L_1 = ___obj0;
+		NullCheck(L_1);
+		List_1_t1341003379 * L_2 = L_1->get_list_7();
+		NullCheck(L_0);
+		List_1_AddRange_m3291711728(L_0, L_2, /*hidden argument*/List_1_AddRange_m3291711728_MethodInfo_var);
+		List_1_t1398341365 * L_3 = __this->get_keys_8();
+		JSONObject_t1971882247 * L_4 = ___obj0;
+		NullCheck(L_4);
+		List_1_t1398341365 * L_5 = L_4->get_keys_8();
+		NullCheck(L_3);
+		List_1_AddRange_m1157143463(L_3, L_5, /*hidden argument*/List_1_AddRange_m1157143463_MethodInfo_var);
+		JSONObject_t1971882247 * L_6 = ___obj0;
+		NullCheck(L_6);
+		String_t* L_7 = L_6->get_str_9();
+		__this->set_str_9(L_7);
+		JSONObject_t1971882247 * L_8 = ___obj0;
+		NullCheck(L_8);
+		float L_9 = L_8->get_n_10();
+		__this->set_n_10(L_9);
+		JSONObject_t1971882247 * L_10 = ___obj0;
+		NullCheck(L_10);
+		bool L_11 = L_10->get_useInt_11();
+		__this->set_useInt_11(L_11);
+		JSONObject_t1971882247 * L_12 = ___obj0;
+		NullCheck(L_12);
+		int64_t L_13 = L_12->get_i_12();
+		__this->set_i_12(L_13);
+		JSONObject_t1971882247 * L_14 = ___obj0;
+		NullCheck(L_14);
+		bool L_15 = L_14->get_b_13();
+		__this->set_b_13(L_15);
+		JSONObject_t1971882247 * L_16 = ___obj0;
+		NullCheck(L_16);
+		int32_t L_17 = L_16->get_type_6();
+		__this->set_type_6(L_17);
+		return;
+	}
+}
+// JSONObject JSONObject::Create()
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m134949822 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Create_m134949822_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		JSONObject_t1971882247 * L_0 = (JSONObject_t1971882247 *)il2cpp_codegen_object_new(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m3429292120(L_0, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// JSONObject JSONObject::Create(JSONObject/Type)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m2024843434 (Il2CppObject * __this /* static, unused */, int32_t ___t0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Create_m2024843434_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		int32_t L_2 = ___t0;
+		NullCheck(L_1);
+		L_1->set_type_6(L_2);
+		int32_t L_3 = ___t0;
+		if ((((int32_t)L_3) == ((int32_t)4)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		int32_t L_4 = ___t0;
+		if ((((int32_t)L_4) == ((int32_t)3)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		goto IL_004b;
+	}
+
+IL_0020:
+	{
+		JSONObject_t1971882247 * L_5 = V_0;
+		List_1_t1341003379 * L_6 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_6, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		NullCheck(L_5);
+		L_5->set_list_7(L_6);
+		goto IL_004b;
+	}
+
+IL_0030:
+	{
+		JSONObject_t1971882247 * L_7 = V_0;
+		List_1_t1341003379 * L_8 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_8, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		NullCheck(L_7);
+		L_7->set_list_7(L_8);
+		JSONObject_t1971882247 * L_9 = V_0;
+		List_1_t1398341365 * L_10 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_10, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		NullCheck(L_9);
+		L_9->set_keys_8(L_10);
+		goto IL_004b;
+	}
+
+IL_004b:
+	{
+		JSONObject_t1971882247 * L_11 = V_0;
+		return L_11;
+	}
+}
+// JSONObject JSONObject::Create(System.Boolean)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m322727955 (Il2CppObject * __this /* static, unused */, bool ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Create_m322727955_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_type_6(5);
+		JSONObject_t1971882247 * L_2 = V_0;
+		bool L_3 = ___val0;
+		NullCheck(L_2);
+		L_2->set_b_13(L_3);
+		JSONObject_t1971882247 * L_4 = V_0;
+		return L_4;
+	}
+}
+// JSONObject JSONObject::Create(System.Single)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m4234548109 (Il2CppObject * __this /* static, unused */, float ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Create_m4234548109_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_type_6(2);
+		JSONObject_t1971882247 * L_2 = V_0;
+		float L_3 = ___val0;
+		NullCheck(L_2);
+		L_2->set_n_10(L_3);
+		JSONObject_t1971882247 * L_4 = V_0;
+		return L_4;
+	}
+}
+// JSONObject JSONObject::Create(System.Int32)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m2780992853 (Il2CppObject * __this /* static, unused */, int32_t ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Create_m2780992853_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_type_6(2);
+		JSONObject_t1971882247 * L_2 = V_0;
+		int32_t L_3 = ___val0;
+		NullCheck(L_2);
+		L_2->set_n_10((((float)((float)L_3))));
+		JSONObject_t1971882247 * L_4 = V_0;
+		NullCheck(L_4);
+		L_4->set_useInt_11((bool)1);
+		JSONObject_t1971882247 * L_5 = V_0;
+		int32_t L_6 = ___val0;
+		NullCheck(L_5);
+		L_5->set_i_12((((int64_t)((int64_t)L_6))));
+		JSONObject_t1971882247 * L_7 = V_0;
+		return L_7;
+	}
+}
+// JSONObject JSONObject::Create(System.Int64)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m1974423762 (Il2CppObject * __this /* static, unused */, int64_t ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Create_m1974423762_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_type_6(2);
+		JSONObject_t1971882247 * L_2 = V_0;
+		int64_t L_3 = ___val0;
+		NullCheck(L_2);
+		L_2->set_n_10((((float)((float)L_3))));
+		JSONObject_t1971882247 * L_4 = V_0;
+		NullCheck(L_4);
+		L_4->set_useInt_11((bool)1);
+		JSONObject_t1971882247 * L_5 = V_0;
+		int64_t L_6 = ___val0;
+		NullCheck(L_5);
+		L_5->set_i_12(L_6);
+		JSONObject_t1971882247 * L_7 = V_0;
+		return L_7;
+	}
+}
+// JSONObject JSONObject::CreateStringObject(System.String)
+extern "C"  JSONObject_t1971882247 * JSONObject_CreateStringObject_m227421806 (Il2CppObject * __this /* static, unused */, String_t* ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_CreateStringObject_m227421806_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_type_6(1);
+		JSONObject_t1971882247 * L_2 = V_0;
+		String_t* L_3 = ___val0;
+		NullCheck(L_2);
+		L_2->set_str_9(L_3);
+		JSONObject_t1971882247 * L_4 = V_0;
+		return L_4;
+	}
+}
+// JSONObject JSONObject::CreateBakedObject(System.String)
+extern "C"  JSONObject_t1971882247 * JSONObject_CreateBakedObject_m1414246618 (Il2CppObject * __this /* static, unused */, String_t* ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_CreateBakedObject_m1414246618_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_type_6(6);
+		JSONObject_t1971882247 * L_2 = V_0;
+		String_t* L_3 = ___val0;
+		NullCheck(L_2);
+		L_2->set_str_9(L_3);
+		JSONObject_t1971882247 * L_4 = V_0;
+		return L_4;
+	}
+}
+// JSONObject JSONObject::Create(System.String,System.Int32,System.Boolean,System.Boolean)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m1582109667 (Il2CppObject * __this /* static, unused */, String_t* ___val0, int32_t ___maxDepth1, bool ___storeExcessLevels2, bool ___strict3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Create_m1582109667_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		String_t* L_2 = ___val0;
+		int32_t L_3 = ___maxDepth1;
+		bool L_4 = ___storeExcessLevels2;
+		bool L_5 = ___strict3;
+		NullCheck(L_1);
+		JSONObject_Parse_m547301692(L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_6 = V_0;
+		return L_6;
+	}
+}
+// JSONObject JSONObject::Create(JSONObject/AddJSONContents)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m2296526109 (Il2CppObject * __this /* static, unused */, AddJSONContents_t3850664647 * ___content0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Create_m2296526109_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		AddJSONContents_t3850664647 * L_1 = ___content0;
+		JSONObject_t1971882247 * L_2 = V_0;
+		NullCheck(L_1);
+		AddJSONContents_Invoke_m1742311611(L_1, L_2, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_3 = V_0;
+		return L_3;
+	}
+}
+// JSONObject JSONObject::Create(System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  JSONObject_t1971882247 * JSONObject_Create_m2408207271 (Il2CppObject * __this /* static, unused */, Dictionary_2_t3943999495 * ___dic0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Create_m2408207271_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	KeyValuePair_2_t1701344717  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Enumerator_t969056901  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_type_6(3);
+		JSONObject_t1971882247 * L_2 = V_0;
+		List_1_t1398341365 * L_3 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_3, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		NullCheck(L_2);
+		L_2->set_keys_8(L_3);
+		JSONObject_t1971882247 * L_4 = V_0;
+		List_1_t1341003379 * L_5 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_5, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		NullCheck(L_4);
+		L_4->set_list_7(L_5);
+		Dictionary_2_t3943999495 * L_6 = ___dic0;
+		NullCheck(L_6);
+		Enumerator_t969056901  L_7 = Dictionary_2_GetEnumerator_m2895728349(L_6, /*hidden argument*/Dictionary_2_GetEnumerator_m2895728349_MethodInfo_var);
+		V_2 = L_7;
+	}
+
+IL_002a:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0060;
+		}
+
+IL_002f:
+		{
+			KeyValuePair_2_t1701344717  L_8 = Enumerator_get_Current_m1989408781((&V_2), /*hidden argument*/Enumerator_get_Current_m1989408781_MethodInfo_var);
+			V_1 = L_8;
+			JSONObject_t1971882247 * L_9 = V_0;
+			NullCheck(L_9);
+			List_1_t1398341365 * L_10 = L_9->get_keys_8();
+			String_t* L_11 = KeyValuePair_2_get_Key_m1372024679((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m1372024679_MethodInfo_var);
+			NullCheck(L_10);
+			List_1_Add_m4061286785(L_10, L_11, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+			JSONObject_t1971882247 * L_12 = V_0;
+			NullCheck(L_12);
+			List_1_t1341003379 * L_13 = L_12->get_list_7();
+			String_t* L_14 = KeyValuePair_2_get_Value_m1710042386((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m1710042386_MethodInfo_var);
+			IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+			JSONObject_t1971882247 * L_15 = JSONObject_CreateStringObject_m227421806(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+			NullCheck(L_13);
+			List_1_Add_m3057035458(L_13, L_15, /*hidden argument*/List_1_Add_m3057035458_MethodInfo_var);
+		}
+
+IL_0060:
+		{
+			bool L_16 = Enumerator_MoveNext_m4005245300((&V_2), /*hidden argument*/Enumerator_MoveNext_m4005245300_MethodInfo_var);
+			if (L_16)
+			{
+				goto IL_002f;
+			}
+		}
+
+IL_006c:
+		{
+			IL2CPP_LEAVE(0x7F, FINALLY_0071);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0071;
+	}
+
+FINALLY_0071:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m882561911((&V_2), /*hidden argument*/Enumerator_Dispose_m882561911_MethodInfo_var);
+		IL2CPP_END_FINALLY(113)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(113)
+	{
+		IL2CPP_JUMP_TBL(0x7F, IL_007f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_007f:
+	{
+		JSONObject_t1971882247 * L_17 = V_0;
+		return L_17;
+	}
+}
+// System.Void JSONObject::Parse(System.String,System.Int32,System.Boolean,System.Boolean)
+extern "C"  void JSONObject_Parse_m547301692 (JSONObject_t1971882247 * __this, String_t* ___str0, int32_t ___maxDepth1, bool ___storeExcessLevels2, bool ___strict3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Parse_m547301692_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Il2CppChar V_2 = 0x0;
+	String_t* V_3 = NULL;
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t V_6 = 0;
+	String_t* V_7 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	String_t* G_B67_0 = NULL;
+	List_1_t1341003379 * G_B67_1 = NULL;
+	String_t* G_B66_0 = NULL;
+	List_1_t1341003379 * G_B66_1 = NULL;
+	int32_t G_B68_0 = 0;
+	String_t* G_B68_1 = NULL;
+	List_1_t1341003379 * G_B68_2 = NULL;
+	{
+		String_t* L_0 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m2802126737(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0400;
+		}
+	}
+	{
+		String_t* L_2 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		CharU5BU5D_t1328083999* L_3 = ((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->get_WHITESPACE_5();
+		NullCheck(L_2);
+		String_t* L_4 = String_Trim_m3982520224(L_2, L_3, /*hidden argument*/NULL);
+		___str0 = L_4;
+		bool L_5 = ___strict3;
+		if (!L_5)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		String_t* L_6 = ___str0;
+		NullCheck(L_6);
+		Il2CppChar L_7 = String_get_Chars_m4230566705(L_6, 0, /*hidden argument*/NULL);
+		if ((((int32_t)L_7) == ((int32_t)((int32_t)91))))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		String_t* L_8 = ___str0;
+		NullCheck(L_8);
+		Il2CppChar L_9 = String_get_Chars_m4230566705(L_8, 0, /*hidden argument*/NULL);
+		if ((((int32_t)L_9) == ((int32_t)((int32_t)123))))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		__this->set_type_6(0);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral916993783, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_004d:
+	{
+		String_t* L_10 = ___str0;
+		NullCheck(L_10);
+		int32_t L_11 = String_get_Length_m1606060069(L_10, /*hidden argument*/NULL);
+		if ((((int32_t)L_11) <= ((int32_t)0)))
+		{
+			goto IL_03f4;
+		}
+	}
+	{
+		String_t* L_12 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		int32_t L_13 = String_Compare_m2851607672(NULL /*static, unused*/, L_12, _stringLiteral3323263070, (bool)1, /*hidden argument*/NULL);
+		if (L_13)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		__this->set_type_6(5);
+		__this->set_b_13((bool)1);
+		goto IL_03ef;
+	}
+
+IL_007d:
+	{
+		String_t* L_14 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		int32_t L_15 = String_Compare_m2851607672(NULL /*static, unused*/, L_14, _stringLiteral2609877245, (bool)1, /*hidden argument*/NULL);
+		if (L_15)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		__this->set_type_6(5);
+		__this->set_b_13((bool)0);
+		goto IL_03ef;
+	}
+
+IL_00a1:
+	{
+		String_t* L_16 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		int32_t L_17 = String_Compare_m2851607672(NULL /*static, unused*/, L_16, _stringLiteral1743624307, (bool)1, /*hidden argument*/NULL);
+		if (L_17)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		__this->set_type_6(0);
+		goto IL_03ef;
+	}
+
+IL_00be:
+	{
+		String_t* L_18 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_19 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_18, _stringLiteral1751346954, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		__this->set_type_6(2);
+		__this->set_n_10((std::numeric_limits<float>::infinity()));
+		goto IL_03ef;
+	}
+
+IL_00e5:
+	{
+		String_t* L_20 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_21 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_20, _stringLiteral376316188, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		__this->set_type_6(2);
+		__this->set_n_10((-std::numeric_limits<float>::infinity()));
+		goto IL_03ef;
+	}
+
+IL_010c:
+	{
+		String_t* L_22 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_23 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_22, _stringLiteral452738781, /*hidden argument*/NULL);
+		if (!L_23)
+		{
+			goto IL_0133;
+		}
+	}
+	{
+		__this->set_type_6(2);
+		__this->set_n_10((std::numeric_limits<float>::quiet_NaN()));
+		goto IL_03ef;
+	}
+
+IL_0133:
+	{
+		String_t* L_24 = ___str0;
+		NullCheck(L_24);
+		Il2CppChar L_25 = String_get_Chars_m4230566705(L_24, 0, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_25) == ((uint32_t)((int32_t)34)))))
+		{
+			goto IL_0162;
+		}
+	}
+	{
+		__this->set_type_6(1);
+		String_t* L_26 = ___str0;
+		String_t* L_27 = ___str0;
+		NullCheck(L_27);
+		int32_t L_28 = String_get_Length_m1606060069(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		String_t* L_29 = String_Substring_m12482732(L_26, 1, ((int32_t)((int32_t)L_28-(int32_t)2)), /*hidden argument*/NULL);
+		__this->set_str_9(L_29);
+		goto IL_03ef;
+	}
+
+IL_0162:
+	{
+		V_0 = 1;
+		V_1 = 0;
+		String_t* L_30 = ___str0;
+		int32_t L_31 = V_1;
+		NullCheck(L_30);
+		Il2CppChar L_32 = String_get_Chars_m4230566705(L_30, L_31, /*hidden argument*/NULL);
+		V_2 = L_32;
+		Il2CppChar L_33 = V_2;
+		if ((((int32_t)L_33) == ((int32_t)((int32_t)123))))
+		{
+			goto IL_0183;
+		}
+	}
+	{
+		Il2CppChar L_34 = V_2;
+		if ((((int32_t)L_34) == ((int32_t)((int32_t)91))))
+		{
+			goto IL_01a5;
+		}
+	}
+	{
+		goto IL_01bc;
+	}
+
+IL_0183:
+	{
+		__this->set_type_6(3);
+		List_1_t1398341365 * L_35 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_35, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_keys_8(L_35);
+		List_1_t1341003379 * L_36 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_36, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		__this->set_list_7(L_36);
+		goto IL_0215;
+	}
+
+IL_01a5:
+	{
+		__this->set_type_6(4);
+		List_1_t1341003379 * L_37 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_37, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		__this->set_list_7(L_37);
+		goto IL_0215;
+	}
+
+IL_01bc:
+	try
+	{ // begin try (depth: 1)
+		{
+			String_t* L_38 = ___str0;
+			IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+			float L_39 = Convert_ToSingle_m1977583125(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+			__this->set_n_10(L_39);
+			String_t* L_40 = ___str0;
+			NullCheck(L_40);
+			bool L_41 = String_Contains_m4017059963(L_40, _stringLiteral372029316, /*hidden argument*/NULL);
+			if (L_41)
+			{
+				goto IL_01eb;
+			}
+		}
+
+IL_01d8:
+		{
+			String_t* L_42 = ___str0;
+			IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+			int64_t L_43 = Convert_ToInt64_m3181519185(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
+			__this->set_i_12(L_43);
+			__this->set_useInt_11((bool)1);
+		}
+
+IL_01eb:
+		{
+			__this->set_type_6(2);
+			goto IL_0214;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (FormatException_t2948921286_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_01f7;
+		throw e;
+	}
+
+CATCH_01f7:
+	{ // begin catch(System.FormatException)
+		__this->set_type_6(0);
+		String_t* L_44 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_45 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral150668183, L_44, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, L_45, /*hidden argument*/NULL);
+		goto IL_0214;
+	} // end catch (depth: 1)
+
+IL_0214:
+	{
+		return;
+	}
+
+IL_0215:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_46 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_3 = L_46;
+		V_4 = (bool)0;
+		V_5 = (bool)0;
+		V_6 = 0;
+		goto IL_03df;
+	}
+
+IL_0229:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		CharU5BU5D_t1328083999* L_47 = ((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->get_WHITESPACE_5();
+		String_t* L_48 = ___str0;
+		int32_t L_49 = V_1;
+		NullCheck(L_48);
+		Il2CppChar L_50 = String_get_Chars_m4230566705(L_48, L_49, /*hidden argument*/NULL);
+		int32_t L_51 = Array_IndexOf_TisChar_t3454481338_m3847818391(NULL /*static, unused*/, L_47, L_50, /*hidden argument*/Array_IndexOf_TisChar_t3454481338_m3847818391_MethodInfo_var);
+		if ((((int32_t)L_51) <= ((int32_t)(-1))))
+		{
+			goto IL_0245;
+		}
+	}
+	{
+		goto IL_03df;
+	}
+
+IL_0245:
+	{
+		String_t* L_52 = ___str0;
+		int32_t L_53 = V_1;
+		NullCheck(L_52);
+		Il2CppChar L_54 = String_get_Chars_m4230566705(L_52, L_53, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_54) == ((uint32_t)((int32_t)92)))))
+		{
+			goto IL_025c;
+		}
+	}
+	{
+		int32_t L_55 = V_1;
+		V_1 = ((int32_t)((int32_t)L_55+(int32_t)1));
+		goto IL_03df;
+	}
+
+IL_025c:
+	{
+		String_t* L_56 = ___str0;
+		int32_t L_57 = V_1;
+		NullCheck(L_56);
+		Il2CppChar L_58 = String_get_Chars_m4230566705(L_56, L_57, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_58) == ((uint32_t)((int32_t)34)))))
+		{
+			goto IL_02ba;
+		}
+	}
+	{
+		bool L_59 = V_4;
+		if (!L_59)
+		{
+			goto IL_02a2;
+		}
+	}
+	{
+		bool L_60 = V_5;
+		if (L_60)
+		{
+			goto IL_029a;
+		}
+	}
+	{
+		int32_t L_61 = V_6;
+		if (L_61)
+		{
+			goto IL_029a;
+		}
+	}
+	{
+		int32_t L_62 = __this->get_type_6();
+		if ((!(((uint32_t)L_62) == ((uint32_t)3))))
+		{
+			goto IL_029a;
+		}
+	}
+	{
+		String_t* L_63 = ___str0;
+		int32_t L_64 = V_0;
+		int32_t L_65 = V_1;
+		int32_t L_66 = V_0;
+		NullCheck(L_63);
+		String_t* L_67 = String_Substring_m12482732(L_63, ((int32_t)((int32_t)L_64+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_65-(int32_t)L_66))-(int32_t)1)), /*hidden argument*/NULL);
+		V_3 = L_67;
+	}
+
+IL_029a:
+	{
+		V_4 = (bool)0;
+		goto IL_02ba;
+	}
+
+IL_02a2:
+	{
+		int32_t L_68 = V_6;
+		if (L_68)
+		{
+			goto IL_02b7;
+		}
+	}
+	{
+		int32_t L_69 = __this->get_type_6();
+		if ((!(((uint32_t)L_69) == ((uint32_t)3))))
+		{
+			goto IL_02b7;
+		}
+	}
+	{
+		int32_t L_70 = V_1;
+		V_0 = L_70;
+	}
+
+IL_02b7:
+	{
+		V_4 = (bool)1;
+	}
+
+IL_02ba:
+	{
+		bool L_71 = V_4;
+		if (!L_71)
+		{
+			goto IL_02c6;
+		}
+	}
+	{
+		goto IL_03df;
+	}
+
+IL_02c6:
+	{
+		int32_t L_72 = __this->get_type_6();
+		if ((!(((uint32_t)L_72) == ((uint32_t)3))))
+		{
+			goto IL_02ee;
+		}
+	}
+	{
+		int32_t L_73 = V_6;
+		if (L_73)
+		{
+			goto IL_02ee;
+		}
+	}
+	{
+		String_t* L_74 = ___str0;
+		int32_t L_75 = V_1;
+		NullCheck(L_74);
+		Il2CppChar L_76 = String_get_Chars_m4230566705(L_74, L_75, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_76) == ((uint32_t)((int32_t)58)))))
+		{
+			goto IL_02ee;
+		}
+	}
+	{
+		int32_t L_77 = V_1;
+		V_0 = ((int32_t)((int32_t)L_77+(int32_t)1));
+		V_5 = (bool)1;
+	}
+
+IL_02ee:
+	{
+		String_t* L_78 = ___str0;
+		int32_t L_79 = V_1;
+		NullCheck(L_78);
+		Il2CppChar L_80 = String_get_Chars_m4230566705(L_78, L_79, /*hidden argument*/NULL);
+		if ((((int32_t)L_80) == ((int32_t)((int32_t)91))))
+		{
+			goto IL_030a;
+		}
+	}
+	{
+		String_t* L_81 = ___str0;
+		int32_t L_82 = V_1;
+		NullCheck(L_81);
+		Il2CppChar L_83 = String_get_Chars_m4230566705(L_81, L_82, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_83) == ((uint32_t)((int32_t)123)))))
+		{
+			goto IL_0315;
+		}
+	}
+
+IL_030a:
+	{
+		int32_t L_84 = V_6;
+		V_6 = ((int32_t)((int32_t)L_84+(int32_t)1));
+		goto IL_0337;
+	}
+
+IL_0315:
+	{
+		String_t* L_85 = ___str0;
+		int32_t L_86 = V_1;
+		NullCheck(L_85);
+		Il2CppChar L_87 = String_get_Chars_m4230566705(L_85, L_86, /*hidden argument*/NULL);
+		if ((((int32_t)L_87) == ((int32_t)((int32_t)93))))
+		{
+			goto IL_0331;
+		}
+	}
+	{
+		String_t* L_88 = ___str0;
+		int32_t L_89 = V_1;
+		NullCheck(L_88);
+		Il2CppChar L_90 = String_get_Chars_m4230566705(L_88, L_89, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_90) == ((uint32_t)((int32_t)125)))))
+		{
+			goto IL_0337;
+		}
+	}
+
+IL_0331:
+	{
+		int32_t L_91 = V_6;
+		V_6 = ((int32_t)((int32_t)L_91-(int32_t)1));
+	}
+
+IL_0337:
+	{
+		String_t* L_92 = ___str0;
+		int32_t L_93 = V_1;
+		NullCheck(L_92);
+		Il2CppChar L_94 = String_get_Chars_m4230566705(L_92, L_93, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_94) == ((uint32_t)((int32_t)44)))))
+		{
+			goto IL_034c;
+		}
+	}
+	{
+		int32_t L_95 = V_6;
+		if (!L_95)
+		{
+			goto IL_0354;
+		}
+	}
+
+IL_034c:
+	{
+		int32_t L_96 = V_6;
+		if ((((int32_t)L_96) >= ((int32_t)0)))
+		{
+			goto IL_03df;
+		}
+	}
+
+IL_0354:
+	{
+		V_5 = (bool)0;
+		String_t* L_97 = ___str0;
+		int32_t L_98 = V_0;
+		int32_t L_99 = V_1;
+		int32_t L_100 = V_0;
+		NullCheck(L_97);
+		String_t* L_101 = String_Substring_m12482732(L_97, L_98, ((int32_t)((int32_t)L_99-(int32_t)L_100)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		CharU5BU5D_t1328083999* L_102 = ((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->get_WHITESPACE_5();
+		NullCheck(L_101);
+		String_t* L_103 = String_Trim_m3982520224(L_101, L_102, /*hidden argument*/NULL);
+		V_7 = L_103;
+		String_t* L_104 = V_7;
+		NullCheck(L_104);
+		int32_t L_105 = String_get_Length_m1606060069(L_104, /*hidden argument*/NULL);
+		if ((((int32_t)L_105) <= ((int32_t)0)))
+		{
+			goto IL_03db;
+		}
+	}
+	{
+		int32_t L_106 = __this->get_type_6();
+		if ((!(((uint32_t)L_106) == ((uint32_t)3))))
+		{
+			goto IL_0392;
+		}
+	}
+	{
+		List_1_t1398341365 * L_107 = __this->get_keys_8();
+		String_t* L_108 = V_3;
+		NullCheck(L_107);
+		List_1_Add_m4061286785(L_107, L_108, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+	}
+
+IL_0392:
+	{
+		int32_t L_109 = ___maxDepth1;
+		if ((((int32_t)L_109) == ((int32_t)(-1))))
+		{
+			goto IL_03c3;
+		}
+	}
+	{
+		List_1_t1341003379 * L_110 = __this->get_list_7();
+		String_t* L_111 = V_7;
+		int32_t L_112 = ___maxDepth1;
+		G_B66_0 = L_111;
+		G_B66_1 = L_110;
+		if ((((int32_t)L_112) >= ((int32_t)(-1))))
+		{
+			G_B67_0 = L_111;
+			G_B67_1 = L_110;
+			goto IL_03af;
+		}
+	}
+	{
+		G_B68_0 = ((int32_t)-2);
+		G_B68_1 = G_B66_0;
+		G_B68_2 = G_B66_1;
+		goto IL_03b2;
+	}
+
+IL_03af:
+	{
+		int32_t L_113 = ___maxDepth1;
+		G_B68_0 = ((int32_t)((int32_t)L_113-(int32_t)1));
+		G_B68_1 = G_B67_0;
+		G_B68_2 = G_B67_1;
+	}
+
+IL_03b2:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_114 = JSONObject_Create_m1582109667(NULL /*static, unused*/, G_B68_1, G_B68_0, (bool)0, (bool)0, /*hidden argument*/NULL);
+		NullCheck(G_B68_2);
+		List_1_Add_m3057035458(G_B68_2, L_114, /*hidden argument*/List_1_Add_m3057035458_MethodInfo_var);
+		goto IL_03db;
+	}
+
+IL_03c3:
+	{
+		bool L_115 = ___storeExcessLevels2;
+		if (!L_115)
+		{
+			goto IL_03db;
+		}
+	}
+	{
+		List_1_t1341003379 * L_116 = __this->get_list_7();
+		String_t* L_117 = V_7;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_118 = JSONObject_CreateBakedObject_m1414246618(NULL /*static, unused*/, L_117, /*hidden argument*/NULL);
+		NullCheck(L_116);
+		List_1_Add_m3057035458(L_116, L_118, /*hidden argument*/List_1_Add_m3057035458_MethodInfo_var);
+	}
+
+IL_03db:
+	{
+		int32_t L_119 = V_1;
+		V_0 = ((int32_t)((int32_t)L_119+(int32_t)1));
+	}
+
+IL_03df:
+	{
+		int32_t L_120 = V_1;
+		int32_t L_121 = ((int32_t)((int32_t)L_120+(int32_t)1));
+		V_1 = L_121;
+		String_t* L_122 = ___str0;
+		NullCheck(L_122);
+		int32_t L_123 = String_get_Length_m1606060069(L_122, /*hidden argument*/NULL);
+		if ((((int32_t)L_121) < ((int32_t)L_123)))
+		{
+			goto IL_0229;
+		}
+	}
+
+IL_03ef:
+	{
+		goto IL_03fb;
+	}
+
+IL_03f4:
+	{
+		__this->set_type_6(0);
+	}
+
+IL_03fb:
+	{
+		goto IL_0407;
+	}
+
+IL_0400:
+	{
+		__this->set_type_6(0);
+	}
+
+IL_0407:
+	{
+		return;
+	}
+}
+// System.Boolean JSONObject::get_IsNumber()
+extern "C"  bool JSONObject_get_IsNumber_m1211710060 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_type_6();
+		return (bool)((((int32_t)L_0) == ((int32_t)2))? 1 : 0);
+	}
+}
+// System.Boolean JSONObject::get_IsNull()
+extern "C"  bool JSONObject_get_IsNull_m4292535844 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_type_6();
+		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Boolean JSONObject::get_IsString()
+extern "C"  bool JSONObject_get_IsString_m1134326012 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_type_6();
+		return (bool)((((int32_t)L_0) == ((int32_t)1))? 1 : 0);
+	}
+}
+// System.Boolean JSONObject::get_IsBool()
+extern "C"  bool JSONObject_get_IsBool_m631014411 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_type_6();
+		return (bool)((((int32_t)L_0) == ((int32_t)5))? 1 : 0);
+	}
+}
+// System.Boolean JSONObject::get_IsArray()
+extern "C"  bool JSONObject_get_IsArray_m3696731856 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_type_6();
+		return (bool)((((int32_t)L_0) == ((int32_t)4))? 1 : 0);
+	}
+}
+// System.Boolean JSONObject::get_IsObject()
+extern "C"  bool JSONObject_get_IsObject_m1916105538 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = __this->get_type_6();
+		if ((((int32_t)L_0) == ((int32_t)3)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = __this->get_type_6();
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)6))? 1 : 0);
+		goto IL_0018;
+	}
+
+IL_0017:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0018:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Void JSONObject::Add(System.Boolean)
+extern "C"  void JSONObject_Add_m4073537166 (JSONObject_t1971882247 * __this, bool ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Add_m4073537166_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ___val0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_1 = JSONObject_Create_m322727955(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		JSONObject_Add_m3618328192(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::Add(System.Single)
+extern "C"  void JSONObject_Add_m3120056428 (JSONObject_t1971882247 * __this, float ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Add_m3120056428_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = ___val0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_1 = JSONObject_Create_m4234548109(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		JSONObject_Add_m3618328192(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::Add(System.Int32)
+extern "C"  void JSONObject_Add_m449104870 (JSONObject_t1971882247 * __this, int32_t ___val0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Add_m449104870_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___val0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_1 = JSONObject_Create_m2780992853(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		JSONObject_Add_m3618328192(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::Add(System.String)
+extern "C"  void JSONObject_Add_m930192605 (JSONObject_t1971882247 * __this, String_t* ___str0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Add_m930192605_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___str0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_1 = JSONObject_CreateStringObject_m227421806(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		JSONObject_Add_m3618328192(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::Add(JSONObject/AddJSONContents)
+extern "C"  void JSONObject_Add_m3191854140 (JSONObject_t1971882247 * __this, AddJSONContents_t3850664647 * ___content0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Add_m3191854140_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AddJSONContents_t3850664647 * L_0 = ___content0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_1 = JSONObject_Create_m2296526109(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		JSONObject_Add_m3618328192(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::Add(JSONObject)
+extern "C"  void JSONObject_Add_m3618328192 (JSONObject_t1971882247 * __this, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Add_m3618328192_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_1 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		int32_t L_2 = __this->get_type_6();
+		if ((((int32_t)L_2) == ((int32_t)4)))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		__this->set_type_6(4);
+		List_1_t1341003379 * L_3 = __this->get_list_7();
+		if (L_3)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		List_1_t1341003379 * L_4 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_4, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		__this->set_list_7(L_4);
+	}
+
+IL_0034:
+	{
+		List_1_t1341003379 * L_5 = __this->get_list_7();
+		JSONObject_t1971882247 * L_6 = ___obj0;
+		NullCheck(L_5);
+		List_1_Add_m3057035458(L_5, L_6, /*hidden argument*/List_1_Add_m3057035458_MethodInfo_var);
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Void JSONObject::AddField(System.String,System.Boolean)
+extern "C"  void JSONObject_AddField_m1448237390 (JSONObject_t1971882247 * __this, String_t* ___name0, bool ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_AddField_m1448237390_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		bool L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_Create_m322727955(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_AddField_m1721386152(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::AddField(System.String,System.Single)
+extern "C"  void JSONObject_AddField_m2712088548 (JSONObject_t1971882247 * __this, String_t* ___name0, float ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_AddField_m2712088548_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		float L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_Create_m4234548109(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_AddField_m1721386152(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::AddField(System.String,System.Int32)
+extern "C"  void JSONObject_AddField_m894980766 (JSONObject_t1971882247 * __this, String_t* ___name0, int32_t ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_AddField_m894980766_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		int32_t L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_Create_m2780992853(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_AddField_m1721386152(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::AddField(System.String,System.Int64)
+extern "C"  void JSONObject_AddField_m1600793269 (JSONObject_t1971882247 * __this, String_t* ___name0, int64_t ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_AddField_m1600793269_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		int64_t L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_Create_m1974423762(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_AddField_m1721386152(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::AddField(System.String,JSONObject/AddJSONContents)
+extern "C"  void JSONObject_AddField_m733507028 (JSONObject_t1971882247 * __this, String_t* ___name0, AddJSONContents_t3850664647 * ___content1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_AddField_m733507028_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		AddJSONContents_t3850664647 * L_1 = ___content1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_Create_m2296526109(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_AddField_m1721386152(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::AddField(System.String,System.String)
+extern "C"  void JSONObject_AddField_m757984985 (JSONObject_t1971882247 * __this, String_t* ___name0, String_t* ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_AddField_m757984985_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		String_t* L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_CreateStringObject_m227421806(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_AddField_m1721386152(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::AddField(System.String,JSONObject)
+extern "C"  void JSONObject_AddField_m1721386152 (JSONObject_t1971882247 * __this, String_t* ___name0, JSONObject_t1971882247 * ___obj1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_AddField_m1721386152_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		JSONObject_t1971882247 * L_0 = ___obj1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_1 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		int32_t L_2 = __this->get_type_6();
+		if ((((int32_t)L_2) == ((int32_t)3)))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		List_1_t1398341365 * L_3 = __this->get_keys_8();
+		if (L_3)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		List_1_t1398341365 * L_4 = (List_1_t1398341365 *)il2cpp_codegen_object_new(List_1_t1398341365_il2cpp_TypeInfo_var);
+		List_1__ctor_m3854603248(L_4, /*hidden argument*/List_1__ctor_m3854603248_MethodInfo_var);
+		__this->set_keys_8(L_4);
+	}
+
+IL_002d:
+	{
+		int32_t L_5 = __this->get_type_6();
+		if ((!(((uint32_t)L_5) == ((uint32_t)4))))
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_005f;
+	}
+
+IL_0040:
+	{
+		List_1_t1398341365 * L_6 = __this->get_keys_8();
+		int32_t L_7 = V_0;
+		int32_t L_8 = L_7;
+		Il2CppObject * L_9 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_8);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_11 = String_Concat_m56707527(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		List_1_Add_m4061286785(L_6, L_11, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_005f:
+	{
+		int32_t L_13 = V_0;
+		List_1_t1341003379 * L_14 = __this->get_list_7();
+		NullCheck(L_14);
+		int32_t L_15 = List_1_get_Count_m3485821544(L_14, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_13) < ((int32_t)L_15)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		goto IL_008b;
+	}
+
+IL_0075:
+	{
+		List_1_t1341003379 * L_16 = __this->get_list_7();
+		if (L_16)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		List_1_t1341003379 * L_17 = (List_1_t1341003379 *)il2cpp_codegen_object_new(List_1_t1341003379_il2cpp_TypeInfo_var);
+		List_1__ctor_m3984043222(L_17, /*hidden argument*/List_1__ctor_m3984043222_MethodInfo_var);
+		__this->set_list_7(L_17);
+	}
+
+IL_008b:
+	{
+		__this->set_type_6(3);
+	}
+
+IL_0092:
+	{
+		List_1_t1398341365 * L_18 = __this->get_keys_8();
+		String_t* L_19 = ___name0;
+		NullCheck(L_18);
+		List_1_Add_m4061286785(L_18, L_19, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		List_1_t1341003379 * L_20 = __this->get_list_7();
+		JSONObject_t1971882247 * L_21 = ___obj1;
+		NullCheck(L_20);
+		List_1_Add_m3057035458(L_20, L_21, /*hidden argument*/List_1_Add_m3057035458_MethodInfo_var);
+	}
+
+IL_00aa:
+	{
+		return;
+	}
+}
+// System.Void JSONObject::SetField(System.String,System.String)
+extern "C"  void JSONObject_SetField_m4067629664 (JSONObject_t1971882247 * __this, String_t* ___name0, String_t* ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_SetField_m4067629664_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		String_t* L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_CreateStringObject_m227421806(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_SetField_m1180592005(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::SetField(System.String,System.Boolean)
+extern "C"  void JSONObject_SetField_m2028330731 (JSONObject_t1971882247 * __this, String_t* ___name0, bool ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_SetField_m2028330731_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		bool L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_Create_m322727955(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_SetField_m1180592005(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::SetField(System.String,System.Single)
+extern "C"  void JSONObject_SetField_m484187805 (JSONObject_t1971882247 * __this, String_t* ___name0, float ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_SetField_m484187805_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		float L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_Create_m4234548109(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_SetField_m1180592005(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::SetField(System.String,System.Int32)
+extern "C"  void JSONObject_SetField_m3929609445 (JSONObject_t1971882247 * __this, String_t* ___name0, int32_t ___val1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_SetField_m3929609445_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		int32_t L_1 = ___val1;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_2 = JSONObject_Create_m2780992853(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		JSONObject_SetField_m1180592005(__this, L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::SetField(System.String,JSONObject)
+extern "C"  void JSONObject_SetField_m1180592005 (JSONObject_t1971882247 * __this, String_t* ___name0, JSONObject_t1971882247 * ___obj1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_SetField_m1180592005_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		bool L_1 = JSONObject_HasField_m3030985834(__this, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		List_1_t1341003379 * L_2 = __this->get_list_7();
+		String_t* L_3 = ___name0;
+		JSONObject_t1971882247 * L_4 = JSONObject_get_Item_m2638456294(__this, L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		List_1_Remove_m1073513939(L_2, L_4, /*hidden argument*/List_1_Remove_m1073513939_MethodInfo_var);
+		List_1_t1398341365 * L_5 = __this->get_keys_8();
+		String_t* L_6 = ___name0;
+		NullCheck(L_5);
+		List_1_Remove_m3019523498(L_5, L_6, /*hidden argument*/List_1_Remove_m3019523498_MethodInfo_var);
+	}
+
+IL_002c:
+	{
+		String_t* L_7 = ___name0;
+		JSONObject_t1971882247 * L_8 = ___obj1;
+		JSONObject_AddField_m1721386152(__this, L_7, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::RemoveField(System.String)
+extern "C"  void JSONObject_RemoveField_m3901079654 (JSONObject_t1971882247 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_RemoveField_m3901079654_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1398341365 * L_0 = __this->get_keys_8();
+		String_t* L_1 = ___name0;
+		NullCheck(L_0);
+		int32_t L_2 = List_1_IndexOf_m2492943723(L_0, L_1, /*hidden argument*/List_1_IndexOf_m2492943723_MethodInfo_var);
+		if ((((int32_t)L_2) <= ((int32_t)(-1))))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		List_1_t1341003379 * L_3 = __this->get_list_7();
+		List_1_t1398341365 * L_4 = __this->get_keys_8();
+		String_t* L_5 = ___name0;
+		NullCheck(L_4);
+		int32_t L_6 = List_1_IndexOf_m2492943723(L_4, L_5, /*hidden argument*/List_1_IndexOf_m2492943723_MethodInfo_var);
+		NullCheck(L_3);
+		List_1_RemoveAt_m2823081968(L_3, L_6, /*hidden argument*/List_1_RemoveAt_m2823081968_MethodInfo_var);
+		List_1_t1398341365 * L_7 = __this->get_keys_8();
+		String_t* L_8 = ___name0;
+		NullCheck(L_7);
+		List_1_Remove_m3019523498(L_7, L_8, /*hidden argument*/List_1_Remove_m3019523498_MethodInfo_var);
+	}
+
+IL_0036:
+	{
+		return;
+	}
+}
+// System.Boolean JSONObject::GetField(System.Boolean&,System.String,System.Boolean)
+extern "C"  bool JSONObject_GetField_m749778138 (JSONObject_t1971882247 * __this, bool* ___field0, String_t* ___name1, bool ___fallback2, const MethodInfo* method)
+{
+	{
+		bool* L_0 = ___field0;
+		bool L_1 = ___fallback2;
+		*((int8_t*)(L_0)) = (int8_t)L_1;
+		bool* L_2 = ___field0;
+		String_t* L_3 = ___name1;
+		bool L_4 = JSONObject_GetField_m2238877236(__this, L_2, L_3, (FieldNotFound_t865402053 *)NULL, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Boolean JSONObject::GetField(System.Boolean&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m2238877236 (JSONObject_t1971882247 * __this, bool* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_GetField_m2238877236_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_type_6();
+		if ((!(((uint32_t)L_0) == ((uint32_t)3))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		List_1_t1398341365 * L_1 = __this->get_keys_8();
+		String_t* L_2 = ___name1;
+		NullCheck(L_1);
+		int32_t L_3 = List_1_IndexOf_m2492943723(L_1, L_2, /*hidden argument*/List_1_IndexOf_m2492943723_MethodInfo_var);
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) < ((int32_t)0)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		bool* L_5 = ___field0;
+		List_1_t1341003379 * L_6 = __this->get_list_7();
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_8 = List_1_get_Item_m429614411(L_6, L_7, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		NullCheck(L_8);
+		bool L_9 = L_8->get_b_13();
+		*((int8_t*)(L_5)) = (int8_t)L_9;
+		return (bool)1;
+	}
+
+IL_0035:
+	{
+		FieldNotFound_t865402053 * L_10 = ___fail2;
+		if (!L_10)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		FieldNotFound_t865402053 * L_11 = ___fail2;
+		String_t* L_12 = ___name1;
+		NullCheck(L_11);
+		FieldNotFound_Invoke_m1722936676(L_11, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean JSONObject::GetField(System.Single&,System.String,System.Single)
+extern "C"  bool JSONObject_GetField_m2835168656 (JSONObject_t1971882247 * __this, float* ___field0, String_t* ___name1, float ___fallback2, const MethodInfo* method)
+{
+	{
+		float* L_0 = ___field0;
+		float L_1 = ___fallback2;
+		*((float*)(L_0)) = (float)L_1;
+		float* L_2 = ___field0;
+		String_t* L_3 = ___name1;
+		bool L_4 = JSONObject_GetField_m2524002016(__this, L_2, L_3, (FieldNotFound_t865402053 *)NULL, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Boolean JSONObject::GetField(System.Single&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m2524002016 (JSONObject_t1971882247 * __this, float* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_GetField_m2524002016_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_type_6();
+		if ((!(((uint32_t)L_0) == ((uint32_t)3))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		List_1_t1398341365 * L_1 = __this->get_keys_8();
+		String_t* L_2 = ___name1;
+		NullCheck(L_1);
+		int32_t L_3 = List_1_IndexOf_m2492943723(L_1, L_2, /*hidden argument*/List_1_IndexOf_m2492943723_MethodInfo_var);
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) < ((int32_t)0)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		float* L_5 = ___field0;
+		List_1_t1341003379 * L_6 = __this->get_list_7();
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_8 = List_1_get_Item_m429614411(L_6, L_7, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		NullCheck(L_8);
+		float L_9 = L_8->get_n_10();
+		*((float*)(L_5)) = (float)L_9;
+		return (bool)1;
+	}
+
+IL_0035:
+	{
+		FieldNotFound_t865402053 * L_10 = ___fail2;
+		if (!L_10)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		FieldNotFound_t865402053 * L_11 = ___fail2;
+		String_t* L_12 = ___name1;
+		NullCheck(L_11);
+		FieldNotFound_Invoke_m1722936676(L_11, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean JSONObject::GetField(System.Int32&,System.String,System.Int32)
+extern "C"  bool JSONObject_GetField_m3075052858 (JSONObject_t1971882247 * __this, int32_t* ___field0, String_t* ___name1, int32_t ___fallback2, const MethodInfo* method)
+{
+	{
+		int32_t* L_0 = ___field0;
+		int32_t L_1 = ___fallback2;
+		*((int32_t*)(L_0)) = (int32_t)L_1;
+		int32_t* L_2 = ___field0;
+		String_t* L_3 = ___name1;
+		bool L_4 = JSONObject_GetField_m3356332928(__this, L_2, L_3, (FieldNotFound_t865402053 *)NULL, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Boolean JSONObject::GetField(System.Int32&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m3356332928 (JSONObject_t1971882247 * __this, int32_t* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_GetField_m3356332928_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = JSONObject_get_IsObject_m1916105538(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		List_1_t1398341365 * L_1 = __this->get_keys_8();
+		String_t* L_2 = ___name1;
+		NullCheck(L_1);
+		int32_t L_3 = List_1_IndexOf_m2492943723(L_1, L_2, /*hidden argument*/List_1_IndexOf_m2492943723_MethodInfo_var);
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) < ((int32_t)0)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		int32_t* L_5 = ___field0;
+		List_1_t1341003379 * L_6 = __this->get_list_7();
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_8 = List_1_get_Item_m429614411(L_6, L_7, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		NullCheck(L_8);
+		float L_9 = L_8->get_n_10();
+		*((int32_t*)(L_5)) = (int32_t)(((int32_t)((int32_t)L_9)));
+		return (bool)1;
+	}
+
+IL_0035:
+	{
+		FieldNotFound_t865402053 * L_10 = ___fail2;
+		if (!L_10)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		FieldNotFound_t865402053 * L_11 = ___fail2;
+		String_t* L_12 = ___name1;
+		NullCheck(L_11);
+		FieldNotFound_Invoke_m1722936676(L_11, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean JSONObject::GetField(System.Int64&,System.String,System.Int64)
+extern "C"  bool JSONObject_GetField_m1835125498 (JSONObject_t1971882247 * __this, int64_t* ___field0, String_t* ___name1, int64_t ___fallback2, const MethodInfo* method)
+{
+	{
+		int64_t* L_0 = ___field0;
+		int64_t L_1 = ___fallback2;
+		*((int64_t*)(L_0)) = (int64_t)L_1;
+		int64_t* L_2 = ___field0;
+		String_t* L_3 = ___name1;
+		bool L_4 = JSONObject_GetField_m1787897363(__this, L_2, L_3, (FieldNotFound_t865402053 *)NULL, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Boolean JSONObject::GetField(System.Int64&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m1787897363 (JSONObject_t1971882247 * __this, int64_t* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_GetField_m1787897363_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = JSONObject_get_IsObject_m1916105538(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		List_1_t1398341365 * L_1 = __this->get_keys_8();
+		String_t* L_2 = ___name1;
+		NullCheck(L_1);
+		int32_t L_3 = List_1_IndexOf_m2492943723(L_1, L_2, /*hidden argument*/List_1_IndexOf_m2492943723_MethodInfo_var);
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) < ((int32_t)0)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		int64_t* L_5 = ___field0;
+		List_1_t1341003379 * L_6 = __this->get_list_7();
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_8 = List_1_get_Item_m429614411(L_6, L_7, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		NullCheck(L_8);
+		float L_9 = L_8->get_n_10();
+		*((int64_t*)(L_5)) = (int64_t)(((int64_t)((int64_t)L_9)));
+		return (bool)1;
+	}
+
+IL_0035:
+	{
+		FieldNotFound_t865402053 * L_10 = ___fail2;
+		if (!L_10)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		FieldNotFound_t865402053 * L_11 = ___fail2;
+		String_t* L_12 = ___name1;
+		NullCheck(L_11);
+		FieldNotFound_Invoke_m1722936676(L_11, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean JSONObject::GetField(System.UInt32&,System.String,System.UInt32)
+extern "C"  bool JSONObject_GetField_m3049188754 (JSONObject_t1971882247 * __this, uint32_t* ___field0, String_t* ___name1, uint32_t ___fallback2, const MethodInfo* method)
+{
+	{
+		uint32_t* L_0 = ___field0;
+		uint32_t L_1 = ___fallback2;
+		*((int32_t*)(L_0)) = (int32_t)L_1;
+		uint32_t* L_2 = ___field0;
+		String_t* L_3 = ___name1;
+		bool L_4 = JSONObject_GetField_m2149788417(__this, L_2, L_3, (FieldNotFound_t865402053 *)NULL, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Boolean JSONObject::GetField(System.UInt32&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m2149788417 (JSONObject_t1971882247 * __this, uint32_t* ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_GetField_m2149788417_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = JSONObject_get_IsObject_m1916105538(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		List_1_t1398341365 * L_1 = __this->get_keys_8();
+		String_t* L_2 = ___name1;
+		NullCheck(L_1);
+		int32_t L_3 = List_1_IndexOf_m2492943723(L_1, L_2, /*hidden argument*/List_1_IndexOf_m2492943723_MethodInfo_var);
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) < ((int32_t)0)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		uint32_t* L_5 = ___field0;
+		List_1_t1341003379 * L_6 = __this->get_list_7();
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_8 = List_1_get_Item_m429614411(L_6, L_7, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		NullCheck(L_8);
+		float L_9 = L_8->get_n_10();
+		*((int32_t*)(L_5)) = (int32_t)(((int32_t)((uint32_t)L_9)));
+		return (bool)1;
+	}
+
+IL_0035:
+	{
+		FieldNotFound_t865402053 * L_10 = ___fail2;
+		if (!L_10)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		FieldNotFound_t865402053 * L_11 = ___fail2;
+		String_t* L_12 = ___name1;
+		NullCheck(L_11);
+		FieldNotFound_Invoke_m1722936676(L_11, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean JSONObject::GetField(System.String&,System.String,System.String)
+extern "C"  bool JSONObject_GetField_m3338501930 (JSONObject_t1971882247 * __this, String_t** ___field0, String_t* ___name1, String_t* ___fallback2, const MethodInfo* method)
+{
+	{
+		String_t** L_0 = ___field0;
+		String_t* L_1 = ___fallback2;
+		*((Il2CppObject **)(L_0)) = (Il2CppObject *)L_1;
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_0), (Il2CppObject *)L_1);
+		String_t** L_2 = ___field0;
+		String_t* L_3 = ___name1;
+		bool L_4 = JSONObject_GetField_m204744839(__this, L_2, L_3, (FieldNotFound_t865402053 *)NULL, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Boolean JSONObject::GetField(System.String&,System.String,JSONObject/FieldNotFound)
+extern "C"  bool JSONObject_GetField_m204744839 (JSONObject_t1971882247 * __this, String_t** ___field0, String_t* ___name1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_GetField_m204744839_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = JSONObject_get_IsObject_m1916105538(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		List_1_t1398341365 * L_1 = __this->get_keys_8();
+		String_t* L_2 = ___name1;
+		NullCheck(L_1);
+		int32_t L_3 = List_1_IndexOf_m2492943723(L_1, L_2, /*hidden argument*/List_1_IndexOf_m2492943723_MethodInfo_var);
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) < ((int32_t)0)))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		String_t** L_5 = ___field0;
+		List_1_t1341003379 * L_6 = __this->get_list_7();
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_8 = List_1_get_Item_m429614411(L_6, L_7, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		NullCheck(L_8);
+		String_t* L_9 = L_8->get_str_9();
+		*((Il2CppObject **)(L_5)) = (Il2CppObject *)L_9;
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_5), (Il2CppObject *)L_9);
+		return (bool)1;
+	}
+
+IL_0034:
+	{
+		FieldNotFound_t865402053 * L_10 = ___fail2;
+		if (!L_10)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		FieldNotFound_t865402053 * L_11 = ___fail2;
+		String_t* L_12 = ___name1;
+		NullCheck(L_11);
+		FieldNotFound_Invoke_m1722936676(L_11, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0041:
+	{
+		return (bool)0;
+	}
+}
+// System.Void JSONObject::GetField(System.String,JSONObject/GetFieldResponse,JSONObject/FieldNotFound)
+extern "C"  void JSONObject_GetField_m3040698632 (JSONObject_t1971882247 * __this, String_t* ___name0, GetFieldResponse_t1259369279 * ___response1, FieldNotFound_t865402053 * ___fail2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_GetField_m3040698632_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		GetFieldResponse_t1259369279 * L_0 = ___response1;
+		if (!L_0)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		bool L_1 = JSONObject_get_IsObject_m1916105538(__this, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		List_1_t1398341365 * L_2 = __this->get_keys_8();
+		String_t* L_3 = ___name0;
+		NullCheck(L_2);
+		int32_t L_4 = List_1_IndexOf_m2492943723(L_2, L_3, /*hidden argument*/List_1_IndexOf_m2492943723_MethodInfo_var);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		if ((((int32_t)L_5) < ((int32_t)0)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		GetFieldResponse_t1259369279 * L_6 = ___response1;
+		List_1_t1341003379 * L_7 = __this->get_list_7();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		JSONObject_t1971882247 * L_9 = List_1_get_Item_m429614411(L_7, L_8, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		NullCheck(L_6);
+		GetFieldResponse_Invoke_m4134964043(L_6, L_9, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0038:
+	{
+		FieldNotFound_t865402053 * L_10 = ___fail2;
+		if (!L_10)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		FieldNotFound_t865402053 * L_11 = ___fail2;
+		String_t* L_12 = ___name0;
+		NullCheck(L_11);
+		FieldNotFound_Invoke_m1722936676(L_11, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+// JSONObject JSONObject::GetField(System.String)
+extern "C"  JSONObject_t1971882247 * JSONObject_GetField_m887332132 (JSONObject_t1971882247 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_GetField_m887332132_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = JSONObject_get_IsObject_m1916105538(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_003a;
+	}
+
+IL_0012:
+	{
+		List_1_t1398341365 * L_1 = __this->get_keys_8();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		String_t* L_3 = List_1_get_Item_m566484697(L_1, L_2, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		String_t* L_4 = ___name0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_5 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		List_1_t1341003379 * L_6 = __this->get_list_7();
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_8 = List_1_get_Item_m429614411(L_6, L_7, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		return L_8;
+	}
+
+IL_0036:
+	{
+		int32_t L_9 = V_0;
+		V_0 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_003a:
+	{
+		int32_t L_10 = V_0;
+		List_1_t1398341365 * L_11 = __this->get_keys_8();
+		NullCheck(L_11);
+		int32_t L_12 = List_1_get_Count_m780127360(L_11, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		if ((((int32_t)L_10) < ((int32_t)L_12)))
+		{
+			goto IL_0012;
+		}
+	}
+
+IL_004b:
+	{
+		return (JSONObject_t1971882247 *)NULL;
+	}
+}
+// System.Boolean JSONObject::HasFields(System.String[])
+extern "C"  bool JSONObject_HasFields_m1144058745 (JSONObject_t1971882247 * __this, StringU5BU5D_t1642385972* ___names0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_HasFields_m1144058745_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = JSONObject_get_IsObject_m1916105538(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_000d:
+	{
+		V_0 = 0;
+		goto IL_002d;
+	}
+
+IL_0014:
+	{
+		List_1_t1398341365 * L_1 = __this->get_keys_8();
+		StringU5BU5D_t1642385972* L_2 = ___names0;
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		String_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		NullCheck(L_1);
+		bool L_6 = List_1_Contains_m2369280605(L_1, L_5, /*hidden argument*/List_1_Contains_m2369280605_MethodInfo_var);
+		if (L_6)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0029:
+	{
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_002d:
+	{
+		int32_t L_8 = V_0;
+		StringU5BU5D_t1642385972* L_9 = ___names0;
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean JSONObject::HasField(System.String)
+extern "C"  bool JSONObject_HasField_m3030985834 (JSONObject_t1971882247 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_HasField_m3030985834_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = JSONObject_get_IsObject_m1916105538(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_000d:
+	{
+		V_0 = 0;
+		goto IL_0031;
+	}
+
+IL_0014:
+	{
+		List_1_t1398341365 * L_1 = __this->get_keys_8();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		String_t* L_3 = List_1_get_Item_m566484697(L_1, L_2, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		String_t* L_4 = ___name0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_5 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_002d:
+	{
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_0031:
+	{
+		int32_t L_7 = V_0;
+		List_1_t1398341365 * L_8 = __this->get_keys_8();
+		NullCheck(L_8);
+		int32_t L_9 = List_1_get_Count_m780127360(L_8, /*hidden argument*/List_1_get_Count_m780127360_MethodInfo_var);
+		if ((((int32_t)L_7) < ((int32_t)L_9)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+// System.Void JSONObject::Clear()
+extern "C"  void JSONObject_Clear_m992277887 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Clear_m992277887_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_type_6(0);
+		List_1_t1341003379 * L_0 = __this->get_list_7();
+		if (!L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		List_1_t1341003379 * L_1 = __this->get_list_7();
+		NullCheck(L_1);
+		List_1_Clear_m2818091657(L_1, /*hidden argument*/List_1_Clear_m2818091657_MethodInfo_var);
+	}
+
+IL_001d:
+	{
+		List_1_t1398341365 * L_2 = __this->get_keys_8();
+		if (!L_2)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		List_1_t1398341365 * L_3 = __this->get_keys_8();
+		NullCheck(L_3);
+		List_1_Clear_m2928955906(L_3, /*hidden argument*/List_1_Clear_m2928955906_MethodInfo_var);
+	}
+
+IL_0033:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_str_9(L_4);
+		__this->set_n_10((0.0f));
+		__this->set_b_13((bool)0);
+		return;
+	}
+}
+// JSONObject JSONObject::Copy()
+extern "C"  JSONObject_t1971882247 * JSONObject_Copy_m3864269401 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Copy_m3864269401_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = JSONObject_Print_m4113013869(__this, (bool)0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_1 = JSONObject_Create_m1582109667(NULL /*static, unused*/, L_0, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void JSONObject::Merge(JSONObject)
+extern "C"  void JSONObject_Merge_m1969546983 (JSONObject_t1971882247 * __this, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Merge_m1969546983_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_MergeRecur_m848026001(NULL /*static, unused*/, __this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void JSONObject::MergeRecur(JSONObject,JSONObject)
+extern "C"  void JSONObject_MergeRecur_m848026001 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___left0, JSONObject_t1971882247 * ___right1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_MergeRecur_m848026001_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		JSONObject_t1971882247 * L_0 = ___left0;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_type_6();
+		if (L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = ___left0;
+		JSONObject_t1971882247 * L_3 = ___right1;
+		NullCheck(L_2);
+		JSONObject_Absorb_m287377368(L_2, L_3, /*hidden argument*/NULL);
+		goto IL_0176;
+	}
+
+IL_0017:
+	{
+		JSONObject_t1971882247 * L_4 = ___left0;
+		NullCheck(L_4);
+		int32_t L_5 = L_4->get_type_6();
+		if ((!(((uint32_t)L_5) == ((uint32_t)3))))
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_6 = ___right1;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->get_type_6();
+		if ((!(((uint32_t)L_7) == ((uint32_t)3))))
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_00bc;
+	}
+
+IL_0036:
+	{
+		JSONObject_t1971882247 * L_8 = ___right1;
+		NullCheck(L_8);
+		List_1_t1398341365 * L_9 = L_8->get_keys_8();
+		int32_t L_10 = V_0;
+		NullCheck(L_9);
+		String_t* L_11 = List_1_get_Item_m566484697(L_9, L_10, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		V_1 = L_11;
+		JSONObject_t1971882247 * L_12 = ___right1;
+		int32_t L_13 = V_0;
+		NullCheck(L_12);
+		JSONObject_t1971882247 * L_14 = JSONObject_get_Item_m481309353(L_12, L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		bool L_15 = JSONObject_get_isContainer_m3175857226(L_14, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_16 = ___left0;
+		String_t* L_17 = V_1;
+		NullCheck(L_16);
+		bool L_18 = JSONObject_HasField_m3030985834(L_16, L_17, /*hidden argument*/NULL);
+		if (!L_18)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_19 = ___left0;
+		String_t* L_20 = V_1;
+		NullCheck(L_19);
+		JSONObject_t1971882247 * L_21 = JSONObject_get_Item_m2638456294(L_19, L_20, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_22 = ___right1;
+		int32_t L_23 = V_0;
+		NullCheck(L_22);
+		JSONObject_t1971882247 * L_24 = JSONObject_get_Item_m481309353(L_22, L_23, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_MergeRecur_m848026001(NULL /*static, unused*/, L_21, L_24, /*hidden argument*/NULL);
+		goto IL_0086;
+	}
+
+IL_0078:
+	{
+		JSONObject_t1971882247 * L_25 = ___left0;
+		String_t* L_26 = V_1;
+		JSONObject_t1971882247 * L_27 = ___right1;
+		int32_t L_28 = V_0;
+		NullCheck(L_27);
+		JSONObject_t1971882247 * L_29 = JSONObject_get_Item_m481309353(L_27, L_28, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		JSONObject_AddField_m1721386152(L_25, L_26, L_29, /*hidden argument*/NULL);
+	}
+
+IL_0086:
+	{
+		goto IL_00b8;
+	}
+
+IL_008b:
+	{
+		JSONObject_t1971882247 * L_30 = ___left0;
+		String_t* L_31 = V_1;
+		NullCheck(L_30);
+		bool L_32 = JSONObject_HasField_m3030985834(L_30, L_31, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_33 = ___left0;
+		String_t* L_34 = V_1;
+		JSONObject_t1971882247 * L_35 = ___right1;
+		int32_t L_36 = V_0;
+		NullCheck(L_35);
+		JSONObject_t1971882247 * L_37 = JSONObject_get_Item_m481309353(L_35, L_36, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		JSONObject_SetField_m1180592005(L_33, L_34, L_37, /*hidden argument*/NULL);
+		goto IL_00b8;
+	}
+
+IL_00aa:
+	{
+		JSONObject_t1971882247 * L_38 = ___left0;
+		String_t* L_39 = V_1;
+		JSONObject_t1971882247 * L_40 = ___right1;
+		int32_t L_41 = V_0;
+		NullCheck(L_40);
+		JSONObject_t1971882247 * L_42 = JSONObject_get_Item_m481309353(L_40, L_41, /*hidden argument*/NULL);
+		NullCheck(L_38);
+		JSONObject_AddField_m1721386152(L_38, L_39, L_42, /*hidden argument*/NULL);
+	}
+
+IL_00b8:
+	{
+		int32_t L_43 = V_0;
+		V_0 = ((int32_t)((int32_t)L_43+(int32_t)1));
+	}
+
+IL_00bc:
+	{
+		int32_t L_44 = V_0;
+		JSONObject_t1971882247 * L_45 = ___right1;
+		NullCheck(L_45);
+		List_1_t1341003379 * L_46 = L_45->get_list_7();
+		NullCheck(L_46);
+		int32_t L_47 = List_1_get_Count_m3485821544(L_46, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_44) < ((int32_t)L_47)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		goto IL_0176;
+	}
+
+IL_00d2:
+	{
+		JSONObject_t1971882247 * L_48 = ___left0;
+		NullCheck(L_48);
+		int32_t L_49 = L_48->get_type_6();
+		if ((!(((uint32_t)L_49) == ((uint32_t)4))))
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_50 = ___right1;
+		NullCheck(L_50);
+		int32_t L_51 = L_50->get_type_6();
+		if ((!(((uint32_t)L_51) == ((uint32_t)4))))
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_52 = ___right1;
+		NullCheck(L_52);
+		int32_t L_53 = JSONObject_get_Count_m2165978410(L_52, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_54 = ___left0;
+		NullCheck(L_54);
+		int32_t L_55 = JSONObject_get_Count_m2165978410(L_54, /*hidden argument*/NULL);
+		if ((((int32_t)L_53) <= ((int32_t)L_55)))
+		{
+			goto IL_0106;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3451532966, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0106:
+	{
+		V_2 = 0;
+		goto IL_0165;
+	}
+
+IL_010d:
+	{
+		JSONObject_t1971882247 * L_56 = ___left0;
+		int32_t L_57 = V_2;
+		NullCheck(L_56);
+		JSONObject_t1971882247 * L_58 = JSONObject_get_Item_m481309353(L_56, L_57, /*hidden argument*/NULL);
+		NullCheck(L_58);
+		int32_t L_59 = L_58->get_type_6();
+		JSONObject_t1971882247 * L_60 = ___right1;
+		int32_t L_61 = V_2;
+		NullCheck(L_60);
+		JSONObject_t1971882247 * L_62 = JSONObject_get_Item_m481309353(L_60, L_61, /*hidden argument*/NULL);
+		NullCheck(L_62);
+		int32_t L_63 = L_62->get_type_6();
+		if ((!(((uint32_t)L_59) == ((uint32_t)L_63))))
+		{
+			goto IL_0161;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_64 = ___left0;
+		int32_t L_65 = V_2;
+		NullCheck(L_64);
+		JSONObject_t1971882247 * L_66 = JSONObject_get_Item_m481309353(L_64, L_65, /*hidden argument*/NULL);
+		NullCheck(L_66);
+		bool L_67 = JSONObject_get_isContainer_m3175857226(L_66, /*hidden argument*/NULL);
+		if (!L_67)
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_68 = ___left0;
+		int32_t L_69 = V_2;
+		NullCheck(L_68);
+		JSONObject_t1971882247 * L_70 = JSONObject_get_Item_m481309353(L_68, L_69, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_71 = ___right1;
+		int32_t L_72 = V_2;
+		NullCheck(L_71);
+		JSONObject_t1971882247 * L_73 = JSONObject_get_Item_m481309353(L_71, L_72, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_MergeRecur_m848026001(NULL /*static, unused*/, L_70, L_73, /*hidden argument*/NULL);
+		goto IL_0161;
+	}
+
+IL_0153:
+	{
+		JSONObject_t1971882247 * L_74 = ___left0;
+		int32_t L_75 = V_2;
+		JSONObject_t1971882247 * L_76 = ___right1;
+		int32_t L_77 = V_2;
+		NullCheck(L_76);
+		JSONObject_t1971882247 * L_78 = JSONObject_get_Item_m481309353(L_76, L_77, /*hidden argument*/NULL);
+		NullCheck(L_74);
+		JSONObject_set_Item_m2332624254(L_74, L_75, L_78, /*hidden argument*/NULL);
+	}
+
+IL_0161:
+	{
+		int32_t L_79 = V_2;
+		V_2 = ((int32_t)((int32_t)L_79+(int32_t)1));
+	}
+
+IL_0165:
+	{
+		int32_t L_80 = V_2;
+		JSONObject_t1971882247 * L_81 = ___right1;
+		NullCheck(L_81);
+		List_1_t1341003379 * L_82 = L_81->get_list_7();
+		NullCheck(L_82);
+		int32_t L_83 = List_1_get_Count_m3485821544(L_82, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_80) < ((int32_t)L_83)))
+		{
+			goto IL_010d;
+		}
+	}
+
+IL_0176:
+	{
+		return;
+	}
+}
+// System.Void JSONObject::Bake()
+extern "C"  void JSONObject_Bake_m244276219 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_type_6();
+		if ((((int32_t)L_0) == ((int32_t)6)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		String_t* L_1 = JSONObject_Print_m4113013869(__this, (bool)0, /*hidden argument*/NULL);
+		__this->set_str_9(L_1);
+		__this->set_type_6(6);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Collections.IEnumerable JSONObject::BakeAsync()
+extern "C"  Il2CppObject * JSONObject_BakeAsync_m2553896557 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_BakeAsync_m2553896557_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CBakeAsyncU3Ec__Iterator0_t1149809410 * V_0 = NULL;
+	{
+		U3CBakeAsyncU3Ec__Iterator0_t1149809410 * L_0 = (U3CBakeAsyncU3Ec__Iterator0_t1149809410 *)il2cpp_codegen_object_new(U3CBakeAsyncU3Ec__Iterator0_t1149809410_il2cpp_TypeInfo_var);
+		U3CBakeAsyncU3Ec__Iterator0__ctor_m2863786865(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CBakeAsyncU3Ec__Iterator0_t1149809410 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U24this_2(__this);
+		U3CBakeAsyncU3Ec__Iterator0_t1149809410 * L_2 = V_0;
+		U3CBakeAsyncU3Ec__Iterator0_t1149809410 * L_3 = L_2;
+		NullCheck(L_3);
+		L_3->set_U24PC_5(((int32_t)-2));
+		return L_3;
+	}
+}
+// System.String JSONObject::Print(System.Boolean)
+extern "C"  String_t* JSONObject_Print_m4113013869 (JSONObject_t1971882247 * __this, bool ___pretty0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Print_m4113013869_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t1221177846 * V_0 = NULL;
+	{
+		StringBuilder_t1221177846 * L_0 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m3946851802(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		StringBuilder_t1221177846 * L_1 = V_0;
+		bool L_2 = ___pretty0;
+		JSONObject_Stringify_m3496252199(__this, 0, L_1, L_2, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_3 = V_0;
+		NullCheck(L_3);
+		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_3);
+		return L_4;
+	}
+}
+// System.Collections.Generic.IEnumerable`1<System.String> JSONObject::PrintAsync(System.Boolean)
+extern "C"  Il2CppObject* JSONObject_PrintAsync_m1157769192 (JSONObject_t1971882247 * __this, bool ___pretty0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_PrintAsync_m1157769192_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CPrintAsyncU3Ec__Iterator1_t716304657 * V_0 = NULL;
+	{
+		U3CPrintAsyncU3Ec__Iterator1_t716304657 * L_0 = (U3CPrintAsyncU3Ec__Iterator1_t716304657 *)il2cpp_codegen_object_new(U3CPrintAsyncU3Ec__Iterator1_t716304657_il2cpp_TypeInfo_var);
+		U3CPrintAsyncU3Ec__Iterator1__ctor_m918627686(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CPrintAsyncU3Ec__Iterator1_t716304657 * L_1 = V_0;
+		bool L_2 = ___pretty0;
+		NullCheck(L_1);
+		L_1->set_pretty_1(L_2);
+		U3CPrintAsyncU3Ec__Iterator1_t716304657 * L_3 = V_0;
+		NullCheck(L_3);
+		L_3->set_U24this_5(__this);
+		U3CPrintAsyncU3Ec__Iterator1_t716304657 * L_4 = V_0;
+		U3CPrintAsyncU3Ec__Iterator1_t716304657 * L_5 = L_4;
+		NullCheck(L_5);
+		L_5->set_U24PC_8(((int32_t)-2));
+		return L_5;
+	}
+}
+// System.Collections.IEnumerable JSONObject::StringifyAsync(System.Int32,System.Text.StringBuilder,System.Boolean)
+extern "C"  Il2CppObject * JSONObject_StringifyAsync_m1504868741 (JSONObject_t1971882247 * __this, int32_t ___depth0, StringBuilder_t1221177846 * ___builder1, bool ___pretty2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_StringifyAsync_m1504868741_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * V_0 = NULL;
+	{
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_0 = (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 *)il2cpp_codegen_object_new(U3CStringifyAsyncU3Ec__Iterator2_t4037879552_il2cpp_TypeInfo_var);
+		U3CStringifyAsyncU3Ec__Iterator2__ctor_m3369090517(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_1 = V_0;
+		int32_t L_2 = ___depth0;
+		NullCheck(L_1);
+		L_1->set_depth_0(L_2);
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_3 = V_0;
+		StringBuilder_t1221177846 * L_4 = ___builder1;
+		NullCheck(L_3);
+		L_3->set_builder_2(L_4);
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_5 = V_0;
+		bool L_6 = ___pretty2;
+		NullCheck(L_5);
+		L_5->set_pretty_3(L_6);
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_7 = V_0;
+		int32_t L_8 = ___depth0;
+		NullCheck(L_7);
+		L_7->set_U3CU24U3Edepth_17(L_8);
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_9 = V_0;
+		NullCheck(L_9);
+		L_9->set_U24this_14(__this);
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_10 = V_0;
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_11 = L_10;
+		NullCheck(L_11);
+		L_11->set_U24PC_18(((int32_t)-2));
+		return L_11;
+	}
+}
+// System.Void JSONObject::Stringify(System.Int32,System.Text.StringBuilder,System.Boolean)
+extern "C"  void JSONObject_Stringify_m3496252199 (JSONObject_t1971882247 * __this, int32_t ___depth0, StringBuilder_t1221177846 * ___builder1, bool ___pretty2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_Stringify_m3496252199_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	JSONObject_t1971882247 * V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	{
+		int32_t L_0 = ___depth0;
+		int32_t L_1 = L_0;
+		___depth0 = ((int32_t)((int32_t)L_1+(int32_t)1));
+		if ((((int32_t)L_1) <= ((int32_t)((int32_t)100))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral2041690406, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0018:
+	{
+		int32_t L_2 = __this->get_type_6();
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		if (L_3 == 0)
+		{
+			goto IL_03cf;
+		}
+		if (L_3 == 1)
+		{
+			goto IL_0058;
+		}
+		if (L_3 == 2)
+		{
+			goto IL_006f;
+		}
+		if (L_3 == 3)
+		{
+			goto IL_0117;
+		}
+		if (L_3 == 4)
+		{
+			goto IL_0262;
+		}
+		if (L_3 == 5)
+		{
+			goto IL_03a2;
+		}
+		if (L_3 == 6)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		goto IL_03e0;
+	}
+
+IL_0046:
+	{
+		StringBuilder_t1221177846 * L_4 = ___builder1;
+		String_t* L_5 = __this->get_str_9();
+		NullCheck(L_4);
+		StringBuilder_Append_m3636508479(L_4, L_5, /*hidden argument*/NULL);
+		goto IL_03e0;
+	}
+
+IL_0058:
+	{
+		StringBuilder_t1221177846 * L_6 = ___builder1;
+		String_t* L_7 = __this->get_str_9();
+		NullCheck(L_6);
+		StringBuilder_AppendFormat_m3265503696(L_6, _stringLiteral1554931876, L_7, /*hidden argument*/NULL);
+		goto IL_03e0;
+	}
+
+IL_006f:
+	{
+		bool L_8 = __this->get_useInt_11();
+		if (!L_8)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_9 = ___builder1;
+		int64_t* L_10 = __this->get_address_of_i_12();
+		String_t* L_11 = Int64_ToString_m689375889(L_10, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		StringBuilder_Append_m3636508479(L_9, L_11, /*hidden argument*/NULL);
+		goto IL_0112;
+	}
+
+IL_0097:
+	{
+		float L_12 = __this->get_n_10();
+		bool L_13 = Single_IsInfinity_m3331110346(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_14 = ___builder1;
+		NullCheck(L_14);
+		StringBuilder_Append_m3636508479(L_14, _stringLiteral1751346954, /*hidden argument*/NULL);
+		goto IL_0112;
+	}
+
+IL_00b8:
+	{
+		float L_15 = __this->get_n_10();
+		bool L_16 = Single_IsNegativeInfinity_m2615809279(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_17 = ___builder1;
+		NullCheck(L_17);
+		StringBuilder_Append_m3636508479(L_17, _stringLiteral376316188, /*hidden argument*/NULL);
+		goto IL_0112;
+	}
+
+IL_00d9:
+	{
+		float L_18 = __this->get_n_10();
+		bool L_19 = Single_IsNaN_m2349591895(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00fa;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_20 = ___builder1;
+		NullCheck(L_20);
+		StringBuilder_Append_m3636508479(L_20, _stringLiteral452738781, /*hidden argument*/NULL);
+		goto IL_0112;
+	}
+
+IL_00fa:
+	{
+		StringBuilder_t1221177846 * L_21 = ___builder1;
+		float* L_22 = __this->get_address_of_n_10();
+		String_t* L_23 = Single_ToString_m1813392066(L_22, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		StringBuilder_Append_m3636508479(L_21, L_23, /*hidden argument*/NULL);
+	}
+
+IL_0112:
+	{
+		goto IL_03e0;
+	}
+
+IL_0117:
+	{
+		StringBuilder_t1221177846 * L_24 = ___builder1;
+		NullCheck(L_24);
+		StringBuilder_Append_m3636508479(L_24, _stringLiteral372029399, /*hidden argument*/NULL);
+		List_1_t1341003379 * L_25 = __this->get_list_7();
+		NullCheck(L_25);
+		int32_t L_26 = List_1_get_Count_m3485821544(L_25, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_26) <= ((int32_t)0)))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		bool L_27 = ___pretty2;
+		if (!L_27)
+		{
+			goto IL_0146;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_28 = ___builder1;
+		NullCheck(L_28);
+		StringBuilder_Append_m3636508479(L_28, _stringLiteral372029352, /*hidden argument*/NULL);
+	}
+
+IL_0146:
+	{
+		V_1 = 0;
+		goto IL_01d2;
+	}
+
+IL_014d:
+	{
+		List_1_t1398341365 * L_29 = __this->get_keys_8();
+		int32_t L_30 = V_1;
+		NullCheck(L_29);
+		String_t* L_31 = List_1_get_Item_m566484697(L_29, L_30, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		V_2 = L_31;
+		List_1_t1341003379 * L_32 = __this->get_list_7();
+		int32_t L_33 = V_1;
+		NullCheck(L_32);
+		JSONObject_t1971882247 * L_34 = List_1_get_Item_m429614411(L_32, L_33, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		V_3 = L_34;
+		JSONObject_t1971882247 * L_35 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_36 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+		if (!L_36)
+		{
+			goto IL_01ce;
+		}
+	}
+	{
+		bool L_37 = ___pretty2;
+		if (!L_37)
+		{
+			goto IL_019a;
+		}
+	}
+	{
+		V_4 = 0;
+		goto IL_0192;
+	}
+
+IL_0180:
+	{
+		StringBuilder_t1221177846 * L_38 = ___builder1;
+		NullCheck(L_38);
+		StringBuilder_Append_m3636508479(L_38, _stringLiteral372029349, /*hidden argument*/NULL);
+		int32_t L_39 = V_4;
+		V_4 = ((int32_t)((int32_t)L_39+(int32_t)1));
+	}
+
+IL_0192:
+	{
+		int32_t L_40 = V_4;
+		int32_t L_41 = ___depth0;
+		if ((((int32_t)L_40) < ((int32_t)L_41)))
+		{
+			goto IL_0180;
+		}
+	}
+
+IL_019a:
+	{
+		StringBuilder_t1221177846 * L_42 = ___builder1;
+		String_t* L_43 = V_2;
+		NullCheck(L_42);
+		StringBuilder_AppendFormat_m3265503696(L_42, _stringLiteral845265362, L_43, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_44 = V_3;
+		int32_t L_45 = ___depth0;
+		StringBuilder_t1221177846 * L_46 = ___builder1;
+		bool L_47 = ___pretty2;
+		NullCheck(L_44);
+		JSONObject_Stringify_m3496252199(L_44, L_45, L_46, L_47, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_48 = ___builder1;
+		NullCheck(L_48);
+		StringBuilder_Append_m3636508479(L_48, _stringLiteral372029314, /*hidden argument*/NULL);
+		bool L_49 = ___pretty2;
+		if (!L_49)
+		{
+			goto IL_01ce;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_50 = ___builder1;
+		NullCheck(L_50);
+		StringBuilder_Append_m3636508479(L_50, _stringLiteral372029352, /*hidden argument*/NULL);
+	}
+
+IL_01ce:
+	{
+		int32_t L_51 = V_1;
+		V_1 = ((int32_t)((int32_t)L_51+(int32_t)1));
+	}
+
+IL_01d2:
+	{
+		int32_t L_52 = V_1;
+		List_1_t1341003379 * L_53 = __this->get_list_7();
+		NullCheck(L_53);
+		int32_t L_54 = List_1_get_Count_m3485821544(L_53, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_52) < ((int32_t)L_54)))
+		{
+			goto IL_014d;
+		}
+	}
+	{
+		bool L_55 = ___pretty2;
+		if (!L_55)
+		{
+			goto IL_01fc;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_56 = ___builder1;
+		StringBuilder_t1221177846 * L_57 = L_56;
+		NullCheck(L_57);
+		int32_t L_58 = StringBuilder_get_Length_m1608241323(L_57, /*hidden argument*/NULL);
+		NullCheck(L_57);
+		StringBuilder_set_Length_m3039225444(L_57, ((int32_t)((int32_t)L_58-(int32_t)2)), /*hidden argument*/NULL);
+		goto IL_020a;
+	}
+
+IL_01fc:
+	{
+		StringBuilder_t1221177846 * L_59 = ___builder1;
+		StringBuilder_t1221177846 * L_60 = L_59;
+		NullCheck(L_60);
+		int32_t L_61 = StringBuilder_get_Length_m1608241323(L_60, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		StringBuilder_set_Length_m3039225444(L_60, ((int32_t)((int32_t)L_61-(int32_t)1)), /*hidden argument*/NULL);
+	}
+
+IL_020a:
+	{
+		bool L_62 = ___pretty2;
+		if (!L_62)
+		{
+			goto IL_0251;
+		}
+	}
+	{
+		List_1_t1341003379 * L_63 = __this->get_list_7();
+		NullCheck(L_63);
+		int32_t L_64 = List_1_get_Count_m3485821544(L_63, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_64) <= ((int32_t)0)))
+		{
+			goto IL_0251;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_65 = ___builder1;
+		NullCheck(L_65);
+		StringBuilder_Append_m3636508479(L_65, _stringLiteral372029352, /*hidden argument*/NULL);
+		V_5 = 0;
+		goto IL_0247;
+	}
+
+IL_0235:
+	{
+		StringBuilder_t1221177846 * L_66 = ___builder1;
+		NullCheck(L_66);
+		StringBuilder_Append_m3636508479(L_66, _stringLiteral372029349, /*hidden argument*/NULL);
+		int32_t L_67 = V_5;
+		V_5 = ((int32_t)((int32_t)L_67+(int32_t)1));
+	}
+
+IL_0247:
+	{
+		int32_t L_68 = V_5;
+		int32_t L_69 = ___depth0;
+		if ((((int32_t)L_68) < ((int32_t)((int32_t)((int32_t)L_69-(int32_t)1)))))
+		{
+			goto IL_0235;
+		}
+	}
+
+IL_0251:
+	{
+		StringBuilder_t1221177846 * L_70 = ___builder1;
+		NullCheck(L_70);
+		StringBuilder_Append_m3636508479(L_70, _stringLiteral372029393, /*hidden argument*/NULL);
+		goto IL_03e0;
+	}
+
+IL_0262:
+	{
+		StringBuilder_t1221177846 * L_71 = ___builder1;
+		NullCheck(L_71);
+		StringBuilder_Append_m3636508479(L_71, _stringLiteral372029431, /*hidden argument*/NULL);
+		List_1_t1341003379 * L_72 = __this->get_list_7();
+		NullCheck(L_72);
+		int32_t L_73 = List_1_get_Count_m3485821544(L_72, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_73) <= ((int32_t)0)))
+		{
+			goto IL_034a;
+		}
+	}
+	{
+		bool L_74 = ___pretty2;
+		if (!L_74)
+		{
+			goto IL_0291;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_75 = ___builder1;
+		NullCheck(L_75);
+		StringBuilder_Append_m3636508479(L_75, _stringLiteral372029352, /*hidden argument*/NULL);
+	}
+
+IL_0291:
+	{
+		V_6 = 0;
+		goto IL_0311;
+	}
+
+IL_0299:
+	{
+		List_1_t1341003379 * L_76 = __this->get_list_7();
+		int32_t L_77 = V_6;
+		NullCheck(L_76);
+		JSONObject_t1971882247 * L_78 = List_1_get_Item_m429614411(L_76, L_77, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_79 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_78, /*hidden argument*/NULL);
+		if (!L_79)
+		{
+			goto IL_030b;
+		}
+	}
+	{
+		bool L_80 = ___pretty2;
+		if (!L_80)
+		{
+			goto IL_02d8;
+		}
+	}
+	{
+		V_7 = 0;
+		goto IL_02d0;
+	}
+
+IL_02be:
+	{
+		StringBuilder_t1221177846 * L_81 = ___builder1;
+		NullCheck(L_81);
+		StringBuilder_Append_m3636508479(L_81, _stringLiteral372029349, /*hidden argument*/NULL);
+		int32_t L_82 = V_7;
+		V_7 = ((int32_t)((int32_t)L_82+(int32_t)1));
+	}
+
+IL_02d0:
+	{
+		int32_t L_83 = V_7;
+		int32_t L_84 = ___depth0;
+		if ((((int32_t)L_83) < ((int32_t)L_84)))
+		{
+			goto IL_02be;
+		}
+	}
+
+IL_02d8:
+	{
+		List_1_t1341003379 * L_85 = __this->get_list_7();
+		int32_t L_86 = V_6;
+		NullCheck(L_85);
+		JSONObject_t1971882247 * L_87 = List_1_get_Item_m429614411(L_85, L_86, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		int32_t L_88 = ___depth0;
+		StringBuilder_t1221177846 * L_89 = ___builder1;
+		bool L_90 = ___pretty2;
+		NullCheck(L_87);
+		JSONObject_Stringify_m3496252199(L_87, L_88, L_89, L_90, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_91 = ___builder1;
+		NullCheck(L_91);
+		StringBuilder_Append_m3636508479(L_91, _stringLiteral372029314, /*hidden argument*/NULL);
+		bool L_92 = ___pretty2;
+		if (!L_92)
+		{
+			goto IL_030b;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_93 = ___builder1;
+		NullCheck(L_93);
+		StringBuilder_Append_m3636508479(L_93, _stringLiteral372029352, /*hidden argument*/NULL);
+	}
+
+IL_030b:
+	{
+		int32_t L_94 = V_6;
+		V_6 = ((int32_t)((int32_t)L_94+(int32_t)1));
+	}
+
+IL_0311:
+	{
+		int32_t L_95 = V_6;
+		List_1_t1341003379 * L_96 = __this->get_list_7();
+		NullCheck(L_96);
+		int32_t L_97 = List_1_get_Count_m3485821544(L_96, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_95) < ((int32_t)L_97)))
+		{
+			goto IL_0299;
+		}
+	}
+	{
+		bool L_98 = ___pretty2;
+		if (!L_98)
+		{
+			goto IL_033c;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_99 = ___builder1;
+		StringBuilder_t1221177846 * L_100 = L_99;
+		NullCheck(L_100);
+		int32_t L_101 = StringBuilder_get_Length_m1608241323(L_100, /*hidden argument*/NULL);
+		NullCheck(L_100);
+		StringBuilder_set_Length_m3039225444(L_100, ((int32_t)((int32_t)L_101-(int32_t)2)), /*hidden argument*/NULL);
+		goto IL_034a;
+	}
+
+IL_033c:
+	{
+		StringBuilder_t1221177846 * L_102 = ___builder1;
+		StringBuilder_t1221177846 * L_103 = L_102;
+		NullCheck(L_103);
+		int32_t L_104 = StringBuilder_get_Length_m1608241323(L_103, /*hidden argument*/NULL);
+		NullCheck(L_103);
+		StringBuilder_set_Length_m3039225444(L_103, ((int32_t)((int32_t)L_104-(int32_t)1)), /*hidden argument*/NULL);
+	}
+
+IL_034a:
+	{
+		bool L_105 = ___pretty2;
+		if (!L_105)
+		{
+			goto IL_0391;
+		}
+	}
+	{
+		List_1_t1341003379 * L_106 = __this->get_list_7();
+		NullCheck(L_106);
+		int32_t L_107 = List_1_get_Count_m3485821544(L_106, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_107) <= ((int32_t)0)))
+		{
+			goto IL_0391;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_108 = ___builder1;
+		NullCheck(L_108);
+		StringBuilder_Append_m3636508479(L_108, _stringLiteral372029352, /*hidden argument*/NULL);
+		V_8 = 0;
+		goto IL_0387;
+	}
+
+IL_0375:
+	{
+		StringBuilder_t1221177846 * L_109 = ___builder1;
+		NullCheck(L_109);
+		StringBuilder_Append_m3636508479(L_109, _stringLiteral372029349, /*hidden argument*/NULL);
+		int32_t L_110 = V_8;
+		V_8 = ((int32_t)((int32_t)L_110+(int32_t)1));
+	}
+
+IL_0387:
+	{
+		int32_t L_111 = V_8;
+		int32_t L_112 = ___depth0;
+		if ((((int32_t)L_111) < ((int32_t)((int32_t)((int32_t)L_112-(int32_t)1)))))
+		{
+			goto IL_0375;
+		}
+	}
+
+IL_0391:
+	{
+		StringBuilder_t1221177846 * L_113 = ___builder1;
+		NullCheck(L_113);
+		StringBuilder_Append_m3636508479(L_113, _stringLiteral372029425, /*hidden argument*/NULL);
+		goto IL_03e0;
+	}
+
+IL_03a2:
+	{
+		bool L_114 = __this->get_b_13();
+		if (!L_114)
+		{
+			goto IL_03be;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_115 = ___builder1;
+		NullCheck(L_115);
+		StringBuilder_Append_m3636508479(L_115, _stringLiteral3323263070, /*hidden argument*/NULL);
+		goto IL_03ca;
+	}
+
+IL_03be:
+	{
+		StringBuilder_t1221177846 * L_116 = ___builder1;
+		NullCheck(L_116);
+		StringBuilder_Append_m3636508479(L_116, _stringLiteral2609877245, /*hidden argument*/NULL);
+	}
+
+IL_03ca:
+	{
+		goto IL_03e0;
+	}
+
+IL_03cf:
+	{
+		StringBuilder_t1221177846 * L_117 = ___builder1;
+		NullCheck(L_117);
+		StringBuilder_Append_m3636508479(L_117, _stringLiteral1743624307, /*hidden argument*/NULL);
+		goto IL_03e0;
+	}
+
+IL_03e0:
+	{
+		return;
+	}
+}
+// UnityEngine.WWWForm JSONObject::op_Implicit(JSONObject)
+extern "C"  WWWForm_t3950226929 * JSONObject_op_Implicit_m146727933 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_op_Implicit_m146727933_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	WWWForm_t3950226929 * V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	{
+		WWWForm_t3950226929 * L_0 = (WWWForm_t3950226929 *)il2cpp_codegen_object_new(WWWForm_t3950226929_il2cpp_TypeInfo_var);
+		WWWForm__ctor_m2129424870(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_007d;
+	}
+
+IL_000d:
+	{
+		int32_t L_1 = V_1;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_5 = String_Concat_m56707527(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		V_2 = L_5;
+		JSONObject_t1971882247 * L_6 = ___obj0;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->get_type_6();
+		if ((!(((uint32_t)L_7) == ((uint32_t)3))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_8 = ___obj0;
+		NullCheck(L_8);
+		List_1_t1398341365 * L_9 = L_8->get_keys_8();
+		int32_t L_10 = V_1;
+		NullCheck(L_9);
+		String_t* L_11 = List_1_get_Item_m566484697(L_9, L_10, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		V_2 = L_11;
+	}
+
+IL_0037:
+	{
+		JSONObject_t1971882247 * L_12 = ___obj0;
+		NullCheck(L_12);
+		List_1_t1341003379 * L_13 = L_12->get_list_7();
+		int32_t L_14 = V_1;
+		NullCheck(L_13);
+		JSONObject_t1971882247 * L_15 = List_1_get_Item_m429614411(L_13, L_14, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		NullCheck(L_15);
+		String_t* L_16 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_15);
+		V_3 = L_16;
+		JSONObject_t1971882247 * L_17 = ___obj0;
+		NullCheck(L_17);
+		List_1_t1341003379 * L_18 = L_17->get_list_7();
+		int32_t L_19 = V_1;
+		NullCheck(L_18);
+		JSONObject_t1971882247 * L_20 = List_1_get_Item_m429614411(L_18, L_19, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		NullCheck(L_20);
+		int32_t L_21 = L_20->get_type_6();
+		if ((!(((uint32_t)L_21) == ((uint32_t)1))))
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		String_t* L_22 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_23 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_22);
+		String_t* L_24 = String_Replace_m1941156251(L_22, _stringLiteral372029312, L_23, /*hidden argument*/NULL);
+		V_3 = L_24;
+	}
+
+IL_0071:
+	{
+		WWWForm_t3950226929 * L_25 = V_0;
+		String_t* L_26 = V_2;
+		String_t* L_27 = V_3;
+		NullCheck(L_25);
+		WWWForm_AddField_m1334606983(L_25, L_26, L_27, /*hidden argument*/NULL);
+		int32_t L_28 = V_1;
+		V_1 = ((int32_t)((int32_t)L_28+(int32_t)1));
+	}
+
+IL_007d:
+	{
+		int32_t L_29 = V_1;
+		JSONObject_t1971882247 * L_30 = ___obj0;
+		NullCheck(L_30);
+		List_1_t1341003379 * L_31 = L_30->get_list_7();
+		NullCheck(L_31);
+		int32_t L_32 = List_1_get_Count_m3485821544(L_31, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_29) < ((int32_t)L_32)))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		WWWForm_t3950226929 * L_33 = V_0;
+		return L_33;
+	}
+}
+// JSONObject JSONObject::get_Item(System.Int32)
+extern "C"  JSONObject_t1971882247 * JSONObject_get_Item_m481309353 (JSONObject_t1971882247 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_get_Item_m481309353_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1341003379 * L_0 = __this->get_list_7();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m3485821544(L_0, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		int32_t L_2 = ___index0;
+		if ((((int32_t)L_1) <= ((int32_t)L_2)))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		List_1_t1341003379 * L_3 = __this->get_list_7();
+		int32_t L_4 = ___index0;
+		NullCheck(L_3);
+		JSONObject_t1971882247 * L_5 = List_1_get_Item_m429614411(L_3, L_4, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		return L_5;
+	}
+
+IL_001e:
+	{
+		return (JSONObject_t1971882247 *)NULL;
+	}
+}
+// System.Void JSONObject::set_Item(System.Int32,JSONObject)
+extern "C"  void JSONObject_set_Item_m2332624254 (JSONObject_t1971882247 * __this, int32_t ___index0, JSONObject_t1971882247 * ___value1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_set_Item_m2332624254_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1341003379 * L_0 = __this->get_list_7();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m3485821544(L_0, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		int32_t L_2 = ___index0;
+		if ((((int32_t)L_1) <= ((int32_t)L_2)))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		List_1_t1341003379 * L_3 = __this->get_list_7();
+		int32_t L_4 = ___index0;
+		JSONObject_t1971882247 * L_5 = ___value1;
+		NullCheck(L_3);
+		List_1_set_Item_m254334392(L_3, L_4, L_5, /*hidden argument*/List_1_set_Item_m254334392_MethodInfo_var);
+	}
+
+IL_001e:
+	{
+		return;
+	}
+}
+// JSONObject JSONObject::get_Item(System.String)
+extern "C"  JSONObject_t1971882247 * JSONObject_get_Item_m2638456294 (JSONObject_t1971882247 * __this, String_t* ___index0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___index0;
+		JSONObject_t1971882247 * L_1 = JSONObject_GetField_m887332132(__this, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void JSONObject::set_Item(System.String,JSONObject)
+extern "C"  void JSONObject_set_Item_m2230411265 (JSONObject_t1971882247 * __this, String_t* ___index0, JSONObject_t1971882247 * ___value1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___index0;
+		JSONObject_t1971882247 * L_1 = ___value1;
+		JSONObject_SetField_m1180592005(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String JSONObject::ToString()
+extern "C"  String_t* JSONObject_ToString_m2912340705 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = JSONObject_Print_m4113013869(__this, (bool)0, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.String JSONObject::ToString(System.Boolean)
+extern "C"  String_t* JSONObject_ToString_m3778538422 (JSONObject_t1971882247 * __this, bool ___pretty0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___pretty0;
+		String_t* L_1 = JSONObject_Print_m4113013869(__this, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Collections.Generic.Dictionary`2<System.String,System.String> JSONObject::ToDictionary()
+extern "C"  Dictionary_2_t3943999495 * JSONObject_ToDictionary_m1765493061 (JSONObject_t1971882247 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject_ToDictionary_m1765493061_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t3943999495 * V_0 = NULL;
+	int32_t V_1 = 0;
+	JSONObject_t1971882247 * V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		int32_t L_0 = __this->get_type_6();
+		if ((!(((uint32_t)L_0) == ((uint32_t)3))))
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		Dictionary_2_t3943999495 * L_1 = (Dictionary_2_t3943999495 *)il2cpp_codegen_object_new(Dictionary_2_t3943999495_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m760167321(L_1, /*hidden argument*/Dictionary_2__ctor_m760167321_MethodInfo_var);
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_00ec;
+	}
+
+IL_0019:
+	{
+		List_1_t1341003379 * L_2 = __this->get_list_7();
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		JSONObject_t1971882247 * L_4 = List_1_get_Item_m429614411(L_2, L_3, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		V_2 = L_4;
+		JSONObject_t1971882247 * L_5 = V_2;
+		NullCheck(L_5);
+		int32_t L_6 = L_5->get_type_6();
+		V_3 = L_6;
+		int32_t L_7 = V_3;
+		if (((int32_t)((int32_t)L_7-(int32_t)1)) == 0)
+		{
+			goto IL_004e;
+		}
+		if (((int32_t)((int32_t)L_7-(int32_t)1)) == 1)
+		{
+			goto IL_006b;
+		}
+		if (((int32_t)((int32_t)L_7-(int32_t)1)) == 2)
+		{
+			goto IL_00c3;
+		}
+		if (((int32_t)((int32_t)L_7-(int32_t)1)) == 3)
+		{
+			goto IL_00c3;
+		}
+		if (((int32_t)((int32_t)L_7-(int32_t)1)) == 4)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		goto IL_00c3;
+	}
+
+IL_004e:
+	{
+		Dictionary_2_t3943999495 * L_8 = V_0;
+		List_1_t1398341365 * L_9 = __this->get_keys_8();
+		int32_t L_10 = V_1;
+		NullCheck(L_9);
+		String_t* L_11 = List_1_get_Item_m566484697(L_9, L_10, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		JSONObject_t1971882247 * L_12 = V_2;
+		NullCheck(L_12);
+		String_t* L_13 = L_12->get_str_9();
+		NullCheck(L_8);
+		Dictionary_2_Add_m3686231158(L_8, L_11, L_13, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		goto IL_00e8;
+	}
+
+IL_006b:
+	{
+		Dictionary_2_t3943999495 * L_14 = V_0;
+		List_1_t1398341365 * L_15 = __this->get_keys_8();
+		int32_t L_16 = V_1;
+		NullCheck(L_15);
+		String_t* L_17 = List_1_get_Item_m566484697(L_15, L_16, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		JSONObject_t1971882247 * L_18 = V_2;
+		NullCheck(L_18);
+		float L_19 = L_18->get_n_10();
+		float L_20 = L_19;
+		Il2CppObject * L_21 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_20);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_23 = String_Concat_m56707527(NULL /*static, unused*/, L_21, L_22, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Dictionary_2_Add_m3686231158(L_14, L_17, L_23, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		goto IL_00e8;
+	}
+
+IL_0097:
+	{
+		Dictionary_2_t3943999495 * L_24 = V_0;
+		List_1_t1398341365 * L_25 = __this->get_keys_8();
+		int32_t L_26 = V_1;
+		NullCheck(L_25);
+		String_t* L_27 = List_1_get_Item_m566484697(L_25, L_26, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		JSONObject_t1971882247 * L_28 = V_2;
+		NullCheck(L_28);
+		bool L_29 = L_28->get_b_13();
+		bool L_30 = L_29;
+		Il2CppObject * L_31 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_30);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_32 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_33 = String_Concat_m56707527(NULL /*static, unused*/, L_31, L_32, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		Dictionary_2_Add_m3686231158(L_24, L_27, L_33, /*hidden argument*/Dictionary_2_Add_m3686231158_MethodInfo_var);
+		goto IL_00e8;
+	}
+
+IL_00c3:
+	{
+		List_1_t1398341365 * L_34 = __this->get_keys_8();
+		int32_t L_35 = V_1;
+		NullCheck(L_34);
+		String_t* L_36 = List_1_get_Item_m566484697(L_34, L_35, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_37 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral942984848, L_36, _stringLiteral688080911, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
+		goto IL_00e8;
+	}
+
+IL_00e8:
+	{
+		int32_t L_38 = V_1;
+		V_1 = ((int32_t)((int32_t)L_38+(int32_t)1));
+	}
+
+IL_00ec:
+	{
+		int32_t L_39 = V_1;
+		List_1_t1341003379 * L_40 = __this->get_list_7();
+		NullCheck(L_40);
+		int32_t L_41 = List_1_get_Count_m3485821544(L_40, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_39) < ((int32_t)L_41)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		Dictionary_2_t3943999495 * L_42 = V_0;
+		return L_42;
+	}
+
+IL_00ff:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3109692691, /*hidden argument*/NULL);
+		return (Dictionary_2_t3943999495 *)NULL;
+	}
+}
+// System.Boolean JSONObject::op_Implicit(JSONObject)
+extern "C"  bool JSONObject_op_Implicit_m2214727230 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___o0, const MethodInfo* method)
+{
+	{
+		JSONObject_t1971882247 * L_0 = ___o0;
+		return (bool)((((int32_t)((((Il2CppObject*)(JSONObject_t1971882247 *)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Void JSONObject::.cctor()
+extern "C"  void JSONObject__cctor_m3703431513 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONObject__cctor_m3703431513_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		CharU5BU5D_t1328083999* L_0 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)6));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305143____U24fieldU2D87137E630C3837BC71D4E9D0A4EB1E7CF85C9909_0_FieldInfo_var), /*hidden argument*/NULL);
+		((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->set_WHITESPACE_5(L_0);
+		Stopwatch_t1380178105 * L_1 = (Stopwatch_t1380178105 *)il2cpp_codegen_object_new(Stopwatch_t1380178105_il2cpp_TypeInfo_var);
+		Stopwatch__ctor_m589309528(L_1, /*hidden argument*/NULL);
+		((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->set_printWatch_15(L_1);
+		return;
+	}
+}
+// System.Void JSONObject/<BakeAsync>c__Iterator0::.ctor()
+extern "C"  void U3CBakeAsyncU3Ec__Iterator0__ctor_m2863786865 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean JSONObject/<BakeAsync>c__Iterator0::MoveNext()
+extern "C"  bool U3CBakeAsyncU3Ec__Iterator0_MoveNext_m913392635 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CBakeAsyncU3Ec__Iterator0_MoveNext_m913392635_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get_U24PC_5();
+		V_0 = L_0;
+		__this->set_U24PC_5((-1));
+		V_1 = (bool)0;
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0023;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		goto IL_00f6;
+	}
+
+IL_0023:
+	{
+		JSONObject_t1971882247 * L_2 = __this->get_U24this_2();
+		NullCheck(L_2);
+		int32_t L_3 = L_2->get_type_6();
+		if ((((int32_t)L_3) == ((int32_t)6)))
+		{
+			goto IL_00ef;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_4 = __this->get_U24this_2();
+		NullCheck(L_4);
+		Il2CppObject* L_5 = JSONObject_PrintAsync_m1157769192(L_4, (bool)0, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Il2CppObject* L_6 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<System.String>::GetEnumerator() */, IEnumerable_1_t2321347278_il2cpp_TypeInfo_var, L_5);
+		__this->set_U24locvar0_0(L_6);
+		V_0 = ((int32_t)-3);
+	}
+
+IL_004e:
+	try
+	{ // begin try (depth: 1)
+		{
+			uint32_t L_7 = V_0;
+			if (((int32_t)((int32_t)L_7-(int32_t)1)) == 0)
+			{
+				goto IL_009d;
+			}
+		}
+
+IL_005a:
+		{
+			goto IL_00b3;
+		}
+
+IL_005f:
+		{
+			Il2CppObject* L_8 = __this->get_U24locvar0_0();
+			NullCheck(L_8);
+			String_t* L_9 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.String>::get_Current() */, IEnumerator_1_t3799711356_il2cpp_TypeInfo_var, L_8);
+			__this->set_U3CsU3E__1_1(L_9);
+			String_t* L_10 = __this->get_U3CsU3E__1_1();
+			if (L_10)
+			{
+				goto IL_00a2;
+			}
+		}
+
+IL_007b:
+		{
+			String_t* L_11 = __this->get_U3CsU3E__1_1();
+			__this->set_U24current_3(L_11);
+			bool L_12 = __this->get_U24disposing_4();
+			if (L_12)
+			{
+				goto IL_0096;
+			}
+		}
+
+IL_008f:
+		{
+			__this->set_U24PC_5(1);
+		}
+
+IL_0096:
+		{
+			V_1 = (bool)1;
+			IL2CPP_LEAVE(0xF8, FINALLY_00c8);
+		}
+
+IL_009d:
+		{
+			goto IL_00b3;
+		}
+
+IL_00a2:
+		{
+			JSONObject_t1971882247 * L_13 = __this->get_U24this_2();
+			String_t* L_14 = __this->get_U3CsU3E__1_1();
+			NullCheck(L_13);
+			L_13->set_str_9(L_14);
+		}
+
+IL_00b3:
+		{
+			Il2CppObject* L_15 = __this->get_U24locvar0_0();
+			NullCheck(L_15);
+			bool L_16 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_15);
+			if (L_16)
+			{
+				goto IL_005f;
+			}
+		}
+
+IL_00c3:
+		{
+			IL2CPP_LEAVE(0xE3, FINALLY_00c8);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00c8;
+	}
+
+FINALLY_00c8:
+	{ // begin finally (depth: 1)
+		{
+			bool L_17 = V_1;
+			if (!L_17)
+			{
+				goto IL_00cc;
+			}
+		}
+
+IL_00cb:
+		{
+			IL2CPP_END_FINALLY(200)
+		}
+
+IL_00cc:
+		{
+			Il2CppObject* L_18 = __this->get_U24locvar0_0();
+			if (!L_18)
+			{
+				goto IL_00e2;
+			}
+		}
+
+IL_00d7:
+		{
+			Il2CppObject* L_19 = __this->get_U24locvar0_0();
+			NullCheck(L_19);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_19);
+		}
+
+IL_00e2:
+		{
+			IL2CPP_END_FINALLY(200)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(200)
+	{
+		IL2CPP_JUMP_TBL(0xF8, IL_00f8)
+		IL2CPP_JUMP_TBL(0xE3, IL_00e3)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00e3:
+	{
+		JSONObject_t1971882247 * L_20 = __this->get_U24this_2();
+		NullCheck(L_20);
+		L_20->set_type_6(6);
+	}
+
+IL_00ef:
+	{
+		__this->set_U24PC_5((-1));
+	}
+
+IL_00f6:
+	{
+		return (bool)0;
+	}
+
+IL_00f8:
+	{
+		return (bool)1;
+	}
+}
+// System.Object JSONObject/<BakeAsync>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CBakeAsyncU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3567374907 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Object JSONObject/<BakeAsync>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CBakeAsyncU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3869766659 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_3();
+		return L_0;
+	}
+}
+// System.Void JSONObject/<BakeAsync>c__Iterator0::Dispose()
+extern "C"  void U3CBakeAsyncU3Ec__Iterator0_Dispose_m3935130108 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CBakeAsyncU3Ec__Iterator0_Dispose_m3935130108_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get_U24PC_5();
+		V_0 = L_0;
+		__this->set_U24disposing_4((bool)1);
+		__this->set_U24PC_5((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0044;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		goto IL_0044;
+	}
+
+IL_0028:
+	try
+	{ // begin try (depth: 1)
+		IL2CPP_LEAVE(0x44, FINALLY_002d);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_002d;
+	}
+
+FINALLY_002d:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject* L_2 = __this->get_U24locvar0_0();
+			if (!L_2)
+			{
+				goto IL_0043;
+			}
+		}
+
+IL_0038:
+		{
+			Il2CppObject* L_3 = __this->get_U24locvar0_0();
+			NullCheck(L_3);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_3);
+		}
+
+IL_0043:
+		{
+			IL2CPP_END_FINALLY(45)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(45)
+	{
+		IL2CPP_JUMP_TBL(0x44, IL_0044)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0044:
+	{
+		return;
+	}
+}
+// System.Void JSONObject/<BakeAsync>c__Iterator0::Reset()
+extern "C"  void U3CBakeAsyncU3Ec__Iterator0_Reset_m1787939058 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CBakeAsyncU3Ec__Iterator0_Reset_m1787939058_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Collections.IEnumerator JSONObject/<BakeAsync>c__Iterator0::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  Il2CppObject * U3CBakeAsyncU3Ec__Iterator0_System_Collections_IEnumerable_GetEnumerator_m3693741580 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = U3CBakeAsyncU3Ec__Iterator0_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3677305720(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<System.Object> JSONObject/<BakeAsync>c__Iterator0::System.Collections.Generic.IEnumerable<object>.GetEnumerator()
+extern "C"  Il2CppObject* U3CBakeAsyncU3Ec__Iterator0_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3677305720 (U3CBakeAsyncU3Ec__Iterator0_t1149809410 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CBakeAsyncU3Ec__Iterator0_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3677305720_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CBakeAsyncU3Ec__Iterator0_t1149809410 * V_0 = NULL;
+	{
+		int32_t* L_0 = __this->get_address_of_U24PC_5();
+		int32_t L_1 = Interlocked_CompareExchange_m3339239614(NULL /*static, unused*/, L_0, 0, ((int32_t)-2), /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		return __this;
+	}
+
+IL_0014:
+	{
+		U3CBakeAsyncU3Ec__Iterator0_t1149809410 * L_2 = (U3CBakeAsyncU3Ec__Iterator0_t1149809410 *)il2cpp_codegen_object_new(U3CBakeAsyncU3Ec__Iterator0_t1149809410_il2cpp_TypeInfo_var);
+		U3CBakeAsyncU3Ec__Iterator0__ctor_m2863786865(L_2, /*hidden argument*/NULL);
+		V_0 = L_2;
+		U3CBakeAsyncU3Ec__Iterator0_t1149809410 * L_3 = V_0;
+		JSONObject_t1971882247 * L_4 = __this->get_U24this_2();
+		NullCheck(L_3);
+		L_3->set_U24this_2(L_4);
+		U3CBakeAsyncU3Ec__Iterator0_t1149809410 * L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Void JSONObject/<PrintAsync>c__Iterator1::.ctor()
+extern "C"  void U3CPrintAsyncU3Ec__Iterator1__ctor_m918627686 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean JSONObject/<PrintAsync>c__Iterator1::MoveNext()
+extern "C"  bool U3CPrintAsyncU3Ec__Iterator1_MoveNext_m2236606538 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPrintAsyncU3Ec__Iterator1_MoveNext_m2236606538_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	Il2CppObject * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get_U24PC_8();
+		V_0 = L_0;
+		__this->set_U24PC_8((-1));
+		V_1 = (bool)0;
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0027;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_006c;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_0113;
+		}
+	}
+	{
+		goto IL_011a;
+	}
+
+IL_0027:
+	{
+		StringBuilder_t1221177846 * L_2 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m3946851802(L_2, /*hidden argument*/NULL);
+		__this->set_U3CbuilderU3E__0_0(L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		Stopwatch_t1380178105 * L_3 = ((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->get_printWatch_15();
+		NullCheck(L_3);
+		Stopwatch_Reset_m3196507227(L_3, /*hidden argument*/NULL);
+		Stopwatch_t1380178105 * L_4 = ((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->get_printWatch_15();
+		NullCheck(L_4);
+		Stopwatch_Start_m2051791460(L_4, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_5 = __this->get_U24this_5();
+		StringBuilder_t1221177846 * L_6 = __this->get_U3CbuilderU3E__0_0();
+		bool L_7 = __this->get_pretty_1();
+		NullCheck(L_5);
+		Il2CppObject * L_8 = JSONObject_StringifyAsync_m1504868741(L_5, 0, L_6, L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Il2CppObject * L_9 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, L_8);
+		__this->set_U24locvar0_2(L_9);
+		V_0 = ((int32_t)-3);
+	}
+
+IL_006c:
+	try
+	{ // begin try (depth: 1)
+		{
+			uint32_t L_10 = V_0;
+			if (((int32_t)((int32_t)L_10-(int32_t)1)) == 0)
+			{
+				goto IL_00b0;
+			}
+		}
+
+IL_0078:
+		{
+			goto IL_00b0;
+		}
+
+IL_007d:
+		{
+			Il2CppObject * L_11 = __this->get_U24locvar0_2();
+			NullCheck(L_11);
+			Il2CppObject * L_12 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_11);
+			__this->set_U3CeU3E__1_3(((Il2CppObject *)Castclass(L_12, IEnumerable_t2911409499_il2cpp_TypeInfo_var)));
+			__this->set_U24current_6((String_t*)NULL);
+			bool L_13 = __this->get_U24disposing_7();
+			if (L_13)
+			{
+				goto IL_00a9;
+			}
+		}
+
+IL_00a2:
+		{
+			__this->set_U24PC_8(1);
+		}
+
+IL_00a9:
+		{
+			V_1 = (bool)1;
+			IL2CPP_LEAVE(0x11C, FINALLY_00c5);
+		}
+
+IL_00b0:
+		{
+			Il2CppObject * L_14 = __this->get_U24locvar0_2();
+			NullCheck(L_14);
+			bool L_15 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_14);
+			if (L_15)
+			{
+				goto IL_007d;
+			}
+		}
+
+IL_00c0:
+		{
+			IL2CPP_LEAVE(0xEE, FINALLY_00c5);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00c5;
+	}
+
+FINALLY_00c5:
+	{ // begin finally (depth: 1)
+		{
+			bool L_16 = V_1;
+			if (!L_16)
+			{
+				goto IL_00c9;
+			}
+		}
+
+IL_00c8:
+		{
+			IL2CPP_END_FINALLY(197)
+		}
+
+IL_00c9:
+		{
+			Il2CppObject * L_17 = __this->get_U24locvar0_2();
+			Il2CppObject * L_18 = ((Il2CppObject *)IsInst(L_17, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_2 = L_18;
+			__this->set_U24locvar1_4(L_18);
+			Il2CppObject * L_19 = V_2;
+			if (!L_19)
+			{
+				goto IL_00ed;
+			}
+		}
+
+IL_00e2:
+		{
+			Il2CppObject * L_20 = __this->get_U24locvar1_4();
+			NullCheck(L_20);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_20);
+		}
+
+IL_00ed:
+		{
+			IL2CPP_END_FINALLY(197)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(197)
+	{
+		IL2CPP_JUMP_TBL(0x11C, IL_011c)
+		IL2CPP_JUMP_TBL(0xEE, IL_00ee)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00ee:
+	{
+		StringBuilder_t1221177846 * L_21 = __this->get_U3CbuilderU3E__0_0();
+		NullCheck(L_21);
+		String_t* L_22 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_21);
+		__this->set_U24current_6(L_22);
+		bool L_23 = __this->get_U24disposing_7();
+		if (L_23)
+		{
+			goto IL_010e;
+		}
+	}
+	{
+		__this->set_U24PC_8(2);
+	}
+
+IL_010e:
+	{
+		goto IL_011c;
+	}
+
+IL_0113:
+	{
+		__this->set_U24PC_8((-1));
+	}
+
+IL_011a:
+	{
+		return (bool)0;
+	}
+
+IL_011c:
+	{
+		return (bool)1;
+	}
+}
+// System.String JSONObject/<PrintAsync>c__Iterator1::System.Collections.Generic.IEnumerator<string>.get_Current()
+extern "C"  String_t* U3CPrintAsyncU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CstringU3E_get_Current_m1959409068 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Object JSONObject/<PrintAsync>c__Iterator1::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CPrintAsyncU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m281630052 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_U24current_6();
+		return L_0;
+	}
+}
+// System.Void JSONObject/<PrintAsync>c__Iterator1::Dispose()
+extern "C"  void U3CPrintAsyncU3Ec__Iterator1_Dispose_m655283723 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPrintAsyncU3Ec__Iterator1_Dispose_m655283723_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get_U24PC_8();
+		V_0 = L_0;
+		__this->set_U24disposing_7((bool)1);
+		__this->set_U24PC_8((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0056;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_002c;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		goto IL_0056;
+	}
+
+IL_002c:
+	try
+	{ // begin try (depth: 1)
+		IL2CPP_LEAVE(0x56, FINALLY_0031);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0031;
+	}
+
+FINALLY_0031:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_2 = __this->get_U24locvar0_2();
+			Il2CppObject * L_3 = ((Il2CppObject *)IsInst(L_2, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_1 = L_3;
+			__this->set_U24locvar1_4(L_3);
+			Il2CppObject * L_4 = V_1;
+			if (!L_4)
+			{
+				goto IL_0055;
+			}
+		}
+
+IL_004a:
+		{
+			Il2CppObject * L_5 = __this->get_U24locvar1_4();
+			NullCheck(L_5);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_5);
+		}
+
+IL_0055:
+		{
+			IL2CPP_END_FINALLY(49)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(49)
+	{
+		IL2CPP_JUMP_TBL(0x56, IL_0056)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0056:
+	{
+		return;
+	}
+}
+// System.Void JSONObject/<PrintAsync>c__Iterator1::Reset()
+extern "C"  void U3CPrintAsyncU3Ec__Iterator1_Reset_m1797953401 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPrintAsyncU3Ec__Iterator1_Reset_m1797953401_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Collections.IEnumerator JSONObject/<PrintAsync>c__Iterator1::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  Il2CppObject * U3CPrintAsyncU3Ec__Iterator1_System_Collections_IEnumerable_GetEnumerator_m648327517 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = U3CPrintAsyncU3Ec__Iterator1_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m157685351(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<System.String> JSONObject/<PrintAsync>c__Iterator1::System.Collections.Generic.IEnumerable<string>.GetEnumerator()
+extern "C"  Il2CppObject* U3CPrintAsyncU3Ec__Iterator1_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m157685351 (U3CPrintAsyncU3Ec__Iterator1_t716304657 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPrintAsyncU3Ec__Iterator1_System_Collections_Generic_IEnumerableU3CstringU3E_GetEnumerator_m157685351_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CPrintAsyncU3Ec__Iterator1_t716304657 * V_0 = NULL;
+	{
+		int32_t* L_0 = __this->get_address_of_U24PC_8();
+		int32_t L_1 = Interlocked_CompareExchange_m3339239614(NULL /*static, unused*/, L_0, 0, ((int32_t)-2), /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		return __this;
+	}
+
+IL_0014:
+	{
+		U3CPrintAsyncU3Ec__Iterator1_t716304657 * L_2 = (U3CPrintAsyncU3Ec__Iterator1_t716304657 *)il2cpp_codegen_object_new(U3CPrintAsyncU3Ec__Iterator1_t716304657_il2cpp_TypeInfo_var);
+		U3CPrintAsyncU3Ec__Iterator1__ctor_m918627686(L_2, /*hidden argument*/NULL);
+		V_0 = L_2;
+		U3CPrintAsyncU3Ec__Iterator1_t716304657 * L_3 = V_0;
+		JSONObject_t1971882247 * L_4 = __this->get_U24this_5();
+		NullCheck(L_3);
+		L_3->set_U24this_5(L_4);
+		U3CPrintAsyncU3Ec__Iterator1_t716304657 * L_5 = V_0;
+		bool L_6 = __this->get_pretty_1();
+		NullCheck(L_5);
+		L_5->set_pretty_1(L_6);
+		U3CPrintAsyncU3Ec__Iterator1_t716304657 * L_7 = V_0;
+		return L_7;
+	}
+}
+// System.Void JSONObject/<StringifyAsync>c__Iterator2::.ctor()
+extern "C"  void U3CStringifyAsyncU3Ec__Iterator2__ctor_m3369090517 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean JSONObject/<StringifyAsync>c__Iterator2::MoveNext()
+extern "C"  bool U3CStringifyAsyncU3Ec__Iterator2_MoveNext_m4115355999 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStringifyAsyncU3Ec__Iterator2_MoveNext_m4115355999_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	TimeSpan_t3430258949  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	Il2CppObject * V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get_U24PC_18();
+		V_0 = L_0;
+		__this->set_U24PC_18((-1));
+		V_1 = (bool)0;
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_002b;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0097;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_030a;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_0576;
+		}
+	}
+	{
+		goto IL_075a;
+	}
+
+IL_002b:
+	{
+		int32_t L_2 = __this->get_depth_0();
+		int32_t L_3 = L_2;
+		V_2 = L_3;
+		__this->set_depth_0(((int32_t)((int32_t)L_3+(int32_t)1)));
+		int32_t L_4 = V_2;
+		if ((((int32_t)L_4) <= ((int32_t)((int32_t)100))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral2041690406, /*hidden argument*/NULL);
+		goto IL_075a;
+	}
+
+IL_0052:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		Stopwatch_t1380178105 * L_5 = ((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->get_printWatch_15();
+		NullCheck(L_5);
+		TimeSpan_t3430258949  L_6 = Stopwatch_get_Elapsed_m3190561196(L_5, /*hidden argument*/NULL);
+		V_3 = L_6;
+		double L_7 = TimeSpan_get_TotalSeconds_m1295026915((&V_3), /*hidden argument*/NULL);
+		if ((!(((double)L_7) > ((double)(0.00800000037997961)))))
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		Stopwatch_t1380178105 * L_8 = ((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->get_printWatch_15();
+		NullCheck(L_8);
+		Stopwatch_Reset_m3196507227(L_8, /*hidden argument*/NULL);
+		__this->set_U24current_15(NULL);
+		bool L_9 = __this->get_U24disposing_16();
+		if (L_9)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		__this->set_U24PC_18(1);
+	}
+
+IL_0092:
+	{
+		goto IL_075c;
+	}
+
+IL_0097:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		Stopwatch_t1380178105 * L_10 = ((JSONObject_t1971882247_StaticFields*)JSONObject_t1971882247_il2cpp_TypeInfo_var->static_fields)->get_printWatch_15();
+		NullCheck(L_10);
+		Stopwatch_Start_m2051791460(L_10, /*hidden argument*/NULL);
+	}
+
+IL_00a1:
+	{
+		JSONObject_t1971882247 * L_11 = __this->get_U24this_14();
+		NullCheck(L_11);
+		int32_t L_12 = L_11->get_type_6();
+		__this->set_U24locvar0_1(L_12);
+		int32_t L_13 = __this->get_U24locvar0_1();
+		if (L_13 == 0)
+		{
+			goto IL_073d;
+		}
+		if (L_13 == 1)
+		{
+			goto IL_00fa;
+		}
+		if (L_13 == 2)
+		{
+			goto IL_011b;
+		}
+		if (L_13 == 3)
+		{
+			goto IL_01fa;
+		}
+		if (L_13 == 4)
+		{
+			goto IL_0495;
+		}
+		if (L_13 == 5)
+		{
+			goto IL_0701;
+		}
+		if (L_13 == 6)
+		{
+			goto IL_00de;
+		}
+	}
+	{
+		goto IL_0753;
+	}
+
+IL_00de:
+	{
+		StringBuilder_t1221177846 * L_14 = __this->get_builder_2();
+		JSONObject_t1971882247 * L_15 = __this->get_U24this_14();
+		NullCheck(L_15);
+		String_t* L_16 = L_15->get_str_9();
+		NullCheck(L_14);
+		StringBuilder_Append_m3636508479(L_14, L_16, /*hidden argument*/NULL);
+		goto IL_0753;
+	}
+
+IL_00fa:
+	{
+		StringBuilder_t1221177846 * L_17 = __this->get_builder_2();
+		JSONObject_t1971882247 * L_18 = __this->get_U24this_14();
+		NullCheck(L_18);
+		String_t* L_19 = L_18->get_str_9();
+		NullCheck(L_17);
+		StringBuilder_AppendFormat_m3265503696(L_17, _stringLiteral1554931876, L_19, /*hidden argument*/NULL);
+		goto IL_0753;
+	}
+
+IL_011b:
+	{
+		JSONObject_t1971882247 * L_20 = __this->get_U24this_14();
+		NullCheck(L_20);
+		bool L_21 = L_20->get_useInt_11();
+		if (!L_21)
+		{
+			goto IL_0152;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_22 = __this->get_builder_2();
+		JSONObject_t1971882247 * L_23 = __this->get_U24this_14();
+		NullCheck(L_23);
+		int64_t* L_24 = L_23->get_address_of_i_12();
+		String_t* L_25 = Int64_ToString_m689375889(L_24, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		StringBuilder_Append_m3636508479(L_22, L_25, /*hidden argument*/NULL);
+		goto IL_01f5;
+	}
+
+IL_0152:
+	{
+		JSONObject_t1971882247 * L_26 = __this->get_U24this_14();
+		NullCheck(L_26);
+		float L_27 = L_26->get_n_10();
+		bool L_28 = Single_IsInfinity_m3331110346(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+		if (!L_28)
+		{
+			goto IL_017d;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_29 = __this->get_builder_2();
+		NullCheck(L_29);
+		StringBuilder_Append_m3636508479(L_29, _stringLiteral1751346954, /*hidden argument*/NULL);
+		goto IL_01f5;
+	}
+
+IL_017d:
+	{
+		JSONObject_t1971882247 * L_30 = __this->get_U24this_14();
+		NullCheck(L_30);
+		float L_31 = L_30->get_n_10();
+		bool L_32 = Single_IsNegativeInfinity_m2615809279(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_01a8;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_33 = __this->get_builder_2();
+		NullCheck(L_33);
+		StringBuilder_Append_m3636508479(L_33, _stringLiteral376316188, /*hidden argument*/NULL);
+		goto IL_01f5;
+	}
+
+IL_01a8:
+	{
+		JSONObject_t1971882247 * L_34 = __this->get_U24this_14();
+		NullCheck(L_34);
+		float L_35 = L_34->get_n_10();
+		bool L_36 = Single_IsNaN_m2349591895(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+		if (!L_36)
+		{
+			goto IL_01d3;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_37 = __this->get_builder_2();
+		NullCheck(L_37);
+		StringBuilder_Append_m3636508479(L_37, _stringLiteral452738781, /*hidden argument*/NULL);
+		goto IL_01f5;
+	}
+
+IL_01d3:
+	{
+		StringBuilder_t1221177846 * L_38 = __this->get_builder_2();
+		JSONObject_t1971882247 * L_39 = __this->get_U24this_14();
+		NullCheck(L_39);
+		float* L_40 = L_39->get_address_of_n_10();
+		String_t* L_41 = Single_ToString_m1813392066(L_40, /*hidden argument*/NULL);
+		NullCheck(L_38);
+		StringBuilder_Append_m3636508479(L_38, L_41, /*hidden argument*/NULL);
+	}
+
+IL_01f5:
+	{
+		goto IL_0753;
+	}
+
+IL_01fa:
+	{
+		StringBuilder_t1221177846 * L_42 = __this->get_builder_2();
+		NullCheck(L_42);
+		StringBuilder_Append_m3636508479(L_42, _stringLiteral372029399, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_43 = __this->get_U24this_14();
+		NullCheck(L_43);
+		List_1_t1341003379 * L_44 = L_43->get_list_7();
+		NullCheck(L_44);
+		int32_t L_45 = List_1_get_Count_m3485821544(L_44, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_45) <= ((int32_t)0)))
+		{
+			goto IL_041f;
+		}
+	}
+	{
+		bool L_46 = __this->get_pretty_3();
+		if (!L_46)
+		{
+			goto IL_023d;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_47 = __this->get_builder_2();
+		NullCheck(L_47);
+		StringBuilder_Append_m3636508479(L_47, _stringLiteral2162321587, /*hidden argument*/NULL);
+	}
+
+IL_023d:
+	{
+		__this->set_U3CiU3E__1_4(0);
+		goto IL_03ce;
+	}
+
+IL_0249:
+	{
+		JSONObject_t1971882247 * L_48 = __this->get_U24this_14();
+		NullCheck(L_48);
+		List_1_t1398341365 * L_49 = L_48->get_keys_8();
+		int32_t L_50 = __this->get_U3CiU3E__1_4();
+		NullCheck(L_49);
+		String_t* L_51 = List_1_get_Item_m566484697(L_49, L_50, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		__this->set_U3CkeyU3E__2_5(L_51);
+		JSONObject_t1971882247 * L_52 = __this->get_U24this_14();
+		NullCheck(L_52);
+		List_1_t1341003379 * L_53 = L_52->get_list_7();
+		int32_t L_54 = __this->get_U3CiU3E__1_4();
+		NullCheck(L_53);
+		JSONObject_t1971882247 * L_55 = List_1_get_Item_m429614411(L_53, L_54, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		__this->set_U3CobjU3E__2_6(L_55);
+		JSONObject_t1971882247 * L_56 = __this->get_U3CobjU3E__2_6();
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_57 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
+		if (!L_57)
+		{
+			goto IL_03c0;
+		}
+	}
+	{
+		bool L_58 = __this->get_pretty_3();
+		if (!L_58)
+		{
+			goto IL_02c8;
+		}
+	}
+	{
+		V_4 = 0;
+		goto IL_02bb;
+	}
+
+IL_02a4:
+	{
+		StringBuilder_t1221177846 * L_59 = __this->get_builder_2();
+		NullCheck(L_59);
+		StringBuilder_Append_m3636508479(L_59, _stringLiteral372029349, /*hidden argument*/NULL);
+		int32_t L_60 = V_4;
+		V_4 = ((int32_t)((int32_t)L_60+(int32_t)1));
+	}
+
+IL_02bb:
+	{
+		int32_t L_61 = V_4;
+		int32_t L_62 = __this->get_depth_0();
+		if ((((int32_t)L_61) < ((int32_t)L_62)))
+		{
+			goto IL_02a4;
+		}
+	}
+
+IL_02c8:
+	{
+		StringBuilder_t1221177846 * L_63 = __this->get_builder_2();
+		String_t* L_64 = __this->get_U3CkeyU3E__2_5();
+		NullCheck(L_63);
+		StringBuilder_AppendFormat_m3265503696(L_63, _stringLiteral845265362, L_64, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_65 = __this->get_U3CobjU3E__2_6();
+		int32_t L_66 = __this->get_depth_0();
+		StringBuilder_t1221177846 * L_67 = __this->get_builder_2();
+		bool L_68 = __this->get_pretty_3();
+		NullCheck(L_65);
+		Il2CppObject * L_69 = JSONObject_StringifyAsync_m1504868741(L_65, L_66, L_67, L_68, /*hidden argument*/NULL);
+		NullCheck(L_69);
+		Il2CppObject * L_70 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, L_69);
+		__this->set_U24locvar1_7(L_70);
+		V_0 = ((int32_t)-3);
+	}
+
+IL_030a:
+	try
+	{ // begin try (depth: 1)
+		{
+			uint32_t L_71 = V_0;
+			if (((int32_t)((int32_t)L_71-(int32_t)2)) == 0)
+			{
+				goto IL_0353;
+			}
+		}
+
+IL_0316:
+		{
+			goto IL_0353;
+		}
+
+IL_031b:
+		{
+			Il2CppObject * L_72 = __this->get_U24locvar1_7();
+			NullCheck(L_72);
+			Il2CppObject * L_73 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_72);
+			__this->set_U3CeU3E__3_8(((Il2CppObject *)Castclass(L_73, IEnumerable_t2911409499_il2cpp_TypeInfo_var)));
+			Il2CppObject * L_74 = __this->get_U3CeU3E__3_8();
+			__this->set_U24current_15(L_74);
+			bool L_75 = __this->get_U24disposing_16();
+			if (L_75)
+			{
+				goto IL_034c;
+			}
+		}
+
+IL_0345:
+		{
+			__this->set_U24PC_18(2);
+		}
+
+IL_034c:
+		{
+			V_1 = (bool)1;
+			IL2CPP_LEAVE(0x75C, FINALLY_0368);
+		}
+
+IL_0353:
+		{
+			Il2CppObject * L_76 = __this->get_U24locvar1_7();
+			NullCheck(L_76);
+			bool L_77 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_76);
+			if (L_77)
+			{
+				goto IL_031b;
+			}
+		}
+
+IL_0363:
+		{
+			IL2CPP_LEAVE(0x393, FINALLY_0368);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0368;
+	}
+
+FINALLY_0368:
+	{ // begin finally (depth: 1)
+		{
+			bool L_78 = V_1;
+			if (!L_78)
+			{
+				goto IL_036c;
+			}
+		}
+
+IL_036b:
+		{
+			IL2CPP_END_FINALLY(872)
+		}
+
+IL_036c:
+		{
+			Il2CppObject * L_79 = __this->get_U24locvar1_7();
+			Il2CppObject * L_80 = ((Il2CppObject *)IsInst(L_79, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_5 = L_80;
+			__this->set_U24locvar2_9(L_80);
+			Il2CppObject * L_81 = V_5;
+			if (!L_81)
+			{
+				goto IL_0392;
+			}
+		}
+
+IL_0387:
+		{
+			Il2CppObject * L_82 = __this->get_U24locvar2_9();
+			NullCheck(L_82);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_82);
+		}
+
+IL_0392:
+		{
+			IL2CPP_END_FINALLY(872)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(872)
+	{
+		IL2CPP_JUMP_TBL(0x75C, IL_075c)
+		IL2CPP_JUMP_TBL(0x393, IL_0393)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0393:
+	{
+		StringBuilder_t1221177846 * L_83 = __this->get_builder_2();
+		NullCheck(L_83);
+		StringBuilder_Append_m3636508479(L_83, _stringLiteral372029314, /*hidden argument*/NULL);
+		bool L_84 = __this->get_pretty_3();
+		if (!L_84)
+		{
+			goto IL_03c0;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_85 = __this->get_builder_2();
+		NullCheck(L_85);
+		StringBuilder_Append_m3636508479(L_85, _stringLiteral2162321587, /*hidden argument*/NULL);
+	}
+
+IL_03c0:
+	{
+		int32_t L_86 = __this->get_U3CiU3E__1_4();
+		__this->set_U3CiU3E__1_4(((int32_t)((int32_t)L_86+(int32_t)1)));
+	}
+
+IL_03ce:
+	{
+		int32_t L_87 = __this->get_U3CiU3E__1_4();
+		JSONObject_t1971882247 * L_88 = __this->get_U24this_14();
+		NullCheck(L_88);
+		List_1_t1341003379 * L_89 = L_88->get_list_7();
+		NullCheck(L_89);
+		int32_t L_90 = List_1_get_Count_m3485821544(L_89, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_87) < ((int32_t)L_90)))
+		{
+			goto IL_0249;
+		}
+	}
+	{
+		bool L_91 = __this->get_pretty_3();
+		if (!L_91)
+		{
+			goto IL_040c;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_92 = __this->get_builder_2();
+		StringBuilder_t1221177846 * L_93 = L_92;
+		NullCheck(L_93);
+		int32_t L_94 = StringBuilder_get_Length_m1608241323(L_93, /*hidden argument*/NULL);
+		NullCheck(L_93);
+		StringBuilder_set_Length_m3039225444(L_93, ((int32_t)((int32_t)L_94-(int32_t)2)), /*hidden argument*/NULL);
+		goto IL_041f;
+	}
+
+IL_040c:
+	{
+		StringBuilder_t1221177846 * L_95 = __this->get_builder_2();
+		StringBuilder_t1221177846 * L_96 = L_95;
+		NullCheck(L_96);
+		int32_t L_97 = StringBuilder_get_Length_m1608241323(L_96, /*hidden argument*/NULL);
+		NullCheck(L_96);
+		StringBuilder_set_Length_m3039225444(L_96, ((int32_t)((int32_t)L_97-(int32_t)1)), /*hidden argument*/NULL);
+	}
+
+IL_041f:
+	{
+		bool L_98 = __this->get_pretty_3();
+		if (!L_98)
+		{
+			goto IL_047f;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_99 = __this->get_U24this_14();
+		NullCheck(L_99);
+		List_1_t1341003379 * L_100 = L_99->get_list_7();
+		NullCheck(L_100);
+		int32_t L_101 = List_1_get_Count_m3485821544(L_100, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_101) <= ((int32_t)0)))
+		{
+			goto IL_047f;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_102 = __this->get_builder_2();
+		NullCheck(L_102);
+		StringBuilder_Append_m3636508479(L_102, _stringLiteral2162321587, /*hidden argument*/NULL);
+		V_6 = 0;
+		goto IL_0470;
+	}
+
+IL_0459:
+	{
+		StringBuilder_t1221177846 * L_103 = __this->get_builder_2();
+		NullCheck(L_103);
+		StringBuilder_Append_m3636508479(L_103, _stringLiteral372029349, /*hidden argument*/NULL);
+		int32_t L_104 = V_6;
+		V_6 = ((int32_t)((int32_t)L_104+(int32_t)1));
+	}
+
+IL_0470:
+	{
+		int32_t L_105 = V_6;
+		int32_t L_106 = __this->get_depth_0();
+		if ((((int32_t)L_105) < ((int32_t)((int32_t)((int32_t)L_106-(int32_t)1)))))
+		{
+			goto IL_0459;
+		}
+	}
+
+IL_047f:
+	{
+		StringBuilder_t1221177846 * L_107 = __this->get_builder_2();
+		NullCheck(L_107);
+		StringBuilder_Append_m3636508479(L_107, _stringLiteral372029393, /*hidden argument*/NULL);
+		goto IL_0753;
+	}
+
+IL_0495:
+	{
+		StringBuilder_t1221177846 * L_108 = __this->get_builder_2();
+		NullCheck(L_108);
+		StringBuilder_Append_m3636508479(L_108, _stringLiteral372029431, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_109 = __this->get_U24this_14();
+		NullCheck(L_109);
+		List_1_t1341003379 * L_110 = L_109->get_list_7();
+		NullCheck(L_110);
+		int32_t L_111 = List_1_get_Count_m3485821544(L_110, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_111) <= ((int32_t)0)))
+		{
+			goto IL_068b;
+		}
+	}
+	{
+		bool L_112 = __this->get_pretty_3();
+		if (!L_112)
+		{
+			goto IL_04d8;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_113 = __this->get_builder_2();
+		NullCheck(L_113);
+		StringBuilder_Append_m3636508479(L_113, _stringLiteral2162321587, /*hidden argument*/NULL);
+	}
+
+IL_04d8:
+	{
+		__this->set_U3CiU3E__4_10(0);
+		goto IL_063a;
+	}
+
+IL_04e4:
+	{
+		JSONObject_t1971882247 * L_114 = __this->get_U24this_14();
+		NullCheck(L_114);
+		List_1_t1341003379 * L_115 = L_114->get_list_7();
+		int32_t L_116 = __this->get_U3CiU3E__4_10();
+		NullCheck(L_115);
+		JSONObject_t1971882247 * L_117 = List_1_get_Item_m429614411(L_115, L_116, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_118 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_117, /*hidden argument*/NULL);
+		if (!L_118)
+		{
+			goto IL_062c;
+		}
+	}
+	{
+		bool L_119 = __this->get_pretty_3();
+		if (!L_119)
+		{
+			goto IL_053b;
+		}
+	}
+	{
+		V_7 = 0;
+		goto IL_052e;
+	}
+
+IL_0517:
+	{
+		StringBuilder_t1221177846 * L_120 = __this->get_builder_2();
+		NullCheck(L_120);
+		StringBuilder_Append_m3636508479(L_120, _stringLiteral372029349, /*hidden argument*/NULL);
+		int32_t L_121 = V_7;
+		V_7 = ((int32_t)((int32_t)L_121+(int32_t)1));
+	}
+
+IL_052e:
+	{
+		int32_t L_122 = V_7;
+		int32_t L_123 = __this->get_depth_0();
+		if ((((int32_t)L_122) < ((int32_t)L_123)))
+		{
+			goto IL_0517;
+		}
+	}
+
+IL_053b:
+	{
+		JSONObject_t1971882247 * L_124 = __this->get_U24this_14();
+		NullCheck(L_124);
+		List_1_t1341003379 * L_125 = L_124->get_list_7();
+		int32_t L_126 = __this->get_U3CiU3E__4_10();
+		NullCheck(L_125);
+		JSONObject_t1971882247 * L_127 = List_1_get_Item_m429614411(L_125, L_126, /*hidden argument*/List_1_get_Item_m429614411_MethodInfo_var);
+		int32_t L_128 = __this->get_depth_0();
+		StringBuilder_t1221177846 * L_129 = __this->get_builder_2();
+		bool L_130 = __this->get_pretty_3();
+		NullCheck(L_127);
+		Il2CppObject * L_131 = JSONObject_StringifyAsync_m1504868741(L_127, L_128, L_129, L_130, /*hidden argument*/NULL);
+		NullCheck(L_131);
+		Il2CppObject * L_132 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t2911409499_il2cpp_TypeInfo_var, L_131);
+		__this->set_U24locvar3_11(L_132);
+		V_0 = ((int32_t)-3);
+	}
+
+IL_0576:
+	try
+	{ // begin try (depth: 1)
+		{
+			uint32_t L_133 = V_0;
+			if (((int32_t)((int32_t)L_133-(int32_t)3)) == 0)
+			{
+				goto IL_05bf;
+			}
+		}
+
+IL_0582:
+		{
+			goto IL_05bf;
+		}
+
+IL_0587:
+		{
+			Il2CppObject * L_134 = __this->get_U24locvar3_11();
+			NullCheck(L_134);
+			Il2CppObject * L_135 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_134);
+			__this->set_U3CeU3E__5_12(((Il2CppObject *)Castclass(L_135, IEnumerable_t2911409499_il2cpp_TypeInfo_var)));
+			Il2CppObject * L_136 = __this->get_U3CeU3E__5_12();
+			__this->set_U24current_15(L_136);
+			bool L_137 = __this->get_U24disposing_16();
+			if (L_137)
+			{
+				goto IL_05b8;
+			}
+		}
+
+IL_05b1:
+		{
+			__this->set_U24PC_18(3);
+		}
+
+IL_05b8:
+		{
+			V_1 = (bool)1;
+			IL2CPP_LEAVE(0x75C, FINALLY_05d4);
+		}
+
+IL_05bf:
+		{
+			Il2CppObject * L_138 = __this->get_U24locvar3_11();
+			NullCheck(L_138);
+			bool L_139 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_138);
+			if (L_139)
+			{
+				goto IL_0587;
+			}
+		}
+
+IL_05cf:
+		{
+			IL2CPP_LEAVE(0x5FF, FINALLY_05d4);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_05d4;
+	}
+
+FINALLY_05d4:
+	{ // begin finally (depth: 1)
+		{
+			bool L_140 = V_1;
+			if (!L_140)
+			{
+				goto IL_05d8;
+			}
+		}
+
+IL_05d7:
+		{
+			IL2CPP_END_FINALLY(1492)
+		}
+
+IL_05d8:
+		{
+			Il2CppObject * L_141 = __this->get_U24locvar3_11();
+			Il2CppObject * L_142 = ((Il2CppObject *)IsInst(L_141, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_5 = L_142;
+			__this->set_U24locvar4_13(L_142);
+			Il2CppObject * L_143 = V_5;
+			if (!L_143)
+			{
+				goto IL_05fe;
+			}
+		}
+
+IL_05f3:
+		{
+			Il2CppObject * L_144 = __this->get_U24locvar4_13();
+			NullCheck(L_144);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_144);
+		}
+
+IL_05fe:
+		{
+			IL2CPP_END_FINALLY(1492)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(1492)
+	{
+		IL2CPP_JUMP_TBL(0x75C, IL_075c)
+		IL2CPP_JUMP_TBL(0x5FF, IL_05ff)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_05ff:
+	{
+		StringBuilder_t1221177846 * L_145 = __this->get_builder_2();
+		NullCheck(L_145);
+		StringBuilder_Append_m3636508479(L_145, _stringLiteral372029314, /*hidden argument*/NULL);
+		bool L_146 = __this->get_pretty_3();
+		if (!L_146)
+		{
+			goto IL_062c;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_147 = __this->get_builder_2();
+		NullCheck(L_147);
+		StringBuilder_Append_m3636508479(L_147, _stringLiteral2162321587, /*hidden argument*/NULL);
+	}
+
+IL_062c:
+	{
+		int32_t L_148 = __this->get_U3CiU3E__4_10();
+		__this->set_U3CiU3E__4_10(((int32_t)((int32_t)L_148+(int32_t)1)));
+	}
+
+IL_063a:
+	{
+		int32_t L_149 = __this->get_U3CiU3E__4_10();
+		JSONObject_t1971882247 * L_150 = __this->get_U24this_14();
+		NullCheck(L_150);
+		List_1_t1341003379 * L_151 = L_150->get_list_7();
+		NullCheck(L_151);
+		int32_t L_152 = List_1_get_Count_m3485821544(L_151, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_149) < ((int32_t)L_152)))
+		{
+			goto IL_04e4;
+		}
+	}
+	{
+		bool L_153 = __this->get_pretty_3();
+		if (!L_153)
+		{
+			goto IL_0678;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_154 = __this->get_builder_2();
+		StringBuilder_t1221177846 * L_155 = L_154;
+		NullCheck(L_155);
+		int32_t L_156 = StringBuilder_get_Length_m1608241323(L_155, /*hidden argument*/NULL);
+		NullCheck(L_155);
+		StringBuilder_set_Length_m3039225444(L_155, ((int32_t)((int32_t)L_156-(int32_t)2)), /*hidden argument*/NULL);
+		goto IL_068b;
+	}
+
+IL_0678:
+	{
+		StringBuilder_t1221177846 * L_157 = __this->get_builder_2();
+		StringBuilder_t1221177846 * L_158 = L_157;
+		NullCheck(L_158);
+		int32_t L_159 = StringBuilder_get_Length_m1608241323(L_158, /*hidden argument*/NULL);
+		NullCheck(L_158);
+		StringBuilder_set_Length_m3039225444(L_158, ((int32_t)((int32_t)L_159-(int32_t)1)), /*hidden argument*/NULL);
+	}
+
+IL_068b:
+	{
+		bool L_160 = __this->get_pretty_3();
+		if (!L_160)
+		{
+			goto IL_06eb;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_161 = __this->get_U24this_14();
+		NullCheck(L_161);
+		List_1_t1341003379 * L_162 = L_161->get_list_7();
+		NullCheck(L_162);
+		int32_t L_163 = List_1_get_Count_m3485821544(L_162, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_163) <= ((int32_t)0)))
+		{
+			goto IL_06eb;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_164 = __this->get_builder_2();
+		NullCheck(L_164);
+		StringBuilder_Append_m3636508479(L_164, _stringLiteral2162321587, /*hidden argument*/NULL);
+		V_8 = 0;
+		goto IL_06dc;
+	}
+
+IL_06c5:
+	{
+		StringBuilder_t1221177846 * L_165 = __this->get_builder_2();
+		NullCheck(L_165);
+		StringBuilder_Append_m3636508479(L_165, _stringLiteral372029349, /*hidden argument*/NULL);
+		int32_t L_166 = V_8;
+		V_8 = ((int32_t)((int32_t)L_166+(int32_t)1));
+	}
+
+IL_06dc:
+	{
+		int32_t L_167 = V_8;
+		int32_t L_168 = __this->get_depth_0();
+		if ((((int32_t)L_167) < ((int32_t)((int32_t)((int32_t)L_168-(int32_t)1)))))
+		{
+			goto IL_06c5;
+		}
+	}
+
+IL_06eb:
+	{
+		StringBuilder_t1221177846 * L_169 = __this->get_builder_2();
+		NullCheck(L_169);
+		StringBuilder_Append_m3636508479(L_169, _stringLiteral372029425, /*hidden argument*/NULL);
+		goto IL_0753;
+	}
+
+IL_0701:
+	{
+		JSONObject_t1971882247 * L_170 = __this->get_U24this_14();
+		NullCheck(L_170);
+		bool L_171 = L_170->get_b_13();
+		if (!L_171)
+		{
+			goto IL_0727;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_172 = __this->get_builder_2();
+		NullCheck(L_172);
+		StringBuilder_Append_m3636508479(L_172, _stringLiteral3323263070, /*hidden argument*/NULL);
+		goto IL_0738;
+	}
+
+IL_0727:
+	{
+		StringBuilder_t1221177846 * L_173 = __this->get_builder_2();
+		NullCheck(L_173);
+		StringBuilder_Append_m3636508479(L_173, _stringLiteral2609877245, /*hidden argument*/NULL);
+	}
+
+IL_0738:
+	{
+		goto IL_0753;
+	}
+
+IL_073d:
+	{
+		StringBuilder_t1221177846 * L_174 = __this->get_builder_2();
+		NullCheck(L_174);
+		StringBuilder_Append_m3636508479(L_174, _stringLiteral1743624307, /*hidden argument*/NULL);
+		goto IL_0753;
+	}
+
+IL_0753:
+	{
+		__this->set_U24PC_18((-1));
+	}
+
+IL_075a:
+	{
+		return (bool)0;
+	}
+
+IL_075c:
+	{
+		return (bool)1;
+	}
+}
+// System.Object JSONObject/<StringifyAsync>c__Iterator2::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CStringifyAsyncU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1690338427 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_15();
+		return L_0;
+	}
+}
+// System.Object JSONObject/<StringifyAsync>c__Iterator2::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CStringifyAsyncU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m3671563155 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_15();
+		return L_0;
+	}
+}
+// System.Void JSONObject/<StringifyAsync>c__Iterator2::Dispose()
+extern "C"  void U3CStringifyAsyncU3Ec__Iterator2_Dispose_m640875482 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStringifyAsyncU3Ec__Iterator2_Dispose_m640875482_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	Il2CppObject * V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get_U24PC_18();
+		V_0 = L_0;
+		__this->set_U24disposing_16((bool)1);
+		__this->set_U24PC_18((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0089;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0089;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_0030;
+		}
+		if (L_1 == 3)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		goto IL_0089;
+	}
+
+IL_0030:
+	try
+	{ // begin try (depth: 1)
+		IL2CPP_LEAVE(0x5A, FINALLY_0035);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0035;
+	}
+
+FINALLY_0035:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_2 = __this->get_U24locvar1_7();
+			Il2CppObject * L_3 = ((Il2CppObject *)IsInst(L_2, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_1 = L_3;
+			__this->set_U24locvar2_9(L_3);
+			Il2CppObject * L_4 = V_1;
+			if (!L_4)
+			{
+				goto IL_0059;
+			}
+		}
+
+IL_004e:
+		{
+			Il2CppObject * L_5 = __this->get_U24locvar2_9();
+			NullCheck(L_5);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_5);
+		}
+
+IL_0059:
+		{
+			IL2CPP_END_FINALLY(53)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(53)
+	{
+		IL2CPP_JUMP_TBL(0x5A, IL_005a)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_005a:
+	{
+		goto IL_0089;
+	}
+
+IL_005f:
+	try
+	{ // begin try (depth: 1)
+		IL2CPP_LEAVE(0x89, FINALLY_0064);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0064;
+	}
+
+FINALLY_0064:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_6 = __this->get_U24locvar3_11();
+			Il2CppObject * L_7 = ((Il2CppObject *)IsInst(L_6, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_1 = L_7;
+			__this->set_U24locvar4_13(L_7);
+			Il2CppObject * L_8 = V_1;
+			if (!L_8)
+			{
+				goto IL_0088;
+			}
+		}
+
+IL_007d:
+		{
+			Il2CppObject * L_9 = __this->get_U24locvar4_13();
+			NullCheck(L_9);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_9);
+		}
+
+IL_0088:
+		{
+			IL2CPP_END_FINALLY(100)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(100)
+	{
+		IL2CPP_JUMP_TBL(0x89, IL_0089)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0089:
+	{
+		return;
+	}
+}
+// System.Void JSONObject/<StringifyAsync>c__Iterator2::Reset()
+extern "C"  void U3CStringifyAsyncU3Ec__Iterator2_Reset_m3967791656 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStringifyAsyncU3Ec__Iterator2_Reset_m3967791656_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Collections.IEnumerator JSONObject/<StringifyAsync>c__Iterator2::System.Collections.IEnumerable.GetEnumerator()
+extern "C"  Il2CppObject * U3CStringifyAsyncU3Ec__Iterator2_System_Collections_IEnumerable_GetEnumerator_m4201252242 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = U3CStringifyAsyncU3Ec__Iterator2_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3780376918(__this, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<System.Object> JSONObject/<StringifyAsync>c__Iterator2::System.Collections.Generic.IEnumerable<object>.GetEnumerator()
+extern "C"  Il2CppObject* U3CStringifyAsyncU3Ec__Iterator2_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3780376918 (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStringifyAsyncU3Ec__Iterator2_System_Collections_Generic_IEnumerableU3CobjectU3E_GetEnumerator_m3780376918_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * V_0 = NULL;
+	{
+		int32_t* L_0 = __this->get_address_of_U24PC_18();
+		int32_t L_1 = Interlocked_CompareExchange_m3339239614(NULL /*static, unused*/, L_0, 0, ((int32_t)-2), /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		return __this;
+	}
+
+IL_0014:
+	{
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_2 = (U3CStringifyAsyncU3Ec__Iterator2_t4037879552 *)il2cpp_codegen_object_new(U3CStringifyAsyncU3Ec__Iterator2_t4037879552_il2cpp_TypeInfo_var);
+		U3CStringifyAsyncU3Ec__Iterator2__ctor_m3369090517(L_2, /*hidden argument*/NULL);
+		V_0 = L_2;
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_3 = V_0;
+		JSONObject_t1971882247 * L_4 = __this->get_U24this_14();
+		NullCheck(L_3);
+		L_3->set_U24this_14(L_4);
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_5 = V_0;
+		int32_t L_6 = __this->get_U3CU24U3Edepth_17();
+		NullCheck(L_5);
+		L_5->set_depth_0(L_6);
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_7 = V_0;
+		StringBuilder_t1221177846 * L_8 = __this->get_builder_2();
+		NullCheck(L_7);
+		L_7->set_builder_2(L_8);
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_9 = V_0;
+		bool L_10 = __this->get_pretty_3();
+		NullCheck(L_9);
+		L_9->set_pretty_3(L_10);
+		U3CStringifyAsyncU3Ec__Iterator2_t4037879552 * L_11 = V_0;
+		return L_11;
+	}
+}
+// System.Void JSONObject/AddJSONContents::.ctor(System.Object,System.IntPtr)
+extern "C"  void AddJSONContents__ctor_m937288960 (AddJSONContents_t3850664647 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void JSONObject/AddJSONContents::Invoke(JSONObject)
+extern "C"  void AddJSONContents_Invoke_m1742311611 (AddJSONContents_t3850664647 * __this, JSONObject_t1971882247 * ___self0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		AddJSONContents_Invoke_m1742311611((AddJSONContents_t3850664647 *)__this->get_prev_9(),___self0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, JSONObject_t1971882247 * ___self0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___self0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, JSONObject_t1971882247 * ___self0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___self0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___self0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult JSONObject/AddJSONContents::BeginInvoke(JSONObject,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * AddJSONContents_BeginInvoke_m4227897068 (AddJSONContents_t3850664647 * __this, JSONObject_t1971882247 * ___self0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___self0;
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void JSONObject/AddJSONContents::EndInvoke(System.IAsyncResult)
+extern "C"  void AddJSONContents_EndInvoke_m2419029234 (AddJSONContents_t3850664647 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+extern "C"  void DelegatePInvokeWrapper_FieldNotFound_t865402053 (FieldNotFound_t865402053 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(char*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Marshaling of parameter '___name0' to native representation
+	char* ____name0_marshaled = NULL;
+	____name0_marshaled = il2cpp_codegen_marshal_string(___name0);
+
+	// Native function invocation
+	il2cppPInvokeFunc(____name0_marshaled);
+
+	// Marshaling cleanup of parameter '___name0' native representation
+	il2cpp_codegen_marshal_free(____name0_marshaled);
+	____name0_marshaled = NULL;
+
+}
+// System.Void JSONObject/FieldNotFound::.ctor(System.Object,System.IntPtr)
+extern "C"  void FieldNotFound__ctor_m3637701308 (FieldNotFound_t865402053 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void JSONObject/FieldNotFound::Invoke(System.String)
+extern "C"  void FieldNotFound_Invoke_m1722936676 (FieldNotFound_t865402053 * __this, String_t* ___name0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		FieldNotFound_Invoke_m1722936676((FieldNotFound_t865402053 *)__this->get_prev_9(),___name0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, String_t* ___name0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___name0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, String_t* ___name0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___name0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___name0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult JSONObject/FieldNotFound::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * FieldNotFound_BeginInvoke_m622233301 (FieldNotFound_t865402053 * __this, String_t* ___name0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___name0;
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void JSONObject/FieldNotFound::EndInvoke(System.IAsyncResult)
+extern "C"  void FieldNotFound_EndInvoke_m4171153578 (FieldNotFound_t865402053 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void JSONObject/GetFieldResponse::.ctor(System.Object,System.IntPtr)
+extern "C"  void GetFieldResponse__ctor_m1655757532 (GetFieldResponse_t1259369279 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void JSONObject/GetFieldResponse::Invoke(JSONObject)
+extern "C"  void GetFieldResponse_Invoke_m4134964043 (GetFieldResponse_t1259369279 * __this, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		GetFieldResponse_Invoke_m4134964043((GetFieldResponse_t1259369279 *)__this->get_prev_9(),___obj0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, JSONObject_t1971882247 * ___obj0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___obj0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, JSONObject_t1971882247 * ___obj0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___obj0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___obj0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult JSONObject/GetFieldResponse::BeginInvoke(JSONObject,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * GetFieldResponse_BeginInvoke_m804213744 (GetFieldResponse_t1259369279 * __this, JSONObject_t1971882247 * ___obj0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___obj0;
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void JSONObject/GetFieldResponse::EndInvoke(System.IAsyncResult)
+extern "C"  void GetFieldResponse_EndInvoke_m4147177482 (GetFieldResponse_t1259369279 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// JSONObject JSONTemplates::TOJSON(System.Object)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_TOJSON_m2221174251 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_TOJSON_m2221174251_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	FieldInfoU5BU5D_t125053523* V_1 = NULL;
+	FieldInfo_t * V_2 = NULL;
+	FieldInfoU5BU5D_t125053523* V_3 = NULL;
+	int32_t V_4 = 0;
+	JSONObject_t1971882247 * V_5 = NULL;
+	MethodInfo_t * V_6 = NULL;
+	ObjectU5BU5D_t3614634134* V_7 = NULL;
+	PropertyInfoU5BU5D_t1736152084* V_8 = NULL;
+	PropertyInfo_t * V_9 = NULL;
+	PropertyInfoU5BU5D_t1736152084* V_10 = NULL;
+	int32_t V_11 = 0;
+	JSONObject_t1971882247 * V_12 = NULL;
+	MethodInfo_t * V_13 = NULL;
+	ObjectU5BU5D_t3614634134* V_14 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONTemplates_t3006274921_il2cpp_TypeInfo_var);
+		HashSet_1_t1022910149 * L_0 = ((JSONTemplates_t3006274921_StaticFields*)JSONTemplates_t3006274921_il2cpp_TypeInfo_var->static_fields)->get_touched_0();
+		Il2CppObject * L_1 = ___obj0;
+		NullCheck(L_0);
+		bool L_2 = HashSet_1_Add_m199171953(L_0, L_1, /*hidden argument*/HashSet_1_Add_m199171953_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_02d7;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_3 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Il2CppObject * L_4 = ___obj0;
+		NullCheck(L_4);
+		Type_t * L_5 = Object_GetType_m191970594(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		FieldInfoU5BU5D_t125053523* L_6 = Type_GetFields_m445058499(L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		FieldInfoU5BU5D_t125053523* L_7 = V_1;
+		V_3 = L_7;
+		V_4 = 0;
+		goto IL_0162;
+	}
+
+IL_002c:
+	{
+		FieldInfoU5BU5D_t125053523* L_8 = V_3;
+		int32_t L_9 = V_4;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		FieldInfo_t * L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		V_2 = L_11;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_12 = JSONObject_get_nullJO_m3951718059(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_5 = L_12;
+		FieldInfo_t * L_13 = V_2;
+		Il2CppObject * L_14 = ___obj0;
+		NullCheck(L_13);
+		Il2CppObject * L_15 = VirtFuncInvoker1< Il2CppObject *, Il2CppObject * >::Invoke(17 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_13, L_14);
+		NullCheck(L_15);
+		bool L_16 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_15, NULL);
+		if (L_16)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_17 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(JSONTemplates_t3006274921_0_0_0_var), /*hidden argument*/NULL);
+		FieldInfo_t * L_18 = V_2;
+		NullCheck(L_18);
+		Type_t * L_19 = VirtFuncInvoker0< Type_t * >::Invoke(16 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_18);
+		NullCheck(L_19);
+		String_t* L_20 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_19);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_21 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2967033390, L_20, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		MethodInfo_t * L_22 = Type_GetMethod_m1197504218(L_17, L_21, /*hidden argument*/NULL);
+		V_6 = L_22;
+		MethodInfo_t * L_23 = V_6;
+		if (!L_23)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		V_7 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_24 = V_7;
+		FieldInfo_t * L_25 = V_2;
+		Il2CppObject * L_26 = ___obj0;
+		NullCheck(L_25);
+		Il2CppObject * L_27 = VirtFuncInvoker1< Il2CppObject *, Il2CppObject * >::Invoke(17 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_25, L_26);
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, L_27);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_27);
+		MethodInfo_t * L_28 = V_6;
+		ObjectU5BU5D_t3614634134* L_29 = V_7;
+		NullCheck(L_28);
+		Il2CppObject * L_30 = MethodBase_Invoke_m1075809207(L_28, NULL, L_29, /*hidden argument*/NULL);
+		V_5 = ((JSONObject_t1971882247 *)CastclassClass(L_30, JSONObject_t1971882247_il2cpp_TypeInfo_var));
+		goto IL_00e4;
+	}
+
+IL_00a0:
+	{
+		FieldInfo_t * L_31 = V_2;
+		NullCheck(L_31);
+		Type_t * L_32 = VirtFuncInvoker0< Type_t * >::Invoke(16 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_31);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_33 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((Il2CppObject*)(Type_t *)L_32) == ((Il2CppObject*)(Type_t *)L_33))))
+		{
+			goto IL_00cd;
+		}
+	}
+	{
+		FieldInfo_t * L_34 = V_2;
+		Il2CppObject * L_35 = ___obj0;
+		NullCheck(L_34);
+		Il2CppObject * L_36 = VirtFuncInvoker1< Il2CppObject *, Il2CppObject * >::Invoke(17 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_34, L_35);
+		NullCheck(L_36);
+		String_t* L_37 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_36);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_38 = JSONObject_CreateStringObject_m227421806(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
+		V_5 = L_38;
+		goto IL_00e4;
+	}
+
+IL_00cd:
+	{
+		FieldInfo_t * L_39 = V_2;
+		Il2CppObject * L_40 = ___obj0;
+		NullCheck(L_39);
+		Il2CppObject * L_41 = VirtFuncInvoker1< Il2CppObject *, Il2CppObject * >::Invoke(17 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_39, L_40);
+		NullCheck(L_41);
+		String_t* L_42 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_41);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_43 = JSONObject_Create_m1582109667(NULL /*static, unused*/, L_42, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		V_5 = L_43;
+	}
+
+IL_00e4:
+	{
+		JSONObject_t1971882247 * L_44 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_45 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
+		if (!L_45)
+		{
+			goto IL_015c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_46 = V_5;
+		NullCheck(L_46);
+		int32_t L_47 = L_46->get_type_6();
+		if (!L_47)
+		{
+			goto IL_010f;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_48 = V_0;
+		FieldInfo_t * L_49 = V_2;
+		NullCheck(L_49);
+		String_t* L_50 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_49);
+		JSONObject_t1971882247 * L_51 = V_5;
+		NullCheck(L_48);
+		JSONObject_AddField_m1721386152(L_48, L_50, L_51, /*hidden argument*/NULL);
+		goto IL_015c;
+	}
+
+IL_010f:
+	{
+		StringU5BU5D_t1642385972* L_52 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)6));
+		NullCheck(L_52);
+		ArrayElementTypeCheck (L_52, _stringLiteral2122037725);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2122037725);
+		StringU5BU5D_t1642385972* L_53 = L_52;
+		FieldInfo_t * L_54 = V_2;
+		NullCheck(L_54);
+		String_t* L_55 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_54);
+		NullCheck(L_53);
+		ArrayElementTypeCheck (L_53, L_55);
+		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_55);
+		StringU5BU5D_t1642385972* L_56 = L_53;
+		NullCheck(L_56);
+		ArrayElementTypeCheck (L_56, _stringLiteral1264830171);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral1264830171);
+		StringU5BU5D_t1642385972* L_57 = L_56;
+		Il2CppObject * L_58 = ___obj0;
+		NullCheck(L_58);
+		Type_t * L_59 = Object_GetType_m191970594(L_58, /*hidden argument*/NULL);
+		NullCheck(L_59);
+		String_t* L_60 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_59);
+		NullCheck(L_57);
+		ArrayElementTypeCheck (L_57, L_60);
+		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_60);
+		StringU5BU5D_t1642385972* L_61 = L_57;
+		NullCheck(L_61);
+		ArrayElementTypeCheck (L_61, _stringLiteral2539188669);
+		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral2539188669);
+		StringU5BU5D_t1642385972* L_62 = L_61;
+		FieldInfo_t * L_63 = V_2;
+		NullCheck(L_63);
+		Type_t * L_64 = VirtFuncInvoker0< Type_t * >::Invoke(16 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_63);
+		NullCheck(L_64);
+		String_t* L_65 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_64);
+		NullCheck(L_62);
+		ArrayElementTypeCheck (L_62, L_65);
+		(L_62)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_65);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_66 = String_Concat_m626692867(NULL /*static, unused*/, L_62, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, L_66, /*hidden argument*/NULL);
+	}
+
+IL_015c:
+	{
+		int32_t L_67 = V_4;
+		V_4 = ((int32_t)((int32_t)L_67+(int32_t)1));
+	}
+
+IL_0162:
+	{
+		int32_t L_68 = V_4;
+		FieldInfoU5BU5D_t125053523* L_69 = V_3;
+		NullCheck(L_69);
+		if ((((int32_t)L_68) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_69)->max_length)))))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		Il2CppObject * L_70 = ___obj0;
+		NullCheck(L_70);
+		Type_t * L_71 = Object_GetType_m191970594(L_70, /*hidden argument*/NULL);
+		NullCheck(L_71);
+		PropertyInfoU5BU5D_t1736152084* L_72 = Type_GetProperties_m2803026104(L_71, /*hidden argument*/NULL);
+		V_8 = L_72;
+		PropertyInfoU5BU5D_t1736152084* L_73 = V_8;
+		V_10 = L_73;
+		V_11 = 0;
+		goto IL_02ca;
+	}
+
+IL_0185:
+	{
+		PropertyInfoU5BU5D_t1736152084* L_74 = V_10;
+		int32_t L_75 = V_11;
+		NullCheck(L_74);
+		int32_t L_76 = L_75;
+		PropertyInfo_t * L_77 = (L_74)->GetAt(static_cast<il2cpp_array_size_t>(L_76));
+		V_9 = L_77;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_78 = JSONObject_get_nullJO_m3951718059(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_12 = L_78;
+		PropertyInfo_t * L_79 = V_9;
+		Il2CppObject * L_80 = ___obj0;
+		NullCheck(L_79);
+		Il2CppObject * L_81 = VirtFuncInvoker2< Il2CppObject *, Il2CppObject *, ObjectU5BU5D_t3614634134* >::Invoke(22 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_79, L_80, (ObjectU5BU5D_t3614634134*)(ObjectU5BU5D_t3614634134*)NULL);
+		NullCheck(L_81);
+		bool L_82 = VirtFuncInvoker1< bool, Il2CppObject * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_81, NULL);
+		if (L_82)
+		{
+			goto IL_0249;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_83 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(JSONTemplates_t3006274921_0_0_0_var), /*hidden argument*/NULL);
+		PropertyInfo_t * L_84 = V_9;
+		NullCheck(L_84);
+		Type_t * L_85 = VirtFuncInvoker0< Type_t * >::Invoke(17 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_84);
+		NullCheck(L_85);
+		String_t* L_86 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_85);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_87 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2967033390, L_86, /*hidden argument*/NULL);
+		NullCheck(L_83);
+		MethodInfo_t * L_88 = Type_GetMethod_m1197504218(L_83, L_87, /*hidden argument*/NULL);
+		V_13 = L_88;
+		MethodInfo_t * L_89 = V_13;
+		if (!L_89)
+		{
+			goto IL_0200;
+		}
+	}
+	{
+		V_14 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		ObjectU5BU5D_t3614634134* L_90 = V_14;
+		PropertyInfo_t * L_91 = V_9;
+		Il2CppObject * L_92 = ___obj0;
+		NullCheck(L_91);
+		Il2CppObject * L_93 = VirtFuncInvoker2< Il2CppObject *, Il2CppObject *, ObjectU5BU5D_t3614634134* >::Invoke(22 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_91, L_92, (ObjectU5BU5D_t3614634134*)(ObjectU5BU5D_t3614634134*)NULL);
+		NullCheck(L_90);
+		ArrayElementTypeCheck (L_90, L_93);
+		(L_90)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_93);
+		MethodInfo_t * L_94 = V_13;
+		ObjectU5BU5D_t3614634134* L_95 = V_14;
+		NullCheck(L_94);
+		Il2CppObject * L_96 = MethodBase_Invoke_m1075809207(L_94, NULL, L_95, /*hidden argument*/NULL);
+		V_12 = ((JSONObject_t1971882247 *)CastclassClass(L_96, JSONObject_t1971882247_il2cpp_TypeInfo_var));
+		goto IL_0249;
+	}
+
+IL_0200:
+	{
+		PropertyInfo_t * L_97 = V_9;
+		NullCheck(L_97);
+		Type_t * L_98 = VirtFuncInvoker0< Type_t * >::Invoke(17 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_97);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_99 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((Il2CppObject*)(Type_t *)L_98) == ((Il2CppObject*)(Type_t *)L_99))))
+		{
+			goto IL_0230;
+		}
+	}
+	{
+		PropertyInfo_t * L_100 = V_9;
+		Il2CppObject * L_101 = ___obj0;
+		NullCheck(L_100);
+		Il2CppObject * L_102 = VirtFuncInvoker2< Il2CppObject *, Il2CppObject *, ObjectU5BU5D_t3614634134* >::Invoke(22 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_100, L_101, (ObjectU5BU5D_t3614634134*)(ObjectU5BU5D_t3614634134*)NULL);
+		NullCheck(L_102);
+		String_t* L_103 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_102);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_104 = JSONObject_CreateStringObject_m227421806(NULL /*static, unused*/, L_103, /*hidden argument*/NULL);
+		V_12 = L_104;
+		goto IL_0249;
+	}
+
+IL_0230:
+	{
+		PropertyInfo_t * L_105 = V_9;
+		Il2CppObject * L_106 = ___obj0;
+		NullCheck(L_105);
+		Il2CppObject * L_107 = VirtFuncInvoker2< Il2CppObject *, Il2CppObject *, ObjectU5BU5D_t3614634134* >::Invoke(22 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_105, L_106, (ObjectU5BU5D_t3614634134*)(ObjectU5BU5D_t3614634134*)NULL);
+		NullCheck(L_107);
+		String_t* L_108 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_107);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_109 = JSONObject_Create_m1582109667(NULL /*static, unused*/, L_108, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		V_12 = L_109;
+	}
+
+IL_0249:
+	{
+		JSONObject_t1971882247 * L_110 = V_12;
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_111 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_110, /*hidden argument*/NULL);
+		if (!L_111)
+		{
+			goto IL_02c4;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_112 = V_12;
+		NullCheck(L_112);
+		int32_t L_113 = L_112->get_type_6();
+		if (!L_113)
+		{
+			goto IL_0275;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_114 = V_0;
+		PropertyInfo_t * L_115 = V_9;
+		NullCheck(L_115);
+		String_t* L_116 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_115);
+		JSONObject_t1971882247 * L_117 = V_12;
+		NullCheck(L_114);
+		JSONObject_AddField_m1721386152(L_114, L_116, L_117, /*hidden argument*/NULL);
+		goto IL_02c4;
+	}
+
+IL_0275:
+	{
+		StringU5BU5D_t1642385972* L_118 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)6));
+		NullCheck(L_118);
+		ArrayElementTypeCheck (L_118, _stringLiteral2122037725);
+		(L_118)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2122037725);
+		StringU5BU5D_t1642385972* L_119 = L_118;
+		PropertyInfo_t * L_120 = V_9;
+		NullCheck(L_120);
+		String_t* L_121 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_120);
+		NullCheck(L_119);
+		ArrayElementTypeCheck (L_119, L_121);
+		(L_119)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_121);
+		StringU5BU5D_t1642385972* L_122 = L_119;
+		NullCheck(L_122);
+		ArrayElementTypeCheck (L_122, _stringLiteral1264830171);
+		(L_122)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral1264830171);
+		StringU5BU5D_t1642385972* L_123 = L_122;
+		Il2CppObject * L_124 = ___obj0;
+		NullCheck(L_124);
+		Type_t * L_125 = Object_GetType_m191970594(L_124, /*hidden argument*/NULL);
+		NullCheck(L_125);
+		String_t* L_126 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_125);
+		NullCheck(L_123);
+		ArrayElementTypeCheck (L_123, L_126);
+		(L_123)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_126);
+		StringU5BU5D_t1642385972* L_127 = L_123;
+		NullCheck(L_127);
+		ArrayElementTypeCheck (L_127, _stringLiteral2539188669);
+		(L_127)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral2539188669);
+		StringU5BU5D_t1642385972* L_128 = L_127;
+		PropertyInfo_t * L_129 = V_9;
+		NullCheck(L_129);
+		Type_t * L_130 = VirtFuncInvoker0< Type_t * >::Invoke(17 /* System.Type System.Reflection.PropertyInfo::get_PropertyType() */, L_129);
+		NullCheck(L_130);
+		String_t* L_131 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_130);
+		NullCheck(L_128);
+		ArrayElementTypeCheck (L_128, L_131);
+		(L_128)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_131);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_132 = String_Concat_m626692867(NULL /*static, unused*/, L_128, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, L_132, /*hidden argument*/NULL);
+	}
+
+IL_02c4:
+	{
+		int32_t L_133 = V_11;
+		V_11 = ((int32_t)((int32_t)L_133+(int32_t)1));
+	}
+
+IL_02ca:
+	{
+		int32_t L_134 = V_11;
+		PropertyInfoU5BU5D_t1736152084* L_135 = V_10;
+		NullCheck(L_135);
+		if ((((int32_t)L_134) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_135)->max_length)))))))
+		{
+			goto IL_0185;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_136 = V_0;
+		return L_136;
+	}
+
+IL_02d7:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral1638831994, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_137 = JSONObject_get_nullJO_m3951718059(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_137;
+	}
+}
+// UnityEngine.Vector2 JSONTemplates::ToVector2(JSONObject)
+extern "C"  Vector2_t2243707579  JSONTemplates_ToVector2_m4255645740 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToVector2_m4255645740_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float G_B3_0 = 0.0f;
+	float G_B6_0 = 0.0f;
+	{
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		NullCheck(L_0);
+		JSONObject_t1971882247 * L_1 = JSONObject_get_Item_m2638456294(L_0, _stringLiteral372029398, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_2 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_3 = ___obj0;
+		NullCheck(L_3);
+		JSONObject_t1971882247 * L_4 = JSONObject_get_Item_m2638456294(L_3, _stringLiteral372029398, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		float L_5 = JSONObject_get_f_m1158093019(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		goto IL_002f;
+	}
+
+IL_002a:
+	{
+		G_B3_0 = (0.0f);
+	}
+
+IL_002f:
+	{
+		V_0 = G_B3_0;
+		JSONObject_t1971882247 * L_6 = ___obj0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_7 = JSONObject_get_Item_m2638456294(L_6, _stringLiteral372029397, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_8 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_9 = ___obj0;
+		NullCheck(L_9);
+		JSONObject_t1971882247 * L_10 = JSONObject_get_Item_m2638456294(L_9, _stringLiteral372029397, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		float L_11 = JSONObject_get_f_m1158093019(L_10, /*hidden argument*/NULL);
+		G_B6_0 = L_11;
+		goto IL_005f;
+	}
+
+IL_005a:
+	{
+		G_B6_0 = (0.0f);
+	}
+
+IL_005f:
+	{
+		V_1 = G_B6_0;
+		float L_12 = V_0;
+		float L_13 = V_1;
+		Vector2_t2243707579  L_14;
+		memset(&L_14, 0, sizeof(L_14));
+		Vector2__ctor_m3067419446(&L_14, L_12, L_13, /*hidden argument*/NULL);
+		return L_14;
+	}
+}
+// JSONObject JSONTemplates::FromVector2(UnityEngine.Vector2)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromVector2_m1084394455 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___v0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromVector2_m1084394455_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = (&___v0)->get_x_0();
+		if ((((float)L_1) == ((float)(0.0f))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = V_0;
+		float L_3 = (&___v0)->get_x_0();
+		NullCheck(L_2);
+		JSONObject_AddField_m2712088548(L_2, _stringLiteral372029398, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		float L_4 = (&___v0)->get_y_1();
+		if ((((float)L_4) == ((float)(0.0f))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_5 = V_0;
+		float L_6 = (&___v0)->get_y_1();
+		NullCheck(L_5);
+		JSONObject_AddField_m2712088548(L_5, _stringLiteral372029397, L_6, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		JSONObject_t1971882247 * L_7 = V_0;
+		return L_7;
+	}
+}
+// JSONObject JSONTemplates::FromVector3(UnityEngine.Vector3)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromVector3_m3510317143 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  ___v0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromVector3_m3510317143_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = (&___v0)->get_x_1();
+		if ((((float)L_1) == ((float)(0.0f))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = V_0;
+		float L_3 = (&___v0)->get_x_1();
+		NullCheck(L_2);
+		JSONObject_AddField_m2712088548(L_2, _stringLiteral372029398, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		float L_4 = (&___v0)->get_y_2();
+		if ((((float)L_4) == ((float)(0.0f))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_5 = V_0;
+		float L_6 = (&___v0)->get_y_2();
+		NullCheck(L_5);
+		JSONObject_AddField_m2712088548(L_5, _stringLiteral372029397, L_6, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		float L_7 = (&___v0)->get_z_3();
+		if ((((float)L_7) == ((float)(0.0f))))
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_8 = V_0;
+		float L_9 = (&___v0)->get_z_3();
+		NullCheck(L_8);
+		JSONObject_AddField_m2712088548(L_8, _stringLiteral372029400, L_9, /*hidden argument*/NULL);
+	}
+
+IL_006f:
+	{
+		JSONObject_t1971882247 * L_10 = V_0;
+		return L_10;
+	}
+}
+// UnityEngine.Vector3 JSONTemplates::ToVector3(JSONObject)
+extern "C"  Vector3_t2243707580  JSONTemplates_ToVector3_m4142347206 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToVector3_m4142347206_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float G_B3_0 = 0.0f;
+	float G_B6_0 = 0.0f;
+	float G_B9_0 = 0.0f;
+	{
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		NullCheck(L_0);
+		JSONObject_t1971882247 * L_1 = JSONObject_get_Item_m2638456294(L_0, _stringLiteral372029398, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_2 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_3 = ___obj0;
+		NullCheck(L_3);
+		JSONObject_t1971882247 * L_4 = JSONObject_get_Item_m2638456294(L_3, _stringLiteral372029398, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		float L_5 = JSONObject_get_f_m1158093019(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		goto IL_002f;
+	}
+
+IL_002a:
+	{
+		G_B3_0 = (0.0f);
+	}
+
+IL_002f:
+	{
+		V_0 = G_B3_0;
+		JSONObject_t1971882247 * L_6 = ___obj0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_7 = JSONObject_get_Item_m2638456294(L_6, _stringLiteral372029397, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_8 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_9 = ___obj0;
+		NullCheck(L_9);
+		JSONObject_t1971882247 * L_10 = JSONObject_get_Item_m2638456294(L_9, _stringLiteral372029397, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		float L_11 = JSONObject_get_f_m1158093019(L_10, /*hidden argument*/NULL);
+		G_B6_0 = L_11;
+		goto IL_005f;
+	}
+
+IL_005a:
+	{
+		G_B6_0 = (0.0f);
+	}
+
+IL_005f:
+	{
+		V_1 = G_B6_0;
+		JSONObject_t1971882247 * L_12 = ___obj0;
+		NullCheck(L_12);
+		JSONObject_t1971882247 * L_13 = JSONObject_get_Item_m2638456294(L_12, _stringLiteral372029400, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_14 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_15 = ___obj0;
+		NullCheck(L_15);
+		JSONObject_t1971882247 * L_16 = JSONObject_get_Item_m2638456294(L_15, _stringLiteral372029400, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		float L_17 = JSONObject_get_f_m1158093019(L_16, /*hidden argument*/NULL);
+		G_B9_0 = L_17;
+		goto IL_008f;
+	}
+
+IL_008a:
+	{
+		G_B9_0 = (0.0f);
+	}
+
+IL_008f:
+	{
+		V_2 = G_B9_0;
+		float L_18 = V_0;
+		float L_19 = V_1;
+		float L_20 = V_2;
+		Vector3_t2243707580  L_21;
+		memset(&L_21, 0, sizeof(L_21));
+		Vector3__ctor_m2638739322(&L_21, L_18, L_19, L_20, /*hidden argument*/NULL);
+		return L_21;
+	}
+}
+// JSONObject JSONTemplates::FromVector4(UnityEngine.Vector4)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromVector4_m3216565463 (Il2CppObject * __this /* static, unused */, Vector4_t2243707581  ___v0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromVector4_m3216565463_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = (&___v0)->get_x_1();
+		if ((((float)L_1) == ((float)(0.0f))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = V_0;
+		float L_3 = (&___v0)->get_x_1();
+		NullCheck(L_2);
+		JSONObject_AddField_m2712088548(L_2, _stringLiteral372029398, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		float L_4 = (&___v0)->get_y_2();
+		if ((((float)L_4) == ((float)(0.0f))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_5 = V_0;
+		float L_6 = (&___v0)->get_y_2();
+		NullCheck(L_5);
+		JSONObject_AddField_m2712088548(L_5, _stringLiteral372029397, L_6, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		float L_7 = (&___v0)->get_z_3();
+		if ((((float)L_7) == ((float)(0.0f))))
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_8 = V_0;
+		float L_9 = (&___v0)->get_z_3();
+		NullCheck(L_8);
+		JSONObject_AddField_m2712088548(L_8, _stringLiteral372029400, L_9, /*hidden argument*/NULL);
+	}
+
+IL_006f:
+	{
+		float L_10 = (&___v0)->get_w_4();
+		if ((((float)L_10) == ((float)(0.0f))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_11 = V_0;
+		float L_12 = (&___v0)->get_w_4();
+		NullCheck(L_11);
+		JSONObject_AddField_m2712088548(L_11, _stringLiteral372029387, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0092:
+	{
+		JSONObject_t1971882247 * L_13 = V_0;
+		return L_13;
+	}
+}
+// UnityEngine.Vector4 JSONTemplates::ToVector4(JSONObject)
+extern "C"  Vector4_t2243707581  JSONTemplates_ToVector4_m362392788 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToVector4_m362392788_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float G_B3_0 = 0.0f;
+	float G_B6_0 = 0.0f;
+	float G_B9_0 = 0.0f;
+	float G_B12_0 = 0.0f;
+	{
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		NullCheck(L_0);
+		JSONObject_t1971882247 * L_1 = JSONObject_get_Item_m2638456294(L_0, _stringLiteral372029398, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_2 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_3 = ___obj0;
+		NullCheck(L_3);
+		JSONObject_t1971882247 * L_4 = JSONObject_get_Item_m2638456294(L_3, _stringLiteral372029398, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		float L_5 = JSONObject_get_f_m1158093019(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		goto IL_002f;
+	}
+
+IL_002a:
+	{
+		G_B3_0 = (0.0f);
+	}
+
+IL_002f:
+	{
+		V_0 = G_B3_0;
+		JSONObject_t1971882247 * L_6 = ___obj0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_7 = JSONObject_get_Item_m2638456294(L_6, _stringLiteral372029397, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_8 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_9 = ___obj0;
+		NullCheck(L_9);
+		JSONObject_t1971882247 * L_10 = JSONObject_get_Item_m2638456294(L_9, _stringLiteral372029397, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		float L_11 = JSONObject_get_f_m1158093019(L_10, /*hidden argument*/NULL);
+		G_B6_0 = L_11;
+		goto IL_005f;
+	}
+
+IL_005a:
+	{
+		G_B6_0 = (0.0f);
+	}
+
+IL_005f:
+	{
+		V_1 = G_B6_0;
+		JSONObject_t1971882247 * L_12 = ___obj0;
+		NullCheck(L_12);
+		JSONObject_t1971882247 * L_13 = JSONObject_get_Item_m2638456294(L_12, _stringLiteral372029400, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_14 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_15 = ___obj0;
+		NullCheck(L_15);
+		JSONObject_t1971882247 * L_16 = JSONObject_get_Item_m2638456294(L_15, _stringLiteral372029400, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		float L_17 = JSONObject_get_f_m1158093019(L_16, /*hidden argument*/NULL);
+		G_B9_0 = L_17;
+		goto IL_008f;
+	}
+
+IL_008a:
+	{
+		G_B9_0 = (0.0f);
+	}
+
+IL_008f:
+	{
+		V_2 = G_B9_0;
+		JSONObject_t1971882247 * L_18 = ___obj0;
+		NullCheck(L_18);
+		JSONObject_t1971882247 * L_19 = JSONObject_get_Item_m2638456294(L_18, _stringLiteral372029387, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_20 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00ba;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_21 = ___obj0;
+		NullCheck(L_21);
+		JSONObject_t1971882247 * L_22 = JSONObject_get_Item_m2638456294(L_21, _stringLiteral372029387, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		float L_23 = JSONObject_get_f_m1158093019(L_22, /*hidden argument*/NULL);
+		G_B12_0 = L_23;
+		goto IL_00bf;
+	}
+
+IL_00ba:
+	{
+		G_B12_0 = (0.0f);
+	}
+
+IL_00bf:
+	{
+		V_3 = G_B12_0;
+		float L_24 = V_0;
+		float L_25 = V_1;
+		float L_26 = V_2;
+		float L_27 = V_3;
+		Vector4_t2243707581  L_28;
+		memset(&L_28, 0, sizeof(L_28));
+		Vector4__ctor_m1222289168(&L_28, L_24, L_25, L_26, L_27, /*hidden argument*/NULL);
+		return L_28;
+	}
+}
+// JSONObject JSONTemplates::FromMatrix4x4(UnityEngine.Matrix4x4)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromMatrix4x4_m3949774999 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  ___m0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromMatrix4x4_m3949774999_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = (&___m0)->get_m00_0();
+		if ((((float)L_1) == ((float)(0.0f))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = V_0;
+		float L_3 = (&___m0)->get_m00_0();
+		NullCheck(L_2);
+		JSONObject_AddField_m2712088548(L_2, _stringLiteral104528321, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		float L_4 = (&___m0)->get_m01_4();
+		if ((((float)L_4) == ((float)(0.0f))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_5 = V_0;
+		float L_6 = (&___m0)->get_m01_4();
+		NullCheck(L_5);
+		JSONObject_AddField_m2712088548(L_5, _stringLiteral104528322, L_6, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		float L_7 = (&___m0)->get_m02_8();
+		if ((((float)L_7) == ((float)(0.0f))))
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_8 = V_0;
+		float L_9 = (&___m0)->get_m02_8();
+		NullCheck(L_8);
+		JSONObject_AddField_m2712088548(L_8, _stringLiteral104528323, L_9, /*hidden argument*/NULL);
+	}
+
+IL_006f:
+	{
+		float L_10 = (&___m0)->get_m03_12();
+		if ((((float)L_10) == ((float)(0.0f))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_11 = V_0;
+		float L_12 = (&___m0)->get_m03_12();
+		NullCheck(L_11);
+		JSONObject_AddField_m2712088548(L_11, _stringLiteral104528324, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0092:
+	{
+		float L_13 = (&___m0)->get_m10_1();
+		if ((((float)L_13) == ((float)(0.0f))))
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_14 = V_0;
+		float L_15 = (&___m0)->get_m10_1();
+		NullCheck(L_14);
+		JSONObject_AddField_m2712088548(L_14, _stringLiteral2833411676, L_15, /*hidden argument*/NULL);
+	}
+
+IL_00b5:
+	{
+		float L_16 = (&___m0)->get_m11_5();
+		if ((((float)L_16) == ((float)(0.0f))))
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_17 = V_0;
+		float L_18 = (&___m0)->get_m11_5();
+		NullCheck(L_17);
+		JSONObject_AddField_m2712088548(L_17, _stringLiteral2833411677, L_18, /*hidden argument*/NULL);
+	}
+
+IL_00d8:
+	{
+		float L_19 = (&___m0)->get_m12_9();
+		if ((((float)L_19) == ((float)(0.0f))))
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_20 = V_0;
+		float L_21 = (&___m0)->get_m12_9();
+		NullCheck(L_20);
+		JSONObject_AddField_m2712088548(L_20, _stringLiteral2833411678, L_21, /*hidden argument*/NULL);
+	}
+
+IL_00fb:
+	{
+		float L_22 = (&___m0)->get_m13_13();
+		if ((((float)L_22) == ((float)(0.0f))))
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_23 = V_0;
+		float L_24 = (&___m0)->get_m13_13();
+		NullCheck(L_23);
+		JSONObject_AddField_m2712088548(L_23, _stringLiteral2833411679, L_24, /*hidden argument*/NULL);
+	}
+
+IL_011e:
+	{
+		float L_25 = (&___m0)->get_m20_2();
+		if ((((float)L_25) == ((float)(0.0f))))
+		{
+			goto IL_0141;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_26 = V_0;
+		float L_27 = (&___m0)->get_m20_2();
+		NullCheck(L_26);
+		JSONObject_AddField_m2712088548(L_26, _stringLiteral3236696203, L_27, /*hidden argument*/NULL);
+	}
+
+IL_0141:
+	{
+		float L_28 = (&___m0)->get_m21_6();
+		if ((((float)L_28) == ((float)(0.0f))))
+		{
+			goto IL_0164;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_29 = V_0;
+		float L_30 = (&___m0)->get_m21_6();
+		NullCheck(L_29);
+		JSONObject_AddField_m2712088548(L_29, _stringLiteral3236696204, L_30, /*hidden argument*/NULL);
+	}
+
+IL_0164:
+	{
+		float L_31 = (&___m0)->get_m22_10();
+		if ((((float)L_31) == ((float)(0.0f))))
+		{
+			goto IL_0187;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_32 = V_0;
+		float L_33 = (&___m0)->get_m22_10();
+		NullCheck(L_32);
+		JSONObject_AddField_m2712088548(L_32, _stringLiteral3236696205, L_33, /*hidden argument*/NULL);
+	}
+
+IL_0187:
+	{
+		float L_34 = (&___m0)->get_m23_14();
+		if ((((float)L_34) == ((float)(0.0f))))
+		{
+			goto IL_01aa;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_35 = V_0;
+		float L_36 = (&___m0)->get_m23_14();
+		NullCheck(L_35);
+		JSONObject_AddField_m2712088548(L_35, _stringLiteral3236696206, L_36, /*hidden argument*/NULL);
+	}
+
+IL_01aa:
+	{
+		float L_37 = (&___m0)->get_m30_3();
+		if ((((float)L_37) == ((float)(0.0f))))
+		{
+			goto IL_01cd;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_38 = V_0;
+		float L_39 = (&___m0)->get_m30_3();
+		NullCheck(L_38);
+		JSONObject_AddField_m2712088548(L_38, _stringLiteral1670612262, L_39, /*hidden argument*/NULL);
+	}
+
+IL_01cd:
+	{
+		float L_40 = (&___m0)->get_m31_7();
+		if ((((float)L_40) == ((float)(0.0f))))
+		{
+			goto IL_01f0;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_41 = V_0;
+		float L_42 = (&___m0)->get_m31_7();
+		NullCheck(L_41);
+		JSONObject_AddField_m2712088548(L_41, _stringLiteral1670612263, L_42, /*hidden argument*/NULL);
+	}
+
+IL_01f0:
+	{
+		float L_43 = (&___m0)->get_m32_11();
+		if ((((float)L_43) == ((float)(0.0f))))
+		{
+			goto IL_0213;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_44 = V_0;
+		float L_45 = (&___m0)->get_m32_11();
+		NullCheck(L_44);
+		JSONObject_AddField_m2712088548(L_44, _stringLiteral1670612264, L_45, /*hidden argument*/NULL);
+	}
+
+IL_0213:
+	{
+		float L_46 = (&___m0)->get_m33_15();
+		if ((((float)L_46) == ((float)(0.0f))))
+		{
+			goto IL_0236;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_47 = V_0;
+		float L_48 = (&___m0)->get_m33_15();
+		NullCheck(L_47);
+		JSONObject_AddField_m2712088548(L_47, _stringLiteral1670612265, L_48, /*hidden argument*/NULL);
+	}
+
+IL_0236:
+	{
+		JSONObject_t1971882247 * L_49 = V_0;
+		return L_49;
+	}
+}
+// UnityEngine.Matrix4x4 JSONTemplates::ToMatrix4x4(JSONObject)
+extern "C"  Matrix4x4_t2933234003  JSONTemplates_ToMatrix4x4_m3802232620 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToMatrix4x4_m3802232620_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Initobj (Matrix4x4_t2933234003_il2cpp_TypeInfo_var, (&V_0));
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		NullCheck(L_0);
+		JSONObject_t1971882247 * L_1 = JSONObject_get_Item_m2638456294(L_0, _stringLiteral104528321, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_2 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_3 = ___obj0;
+		NullCheck(L_3);
+		JSONObject_t1971882247 * L_4 = JSONObject_get_Item_m2638456294(L_3, _stringLiteral104528321, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		float L_5 = JSONObject_get_f_m1158093019(L_4, /*hidden argument*/NULL);
+		(&V_0)->set_m00_0(L_5);
+	}
+
+IL_0034:
+	{
+		JSONObject_t1971882247 * L_6 = ___obj0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_7 = JSONObject_get_Item_m2638456294(L_6, _stringLiteral104528322, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_8 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_9 = ___obj0;
+		NullCheck(L_9);
+		JSONObject_t1971882247 * L_10 = JSONObject_get_Item_m2638456294(L_9, _stringLiteral104528322, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		float L_11 = JSONObject_get_f_m1158093019(L_10, /*hidden argument*/NULL);
+		(&V_0)->set_m01_4(L_11);
+	}
+
+IL_0060:
+	{
+		JSONObject_t1971882247 * L_12 = ___obj0;
+		NullCheck(L_12);
+		JSONObject_t1971882247 * L_13 = JSONObject_get_Item_m2638456294(L_12, _stringLiteral104528323, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_14 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_15 = ___obj0;
+		NullCheck(L_15);
+		JSONObject_t1971882247 * L_16 = JSONObject_get_Item_m2638456294(L_15, _stringLiteral104528323, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		float L_17 = JSONObject_get_f_m1158093019(L_16, /*hidden argument*/NULL);
+		(&V_0)->set_m02_8(L_17);
+	}
+
+IL_008c:
+	{
+		JSONObject_t1971882247 * L_18 = ___obj0;
+		NullCheck(L_18);
+		JSONObject_t1971882247 * L_19 = JSONObject_get_Item_m2638456294(L_18, _stringLiteral104528324, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_20 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_21 = ___obj0;
+		NullCheck(L_21);
+		JSONObject_t1971882247 * L_22 = JSONObject_get_Item_m2638456294(L_21, _stringLiteral104528324, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		float L_23 = JSONObject_get_f_m1158093019(L_22, /*hidden argument*/NULL);
+		(&V_0)->set_m03_12(L_23);
+	}
+
+IL_00b8:
+	{
+		JSONObject_t1971882247 * L_24 = ___obj0;
+		NullCheck(L_24);
+		JSONObject_t1971882247 * L_25 = JSONObject_get_Item_m2638456294(L_24, _stringLiteral2833411676, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_26 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_27 = ___obj0;
+		NullCheck(L_27);
+		JSONObject_t1971882247 * L_28 = JSONObject_get_Item_m2638456294(L_27, _stringLiteral2833411676, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		float L_29 = JSONObject_get_f_m1158093019(L_28, /*hidden argument*/NULL);
+		(&V_0)->set_m10_1(L_29);
+	}
+
+IL_00e4:
+	{
+		JSONObject_t1971882247 * L_30 = ___obj0;
+		NullCheck(L_30);
+		JSONObject_t1971882247 * L_31 = JSONObject_get_Item_m2638456294(L_30, _stringLiteral2833411677, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_32 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_33 = ___obj0;
+		NullCheck(L_33);
+		JSONObject_t1971882247 * L_34 = JSONObject_get_Item_m2638456294(L_33, _stringLiteral2833411677, /*hidden argument*/NULL);
+		NullCheck(L_34);
+		float L_35 = JSONObject_get_f_m1158093019(L_34, /*hidden argument*/NULL);
+		(&V_0)->set_m11_5(L_35);
+	}
+
+IL_0110:
+	{
+		JSONObject_t1971882247 * L_36 = ___obj0;
+		NullCheck(L_36);
+		JSONObject_t1971882247 * L_37 = JSONObject_get_Item_m2638456294(L_36, _stringLiteral2833411678, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_38 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
+		if (!L_38)
+		{
+			goto IL_013c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_39 = ___obj0;
+		NullCheck(L_39);
+		JSONObject_t1971882247 * L_40 = JSONObject_get_Item_m2638456294(L_39, _stringLiteral2833411678, /*hidden argument*/NULL);
+		NullCheck(L_40);
+		float L_41 = JSONObject_get_f_m1158093019(L_40, /*hidden argument*/NULL);
+		(&V_0)->set_m12_9(L_41);
+	}
+
+IL_013c:
+	{
+		JSONObject_t1971882247 * L_42 = ___obj0;
+		NullCheck(L_42);
+		JSONObject_t1971882247 * L_43 = JSONObject_get_Item_m2638456294(L_42, _stringLiteral2833411679, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_44 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_43, /*hidden argument*/NULL);
+		if (!L_44)
+		{
+			goto IL_0168;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_45 = ___obj0;
+		NullCheck(L_45);
+		JSONObject_t1971882247 * L_46 = JSONObject_get_Item_m2638456294(L_45, _stringLiteral2833411679, /*hidden argument*/NULL);
+		NullCheck(L_46);
+		float L_47 = JSONObject_get_f_m1158093019(L_46, /*hidden argument*/NULL);
+		(&V_0)->set_m13_13(L_47);
+	}
+
+IL_0168:
+	{
+		JSONObject_t1971882247 * L_48 = ___obj0;
+		NullCheck(L_48);
+		JSONObject_t1971882247 * L_49 = JSONObject_get_Item_m2638456294(L_48, _stringLiteral3236696203, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_50 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_49, /*hidden argument*/NULL);
+		if (!L_50)
+		{
+			goto IL_0194;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_51 = ___obj0;
+		NullCheck(L_51);
+		JSONObject_t1971882247 * L_52 = JSONObject_get_Item_m2638456294(L_51, _stringLiteral3236696203, /*hidden argument*/NULL);
+		NullCheck(L_52);
+		float L_53 = JSONObject_get_f_m1158093019(L_52, /*hidden argument*/NULL);
+		(&V_0)->set_m20_2(L_53);
+	}
+
+IL_0194:
+	{
+		JSONObject_t1971882247 * L_54 = ___obj0;
+		NullCheck(L_54);
+		JSONObject_t1971882247 * L_55 = JSONObject_get_Item_m2638456294(L_54, _stringLiteral3236696204, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_56 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_55, /*hidden argument*/NULL);
+		if (!L_56)
+		{
+			goto IL_01c0;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_57 = ___obj0;
+		NullCheck(L_57);
+		JSONObject_t1971882247 * L_58 = JSONObject_get_Item_m2638456294(L_57, _stringLiteral3236696204, /*hidden argument*/NULL);
+		NullCheck(L_58);
+		float L_59 = JSONObject_get_f_m1158093019(L_58, /*hidden argument*/NULL);
+		(&V_0)->set_m21_6(L_59);
+	}
+
+IL_01c0:
+	{
+		JSONObject_t1971882247 * L_60 = ___obj0;
+		NullCheck(L_60);
+		JSONObject_t1971882247 * L_61 = JSONObject_get_Item_m2638456294(L_60, _stringLiteral3236696205, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_62 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_61, /*hidden argument*/NULL);
+		if (!L_62)
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_63 = ___obj0;
+		NullCheck(L_63);
+		JSONObject_t1971882247 * L_64 = JSONObject_get_Item_m2638456294(L_63, _stringLiteral3236696205, /*hidden argument*/NULL);
+		NullCheck(L_64);
+		float L_65 = JSONObject_get_f_m1158093019(L_64, /*hidden argument*/NULL);
+		(&V_0)->set_m22_10(L_65);
+	}
+
+IL_01ec:
+	{
+		JSONObject_t1971882247 * L_66 = ___obj0;
+		NullCheck(L_66);
+		JSONObject_t1971882247 * L_67 = JSONObject_get_Item_m2638456294(L_66, _stringLiteral3236696206, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_68 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_67, /*hidden argument*/NULL);
+		if (!L_68)
+		{
+			goto IL_0218;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_69 = ___obj0;
+		NullCheck(L_69);
+		JSONObject_t1971882247 * L_70 = JSONObject_get_Item_m2638456294(L_69, _stringLiteral3236696206, /*hidden argument*/NULL);
+		NullCheck(L_70);
+		float L_71 = JSONObject_get_f_m1158093019(L_70, /*hidden argument*/NULL);
+		(&V_0)->set_m23_14(L_71);
+	}
+
+IL_0218:
+	{
+		JSONObject_t1971882247 * L_72 = ___obj0;
+		NullCheck(L_72);
+		JSONObject_t1971882247 * L_73 = JSONObject_get_Item_m2638456294(L_72, _stringLiteral1670612262, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_74 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_73, /*hidden argument*/NULL);
+		if (!L_74)
+		{
+			goto IL_0244;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_75 = ___obj0;
+		NullCheck(L_75);
+		JSONObject_t1971882247 * L_76 = JSONObject_get_Item_m2638456294(L_75, _stringLiteral1670612262, /*hidden argument*/NULL);
+		NullCheck(L_76);
+		float L_77 = JSONObject_get_f_m1158093019(L_76, /*hidden argument*/NULL);
+		(&V_0)->set_m30_3(L_77);
+	}
+
+IL_0244:
+	{
+		JSONObject_t1971882247 * L_78 = ___obj0;
+		NullCheck(L_78);
+		JSONObject_t1971882247 * L_79 = JSONObject_get_Item_m2638456294(L_78, _stringLiteral1670612263, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_80 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_79, /*hidden argument*/NULL);
+		if (!L_80)
+		{
+			goto IL_0270;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_81 = ___obj0;
+		NullCheck(L_81);
+		JSONObject_t1971882247 * L_82 = JSONObject_get_Item_m2638456294(L_81, _stringLiteral1670612263, /*hidden argument*/NULL);
+		NullCheck(L_82);
+		float L_83 = JSONObject_get_f_m1158093019(L_82, /*hidden argument*/NULL);
+		(&V_0)->set_m31_7(L_83);
+	}
+
+IL_0270:
+	{
+		JSONObject_t1971882247 * L_84 = ___obj0;
+		NullCheck(L_84);
+		JSONObject_t1971882247 * L_85 = JSONObject_get_Item_m2638456294(L_84, _stringLiteral1670612264, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_86 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_85, /*hidden argument*/NULL);
+		if (!L_86)
+		{
+			goto IL_029c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_87 = ___obj0;
+		NullCheck(L_87);
+		JSONObject_t1971882247 * L_88 = JSONObject_get_Item_m2638456294(L_87, _stringLiteral1670612264, /*hidden argument*/NULL);
+		NullCheck(L_88);
+		float L_89 = JSONObject_get_f_m1158093019(L_88, /*hidden argument*/NULL);
+		(&V_0)->set_m32_11(L_89);
+	}
+
+IL_029c:
+	{
+		JSONObject_t1971882247 * L_90 = ___obj0;
+		NullCheck(L_90);
+		JSONObject_t1971882247 * L_91 = JSONObject_get_Item_m2638456294(L_90, _stringLiteral1670612265, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_92 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_91, /*hidden argument*/NULL);
+		if (!L_92)
+		{
+			goto IL_02c8;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_93 = ___obj0;
+		NullCheck(L_93);
+		JSONObject_t1971882247 * L_94 = JSONObject_get_Item_m2638456294(L_93, _stringLiteral1670612265, /*hidden argument*/NULL);
+		NullCheck(L_94);
+		float L_95 = JSONObject_get_f_m1158093019(L_94, /*hidden argument*/NULL);
+		(&V_0)->set_m33_15(L_95);
+	}
+
+IL_02c8:
+	{
+		Matrix4x4_t2933234003  L_96 = V_0;
+		return L_96;
+	}
+}
+// JSONObject JSONTemplates::FromQuaternion(UnityEngine.Quaternion)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromQuaternion_m2649516947 (Il2CppObject * __this /* static, unused */, Quaternion_t4030073918  ___q0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromQuaternion_m2649516947_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = (&___q0)->get_w_3();
+		if ((((float)L_1) == ((float)(0.0f))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = V_0;
+		float L_3 = (&___q0)->get_w_3();
+		NullCheck(L_2);
+		JSONObject_AddField_m2712088548(L_2, _stringLiteral372029387, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		float L_4 = (&___q0)->get_x_0();
+		if ((((float)L_4) == ((float)(0.0f))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_5 = V_0;
+		float L_6 = (&___q0)->get_x_0();
+		NullCheck(L_5);
+		JSONObject_AddField_m2712088548(L_5, _stringLiteral372029398, L_6, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		float L_7 = (&___q0)->get_y_1();
+		if ((((float)L_7) == ((float)(0.0f))))
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_8 = V_0;
+		float L_9 = (&___q0)->get_y_1();
+		NullCheck(L_8);
+		JSONObject_AddField_m2712088548(L_8, _stringLiteral372029397, L_9, /*hidden argument*/NULL);
+	}
+
+IL_006f:
+	{
+		float L_10 = (&___q0)->get_z_2();
+		if ((((float)L_10) == ((float)(0.0f))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_11 = V_0;
+		float L_12 = (&___q0)->get_z_2();
+		NullCheck(L_11);
+		JSONObject_AddField_m2712088548(L_11, _stringLiteral372029400, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0092:
+	{
+		JSONObject_t1971882247 * L_13 = V_0;
+		return L_13;
+	}
+}
+// UnityEngine.Quaternion JSONTemplates::ToQuaternion(JSONObject)
+extern "C"  Quaternion_t4030073918  JSONTemplates_ToQuaternion_m3034868414 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToQuaternion_m3034868414_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float G_B3_0 = 0.0f;
+	float G_B6_0 = 0.0f;
+	float G_B9_0 = 0.0f;
+	float G_B12_0 = 0.0f;
+	{
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		NullCheck(L_0);
+		JSONObject_t1971882247 * L_1 = JSONObject_get_Item_m2638456294(L_0, _stringLiteral372029398, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_2 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_3 = ___obj0;
+		NullCheck(L_3);
+		JSONObject_t1971882247 * L_4 = JSONObject_get_Item_m2638456294(L_3, _stringLiteral372029398, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		float L_5 = JSONObject_get_f_m1158093019(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_5;
+		goto IL_002f;
+	}
+
+IL_002a:
+	{
+		G_B3_0 = (0.0f);
+	}
+
+IL_002f:
+	{
+		V_0 = G_B3_0;
+		JSONObject_t1971882247 * L_6 = ___obj0;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_7 = JSONObject_get_Item_m2638456294(L_6, _stringLiteral372029397, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_8 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_9 = ___obj0;
+		NullCheck(L_9);
+		JSONObject_t1971882247 * L_10 = JSONObject_get_Item_m2638456294(L_9, _stringLiteral372029397, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		float L_11 = JSONObject_get_f_m1158093019(L_10, /*hidden argument*/NULL);
+		G_B6_0 = L_11;
+		goto IL_005f;
+	}
+
+IL_005a:
+	{
+		G_B6_0 = (0.0f);
+	}
+
+IL_005f:
+	{
+		V_1 = G_B6_0;
+		JSONObject_t1971882247 * L_12 = ___obj0;
+		NullCheck(L_12);
+		JSONObject_t1971882247 * L_13 = JSONObject_get_Item_m2638456294(L_12, _stringLiteral372029400, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_14 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_15 = ___obj0;
+		NullCheck(L_15);
+		JSONObject_t1971882247 * L_16 = JSONObject_get_Item_m2638456294(L_15, _stringLiteral372029400, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		float L_17 = JSONObject_get_f_m1158093019(L_16, /*hidden argument*/NULL);
+		G_B9_0 = L_17;
+		goto IL_008f;
+	}
+
+IL_008a:
+	{
+		G_B9_0 = (0.0f);
+	}
+
+IL_008f:
+	{
+		V_2 = G_B9_0;
+		JSONObject_t1971882247 * L_18 = ___obj0;
+		NullCheck(L_18);
+		JSONObject_t1971882247 * L_19 = JSONObject_get_Item_m2638456294(L_18, _stringLiteral372029387, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		bool L_20 = JSONObject_op_Implicit_m2214727230(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00ba;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_21 = ___obj0;
+		NullCheck(L_21);
+		JSONObject_t1971882247 * L_22 = JSONObject_get_Item_m2638456294(L_21, _stringLiteral372029387, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		float L_23 = JSONObject_get_f_m1158093019(L_22, /*hidden argument*/NULL);
+		G_B12_0 = L_23;
+		goto IL_00bf;
+	}
+
+IL_00ba:
+	{
+		G_B12_0 = (0.0f);
+	}
+
+IL_00bf:
+	{
+		V_3 = G_B12_0;
+		float L_24 = V_0;
+		float L_25 = V_1;
+		float L_26 = V_2;
+		float L_27 = V_3;
+		Quaternion_t4030073918  L_28;
+		memset(&L_28, 0, sizeof(L_28));
+		Quaternion__ctor_m3196903881(&L_28, L_24, L_25, L_26, L_27, /*hidden argument*/NULL);
+		return L_28;
+	}
+}
+// JSONObject JSONTemplates::FromColor(UnityEngine.Color)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromColor_m773919959 (Il2CppObject * __this /* static, unused */, Color_t2020392075  ___c0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromColor_m773919959_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = (&___c0)->get_r_0();
+		if ((((float)L_1) == ((float)(0.0f))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = V_0;
+		float L_3 = (&___c0)->get_r_0();
+		NullCheck(L_2);
+		JSONObject_AddField_m2712088548(L_2, _stringLiteral372029392, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		float L_4 = (&___c0)->get_g_1();
+		if ((((float)L_4) == ((float)(0.0f))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_5 = V_0;
+		float L_6 = (&___c0)->get_g_1();
+		NullCheck(L_5);
+		JSONObject_AddField_m2712088548(L_5, _stringLiteral372029371, L_6, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		float L_7 = (&___c0)->get_b_2();
+		if ((((float)L_7) == ((float)(0.0f))))
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_8 = V_0;
+		float L_9 = (&___c0)->get_b_2();
+		NullCheck(L_8);
+		JSONObject_AddField_m2712088548(L_8, _stringLiteral372029376, L_9, /*hidden argument*/NULL);
+	}
+
+IL_006f:
+	{
+		float L_10 = (&___c0)->get_a_3();
+		if ((((float)L_10) == ((float)(0.0f))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_11 = V_0;
+		float L_12 = (&___c0)->get_a_3();
+		NullCheck(L_11);
+		JSONObject_AddField_m2712088548(L_11, _stringLiteral372029373, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0092:
+	{
+		JSONObject_t1971882247 * L_13 = V_0;
+		return L_13;
+	}
+}
+// UnityEngine.Color JSONTemplates::ToColor(JSONObject)
+extern "C"  Color_t2020392075  JSONTemplates_ToColor_m1289362228 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToColor_m1289362228_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Color_t2020392075  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	{
+		Initobj (Color_t2020392075_il2cpp_TypeInfo_var, (&V_0));
+		V_1 = 0;
+		goto IL_00cb;
+	}
+
+IL_000f:
+	{
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		NullCheck(L_0);
+		List_1_t1398341365 * L_1 = L_0->get_keys_8();
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		String_t* L_3 = List_1_get_Item_m566484697(L_1, L_2, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		V_2 = L_3;
+		String_t* L_4 = V_2;
+		if (!L_4)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		String_t* L_5 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_6 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_5, _stringLiteral372029392, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		String_t* L_7 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_8 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_7, _stringLiteral372029371, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		String_t* L_9 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_10 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_9, _stringLiteral372029376, /*hidden argument*/NULL);
+		if (L_10)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		String_t* L_11 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_11, _stringLiteral372029373, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		goto IL_00c7;
+	}
+
+IL_0067:
+	{
+		JSONObject_t1971882247 * L_13 = ___obj0;
+		int32_t L_14 = V_1;
+		NullCheck(L_13);
+		JSONObject_t1971882247 * L_15 = JSONObject_get_Item_m481309353(L_13, L_14, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		float L_16 = JSONObject_get_f_m1158093019(L_15, /*hidden argument*/NULL);
+		(&V_0)->set_r_0(L_16);
+		goto IL_00c7;
+	}
+
+IL_007f:
+	{
+		JSONObject_t1971882247 * L_17 = ___obj0;
+		int32_t L_18 = V_1;
+		NullCheck(L_17);
+		JSONObject_t1971882247 * L_19 = JSONObject_get_Item_m481309353(L_17, L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		float L_20 = JSONObject_get_f_m1158093019(L_19, /*hidden argument*/NULL);
+		(&V_0)->set_g_1(L_20);
+		goto IL_00c7;
+	}
+
+IL_0097:
+	{
+		JSONObject_t1971882247 * L_21 = ___obj0;
+		int32_t L_22 = V_1;
+		NullCheck(L_21);
+		JSONObject_t1971882247 * L_23 = JSONObject_get_Item_m481309353(L_21, L_22, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		float L_24 = JSONObject_get_f_m1158093019(L_23, /*hidden argument*/NULL);
+		(&V_0)->set_b_2(L_24);
+		goto IL_00c7;
+	}
+
+IL_00af:
+	{
+		JSONObject_t1971882247 * L_25 = ___obj0;
+		int32_t L_26 = V_1;
+		NullCheck(L_25);
+		JSONObject_t1971882247 * L_27 = JSONObject_get_Item_m481309353(L_25, L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		float L_28 = JSONObject_get_f_m1158093019(L_27, /*hidden argument*/NULL);
+		(&V_0)->set_a_3(L_28);
+		goto IL_00c7;
+	}
+
+IL_00c7:
+	{
+		int32_t L_29 = V_1;
+		V_1 = ((int32_t)((int32_t)L_29+(int32_t)1));
+	}
+
+IL_00cb:
+	{
+		int32_t L_30 = V_1;
+		JSONObject_t1971882247 * L_31 = ___obj0;
+		NullCheck(L_31);
+		int32_t L_32 = JSONObject_get_Count_m2165978410(L_31, /*hidden argument*/NULL);
+		if ((((int32_t)L_30) < ((int32_t)L_32)))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		Color_t2020392075  L_33 = V_0;
+		return L_33;
+	}
+}
+// JSONObject JSONTemplates::FromLayerMask(UnityEngine.LayerMask)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromLayerMask_m1188911255 (Il2CppObject * __this /* static, unused */, LayerMask_t3188175821  ___l0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromLayerMask_m1188911255_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		int32_t L_2 = LayerMask_get_value_m251765876((&___l0), /*hidden argument*/NULL);
+		NullCheck(L_1);
+		JSONObject_AddField_m894980766(L_1, _stringLiteral1803325615, L_2, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_3 = V_0;
+		return L_3;
+	}
+}
+// UnityEngine.LayerMask JSONTemplates::ToLayerMask(JSONObject)
+extern "C"  LayerMask_t3188175821  JSONTemplates_ToLayerMask_m1877598044 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToLayerMask_m1877598044_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	LayerMask_t3188175821  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	LayerMask_t3188175821  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Initobj (LayerMask_t3188175821_il2cpp_TypeInfo_var, (&V_1));
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		NullCheck(L_0);
+		JSONObject_t1971882247 * L_1 = JSONObject_get_Item_m2638456294(L_0, _stringLiteral1803325615, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		float L_2 = L_1->get_n_10();
+		LayerMask_set_value_m3659587097((&V_1), (((int32_t)((int32_t)L_2))), /*hidden argument*/NULL);
+		LayerMask_t3188175821  L_3 = V_1;
+		V_0 = L_3;
+		LayerMask_t3188175821  L_4 = V_0;
+		return L_4;
+	}
+}
+// JSONObject JSONTemplates::FromRect(UnityEngine.Rect)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromRect_m2670430419 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___r0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromRect_m2670430419_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = Rect_get_x_m1393582490((&___r0), /*hidden argument*/NULL);
+		if ((((float)L_1) == ((float)(0.0f))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = V_0;
+		float L_3 = Rect_get_x_m1393582490((&___r0), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		JSONObject_AddField_m2712088548(L_2, _stringLiteral372029398, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		float L_4 = Rect_get_y_m1393582395((&___r0), /*hidden argument*/NULL);
+		if ((((float)L_4) == ((float)(0.0f))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_5 = V_0;
+		float L_6 = Rect_get_y_m1393582395((&___r0), /*hidden argument*/NULL);
+		NullCheck(L_5);
+		JSONObject_AddField_m2712088548(L_5, _stringLiteral372029397, L_6, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		float L_7 = Rect_get_height_m3128694305((&___r0), /*hidden argument*/NULL);
+		if ((((float)L_7) == ((float)(0.0f))))
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_8 = V_0;
+		float L_9 = Rect_get_height_m3128694305((&___r0), /*hidden argument*/NULL);
+		NullCheck(L_8);
+		JSONObject_AddField_m2712088548(L_8, _stringLiteral1113197259, L_9, /*hidden argument*/NULL);
+	}
+
+IL_006f:
+	{
+		float L_10 = Rect_get_width_m1138015702((&___r0), /*hidden argument*/NULL);
+		if ((((float)L_10) == ((float)(0.0f))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_11 = V_0;
+		float L_12 = Rect_get_width_m1138015702((&___r0), /*hidden argument*/NULL);
+		NullCheck(L_11);
+		JSONObject_AddField_m2712088548(L_11, _stringLiteral1366542454, L_12, /*hidden argument*/NULL);
+	}
+
+IL_0092:
+	{
+		JSONObject_t1971882247 * L_13 = V_0;
+		return L_13;
+	}
+}
+// UnityEngine.Rect JSONTemplates::ToRect(JSONObject)
+extern "C"  Rect_t3681755626  JSONTemplates_ToRect_m4037111550 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToRect_m4037111550_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Rect_t3681755626  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	{
+		Initobj (Rect_t3681755626_il2cpp_TypeInfo_var, (&V_0));
+		V_1 = 0;
+		goto IL_00cb;
+	}
+
+IL_000f:
+	{
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		NullCheck(L_0);
+		List_1_t1398341365 * L_1 = L_0->get_keys_8();
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		String_t* L_3 = List_1_get_Item_m566484697(L_1, L_2, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		V_2 = L_3;
+		String_t* L_4 = V_2;
+		if (!L_4)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		String_t* L_5 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_6 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_5, _stringLiteral372029398, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		String_t* L_7 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_8 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_7, _stringLiteral372029397, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		String_t* L_9 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_10 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_9, _stringLiteral1113197259, /*hidden argument*/NULL);
+		if (L_10)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		String_t* L_11 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_12 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_11, _stringLiteral1366542454, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		goto IL_00c7;
+	}
+
+IL_0067:
+	{
+		JSONObject_t1971882247 * L_13 = ___obj0;
+		int32_t L_14 = V_1;
+		NullCheck(L_13);
+		JSONObject_t1971882247 * L_15 = JSONObject_get_Item_m481309353(L_13, L_14, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		float L_16 = JSONObject_get_f_m1158093019(L_15, /*hidden argument*/NULL);
+		Rect_set_x_m3783700513((&V_0), L_16, /*hidden argument*/NULL);
+		goto IL_00c7;
+	}
+
+IL_007f:
+	{
+		JSONObject_t1971882247 * L_17 = ___obj0;
+		int32_t L_18 = V_1;
+		NullCheck(L_17);
+		JSONObject_t1971882247 * L_19 = JSONObject_get_Item_m481309353(L_17, L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		float L_20 = JSONObject_get_f_m1158093019(L_19, /*hidden argument*/NULL);
+		Rect_set_y_m4294916608((&V_0), L_20, /*hidden argument*/NULL);
+		goto IL_00c7;
+	}
+
+IL_0097:
+	{
+		JSONObject_t1971882247 * L_21 = ___obj0;
+		int32_t L_22 = V_1;
+		NullCheck(L_21);
+		JSONObject_t1971882247 * L_23 = JSONObject_get_Item_m481309353(L_21, L_22, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		float L_24 = JSONObject_get_f_m1158093019(L_23, /*hidden argument*/NULL);
+		Rect_set_height_m2019122814((&V_0), L_24, /*hidden argument*/NULL);
+		goto IL_00c7;
+	}
+
+IL_00af:
+	{
+		JSONObject_t1971882247 * L_25 = ___obj0;
+		int32_t L_26 = V_1;
+		NullCheck(L_25);
+		JSONObject_t1971882247 * L_27 = JSONObject_get_Item_m481309353(L_25, L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		float L_28 = JSONObject_get_f_m1158093019(L_27, /*hidden argument*/NULL);
+		Rect_set_width_m1921257731((&V_0), L_28, /*hidden argument*/NULL);
+		goto IL_00c7;
+	}
+
+IL_00c7:
+	{
+		int32_t L_29 = V_1;
+		V_1 = ((int32_t)((int32_t)L_29+(int32_t)1));
+	}
+
+IL_00cb:
+	{
+		int32_t L_30 = V_1;
+		JSONObject_t1971882247 * L_31 = ___obj0;
+		NullCheck(L_31);
+		int32_t L_32 = JSONObject_get_Count_m2165978410(L_31, /*hidden argument*/NULL);
+		if ((((int32_t)L_30) < ((int32_t)L_32)))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		Rect_t3681755626  L_33 = V_0;
+		return L_33;
+	}
+}
+// JSONObject JSONTemplates::FromRectOffset(UnityEngine.RectOffset)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromRectOffset_m2102731279 (Il2CppObject * __this /* static, unused */, RectOffset_t3387826427 * ___r0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromRectOffset_m2102731279_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		RectOffset_t3387826427 * L_1 = ___r0;
+		NullCheck(L_1);
+		int32_t L_2 = RectOffset_get_bottom_m4112328858(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_3 = V_0;
+		RectOffset_t3387826427 * L_4 = ___r0;
+		NullCheck(L_4);
+		int32_t L_5 = RectOffset_get_bottom_m4112328858(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		JSONObject_AddField_m894980766(L_3, _stringLiteral70907419, L_5, /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		RectOffset_t3387826427 * L_6 = ___r0;
+		NullCheck(L_6);
+		int32_t L_7 = RectOffset_get_left_m439065308(L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_8 = V_0;
+		RectOffset_t3387826427 * L_9 = ___r0;
+		NullCheck(L_9);
+		int32_t L_10 = RectOffset_get_left_m439065308(L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		JSONObject_AddField_m894980766(L_8, _stringLiteral3423761043, L_10, /*hidden argument*/NULL);
+	}
+
+IL_003e:
+	{
+		RectOffset_t3387826427 * L_11 = ___r0;
+		NullCheck(L_11);
+		int32_t L_12 = RectOffset_get_right_m281378687(L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_13 = V_0;
+		RectOffset_t3387826427 * L_14 = ___r0;
+		NullCheck(L_14);
+		int32_t L_15 = RectOffset_get_right_m281378687(L_14, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		JSONObject_AddField_m894980766(L_13, _stringLiteral109637592, L_15, /*hidden argument*/NULL);
+	}
+
+IL_005a:
+	{
+		RectOffset_t3387826427 * L_16 = ___r0;
+		NullCheck(L_16);
+		int32_t L_17 = RectOffset_get_top_m3629049358(L_16, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_18 = V_0;
+		RectOffset_t3387826427 * L_19 = ___r0;
+		NullCheck(L_19);
+		int32_t L_20 = RectOffset_get_top_m3629049358(L_19, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		JSONObject_AddField_m894980766(L_18, _stringLiteral1502598707, L_20, /*hidden argument*/NULL);
+	}
+
+IL_0076:
+	{
+		JSONObject_t1971882247 * L_21 = V_0;
+		return L_21;
+	}
+}
+// UnityEngine.RectOffset JSONTemplates::ToRectOffset(JSONObject)
+extern "C"  RectOffset_t3387826427 * JSONTemplates_ToRectOffset_m75654846 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToRectOffset_m75654846_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RectOffset_t3387826427 * V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	{
+		RectOffset_t3387826427 * L_0 = (RectOffset_t3387826427 *)il2cpp_codegen_object_new(RectOffset_t3387826427_il2cpp_TypeInfo_var);
+		RectOffset__ctor_m2227510254(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_00c9;
+	}
+
+IL_000d:
+	{
+		JSONObject_t1971882247 * L_1 = ___obj0;
+		NullCheck(L_1);
+		List_1_t1398341365 * L_2 = L_1->get_keys_8();
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		String_t* L_4 = List_1_get_Item_m566484697(L_2, L_3, /*hidden argument*/List_1_get_Item_m566484697_MethodInfo_var);
+		V_2 = L_4;
+		String_t* L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_00c5;
+		}
+	}
+	{
+		String_t* L_6 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_7 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_6, _stringLiteral70907419, /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		String_t* L_8 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_9 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_8, _stringLiteral3423761043, /*hidden argument*/NULL);
+		if (L_9)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		String_t* L_10 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_11 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_10, _stringLiteral109637592, /*hidden argument*/NULL);
+		if (L_11)
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		String_t* L_12 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_13 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_12, _stringLiteral1502598707, /*hidden argument*/NULL);
+		if (L_13)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		goto IL_00c5;
+	}
+
+IL_0065:
+	{
+		RectOffset_t3387826427 * L_14 = V_0;
+		JSONObject_t1971882247 * L_15 = ___obj0;
+		int32_t L_16 = V_1;
+		NullCheck(L_15);
+		JSONObject_t1971882247 * L_17 = JSONObject_get_Item_m481309353(L_15, L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		float L_18 = L_17->get_n_10();
+		NullCheck(L_14);
+		RectOffset_set_bottom_m4065521443(L_14, (((int32_t)((int32_t)L_18))), /*hidden argument*/NULL);
+		goto IL_00c5;
+	}
+
+IL_007d:
+	{
+		RectOffset_t3387826427 * L_19 = V_0;
+		JSONObject_t1971882247 * L_20 = ___obj0;
+		int32_t L_21 = V_1;
+		NullCheck(L_20);
+		JSONObject_t1971882247 * L_22 = JSONObject_get_Item_m481309353(L_20, L_21, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		float L_23 = L_22->get_n_10();
+		NullCheck(L_19);
+		RectOffset_set_left_m620681523(L_19, (((int32_t)((int32_t)L_23))), /*hidden argument*/NULL);
+		goto IL_00c5;
+	}
+
+IL_0095:
+	{
+		RectOffset_t3387826427 * L_24 = V_0;
+		JSONObject_t1971882247 * L_25 = ___obj0;
+		int32_t L_26 = V_1;
+		NullCheck(L_25);
+		JSONObject_t1971882247 * L_27 = JSONObject_get_Item_m481309353(L_25, L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		float L_28 = L_27->get_n_10();
+		NullCheck(L_24);
+		RectOffset_set_right_m1671272302(L_24, (((int32_t)((int32_t)L_28))), /*hidden argument*/NULL);
+		goto IL_00c5;
+	}
+
+IL_00ad:
+	{
+		RectOffset_t3387826427 * L_29 = V_0;
+		JSONObject_t1971882247 * L_30 = ___obj0;
+		int32_t L_31 = V_1;
+		NullCheck(L_30);
+		JSONObject_t1971882247 * L_32 = JSONObject_get_Item_m481309353(L_30, L_31, /*hidden argument*/NULL);
+		NullCheck(L_32);
+		float L_33 = L_32->get_n_10();
+		NullCheck(L_29);
+		RectOffset_set_top_m3579196427(L_29, (((int32_t)((int32_t)L_33))), /*hidden argument*/NULL);
+		goto IL_00c5;
+	}
+
+IL_00c5:
+	{
+		int32_t L_34 = V_1;
+		V_1 = ((int32_t)((int32_t)L_34+(int32_t)1));
+	}
+
+IL_00c9:
+	{
+		int32_t L_35 = V_1;
+		JSONObject_t1971882247 * L_36 = ___obj0;
+		NullCheck(L_36);
+		int32_t L_37 = JSONObject_get_Count_m2165978410(L_36, /*hidden argument*/NULL);
+		if ((((int32_t)L_35) < ((int32_t)L_37)))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		RectOffset_t3387826427 * L_38 = V_0;
+		return L_38;
+	}
+}
+// UnityEngine.AnimationCurve JSONTemplates::ToAnimationCurve(JSONObject)
+extern "C"  AnimationCurve_t3306541151 * JSONTemplates_ToAnimationCurve_m2654279102 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToAnimationCurve_m2654279102_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AnimationCurve_t3306541151 * V_0 = NULL;
+	JSONObject_t1971882247 * V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		AnimationCurve_t3306541151 * L_0 = (AnimationCurve_t3306541151 *)il2cpp_codegen_object_new(AnimationCurve_t3306541151_il2cpp_TypeInfo_var);
+		AnimationCurve__ctor_m3707994114(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = ___obj0;
+		NullCheck(L_1);
+		bool L_2 = JSONObject_HasField_m3030985834(L_1, _stringLiteral1857677462, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_3 = ___obj0;
+		NullCheck(L_3);
+		JSONObject_t1971882247 * L_4 = JSONObject_GetField_m887332132(L_3, _stringLiteral1857677462, /*hidden argument*/NULL);
+		V_1 = L_4;
+		V_2 = 0;
+		goto IL_0040;
+	}
+
+IL_0029:
+	{
+		AnimationCurve_t3306541151 * L_5 = V_0;
+		JSONObject_t1971882247 * L_6 = V_1;
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		JSONObject_t1971882247 * L_8 = JSONObject_get_Item_m481309353(L_6, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONTemplates_t3006274921_il2cpp_TypeInfo_var);
+		Keyframe_t1449471340  L_9 = JSONTemplates_ToKeyframe_m1491004926(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		AnimationCurve_AddKey_m1034249733(L_5, L_9, /*hidden argument*/NULL);
+		int32_t L_10 = V_2;
+		V_2 = ((int32_t)((int32_t)L_10+(int32_t)1));
+	}
+
+IL_0040:
+	{
+		int32_t L_11 = V_2;
+		JSONObject_t1971882247 * L_12 = V_1;
+		NullCheck(L_12);
+		List_1_t1341003379 * L_13 = L_12->get_list_7();
+		NullCheck(L_13);
+		int32_t L_14 = List_1_get_Count_m3485821544(L_13, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_11) < ((int32_t)L_14)))
+		{
+			goto IL_0029;
+		}
+	}
+
+IL_0051:
+	{
+		JSONObject_t1971882247 * L_15 = ___obj0;
+		NullCheck(L_15);
+		bool L_16 = JSONObject_HasField_m3030985834(L_15, _stringLiteral4185425568, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		AnimationCurve_t3306541151 * L_17 = V_0;
+		JSONObject_t1971882247 * L_18 = ___obj0;
+		NullCheck(L_18);
+		JSONObject_t1971882247 * L_19 = JSONObject_GetField_m887332132(L_18, _stringLiteral4185425568, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		float L_20 = L_19->get_n_10();
+		NullCheck(L_17);
+		AnimationCurve_set_preWrapMode_m2999148321(L_17, (((int32_t)((int32_t)L_20))), /*hidden argument*/NULL);
+	}
+
+IL_0078:
+	{
+		JSONObject_t1971882247 * L_21 = ___obj0;
+		NullCheck(L_21);
+		bool L_22 = JSONObject_HasField_m3030985834(L_21, _stringLiteral10864839, /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		AnimationCurve_t3306541151 * L_23 = V_0;
+		JSONObject_t1971882247 * L_24 = ___obj0;
+		NullCheck(L_24);
+		JSONObject_t1971882247 * L_25 = JSONObject_GetField_m887332132(L_24, _stringLiteral10864839, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		float L_26 = L_25->get_n_10();
+		NullCheck(L_23);
+		AnimationCurve_set_postWrapMode_m262982620(L_23, (((int32_t)((int32_t)L_26))), /*hidden argument*/NULL);
+	}
+
+IL_009f:
+	{
+		AnimationCurve_t3306541151 * L_27 = V_0;
+		return L_27;
+	}
+}
+// JSONObject JSONTemplates::FromAnimationCurve(UnityEngine.AnimationCurve)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromAnimationCurve_m448168407 (Il2CppObject * __this /* static, unused */, AnimationCurve_t3306541151 * ___a0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromAnimationCurve_m448168407_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	JSONObject_t1971882247 * V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JSONObject_t1971882247 * L_1 = V_0;
+		AnimationCurve_t3306541151 * L_2 = ___a0;
+		NullCheck(L_2);
+		int32_t L_3 = AnimationCurve_get_preWrapMode_m1489197552(L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		Il2CppObject * L_4 = Box(WrapMode_t255797857_il2cpp_TypeInfo_var, (&V_1));
+		NullCheck(L_4);
+		String_t* L_5 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_4);
+		NullCheck(L_1);
+		JSONObject_AddField_m757984985(L_1, _stringLiteral4185425568, L_5, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_6 = V_0;
+		AnimationCurve_t3306541151 * L_7 = ___a0;
+		NullCheck(L_7);
+		int32_t L_8 = AnimationCurve_get_postWrapMode_m1346218857(L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
+		Il2CppObject * L_9 = Box(WrapMode_t255797857_il2cpp_TypeInfo_var, (&V_2));
+		NullCheck(L_9);
+		String_t* L_10 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_9);
+		NullCheck(L_6);
+		JSONObject_AddField_m757984985(L_6, _stringLiteral10864839, L_10, /*hidden argument*/NULL);
+		AnimationCurve_t3306541151 * L_11 = ___a0;
+		NullCheck(L_11);
+		KeyframeU5BU5D_t449065829* L_12 = AnimationCurve_get_keys_m162753017(L_11, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_12)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_13 = JSONObject_Create_m134949822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = L_13;
+		V_4 = 0;
+		goto IL_0083;
+	}
+
+IL_0060:
+	{
+		JSONObject_t1971882247 * L_14 = V_3;
+		AnimationCurve_t3306541151 * L_15 = ___a0;
+		NullCheck(L_15);
+		KeyframeU5BU5D_t449065829* L_16 = AnimationCurve_get_keys_m162753017(L_15, /*hidden argument*/NULL);
+		int32_t L_17 = V_4;
+		NullCheck(L_16);
+		IL2CPP_RUNTIME_CLASS_INIT(JSONTemplates_t3006274921_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_18 = JSONTemplates_FromKeyframe_m1523648219(NULL /*static, unused*/, (*(Keyframe_t1449471340 *)((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))), /*hidden argument*/NULL);
+		NullCheck(L_14);
+		JSONObject_Add_m3618328192(L_14, L_18, /*hidden argument*/NULL);
+		int32_t L_19 = V_4;
+		V_4 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_0083:
+	{
+		int32_t L_20 = V_4;
+		AnimationCurve_t3306541151 * L_21 = ___a0;
+		NullCheck(L_21);
+		KeyframeU5BU5D_t449065829* L_22 = AnimationCurve_get_keys_m162753017(L_21, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		if ((((int32_t)L_20) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_22)->max_length)))))))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_23 = V_0;
+		JSONObject_t1971882247 * L_24 = V_3;
+		NullCheck(L_23);
+		JSONObject_AddField_m1721386152(L_23, _stringLiteral1857677462, L_24, /*hidden argument*/NULL);
+	}
+
+IL_009e:
+	{
+		JSONObject_t1971882247 * L_25 = V_0;
+		return L_25;
+	}
+}
+// UnityEngine.Keyframe JSONTemplates::ToKeyframe(JSONObject)
+extern "C"  Keyframe_t1449471340  JSONTemplates_ToKeyframe_m1491004926 (Il2CppObject * __this /* static, unused */, JSONObject_t1971882247 * ___obj0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_ToKeyframe_m1491004926_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Keyframe_t1449471340  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Keyframe_t1449471340 * G_B2_0 = NULL;
+	Keyframe_t1449471340 * G_B1_0 = NULL;
+	float G_B3_0 = 0.0f;
+	Keyframe_t1449471340 * G_B3_1 = NULL;
+	float G_B5_0 = 0.0f;
+	Keyframe_t1449471340 * G_B5_1 = NULL;
+	float G_B4_0 = 0.0f;
+	Keyframe_t1449471340 * G_B4_1 = NULL;
+	float G_B6_0 = 0.0f;
+	float G_B6_1 = 0.0f;
+	Keyframe_t1449471340 * G_B6_2 = NULL;
+	{
+		JSONObject_t1971882247 * L_0 = ___obj0;
+		NullCheck(L_0);
+		bool L_1 = JSONObject_HasField_m3030985834(L_0, _stringLiteral3457519049, /*hidden argument*/NULL);
+		G_B1_0 = (&V_0);
+		if (!L_1)
+		{
+			G_B2_0 = (&V_0);
+			goto IL_0027;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = ___obj0;
+		NullCheck(L_2);
+		JSONObject_t1971882247 * L_3 = JSONObject_GetField_m887332132(L_2, _stringLiteral3457519049, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		float L_4 = L_3->get_n_10();
+		G_B3_0 = L_4;
+		G_B3_1 = G_B1_0;
+		goto IL_002c;
+	}
+
+IL_0027:
+	{
+		G_B3_0 = (0.0f);
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002c:
+	{
+		JSONObject_t1971882247 * L_5 = ___obj0;
+		NullCheck(L_5);
+		bool L_6 = JSONObject_HasField_m3030985834(L_5, _stringLiteral1803325615, /*hidden argument*/NULL);
+		G_B4_0 = G_B3_0;
+		G_B4_1 = G_B3_1;
+		if (!L_6)
+		{
+			G_B5_0 = G_B3_0;
+			G_B5_1 = G_B3_1;
+			goto IL_0051;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_7 = ___obj0;
+		NullCheck(L_7);
+		JSONObject_t1971882247 * L_8 = JSONObject_GetField_m887332132(L_7, _stringLiteral1803325615, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		float L_9 = L_8->get_n_10();
+		G_B6_0 = L_9;
+		G_B6_1 = G_B4_0;
+		G_B6_2 = G_B4_1;
+		goto IL_0056;
+	}
+
+IL_0051:
+	{
+		G_B6_0 = (0.0f);
+		G_B6_1 = G_B5_0;
+		G_B6_2 = G_B5_1;
+	}
+
+IL_0056:
+	{
+		Keyframe__ctor_m2042404667(G_B6_2, G_B6_1, G_B6_0, /*hidden argument*/NULL);
+		JSONObject_t1971882247 * L_10 = ___obj0;
+		NullCheck(L_10);
+		bool L_11 = JSONObject_HasField_m3030985834(L_10, _stringLiteral2674127958, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_12 = ___obj0;
+		NullCheck(L_12);
+		JSONObject_t1971882247 * L_13 = JSONObject_GetField_m887332132(L_12, _stringLiteral2674127958, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		float L_14 = L_13->get_n_10();
+		Keyframe_set_inTangent_m4280114775((&V_0), L_14, /*hidden argument*/NULL);
+	}
+
+IL_0082:
+	{
+		JSONObject_t1971882247 * L_15 = ___obj0;
+		NullCheck(L_15);
+		bool L_16 = JSONObject_HasField_m3030985834(L_15, _stringLiteral3634190493, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_17 = ___obj0;
+		NullCheck(L_17);
+		JSONObject_t1971882247 * L_18 = JSONObject_GetField_m887332132(L_17, _stringLiteral3634190493, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		float L_19 = L_18->get_n_10();
+		Keyframe_set_outTangent_m1054927214((&V_0), L_19, /*hidden argument*/NULL);
+	}
+
+IL_00a9:
+	{
+		JSONObject_t1971882247 * L_20 = ___obj0;
+		NullCheck(L_20);
+		bool L_21 = JSONObject_HasField_m3030985834(L_20, _stringLiteral602706040, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_22 = ___obj0;
+		NullCheck(L_22);
+		JSONObject_t1971882247 * L_23 = JSONObject_GetField_m887332132(L_22, _stringLiteral602706040, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		float L_24 = L_23->get_n_10();
+		Keyframe_set_tangentMode_m1073266123((&V_0), (((int32_t)((int32_t)L_24))), /*hidden argument*/NULL);
+	}
+
+IL_00d1:
+	{
+		Keyframe_t1449471340  L_25 = V_0;
+		return L_25;
+	}
+}
+// JSONObject JSONTemplates::FromKeyframe(UnityEngine.Keyframe)
+extern "C"  JSONObject_t1971882247 * JSONTemplates_FromKeyframe_m1523648219 (Il2CppObject * __this /* static, unused */, Keyframe_t1449471340  ___k0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates_FromKeyframe_m1523648219_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONObject_t1971882247 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject_t1971882247 * L_0 = JSONObject_get_obj_m3201114506(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = Keyframe_get_inTangent_m3256944616((&___k0), /*hidden argument*/NULL);
+		if ((((float)L_1) == ((float)(0.0f))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_2 = V_0;
+		float L_3 = Keyframe_get_inTangent_m3256944616((&___k0), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		JSONObject_AddField_m2712088548(L_2, _stringLiteral2674127958, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		float L_4 = Keyframe_get_outTangent_m1894374085((&___k0), /*hidden argument*/NULL);
+		if ((((float)L_4) == ((float)(0.0f))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_5 = V_0;
+		float L_6 = Keyframe_get_outTangent_m1894374085((&___k0), /*hidden argument*/NULL);
+		NullCheck(L_5);
+		JSONObject_AddField_m2712088548(L_5, _stringLiteral3634190493, L_6, /*hidden argument*/NULL);
+	}
+
+IL_004c:
+	{
+		int32_t L_7 = Keyframe_get_tangentMode_m1869200796((&___k0), /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_8 = V_0;
+		int32_t L_9 = Keyframe_get_tangentMode_m1869200796((&___k0), /*hidden argument*/NULL);
+		NullCheck(L_8);
+		JSONObject_AddField_m894980766(L_8, _stringLiteral602706040, L_9, /*hidden argument*/NULL);
+	}
+
+IL_006a:
+	{
+		float L_10 = Keyframe_get_time_m2226372497((&___k0), /*hidden argument*/NULL);
+		if ((((float)L_10) == ((float)(0.0f))))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_11 = V_0;
+		float L_12 = Keyframe_get_time_m2226372497((&___k0), /*hidden argument*/NULL);
+		NullCheck(L_11);
+		JSONObject_AddField_m2712088548(L_11, _stringLiteral3457519049, L_12, /*hidden argument*/NULL);
+	}
+
+IL_008d:
+	{
+		float L_13 = Keyframe_get_value_m979894315((&___k0), /*hidden argument*/NULL);
+		if ((((float)L_13) == ((float)(0.0f))))
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		JSONObject_t1971882247 * L_14 = V_0;
+		float L_15 = Keyframe_get_value_m979894315((&___k0), /*hidden argument*/NULL);
+		NullCheck(L_14);
+		JSONObject_AddField_m2712088548(L_14, _stringLiteral1803325615, L_15, /*hidden argument*/NULL);
+	}
+
+IL_00b0:
+	{
+		JSONObject_t1971882247 * L_16 = V_0;
+		return L_16;
+	}
+}
+// System.Void JSONTemplates::.cctor()
+extern "C"  void JSONTemplates__cctor_m1639877595 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JSONTemplates__cctor_m1639877595_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		HashSet_1_t1022910149 * L_0 = (HashSet_1_t1022910149 *)il2cpp_codegen_object_new(HashSet_1_t1022910149_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m2858247305(L_0, /*hidden argument*/HashSet_1__ctor_m2858247305_MethodInfo_var);
+		((JSONTemplates_t3006274921_StaticFields*)JSONTemplates_t3006274921_il2cpp_TypeInfo_var->static_fields)->set_touched_0(L_0);
+		return;
+	}
+}
+// System.Void LabelManager::.ctor()
+extern "C"  void LabelManager__ctor_m1544125320 (LabelManager_t143950751 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LabelManager::OnGUI()
+extern "C"  void LabelManager_OnGUI_m261736172 (LabelManager_t143950751 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LabelManager_OnGUI_m261736172_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Rect_t3681755626  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Rect__ctor_m1220545469(&L_0, (10.0f), (10.0f), (100.0f), (20.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_0, _stringLiteral2305923669, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LabelManager::Start()
+extern "C"  void LabelManager_Start_m107276652 (LabelManager_t143950751 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LabelManager_Start_m107276652_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	JSONObject_t1971882247 * V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	JSONObject_t1971882247 * V_5 = NULL;
+	JSONObject_t1971882247 * V_6 = NULL;
+	String_t* V_7 = NULL;
+	String_t* V_8 = NULL;
+	String_t* V_9 = NULL;
+	String_t* V_10 = NULL;
+	int32_t V_11 = 0;
+	String_t* V_12 = NULL;
+	String_t* V_13 = NULL;
+	{
+		int32_t L_0 = PlayerPrefs_GetInt_m2889062785(NULL /*static, unused*/, _stringLiteral1030302089, /*hidden argument*/NULL);
+		__this->set_userID_7(L_0);
+		V_0 = _stringLiteral1713711700;
+		WebClient_t1432723993 * L_1 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_1, /*hidden argument*/NULL);
+		String_t* L_2 = V_0;
+		NullCheck(L_1);
+		String_t* L_3 = WebClient_DownloadString_m1757636243(L_1, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		String_t* L_4 = V_1;
+		JSONObject_t1971882247 * L_5 = (JSONObject_t1971882247 *)il2cpp_codegen_object_new(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m1387305321(L_5, L_4, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		V_2 = L_5;
+		JSONObject_t1971882247 * L_6 = V_2;
+		NullCheck(L_6);
+		List_1_t1341003379 * L_7 = L_6->get_list_7();
+		NullCheck(L_7);
+		int32_t L_8 = List_1_get_Count_m3485821544(L_7, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		int32_t L_9 = L_8;
+		Il2CppObject * L_10 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_9);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		V_3 = 0;
+		V_4 = 0;
+		goto IL_01cd;
+	}
+
+IL_004c:
+	{
+		JSONObject_t1971882247 * L_11 = V_2;
+		int32_t L_12 = V_4;
+		NullCheck(L_11);
+		JSONObject_t1971882247 * L_13 = JSONObject_get_Item_m481309353(L_11, L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		JSONObject_t1971882247 * L_14 = JSONObject_get_Item_m2638456294(L_13, _stringLiteral3623672911, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_15 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		int32_t L_16 = __this->get_userID_7();
+		int32_t L_17 = L_16;
+		Il2CppObject * L_18 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_17);
+		String_t* L_19 = String_Concat_m56707527(NULL /*static, unused*/, L_15, L_18, /*hidden argument*/NULL);
+		String_t* L_20 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		JSONObject_t1971882247 * L_21 = V_2;
+		int32_t L_22 = V_4;
+		NullCheck(L_21);
+		JSONObject_t1971882247 * L_23 = JSONObject_get_Item_m481309353(L_21, L_22, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		JSONObject_t1971882247 * L_24 = JSONObject_get_Item_m2638456294(L_23, _stringLiteral3623672911, /*hidden argument*/NULL);
+		String_t* L_25 = String_Concat_m56707527(NULL /*static, unused*/, L_20, L_24, /*hidden argument*/NULL);
+		bool L_26 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_19, L_25, /*hidden argument*/NULL);
+		if (!L_26)
+		{
+			goto IL_01c7;
+		}
+	}
+	{
+		int32_t L_27 = V_3;
+		int32_t L_28 = ((int32_t)((int32_t)2*(int32_t)L_27));
+		Il2CppObject * L_29 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_28);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_30 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3423762541, L_29, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_31 = GameObject_Find_m836511350(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Text_t356221433 * L_32 = GameObject_GetComponent_TisText_t356221433_m1217399699(L_31, /*hidden argument*/GameObject_GetComponent_TisText_t356221433_m1217399699_MethodInfo_var);
+		__this->set_label1_6(L_32);
+		int32_t L_33 = V_3;
+		int32_t L_34 = ((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_33))+(int32_t)1));
+		Il2CppObject * L_35 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_34);
+		String_t* L_36 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3423762541, L_35, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_37 = GameObject_Find_m836511350(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		Text_t356221433 * L_38 = GameObject_GetComponent_TisText_t356221433_m1217399699(L_37, /*hidden argument*/GameObject_GetComponent_TisText_t356221433_m1217399699_MethodInfo_var);
+		__this->set_label2_5(L_38);
+		JSONObject_t1971882247 * L_39 = V_2;
+		int32_t L_40 = V_4;
+		NullCheck(L_39);
+		JSONObject_t1971882247 * L_41 = JSONObject_get_Item_m481309353(L_39, L_40, /*hidden argument*/NULL);
+		NullCheck(L_41);
+		JSONObject_t1971882247 * L_42 = JSONObject_get_Item_m2638456294(L_41, _stringLiteral2311316693, /*hidden argument*/NULL);
+		V_5 = L_42;
+		JSONObject_t1971882247 * L_43 = V_2;
+		int32_t L_44 = V_4;
+		NullCheck(L_43);
+		JSONObject_t1971882247 * L_45 = JSONObject_get_Item_m481309353(L_43, L_44, /*hidden argument*/NULL);
+		NullCheck(L_45);
+		JSONObject_t1971882247 * L_46 = JSONObject_get_Item_m2638456294(L_45, _stringLiteral3623672911, /*hidden argument*/NULL);
+		V_6 = L_46;
+		JSONObject_t1971882247 * L_47 = V_5;
+		String_t* L_48 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral2077569160, L_47, /*hidden argument*/NULL);
+		V_7 = L_48;
+		JSONObject_t1971882247 * L_49 = V_6;
+		String_t* L_50 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3243454296, L_49, /*hidden argument*/NULL);
+		V_8 = L_50;
+		WebClient_t1432723993 * L_51 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_51, /*hidden argument*/NULL);
+		String_t* L_52 = V_7;
+		NullCheck(L_51);
+		String_t* L_53 = WebClient_DownloadString_m1757636243(L_51, L_52, /*hidden argument*/NULL);
+		V_9 = L_53;
+		String_t* L_54 = V_9;
+		Plant_t3013319763 * L_55 = JsonUtility_FromJson_TisPlant_t3013319763_m2100183654(NULL /*static, unused*/, L_54, /*hidden argument*/JsonUtility_FromJson_TisPlant_t3013319763_m2100183654_MethodInfo_var);
+		NullCheck(L_55);
+		String_t* L_56 = L_55->get_name_0();
+		V_10 = L_56;
+		String_t* L_57 = V_9;
+		Plant_t3013319763 * L_58 = JsonUtility_FromJson_TisPlant_t3013319763_m2100183654(NULL /*static, unused*/, L_57, /*hidden argument*/JsonUtility_FromJson_TisPlant_t3013319763_m2100183654_MethodInfo_var);
+		NullCheck(L_58);
+		int32_t L_59 = L_58->get_expected_yield_1();
+		V_11 = L_59;
+		WebClient_t1432723993 * L_60 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_60, /*hidden argument*/NULL);
+		String_t* L_61 = V_8;
+		NullCheck(L_60);
+		String_t* L_62 = WebClient_DownloadString_m1757636243(L_60, L_61, /*hidden argument*/NULL);
+		V_12 = L_62;
+		String_t* L_63 = V_12;
+		Plant_t3013319763 * L_64 = JsonUtility_FromJson_TisPlant_t3013319763_m2100183654(NULL /*static, unused*/, L_63, /*hidden argument*/JsonUtility_FromJson_TisPlant_t3013319763_m2100183654_MethodInfo_var);
+		NullCheck(L_64);
+		String_t* L_65 = L_64->get_name_0();
+		V_13 = L_65;
+		Text_t356221433 * L_66 = __this->get_label1_6();
+		String_t* L_67 = V_10;
+		String_t* L_68 = V_13;
+		String_t* L_69 = String_Concat_m612901809(NULL /*static, unused*/, L_67, _stringLiteral1220271277, L_68, /*hidden argument*/NULL);
+		NullCheck(L_66);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_66, L_69);
+		Text_t356221433 * L_70 = __this->get_label2_5();
+		int32_t L_71 = V_11;
+		int32_t L_72 = L_71;
+		Il2CppObject * L_73 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_72);
+		String_t* L_74 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1039696168, L_73, /*hidden argument*/NULL);
+		NullCheck(L_70);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_70, L_74);
+		Text_t356221433 * L_75 = __this->get_label1_6();
+		Color_t2020392075  L_76 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_75);
+		VirtActionInvoker1< Color_t2020392075  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_75, L_76);
+		Text_t356221433 * L_77 = __this->get_label2_5();
+		Color_t2020392075  L_78 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_77);
+		VirtActionInvoker1< Color_t2020392075  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_77, L_78);
+		int32_t L_79 = V_3;
+		V_3 = ((int32_t)((int32_t)L_79+(int32_t)1));
+	}
+
+IL_01c7:
+	{
+		int32_t L_80 = V_4;
+		V_4 = ((int32_t)((int32_t)L_80+(int32_t)1));
+	}
+
+IL_01cd:
+	{
+		int32_t L_81 = V_4;
+		JSONObject_t1971882247 * L_82 = V_2;
+		NullCheck(L_82);
+		List_1_t1341003379 * L_83 = L_82->get_list_7();
+		NullCheck(L_83);
+		int32_t L_84 = List_1_get_Count_m3485821544(L_83, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_81) < ((int32_t)L_84)))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void LabelManager/Plant::.ctor()
+extern "C"  void Plant__ctor_m360591810 (Plant_t3013319763 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LabelManager/User::.ctor()
+extern "C"  void User__ctor_m2920701016 (User_t4014293785 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Login::.ctor()
+extern "C"  void Login__ctor_m4139325776 (Login_t3555589017 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Login::Start()
+extern "C"  void Login_Start_m2873022944 (Login_t3555589017 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Login::Update()
+extern "C"  void Login_Update_m3071805693 (Login_t3555589017 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void LoginScreen::.ctor()
+extern "C"  void LoginScreen__ctor_m2646521748 (LoginScreen_t661941525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LoginScreen__ctor_m2646521748_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_e_3(_stringLiteral4242585515);
+		__this->set_n_4(_stringLiteral4183275671);
+		__this->set_p_5(_stringLiteral4183275671);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_emailString_6(L_0);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_nameString_7(L_1);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_passwordString_8(L_2);
+		int32_t L_3 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_5;
+		memset(&L_5, 0, sizeof(L_5));
+		Rect__ctor_m1220545469(&L_5, (0.0f), (0.0f), (((float)((float)L_3))), (((float)((float)L_4))), /*hidden argument*/NULL);
+		__this->set_windowRect_9(L_5);
+		__this->set_tempUrl_10(_stringLiteral649186604);
+		__this->set_realUrl_11(_stringLiteral4074786919);
+		__this->set_getUrl_12(_stringLiteral3215131492);
+		__this->set_farmerUrl_13(_stringLiteral2409952154);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LoginScreen::Start()
+extern "C"  void LoginScreen_Start_m1663382812 (LoginScreen_t661941525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LoginScreen_Start_m1663382812_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	JSONObject_t1971882247 * V_1 = NULL;
+	String_t* V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	{
+		WebClient_t1432723993 * L_0 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = __this->get_getUrl_12();
+		NullCheck(L_0);
+		String_t* L_2 = WebClient_DownloadString_m1757636243(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		String_t* L_3 = V_0;
+		JSONObject_t1971882247 * L_4 = (JSONObject_t1971882247 *)il2cpp_codegen_object_new(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m1387305321(L_4, L_3, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		V_1 = L_4;
+		String_t* L_5 = V_0;
+		Farmer_t3686397137 * L_6 = JsonUtility_FromJson_TisFarmer_t3686397137_m2723585572(NULL /*static, unused*/, L_5, /*hidden argument*/JsonUtility_FromJson_TisFarmer_t3686397137_m2723585572_MethodInfo_var);
+		NullCheck(L_6);
+		String_t* L_7 = L_6->get_name_0();
+		V_2 = L_7;
+		String_t* L_8 = V_2;
+		PlayerPrefs_SetString_m2547809843(NULL /*static, unused*/, _stringLiteral1601817335, L_8, /*hidden argument*/NULL);
+		String_t* L_9 = V_0;
+		Farmer_t3686397137 * L_10 = JsonUtility_FromJson_TisFarmer_t3686397137_m2723585572(NULL /*static, unused*/, L_9, /*hidden argument*/JsonUtility_FromJson_TisFarmer_t3686397137_m2723585572_MethodInfo_var);
+		NullCheck(L_10);
+		int32_t L_11 = L_10->get_user_id_1();
+		V_3 = L_11;
+		PlayerPrefs_SetInt_m3351928596(NULL /*static, unused*/, _stringLiteral1030302089, 8, /*hidden argument*/NULL);
+		String_t* L_12 = V_0;
+		Farmer_t3686397137 * L_13 = JsonUtility_FromJson_TisFarmer_t3686397137_m2723585572(NULL /*static, unused*/, L_12, /*hidden argument*/JsonUtility_FromJson_TisFarmer_t3686397137_m2723585572_MethodInfo_var);
+		NullCheck(L_13);
+		int32_t L_14 = L_13->get_community_id_2();
+		V_4 = L_14;
+		PlayerPrefs_SetInt_m3351928596(NULL /*static, unused*/, _stringLiteral3078646566, ((int32_t)12), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LoginScreen::Update()
+extern "C"  void LoginScreen_Update_m1147892281 (LoginScreen_t661941525 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void LoginScreen::OnGUI()
+extern "C"  void LoginScreen_OnGUI_m3544280548 (LoginScreen_t661941525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LoginScreen_OnGUI_m3544280548_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Rect_t3681755626  L_0 = __this->get_windowRect_9();
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)LoginScreen_WindowFunction_m357295039_MethodInfo_var);
+		WindowFunction_t3486805455 * L_2 = (WindowFunction_t3486805455 *)il2cpp_codegen_object_new(WindowFunction_t3486805455_il2cpp_TypeInfo_var);
+		WindowFunction__ctor_m977095815(L_2, __this, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Window_m2988139263(NULL /*static, unused*/, 0, L_0, L_2, _stringLiteral4283667535, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LoginScreen::WindowFunction(System.Int32)
+extern "C"  void LoginScreen_WindowFunction_m357295039 (LoginScreen_t661941525 * __this, int32_t ___windowID0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LoginScreen_WindowFunction_m357295039_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUISkin_t1436893342 * L_0 = GUI_get_skin_m2309570990(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GUIStyle_t1799908754 * L_1 = GUISkin_get_textField_m757680403(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GUIStyle_set_fontSize_m4015341543(L_1, ((int32_t)18), /*hidden argument*/NULL);
+		GUISkin_t1436893342 * L_2 = GUI_get_skin_m2309570990(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		GUIStyle_t1799908754 * L_3 = GUISkin_get_label_m2703078986(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		GUIStyle_set_fontSize_m4015341543(L_3, ((int32_t)18), /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_6 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_7 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		Rect__ctor_m1220545469(&L_8, (((float)((float)((int32_t)((int32_t)L_4/(int32_t)6))))), (((float)((float)((int32_t)((int32_t)L_5/(int32_t)5))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_6*(int32_t)2))/(int32_t)3))))), (((float)((float)((int32_t)((int32_t)L_7/(int32_t)((int32_t)14)))))), /*hidden argument*/NULL);
+		String_t* L_9 = __this->get_emailString_6();
+		String_t* L_10 = GUI_TextField_m4173740298(NULL /*static, unused*/, L_8, L_9, ((int32_t)10), /*hidden argument*/NULL);
+		__this->set_emailString_6(L_10);
+		int32_t L_11 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_12 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_13 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_14 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_15;
+		memset(&L_15, 0, sizeof(L_15));
+		Rect__ctor_m1220545469(&L_15, (((float)((float)((int32_t)((int32_t)L_11/(int32_t)6))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_12))/(int32_t)5))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_13*(int32_t)2))/(int32_t)3))))), (((float)((float)((int32_t)((int32_t)L_14/(int32_t)((int32_t)14)))))), /*hidden argument*/NULL);
+		String_t* L_16 = __this->get_nameString_7();
+		String_t* L_17 = GUI_TextField_m4173740298(NULL /*static, unused*/, L_15, L_16, ((int32_t)10), /*hidden argument*/NULL);
+		__this->set_nameString_7(L_17);
+		int32_t L_18 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_19 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_20 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_21 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_22;
+		memset(&L_22, 0, sizeof(L_22));
+		Rect__ctor_m1220545469(&L_22, (((float)((float)((int32_t)((int32_t)L_18/(int32_t)6))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)3*(int32_t)L_19))/(int32_t)5))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_20*(int32_t)2))/(int32_t)3))))), (((float)((float)((int32_t)((int32_t)L_21/(int32_t)((int32_t)14)))))), /*hidden argument*/NULL);
+		String_t* L_23 = __this->get_passwordString_8();
+		NullCheck(_stringLiteral372029320);
+		Il2CppChar L_24 = String_get_Chars_m4230566705(_stringLiteral372029320, 0, /*hidden argument*/NULL);
+		String_t* L_25 = GUI_PasswordField_m1606459861(NULL /*static, unused*/, L_22, L_23, L_24, ((int32_t)10), /*hidden argument*/NULL);
+		__this->set_passwordString_8(L_25);
+		int32_t L_26 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_27 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_28 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_29 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_30;
+		memset(&L_30, 0, sizeof(L_30));
+		Rect__ctor_m1220545469(&L_30, (((float)((float)((int32_t)((int32_t)L_26/(int32_t)6))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)4*(int32_t)L_27))/(int32_t)5))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_28*(int32_t)2))/(int32_t)3))))), (((float)((float)((int32_t)((int32_t)L_29/(int32_t)((int32_t)10)))))), /*hidden argument*/NULL);
+		bool L_31 = GUI_Button_m3054448581(NULL /*static, unused*/, L_30, _stringLiteral1743401691, /*hidden argument*/NULL);
+		if (!L_31)
+		{
+			goto IL_013b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(LoginScreen_t661941525_il2cpp_TypeInfo_var);
+		int32_t L_32 = ((LoginScreen_t661941525_StaticFields*)LoginScreen_t661941525_il2cpp_TypeInfo_var->static_fields)->get_userID_2();
+		PlayerPrefs_SetInt_m3351928596(NULL /*static, unused*/, _stringLiteral3587504426, L_32, /*hidden argument*/NULL);
+		Application_LoadLevel_m393995325(NULL /*static, unused*/, _stringLiteral3538072371, /*hidden argument*/NULL);
+		LoginScreen_POST_m3524912867(__this, /*hidden argument*/NULL);
+	}
+
+IL_013b:
+	{
+		int32_t L_33 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_34 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_35 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_36 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_37;
+		memset(&L_37, 0, sizeof(L_37));
+		Rect__ctor_m1220545469(&L_37, (((float)((float)((int32_t)((int32_t)L_33/(int32_t)6))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)12)*(int32_t)L_34))/(int32_t)((int32_t)100)))))), (((float)((float)L_35))), (((float)((float)L_36))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_37, _stringLiteral1111077458, /*hidden argument*/NULL);
+		int32_t L_38 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_39 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_40 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_41 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_42;
+		memset(&L_42, 0, sizeof(L_42));
+		Rect__ctor_m1220545469(&L_42, (((float)((float)((int32_t)((int32_t)L_38/(int32_t)6))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)33)*(int32_t)L_39))/(int32_t)((int32_t)100)))))), (((float)((float)L_40))), (((float)((float)L_41))), /*hidden argument*/NULL);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_42, _stringLiteral2328219947, /*hidden argument*/NULL);
+		int32_t L_43 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_44 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_45 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_46 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_47;
+		memset(&L_47, 0, sizeof(L_47));
+		Rect__ctor_m1220545469(&L_47, (((float)((float)((int32_t)((int32_t)L_43/(int32_t)6))))), (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)54)*(int32_t)L_44))/(int32_t)((int32_t)100)))))), (((float)((float)L_45))), (((float)((float)L_46))), /*hidden argument*/NULL);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_47, _stringLiteral3563093647, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.WWW LoginScreen::POST()
+extern "C"  WWW_t2919945039 * LoginScreen_POST_m3524912867 (LoginScreen_t661941525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LoginScreen_POST_m3524912867_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	WWW_t2919945039 * V_0 = NULL;
+	Hashtable_t909839986 * V_1 = NULL;
+	WWWForm_t3950226929 * V_2 = NULL;
+	{
+		Hashtable_t909839986 * L_0 = (Hashtable_t909839986 *)il2cpp_codegen_object_new(Hashtable_t909839986_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m1884964176(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		Hashtable_t909839986 * L_1 = V_1;
+		NullCheck(L_1);
+		VirtActionInvoker2< Il2CppObject *, Il2CppObject * >::Invoke(25 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_1, _stringLiteral1048821954, _stringLiteral1391431453);
+		WWWForm_t3950226929 * L_2 = (WWWForm_t3950226929 *)il2cpp_codegen_object_new(WWWForm_t3950226929_il2cpp_TypeInfo_var);
+		WWWForm__ctor_m2129424870(L_2, /*hidden argument*/NULL);
+		V_2 = L_2;
+		WWWForm_t3950226929 * L_3 = V_2;
+		NullCheck(L_3);
+		WWWForm_AddField_m1334606983(L_3, _stringLiteral2619694, _stringLiteral1459918900, /*hidden argument*/NULL);
+		String_t* L_4 = __this->get_realUrl_11();
+		WWWForm_t3950226929 * L_5 = V_2;
+		WWW_t2919945039 * L_6 = (WWW_t2919945039 *)il2cpp_codegen_object_new(WWW_t2919945039_il2cpp_TypeInfo_var);
+		WWW__ctor_m578693146(L_6, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		WWW_t2919945039 * L_7 = V_0;
+		Il2CppObject * L_8 = LoginScreen_WaitForRequest_m3689414047(__this, L_7, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_8, /*hidden argument*/NULL);
+		WWW_t2919945039 * L_9 = V_0;
+		return L_9;
+	}
+}
+// System.Collections.IEnumerator LoginScreen::WaitForRequest(UnityEngine.WWW)
+extern "C"  Il2CppObject * LoginScreen_WaitForRequest_m3689414047 (LoginScreen_t661941525 * __this, WWW_t2919945039 * ___data0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LoginScreen_WaitForRequest_m3689414047_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CWaitForRequestU3Ec__Iterator0_t3361062884 * V_0 = NULL;
+	{
+		U3CWaitForRequestU3Ec__Iterator0_t3361062884 * L_0 = (U3CWaitForRequestU3Ec__Iterator0_t3361062884 *)il2cpp_codegen_object_new(U3CWaitForRequestU3Ec__Iterator0_t3361062884_il2cpp_TypeInfo_var);
+		U3CWaitForRequestU3Ec__Iterator0__ctor_m2208388177(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CWaitForRequestU3Ec__Iterator0_t3361062884 * L_1 = V_0;
+		WWW_t2919945039 * L_2 = ___data0;
+		NullCheck(L_1);
+		L_1->set_data_0(L_2);
+		U3CWaitForRequestU3Ec__Iterator0_t3361062884 * L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Void LoginScreen::.cctor()
+extern "C"  void LoginScreen__cctor_m2893421583 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void LoginScreen/<WaitForRequest>c__Iterator0::.ctor()
+extern "C"  void U3CWaitForRequestU3Ec__Iterator0__ctor_m2208388177 (U3CWaitForRequestU3Ec__Iterator0_t3361062884 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean LoginScreen/<WaitForRequest>c__Iterator0::MoveNext()
+extern "C"  bool U3CWaitForRequestU3Ec__Iterator0_MoveNext_m1213905015 (U3CWaitForRequestU3Ec__Iterator0_t3361062884 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CWaitForRequestU3Ec__Iterator0_MoveNext_m1213905015_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_3();
+		V_0 = L_0;
+		__this->set_U24PC_3((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		goto IL_0091;
+	}
+
+IL_0021:
+	{
+		WWW_t2919945039 * L_2 = __this->get_data_0();
+		__this->set_U24current_1(L_2);
+		bool L_3 = __this->get_U24disposing_2();
+		if (L_3)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		__this->set_U24PC_3(1);
+	}
+
+IL_003c:
+	{
+		goto IL_0093;
+	}
+
+IL_0041:
+	{
+		WWW_t2919945039 * L_4 = __this->get_data_0();
+		NullCheck(L_4);
+		String_t* L_5 = WWW_get_error_m3092701216(L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		WWW_t2919945039 * L_6 = __this->get_data_0();
+		NullCheck(L_6);
+		String_t* L_7 = WWW_get_error_m3092701216(L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral519239747, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		goto IL_008a;
+	}
+
+IL_0070:
+	{
+		WWW_t2919945039 * L_9 = __this->get_data_0();
+		NullCheck(L_9);
+		String_t* L_10 = WWW_get_text_m1558985139(L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1958703310, L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+	}
+
+IL_008a:
+	{
+		__this->set_U24PC_3((-1));
+	}
+
+IL_0091:
+	{
+		return (bool)0;
+	}
+
+IL_0093:
+	{
+		return (bool)1;
+	}
+}
+// System.Object LoginScreen/<WaitForRequest>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CWaitForRequestU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1468820855 (U3CWaitForRequestU3Ec__Iterator0_t3361062884 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Object LoginScreen/<WaitForRequest>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CWaitForRequestU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1512299967 (U3CWaitForRequestU3Ec__Iterator0_t3361062884 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get_U24current_1();
+		return L_0;
+	}
+}
+// System.Void LoginScreen/<WaitForRequest>c__Iterator0::Dispose()
+extern "C"  void U3CWaitForRequestU3Ec__Iterator0_Dispose_m1568598630 (U3CWaitForRequestU3Ec__Iterator0_t3361062884 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
+		return;
+	}
+}
+// System.Void LoginScreen/<WaitForRequest>c__Iterator0::Reset()
+extern "C"  void U3CWaitForRequestU3Ec__Iterator0_Reset_m764187872 (U3CWaitForRequestU3Ec__Iterator0_t3361062884 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CWaitForRequestU3Ec__Iterator0_Reset_m764187872_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void LoginScreen/Farmer::.ctor()
+extern "C"  void Farmer__ctor_m3978716108 (Farmer_t3686397137 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlotButtonController::.ctor()
+extern "C"  void PlotButtonController__ctor_m509290346 (PlotButtonController_t1946637431 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlotButtonController::click()
+extern "C"  void PlotButtonController_click_m712899154 (PlotButtonController_t1946637431 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_clicked_9((bool)1);
+		return;
+	}
+}
+// System.Void PlotButtonController::Start()
+extern "C"  void PlotButtonController_Start_m3431965750 (PlotButtonController_t1946637431 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlotButtonController_Start_m3431965750_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	Button_t2872111280 * V_2 = NULL;
+	{
+		int32_t L_0 = PlayerPrefs_GetInt_m2889062785(NULL /*static, unused*/, _stringLiteral3078646566, /*hidden argument*/NULL);
+		__this->set_commID_8(L_0);
+		V_0 = _stringLiteral1713711700;
+		WebClient_t1432723993 * L_1 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_1, /*hidden argument*/NULL);
+		String_t* L_2 = V_0;
+		NullCheck(L_1);
+		String_t* L_3 = WebClient_DownloadString_m1757636243(L_1, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		String_t* L_4 = V_1;
+		JSONObject_t1971882247 * L_5 = (JSONObject_t1971882247 *)il2cpp_codegen_object_new(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m1387305321(L_5, L_4, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		__this->set_plots_json_7(L_5);
+		JSONObject_t1971882247 * L_6 = __this->get_plots_json_7();
+		NullCheck(L_6);
+		List_1_t1341003379 * L_7 = L_6->get_list_7();
+		NullCheck(L_7);
+		int32_t L_8 = List_1_get_Count_m3485821544(L_7, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		int32_t L_9 = L_8;
+		Il2CppObject * L_10 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_9);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_11 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Button_t2872111280 * L_12 = GameObject_GetComponent_TisButton_t2872111280_m1008560876(L_11, /*hidden argument*/GameObject_GetComponent_TisButton_t2872111280_m1008560876_MethodInfo_var);
+		V_2 = L_12;
+		Button_t2872111280 * L_13 = V_2;
+		NullCheck(L_13);
+		ButtonClickedEvent_t2455055323 * L_14 = Button_get_onClick_m1595880935(L_13, /*hidden argument*/NULL);
+		IntPtr_t L_15;
+		L_15.set_m_value_0((void*)(void*)PlotButtonController_click_m712899154_MethodInfo_var);
+		UnityAction_t4025899511 * L_16 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_16, __this, L_15, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		UnityEvent_AddListener_m1596810379(L_14, L_16, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlotButtonController::OnGUI()
+extern "C"  void PlotButtonController_OnGUI_m242821910 (PlotButtonController_t1946637431 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlotButtonController_OnGUI_m242821910_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	JSONObject_t1971882247 * V_2 = NULL;
+	JSONObject_t1971882247 * V_3 = NULL;
+	String_t* V_4 = NULL;
+	String_t* V_5 = NULL;
+	String_t* V_6 = NULL;
+	String_t* V_7 = NULL;
+	int32_t V_8 = 0;
+	String_t* V_9 = NULL;
+	String_t* V_10 = NULL;
+	{
+		bool L_0 = __this->get_clicked_9();
+		if (!L_0)
+		{
+			goto IL_01b5;
+		}
+	}
+	{
+		V_0 = 0;
+		V_1 = 0;
+		goto IL_019f;
+	}
+
+IL_0014:
+	{
+		JSONObject_t1971882247 * L_1 = __this->get_plots_json_7();
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		JSONObject_t1971882247 * L_3 = JSONObject_get_Item_m481309353(L_1, L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		JSONObject_t1971882247 * L_4 = JSONObject_get_Item_m2638456294(L_3, _stringLiteral3623672911, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		int32_t L_6 = __this->get_commID_8();
+		int32_t L_7 = L_6;
+		Il2CppObject * L_8 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_7);
+		String_t* L_9 = String_Concat_m56707527(NULL /*static, unused*/, L_5, L_8, /*hidden argument*/NULL);
+		String_t* L_10 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		JSONObject_t1971882247 * L_11 = __this->get_plots_json_7();
+		int32_t L_12 = V_1;
+		NullCheck(L_11);
+		JSONObject_t1971882247 * L_13 = JSONObject_get_Item_m481309353(L_11, L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		JSONObject_t1971882247 * L_14 = JSONObject_get_Item_m2638456294(L_13, _stringLiteral2044715813, /*hidden argument*/NULL);
+		String_t* L_15 = String_Concat_m56707527(NULL /*static, unused*/, L_10, L_14, /*hidden argument*/NULL);
+		bool L_16 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_9, L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_019b;
+		}
+	}
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = ((int32_t)((int32_t)2*(int32_t)L_17));
+		Il2CppObject * L_19 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_18);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_20 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3423762541, L_19, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_21 = GameObject_Find_m836511350(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Text_t356221433 * L_22 = GameObject_GetComponent_TisText_t356221433_m1217399699(L_21, /*hidden argument*/GameObject_GetComponent_TisText_t356221433_m1217399699_MethodInfo_var);
+		__this->set_label1_6(L_22);
+		int32_t L_23 = V_0;
+		int32_t L_24 = ((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_23))+(int32_t)1));
+		Il2CppObject * L_25 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_24);
+		String_t* L_26 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3423762541, L_25, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_27 = GameObject_Find_m836511350(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Text_t356221433 * L_28 = GameObject_GetComponent_TisText_t356221433_m1217399699(L_27, /*hidden argument*/GameObject_GetComponent_TisText_t356221433_m1217399699_MethodInfo_var);
+		__this->set_label2_5(L_28);
+		JSONObject_t1971882247 * L_29 = __this->get_plots_json_7();
+		int32_t L_30 = V_1;
+		NullCheck(L_29);
+		JSONObject_t1971882247 * L_31 = JSONObject_get_Item_m481309353(L_29, L_30, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		JSONObject_t1971882247 * L_32 = JSONObject_get_Item_m2638456294(L_31, _stringLiteral2311316693, /*hidden argument*/NULL);
+		V_2 = L_32;
+		JSONObject_t1971882247 * L_33 = __this->get_plots_json_7();
+		int32_t L_34 = V_1;
+		NullCheck(L_33);
+		JSONObject_t1971882247 * L_35 = JSONObject_get_Item_m481309353(L_33, L_34, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		JSONObject_t1971882247 * L_36 = JSONObject_get_Item_m2638456294(L_35, _stringLiteral3623672911, /*hidden argument*/NULL);
+		V_3 = L_36;
+		JSONObject_t1971882247 * L_37 = V_2;
+		String_t* L_38 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral2077569160, L_37, /*hidden argument*/NULL);
+		V_4 = L_38;
+		JSONObject_t1971882247 * L_39 = V_3;
+		String_t* L_40 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3243454296, L_39, /*hidden argument*/NULL);
+		V_5 = L_40;
+		WebClient_t1432723993 * L_41 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_41, /*hidden argument*/NULL);
+		String_t* L_42 = V_4;
+		NullCheck(L_41);
+		String_t* L_43 = WebClient_DownloadString_m1757636243(L_41, L_42, /*hidden argument*/NULL);
+		V_6 = L_43;
+		String_t* L_44 = V_6;
+		Plant_t1764122003 * L_45 = JsonUtility_FromJson_TisPlant_t1764122003_m2966961052(NULL /*static, unused*/, L_44, /*hidden argument*/JsonUtility_FromJson_TisPlant_t1764122003_m2966961052_MethodInfo_var);
+		NullCheck(L_45);
+		String_t* L_46 = L_45->get_name_0();
+		V_7 = L_46;
+		String_t* L_47 = V_6;
+		Plant_t1764122003 * L_48 = JsonUtility_FromJson_TisPlant_t1764122003_m2966961052(NULL /*static, unused*/, L_47, /*hidden argument*/JsonUtility_FromJson_TisPlant_t1764122003_m2966961052_MethodInfo_var);
+		NullCheck(L_48);
+		int32_t L_49 = L_48->get_expected_yield_1();
+		V_8 = L_49;
+		WebClient_t1432723993 * L_50 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_50, /*hidden argument*/NULL);
+		String_t* L_51 = V_5;
+		NullCheck(L_50);
+		String_t* L_52 = WebClient_DownloadString_m1757636243(L_50, L_51, /*hidden argument*/NULL);
+		V_9 = L_52;
+		String_t* L_53 = V_9;
+		Plant_t1764122003 * L_54 = JsonUtility_FromJson_TisPlant_t1764122003_m2966961052(NULL /*static, unused*/, L_53, /*hidden argument*/JsonUtility_FromJson_TisPlant_t1764122003_m2966961052_MethodInfo_var);
+		NullCheck(L_54);
+		String_t* L_55 = L_54->get_name_0();
+		V_10 = L_55;
+		Text_t356221433 * L_56 = __this->get_label1_6();
+		String_t* L_57 = V_7;
+		String_t* L_58 = V_10;
+		String_t* L_59 = String_Concat_m612901809(NULL /*static, unused*/, L_57, _stringLiteral1220271277, L_58, /*hidden argument*/NULL);
+		NullCheck(L_56);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_56, L_59);
+		Text_t356221433 * L_60 = __this->get_label2_5();
+		int32_t L_61 = V_8;
+		int32_t L_62 = L_61;
+		Il2CppObject * L_63 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_62);
+		String_t* L_64 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1039696168, L_63, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_60, L_64);
+		Text_t356221433 * L_65 = __this->get_label1_6();
+		Color_t2020392075  L_66 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_65);
+		VirtActionInvoker1< Color_t2020392075  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_65, L_66);
+		Text_t356221433 * L_67 = __this->get_label2_5();
+		Color_t2020392075  L_68 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_67);
+		VirtActionInvoker1< Color_t2020392075  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_67, L_68);
+		int32_t L_69 = V_0;
+		V_0 = ((int32_t)((int32_t)L_69+(int32_t)1));
+	}
+
+IL_019b:
+	{
+		int32_t L_70 = V_1;
+		V_1 = ((int32_t)((int32_t)L_70+(int32_t)1));
+	}
+
+IL_019f:
+	{
+		int32_t L_71 = V_1;
+		JSONObject_t1971882247 * L_72 = __this->get_plots_json_7();
+		NullCheck(L_72);
+		List_1_t1341003379 * L_73 = L_72->get_list_7();
+		NullCheck(L_73);
+		int32_t L_74 = List_1_get_Count_m3485821544(L_73, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_71) < ((int32_t)L_74)))
+		{
+			goto IL_0014;
+		}
+	}
+
+IL_01b5:
+	{
+		return;
+	}
+}
+// System.Void PlotButtonController/Plant::.ctor()
+extern "C"  void Plant__ctor_m4111954720 (Plant_t1764122003 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlotButtonController/User::.ctor()
+extern "C"  void User__ctor_m201119050 (User_t750149389 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlottButtonController::.ctor()
+extern "C"  void PlottButtonController__ctor_m2481894780 (PlottButtonController_t3427406767 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlottButtonController::click()
+extern "C"  void PlottButtonController_click_m4088373808 (PlottButtonController_t3427406767 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_clicked_7((bool)1);
+		return;
+	}
+}
+// System.Void PlottButtonController::Start()
+extern "C"  void PlottButtonController_Start_m2924495264 (PlottButtonController_t3427406767 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlottButtonController_Start_m2924495264_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	Button_t2872111280 * V_2 = NULL;
+	{
+		int32_t L_0 = PlayerPrefs_GetInt_m2889062785(NULL /*static, unused*/, _stringLiteral1030302089, /*hidden argument*/NULL);
+		__this->set_userID_9(L_0);
+		int32_t L_1 = __this->get_userID_9();
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = _stringLiteral1713711700;
+		WebClient_t1432723993 * L_4 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_4, /*hidden argument*/NULL);
+		String_t* L_5 = V_0;
+		NullCheck(L_4);
+		String_t* L_6 = WebClient_DownloadString_m1757636243(L_4, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		String_t* L_7 = V_1;
+		JSONObject_t1971882247 * L_8 = (JSONObject_t1971882247 *)il2cpp_codegen_object_new(JSONObject_t1971882247_il2cpp_TypeInfo_var);
+		JSONObject__ctor_m1387305321(L_8, L_7, ((int32_t)-2), (bool)0, (bool)0, /*hidden argument*/NULL);
+		__this->set_plots_json_8(L_8);
+		JSONObject_t1971882247 * L_9 = __this->get_plots_json_8();
+		NullCheck(L_9);
+		List_1_t1341003379 * L_10 = L_9->get_list_7();
+		NullCheck(L_10);
+		int32_t L_11 = List_1_get_Count_m3485821544(L_10, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		int32_t L_12 = L_11;
+		Il2CppObject * L_13 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_12);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_14 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Button_t2872111280 * L_15 = GameObject_GetComponent_TisButton_t2872111280_m1008560876(L_14, /*hidden argument*/GameObject_GetComponent_TisButton_t2872111280_m1008560876_MethodInfo_var);
+		V_2 = L_15;
+		Button_t2872111280 * L_16 = V_2;
+		NullCheck(L_16);
+		ButtonClickedEvent_t2455055323 * L_17 = Button_get_onClick_m1595880935(L_16, /*hidden argument*/NULL);
+		IntPtr_t L_18;
+		L_18.set_m_value_0((void*)(void*)PlottButtonController_click_m4088373808_MethodInfo_var);
+		UnityAction_t4025899511 * L_19 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_19, __this, L_18, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		UnityEvent_AddListener_m1596810379(L_17, L_19, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlottButtonController::OnGUI()
+extern "C"  void PlottButtonController_OnGUI_m3128299908 (PlottButtonController_t3427406767 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PlottButtonController_OnGUI_m3128299908_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	JSONObject_t1971882247 * V_2 = NULL;
+	JSONObject_t1971882247 * V_3 = NULL;
+	String_t* V_4 = NULL;
+	String_t* V_5 = NULL;
+	String_t* V_6 = NULL;
+	String_t* V_7 = NULL;
+	int32_t V_8 = 0;
+	String_t* V_9 = NULL;
+	String_t* V_10 = NULL;
+	{
+		bool L_0 = __this->get_clicked_7();
+		if (!L_0)
+		{
+			goto IL_01b5;
+		}
+	}
+	{
+		V_0 = 0;
+		V_1 = 0;
+		goto IL_019f;
+	}
+
+IL_0014:
+	{
+		JSONObject_t1971882247 * L_1 = __this->get_plots_json_8();
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		JSONObject_t1971882247 * L_3 = JSONObject_get_Item_m481309353(L_1, L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		JSONObject_t1971882247 * L_4 = JSONObject_get_Item_m2638456294(L_3, _stringLiteral3623672911, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		int32_t L_6 = __this->get_userID_9();
+		int32_t L_7 = L_6;
+		Il2CppObject * L_8 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_7);
+		String_t* L_9 = String_Concat_m56707527(NULL /*static, unused*/, L_5, L_8, /*hidden argument*/NULL);
+		String_t* L_10 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		JSONObject_t1971882247 * L_11 = __this->get_plots_json_8();
+		int32_t L_12 = V_1;
+		NullCheck(L_11);
+		JSONObject_t1971882247 * L_13 = JSONObject_get_Item_m481309353(L_11, L_12, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		JSONObject_t1971882247 * L_14 = JSONObject_get_Item_m2638456294(L_13, _stringLiteral3623672911, /*hidden argument*/NULL);
+		String_t* L_15 = String_Concat_m56707527(NULL /*static, unused*/, L_10, L_14, /*hidden argument*/NULL);
+		bool L_16 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_9, L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_019b;
+		}
+	}
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = ((int32_t)((int32_t)2*(int32_t)L_17));
+		Il2CppObject * L_19 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_18);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_20 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3423762541, L_19, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_21 = GameObject_Find_m836511350(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Text_t356221433 * L_22 = GameObject_GetComponent_TisText_t356221433_m1217399699(L_21, /*hidden argument*/GameObject_GetComponent_TisText_t356221433_m1217399699_MethodInfo_var);
+		__this->set_label1_6(L_22);
+		int32_t L_23 = V_0;
+		int32_t L_24 = ((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_23))+(int32_t)1));
+		Il2CppObject * L_25 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_24);
+		String_t* L_26 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3423762541, L_25, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_27 = GameObject_Find_m836511350(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Text_t356221433 * L_28 = GameObject_GetComponent_TisText_t356221433_m1217399699(L_27, /*hidden argument*/GameObject_GetComponent_TisText_t356221433_m1217399699_MethodInfo_var);
+		__this->set_label2_5(L_28);
+		JSONObject_t1971882247 * L_29 = __this->get_plots_json_8();
+		int32_t L_30 = V_1;
+		NullCheck(L_29);
+		JSONObject_t1971882247 * L_31 = JSONObject_get_Item_m481309353(L_29, L_30, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		JSONObject_t1971882247 * L_32 = JSONObject_get_Item_m2638456294(L_31, _stringLiteral2311316693, /*hidden argument*/NULL);
+		V_2 = L_32;
+		JSONObject_t1971882247 * L_33 = __this->get_plots_json_8();
+		int32_t L_34 = V_1;
+		NullCheck(L_33);
+		JSONObject_t1971882247 * L_35 = JSONObject_get_Item_m481309353(L_33, L_34, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		JSONObject_t1971882247 * L_36 = JSONObject_get_Item_m2638456294(L_35, _stringLiteral3623672911, /*hidden argument*/NULL);
+		V_3 = L_36;
+		JSONObject_t1971882247 * L_37 = V_2;
+		String_t* L_38 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral2077569160, L_37, /*hidden argument*/NULL);
+		V_4 = L_38;
+		JSONObject_t1971882247 * L_39 = V_3;
+		String_t* L_40 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral3243454296, L_39, /*hidden argument*/NULL);
+		V_5 = L_40;
+		WebClient_t1432723993 * L_41 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_41, /*hidden argument*/NULL);
+		String_t* L_42 = V_4;
+		NullCheck(L_41);
+		String_t* L_43 = WebClient_DownloadString_m1757636243(L_41, L_42, /*hidden argument*/NULL);
+		V_6 = L_43;
+		String_t* L_44 = V_6;
+		Plant_t3145691443 * L_45 = JsonUtility_FromJson_TisPlant_t3145691443_m4230761498(NULL /*static, unused*/, L_44, /*hidden argument*/JsonUtility_FromJson_TisPlant_t3145691443_m4230761498_MethodInfo_var);
+		NullCheck(L_45);
+		String_t* L_46 = L_45->get_name_0();
+		V_7 = L_46;
+		String_t* L_47 = V_6;
+		Plant_t3145691443 * L_48 = JsonUtility_FromJson_TisPlant_t3145691443_m4230761498(NULL /*static, unused*/, L_47, /*hidden argument*/JsonUtility_FromJson_TisPlant_t3145691443_m4230761498_MethodInfo_var);
+		NullCheck(L_48);
+		int32_t L_49 = L_48->get_expected_yield_1();
+		V_8 = L_49;
+		WebClient_t1432723993 * L_50 = (WebClient_t1432723993 *)il2cpp_codegen_object_new(WebClient_t1432723993_il2cpp_TypeInfo_var);
+		WebClient__ctor_m660733025(L_50, /*hidden argument*/NULL);
+		String_t* L_51 = V_5;
+		NullCheck(L_50);
+		String_t* L_52 = WebClient_DownloadString_m1757636243(L_50, L_51, /*hidden argument*/NULL);
+		V_9 = L_52;
+		String_t* L_53 = V_9;
+		Plant_t3145691443 * L_54 = JsonUtility_FromJson_TisPlant_t3145691443_m4230761498(NULL /*static, unused*/, L_53, /*hidden argument*/JsonUtility_FromJson_TisPlant_t3145691443_m4230761498_MethodInfo_var);
+		NullCheck(L_54);
+		String_t* L_55 = L_54->get_name_0();
+		V_10 = L_55;
+		Text_t356221433 * L_56 = __this->get_label1_6();
+		String_t* L_57 = V_7;
+		String_t* L_58 = V_10;
+		String_t* L_59 = String_Concat_m612901809(NULL /*static, unused*/, L_57, _stringLiteral1220271277, L_58, /*hidden argument*/NULL);
+		NullCheck(L_56);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_56, L_59);
+		Text_t356221433 * L_60 = __this->get_label2_5();
+		int32_t L_61 = V_8;
+		int32_t L_62 = L_61;
+		Il2CppObject * L_63 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_62);
+		String_t* L_64 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1039696168, L_63, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_60, L_64);
+		Text_t356221433 * L_65 = __this->get_label1_6();
+		Color_t2020392075  L_66 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_65);
+		VirtActionInvoker1< Color_t2020392075  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_65, L_66);
+		Text_t356221433 * L_67 = __this->get_label2_5();
+		Color_t2020392075  L_68 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_67);
+		VirtActionInvoker1< Color_t2020392075  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_67, L_68);
+		int32_t L_69 = V_0;
+		V_0 = ((int32_t)((int32_t)L_69+(int32_t)1));
+	}
+
+IL_019b:
+	{
+		int32_t L_70 = V_1;
+		V_1 = ((int32_t)((int32_t)L_70+(int32_t)1));
+	}
+
+IL_019f:
+	{
+		int32_t L_71 = V_1;
+		JSONObject_t1971882247 * L_72 = __this->get_plots_json_8();
+		NullCheck(L_72);
+		List_1_t1341003379 * L_73 = L_72->get_list_7();
+		NullCheck(L_73);
+		int32_t L_74 = List_1_get_Count_m3485821544(L_73, /*hidden argument*/List_1_get_Count_m3485821544_MethodInfo_var);
+		if ((((int32_t)L_71) < ((int32_t)L_74)))
+		{
+			goto IL_0014;
+		}
+	}
+
+IL_01b5:
+	{
+		return;
+	}
+}
+// System.Void PlottButtonController/Plant::.ctor()
+extern "C"  void Plant__ctor_m2194607070 (Plant_t3145691443 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlottButtonController/User::.ctor()
+extern "C"  void User__ctor_m2156982936 (User_t1704395377 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::.ctor()
+extern "C"  void VRIntegrationHelper__ctor_m4069773343 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::Awake()
+extern "C"  void VRIntegrationHelper_Awake_m681899862 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_Awake_m681899862_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Camera_t189460977 * L_0 = Component_GetComponent_TisCamera_t189460977_m1978993906(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m1978993906_MethodInfo_var);
+		NullCheck(L_0);
+		Camera_set_fieldOfView_m3974156396(L_0, (90.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::Start()
+extern "C"  void VRIntegrationHelper_Start_m536586683 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_Start_m536586683_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaARController_t4061728485_il2cpp_TypeInfo_var);
+		VuforiaARController_t4061728485 * L_0 = VuforiaARController_get_Instance_m3759800119(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)VRIntegrationHelper_OnVuforiaStarted_m1154042475_MethodInfo_var);
+		Action_t3226471752 * L_2 = (Action_t3226471752 *)il2cpp_codegen_object_new(Action_t3226471752_il2cpp_TypeInfo_var);
+		Action__ctor_m2606471964(L_2, __this, L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VuforiaARController_RegisterVuforiaStartedCallback_m2843633801(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::OnVuforiaStarted()
+extern "C"  void VRIntegrationHelper_OnVuforiaStarted_m1154042475 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_OnVuforiaStarted_m1154042475_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DigitalEyewearARController_t1398758191_il2cpp_TypeInfo_var);
+		DigitalEyewearARController_t1398758191 * L_0 = DigitalEyewearARController_get_Instance_m277595763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Camera_t189460977 * L_1 = DigitalEyewearARController_get_PrimaryCamera_m334515774(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftCamera_4(L_1);
+		DigitalEyewearARController_t1398758191 * L_2 = DigitalEyewearARController_get_Instance_m277595763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Camera_t189460977 * L_3 = DigitalEyewearARController_get_SecondaryCamera_m1083705270(L_2, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightCamera_5(L_3);
+		Camera_t189460977 * L_4 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_4);
+		HideExcessAreaAbstractBehaviour_t2687577327 * L_5 = Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011(L_4, /*hidden argument*/Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011_MethodInfo_var);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftExcessAreaBehaviour_6(L_5);
+		Camera_t189460977 * L_6 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_6);
+		HideExcessAreaAbstractBehaviour_t2687577327 * L_7 = Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011(L_6, /*hidden argument*/Component_GetComponent_TisHideExcessAreaAbstractBehaviour_t2687577327_m1183342011_MethodInfo_var);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightExcessAreaBehaviour_7(L_7);
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::LateUpdate()
+extern "C"  void VRIntegrationHelper_LateUpdate_m4039758880 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_LateUpdate_m4039758880_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Rect_t3681755626  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector3_t2243707580  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Rect_t3681755626  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t2243707580  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	BackgroundPlaneBehaviour_t2431285219 * V_8 = NULL;
+	{
+		bool L_0 = __this->get_IsLeft_12();
+		if (!L_0)
+		{
+			goto IL_02dd;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		bool L_1 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCameraDataAcquired_10();
+		if (!L_1)
+		{
+			goto IL_02dd;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		bool L_2 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCameraDataAcquired_11();
+		if (!L_2)
+		{
+			goto IL_02dd;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DigitalEyewearARController_t1398758191_il2cpp_TypeInfo_var);
+		DigitalEyewearARController_t1398758191 * L_3 = DigitalEyewearARController_get_Instance_m277595763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_t3275118058 * L_4 = DigitalEyewearARController_get_CentralAnchorPoint_m1690577486(L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_5 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_5);
+		Transform_t3275118058 * L_6 = Component_get_transform_m2697483695(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Quaternion_t4030073918  L_7 = Transform_get_localRotation_m4001487205(L_6, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Transform_set_localRotation_m2055111962(L_4, L_7, /*hidden argument*/NULL);
+		DigitalEyewearARController_t1398758191 * L_8 = DigitalEyewearARController_get_Instance_m277595763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Transform_t3275118058 * L_9 = DigitalEyewearARController_get_CentralAnchorPoint_m1690577486(L_8, /*hidden argument*/NULL);
+		Camera_t189460977 * L_10 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_10);
+		Transform_t3275118058 * L_11 = Component_get_transform_m2697483695(L_10, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Vector3_t2243707580  L_12 = Transform_get_localPosition_m2533925116(L_11, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_set_localPosition_m1026930133(L_9, L_12, /*hidden argument*/NULL);
+		Camera_t189460977 * L_13 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_13);
+		Transform_t3275118058 * L_14 = Component_get_transform_m2697483695(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Vector3_t2243707580  L_15 = Transform_get_localPosition_m2533925116(L_14, /*hidden argument*/NULL);
+		V_0 = L_15;
+		Camera_t189460977 * L_16 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_16);
+		Rect_t3681755626  L_17 = Camera_get_pixelRect_m2084185953(L_16, /*hidden argument*/NULL);
+		V_1 = L_17;
+		Camera_t189460977 * L_18 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_18);
+		Transform_t3275118058 * L_19 = Component_get_transform_m2697483695(L_18, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Vector3_t2243707580  L_20 = Transform_get_right_m440863970(L_19, /*hidden argument*/NULL);
+		V_3 = L_20;
+		Vector3_t2243707580  L_21 = Vector3_get_normalized_m936072361((&V_3), /*hidden argument*/NULL);
+		Camera_t189460977 * L_22 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_22);
+		float L_23 = Camera_get_stereoSeparation_m287594473(L_22, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_24 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_21, L_23, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_25 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_24, (-0.5f), /*hidden argument*/NULL);
+		V_2 = L_25;
+		Camera_t189460977 * L_26 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_26);
+		Transform_t3275118058 * L_27 = Component_get_transform_m2697483695(L_26, /*hidden argument*/NULL);
+		Camera_t189460977 * L_28 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_28);
+		Transform_t3275118058 * L_29 = Component_get_transform_m2697483695(L_28, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Vector3_t2243707580  L_30 = Transform_get_position_m1104419803(L_29, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_31 = V_2;
+		Vector3_t2243707580  L_32 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_30, L_31, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Transform_set_position_m2469242620(L_27, L_32, /*hidden argument*/NULL);
+		Camera_t189460977 * L_33 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		Rect_t3681755626  L_34 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCameraPixelRect_8();
+		NullCheck(L_33);
+		Camera_set_pixelRect_m1366013782(L_33, L_34, /*hidden argument*/NULL);
+		Camera_t189460977 * L_35 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_35);
+		Transform_t3275118058 * L_36 = Component_get_transform_m2697483695(L_35, /*hidden argument*/NULL);
+		NullCheck(L_36);
+		Vector3_t2243707580  L_37 = Transform_get_localPosition_m2533925116(L_36, /*hidden argument*/NULL);
+		V_4 = L_37;
+		Camera_t189460977 * L_38 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_38);
+		Rect_t3681755626  L_39 = Camera_get_pixelRect_m2084185953(L_38, /*hidden argument*/NULL);
+		V_5 = L_39;
+		Camera_t189460977 * L_40 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_40);
+		Transform_t3275118058 * L_41 = Component_get_transform_m2697483695(L_40, /*hidden argument*/NULL);
+		NullCheck(L_41);
+		Vector3_t2243707580  L_42 = Transform_get_right_m440863970(L_41, /*hidden argument*/NULL);
+		V_7 = L_42;
+		Vector3_t2243707580  L_43 = Vector3_get_normalized_m936072361((&V_7), /*hidden argument*/NULL);
+		Camera_t189460977 * L_44 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_44);
+		float L_45 = Camera_get_stereoSeparation_m287594473(L_44, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_46 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_43, L_45, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_47 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_46, (0.5f), /*hidden argument*/NULL);
+		V_6 = L_47;
+		Camera_t189460977 * L_48 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_48);
+		Transform_t3275118058 * L_49 = Component_get_transform_m2697483695(L_48, /*hidden argument*/NULL);
+		Camera_t189460977 * L_50 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_50);
+		Transform_t3275118058 * L_51 = Component_get_transform_m2697483695(L_50, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		Vector3_t2243707580  L_52 = Transform_get_position_m1104419803(L_51, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_53 = V_6;
+		Vector3_t2243707580  L_54 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_52, L_53, /*hidden argument*/NULL);
+		NullCheck(L_49);
+		Transform_set_position_m2469242620(L_49, L_54, /*hidden argument*/NULL);
+		Camera_t189460977 * L_55 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		Rect_t3681755626  L_56 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCameraPixelRect_9();
+		NullCheck(L_55);
+		Camera_set_pixelRect_m1366013782(L_55, L_56, /*hidden argument*/NULL);
+		Camera_t189460977 * L_57 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_57);
+		BackgroundPlaneBehaviour_t2431285219 * L_58 = Component_GetComponentInChildren_TisBackgroundPlaneBehaviour_t2431285219_m4080560834(L_57, /*hidden argument*/Component_GetComponentInChildren_TisBackgroundPlaneBehaviour_t2431285219_m4080560834_MethodInfo_var);
+		V_8 = L_58;
+		BackgroundPlaneBehaviour_t2431285219 * L_59 = V_8;
+		Camera_t189460977 * L_60 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_60);
+		Transform_t3275118058 * L_61 = Component_get_transform_m2697483695(L_60, /*hidden argument*/NULL);
+		NullCheck(L_61);
+		Vector3_t2243707580  L_62 = Transform_get_position_m1104419803(L_61, /*hidden argument*/NULL);
+		DigitalEyewearARController_t1398758191 * L_63 = DigitalEyewearARController_get_Instance_m277595763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_63);
+		Transform_t3275118058 * L_64 = DigitalEyewearARController_get_CentralAnchorPoint_m1690577486(L_63, /*hidden argument*/NULL);
+		NullCheck(L_64);
+		Vector3_t2243707580  L_65 = Transform_get_position_m1104419803(L_64, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_66 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_62, L_65, /*hidden argument*/NULL);
+		NullCheck(L_59);
+		BackgroundPlaneAbstractBehaviour_set_BackgroundOffset_m48119280(L_59, L_66, /*hidden argument*/NULL);
+		HideExcessAreaAbstractBehaviour_t2687577327 * L_67 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftExcessAreaBehaviour_6();
+		Camera_t189460977 * L_68 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_68);
+		Transform_t3275118058 * L_69 = Component_get_transform_m2697483695(L_68, /*hidden argument*/NULL);
+		NullCheck(L_69);
+		Vector3_t2243707580  L_70 = Transform_get_position_m1104419803(L_69, /*hidden argument*/NULL);
+		DigitalEyewearARController_t1398758191 * L_71 = DigitalEyewearARController_get_Instance_m277595763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_71);
+		Transform_t3275118058 * L_72 = DigitalEyewearARController_get_CentralAnchorPoint_m1690577486(L_71, /*hidden argument*/NULL);
+		NullCheck(L_72);
+		Vector3_t2243707580  L_73 = Transform_get_position_m1104419803(L_72, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_74 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_70, L_73, /*hidden argument*/NULL);
+		NullCheck(L_67);
+		HideExcessAreaAbstractBehaviour_set_PlaneOffset_m3820567390(L_67, L_74, /*hidden argument*/NULL);
+		HideExcessAreaAbstractBehaviour_t2687577327 * L_75 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightExcessAreaBehaviour_7();
+		Camera_t189460977 * L_76 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_76);
+		Transform_t3275118058 * L_77 = Component_get_transform_m2697483695(L_76, /*hidden argument*/NULL);
+		NullCheck(L_77);
+		Vector3_t2243707580  L_78 = Transform_get_position_m1104419803(L_77, /*hidden argument*/NULL);
+		DigitalEyewearARController_t1398758191 * L_79 = DigitalEyewearARController_get_Instance_m277595763(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_79);
+		Transform_t3275118058 * L_80 = DigitalEyewearARController_get_CentralAnchorPoint_m1690577486(L_79, /*hidden argument*/NULL);
+		NullCheck(L_80);
+		Vector3_t2243707580  L_81 = Transform_get_position_m1104419803(L_80, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_82 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_78, L_81, /*hidden argument*/NULL);
+		NullCheck(L_75);
+		HideExcessAreaAbstractBehaviour_set_PlaneOffset_m3820567390(L_75, L_82, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_83 = __this->get_TrackableParent_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_84 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_83, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_84)
+		{
+			goto IL_020f;
+		}
+	}
+	{
+		Transform_t3275118058 * L_85 = __this->get_TrackableParent_13();
+		Vector3_t2243707580  L_86 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_85);
+		Transform_set_localPosition_m1026930133(L_85, L_86, /*hidden argument*/NULL);
+	}
+
+IL_020f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaARController_t4061728485_il2cpp_TypeInfo_var);
+		VuforiaARController_t4061728485 * L_87 = VuforiaARController_get_Instance_m3759800119(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_87);
+		VuforiaARController_UpdateState_m2272296819(L_87, (bool)0, (bool)1, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_88 = __this->get_TrackableParent_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_89 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_88, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_89)
+		{
+			goto IL_0249;
+		}
+	}
+	{
+		Transform_t3275118058 * L_90 = __this->get_TrackableParent_13();
+		Transform_t3275118058 * L_91 = L_90;
+		NullCheck(L_91);
+		Vector3_t2243707580  L_92 = Transform_get_position_m1104419803(L_91, /*hidden argument*/NULL);
+		BackgroundPlaneBehaviour_t2431285219 * L_93 = V_8;
+		NullCheck(L_93);
+		Vector3_t2243707580  L_94 = BackgroundPlaneAbstractBehaviour_get_BackgroundOffset_m599181539(L_93, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_95 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_92, L_94, /*hidden argument*/NULL);
+		NullCheck(L_91);
+		Transform_set_position_m2469242620(L_91, L_95, /*hidden argument*/NULL);
+	}
+
+IL_0249:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaARController_t4061728485_il2cpp_TypeInfo_var);
+		VuforiaARController_t4061728485 * L_96 = VuforiaARController_get_Instance_m3759800119(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Matrix4x4_t2933234003  L_97 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCameraMatrixOriginal_2();
+		NullCheck(L_96);
+		VuforiaARController_ApplyCorrectedProjectionMatrix_m3388896403(L_96, L_97, (bool)1, /*hidden argument*/NULL);
+		VuforiaARController_t4061728485 * L_98 = VuforiaARController_get_Instance_m3759800119(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_99 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCameraMatrixOriginal_3();
+		NullCheck(L_98);
+		VuforiaARController_ApplyCorrectedProjectionMatrix_m3388896403(L_98, L_99, (bool)0, /*hidden argument*/NULL);
+		Camera_t189460977 * L_100 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		Camera_t189460977 * L_101 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_101);
+		Matrix4x4_t2933234003  L_102 = Camera_get_projectionMatrix_m2365994324(L_101, /*hidden argument*/NULL);
+		Camera_t189460977 * L_103 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_103);
+		Matrix4x4_t2933234003  L_104 = Camera_get_projectionMatrix_m2365994324(L_103, /*hidden argument*/NULL);
+		NullCheck(L_100);
+		Camera_SetStereoProjectionMatrices_m1833429783(L_100, L_102, L_104, /*hidden argument*/NULL);
+		Camera_t189460977 * L_105 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		Camera_t189460977 * L_106 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_106);
+		Matrix4x4_t2933234003  L_107 = Camera_get_projectionMatrix_m2365994324(L_106, /*hidden argument*/NULL);
+		Camera_t189460977 * L_108 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_108);
+		Matrix4x4_t2933234003  L_109 = Camera_get_projectionMatrix_m2365994324(L_108, /*hidden argument*/NULL);
+		NullCheck(L_105);
+		Camera_SetStereoProjectionMatrices_m1833429783(L_105, L_107, L_109, /*hidden argument*/NULL);
+		Camera_t189460977 * L_110 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_110);
+		Transform_t3275118058 * L_111 = Component_get_transform_m2697483695(L_110, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_112 = V_0;
+		NullCheck(L_111);
+		Transform_set_localPosition_m1026930133(L_111, L_112, /*hidden argument*/NULL);
+		Camera_t189460977 * L_113 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		Rect_t3681755626  L_114 = V_1;
+		NullCheck(L_113);
+		Camera_set_pixelRect_m1366013782(L_113, L_114, /*hidden argument*/NULL);
+		Camera_t189460977 * L_115 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_115);
+		Transform_t3275118058 * L_116 = Component_get_transform_m2697483695(L_115, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_117 = V_4;
+		NullCheck(L_116);
+		Transform_set_localPosition_m1026930133(L_116, L_117, /*hidden argument*/NULL);
+		Camera_t189460977 * L_118 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		Rect_t3681755626  L_119 = V_5;
+		NullCheck(L_118);
+		Camera_set_pixelRect_m1366013782(L_118, L_119, /*hidden argument*/NULL);
+	}
+
+IL_02dd:
+	{
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::OnPreRender()
+extern "C"  void VRIntegrationHelper_OnPreRender_m1211949763 (VRIntegrationHelper_t556656694 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VRIntegrationHelper_OnPreRender_m1211949763_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_IsLeft_12();
+		if (!L_0)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		bool L_1 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCameraDataAcquired_10();
+		if (L_1)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_2 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_2);
+		Matrix4x4_t2933234003  L_3 = Camera_get_projectionMatrix_m2365994324(L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_4 = VuforiaRuntimeUtilities_MatrixIsNaN_m431823786(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_5 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_5);
+		Matrix4x4_t2933234003  L_6 = Camera_get_projectionMatrix_m2365994324(L_5, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftCameraMatrixOriginal_2(L_6);
+		Camera_t189460977 * L_7 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mLeftCamera_4();
+		NullCheck(L_7);
+		Rect_t3681755626  L_8 = Camera_get_pixelRect_m2084185953(L_7, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftCameraPixelRect_8(L_8);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mLeftCameraDataAcquired_10((bool)1);
+	}
+
+IL_004d:
+	{
+		goto IL_0094;
+	}
+
+IL_0052:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		bool L_9 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCameraDataAcquired_11();
+		if (L_9)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_10 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_10);
+		Matrix4x4_t2933234003  L_11 = Camera_get_projectionMatrix_m2365994324(L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_12 = VuforiaRuntimeUtilities_MatrixIsNaN_m431823786(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var);
+		Camera_t189460977 * L_13 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_13);
+		Matrix4x4_t2933234003  L_14 = Camera_get_projectionMatrix_m2365994324(L_13, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightCameraMatrixOriginal_3(L_14);
+		Camera_t189460977 * L_15 = ((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->get_mRightCamera_5();
+		NullCheck(L_15);
+		Rect_t3681755626  L_16 = Camera_get_pixelRect_m2084185953(L_15, /*hidden argument*/NULL);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightCameraPixelRect_9(L_16);
+		((VRIntegrationHelper_t556656694_StaticFields*)VRIntegrationHelper_t556656694_il2cpp_TypeInfo_var->static_fields)->set_mRightCameraDataAcquired_11((bool)1);
+	}
+
+IL_0094:
+	{
+		return;
+	}
+}
+// System.Void VRIntegrationHelper::.cctor()
+extern "C"  void VRIntegrationHelper__cctor_m708693476 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::.ctor()
+extern "C"  void AndroidUnityPlayer__ctor_m2233000524 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::LoadNativeLibraries()
+extern "C"  void AndroidUnityPlayer_LoadNativeLibraries_m694869242 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		AndroidUnityPlayer_LoadNativeLibrariesFromJava_m2955245326(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::InitializePlatform()
+extern "C"  void AndroidUnityPlayer_InitializePlatform_m2952017853 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		AndroidUnityPlayer_InitAndroidPlatform_m1583405850(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.VuforiaUnity/InitError Vuforia.AndroidUnityPlayer::InitializeVuforia(System.String)
+extern "C"  int32_t AndroidUnityPlayer_InitializeVuforia_m3815589415 (AndroidUnityPlayer_t852788525 * __this, String_t* ___licenseKey0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_InitializeVuforia_m3815589415_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRenderer_t2933102835_il2cpp_TypeInfo_var);
+		VuforiaRenderer_t2933102835 * L_0 = VuforiaRenderer_get_Instance_m1621768183(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(15 /* Vuforia.VuforiaRenderer/RendererAPI Vuforia.VuforiaRenderer::GetRendererAPI() */, L_0);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		String_t* L_3 = ___licenseKey0;
+		int32_t L_4 = AndroidUnityPlayer_InitVuforia_m2858754529(__this, L_2, L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		int32_t L_5 = V_1;
+		if ((((int32_t)L_5) < ((int32_t)0)))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		AndroidUnityPlayer_InitializeSurface_m1417263607(__this, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		int32_t L_6 = V_1;
+		return (int32_t)(L_6);
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::StartScene()
+extern "C"  void AndroidUnityPlayer_StartScene_m1635484230 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::Update()
+extern "C"  void AndroidUnityPlayer_Update_m4198269979 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_Update_m4198269979_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		bool L_0 = SurfaceUtilities_HasSurfaceBeenRecreated_m2740261893(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		AndroidUnityPlayer_InitializeSurface_m1417263607(__this, /*hidden argument*/NULL);
+		goto IL_0031;
+	}
+
+IL_0015:
+	{
+		int32_t L_1 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_mScreenOrientation_2();
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		AndroidUnityPlayer_ResetUnityScreenOrientation_m2917504922(__this, /*hidden argument*/NULL);
+	}
+
+IL_002b:
+	{
+		AndroidUnityPlayer_CheckOrientation_m2044239264(__this, /*hidden argument*/NULL);
+	}
+
+IL_0031:
+	{
+		int32_t L_3 = __this->get_mFramesSinceLastOrientationReset_4();
+		__this->set_mFramesSinceLastOrientationReset_4(((int32_t)((int32_t)L_3+(int32_t)1)));
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::OnPause()
+extern "C"  void AndroidUnityPlayer_OnPause_m2222496097 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_OnPause_m2222496097_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnPause_m2422224752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::OnResume()
+extern "C"  void AndroidUnityPlayer_OnResume_m3489453528 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_OnResume_m3489453528_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnResume_m2186520633(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::OnDestroy()
+extern "C"  void AndroidUnityPlayer_OnDestroy_m3206719289 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_OnDestroy_m3206719289_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_Deinit_m4072609744(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::Dispose()
+extern "C"  void AndroidUnityPlayer_Dispose_m2709691617 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::LoadNativeLibrariesFromJava()
+extern "C"  void AndroidUnityPlayer_LoadNativeLibrariesFromJava_m2955245326 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::InitAndroidPlatform()
+extern "C"  void AndroidUnityPlayer_InitAndroidPlatform_m1583405850 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Int32 Vuforia.AndroidUnityPlayer::InitVuforia(System.Int32,System.String)
+extern "C"  int32_t AndroidUnityPlayer_InitVuforia_m2858754529 (AndroidUnityPlayer_t852788525 * __this, int32_t ___rendererAPI0, String_t* ___licenseKey1, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = (-1);
+		int32_t L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::InitializeSurface()
+extern "C"  void AndroidUnityPlayer_InitializeSurface_m1417263607 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_InitializeSurface_m1417263607_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_OnSurfaceCreated_m3675640541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AndroidUnityPlayer_ResetUnityScreenOrientation_m2917504922(__this, /*hidden argument*/NULL);
+		AndroidUnityPlayer_CheckOrientation_m2044239264(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::ResetUnityScreenOrientation()
+extern "C"  void AndroidUnityPlayer_ResetUnityScreenOrientation_m2917504922 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_mScreenOrientation_2(L_0);
+		__this->set_mFramesSinceLastOrientationReset_4(0);
+		return;
+	}
+}
+// System.Void Vuforia.AndroidUnityPlayer::CheckOrientation()
+extern "C"  void AndroidUnityPlayer_CheckOrientation_m2044239264 (AndroidUnityPlayer_t852788525 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidUnityPlayer_CheckOrientation_m2044239264_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = __this->get_mFramesSinceLastOrientationReset_4();
+		V_0 = (bool)((((int32_t)L_0) < ((int32_t)((int32_t)25)))? 1 : 0);
+		bool L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_2 = __this->get_mFramesSinceLastJavaOrientationCheck_5();
+		V_0 = (bool)((((int32_t)L_2) > ((int32_t)((int32_t)60)))? 1 : 0);
+	}
+
+IL_001c:
+	{
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		int32_t L_4 = __this->get_mScreenOrientation_2();
+		V_1 = L_4;
+		int32_t L_5 = V_1;
+		V_2 = L_5;
+		int32_t L_6 = V_2;
+		int32_t L_7 = __this->get_mJavaScreenOrientation_3();
+		if ((((int32_t)L_6) == ((int32_t)L_7)))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		int32_t L_8 = V_2;
+		__this->set_mJavaScreenOrientation_3(L_8);
+		int32_t L_9 = __this->get_mJavaScreenOrientation_3();
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_SetSurfaceOrientation_m3106547277(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0049:
+	{
+		__this->set_mFramesSinceLastJavaOrientationCheck_5(0);
+		goto IL_0063;
+	}
+
+IL_0055:
+	{
+		int32_t L_10 = __this->get_mFramesSinceLastJavaOrientationCheck_5();
+		__this->set_mFramesSinceLastJavaOrientationCheck_5(((int32_t)((int32_t)L_10+(int32_t)1)));
+	}
+
+IL_0063:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.BackgroundPlaneBehaviour::.ctor()
+extern "C"  void BackgroundPlaneBehaviour__ctor_m2808006244 (BackgroundPlaneBehaviour_t2431285219 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BackgroundPlaneBehaviour__ctor_m2808006244_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BackgroundPlaneAbstractBehaviour_t3732945727_il2cpp_TypeInfo_var);
+		BackgroundPlaneAbstractBehaviour__ctor_m1193949827(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.CloudRecoBehaviour::.ctor()
+extern "C"  void CloudRecoBehaviour__ctor_m2555627024 (CloudRecoBehaviour_t3077176941 * __this, const MethodInfo* method)
+{
+	{
+		CloudRecoAbstractBehaviour__ctor_m3604390285(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ComponentFactoryStarterBehaviour::.ctor()
+extern "C"  void ComponentFactoryStarterBehaviour__ctor_m1215525256 (ComponentFactoryStarterBehaviour_t3249343815 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ComponentFactoryStarterBehaviour::Awake()
+extern "C"  void ComponentFactoryStarterBehaviour_Awake_m583572645 (ComponentFactoryStarterBehaviour_t3249343815 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ComponentFactoryStarterBehaviour_Awake_m583572645_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t2699667469 * V_0 = NULL;
+	MethodInfo_t * V_1 = NULL;
+	Enumerator_t2234397143  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Attribute_t542643598 * V_3 = NULL;
+	ObjectU5BU5D_t3614634134* V_4 = NULL;
+	int32_t V_5 = 0;
+	Action_t3226471752 * V_6 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Type_t * L_0 = Object_GetType_m191970594(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		MethodInfoU5BU5D_t152480188* L_1 = VirtFuncInvoker1< MethodInfoU5BU5D_t152480188*, int32_t >::Invoke(54 /* System.Reflection.MethodInfo[] System.Type::GetMethods(System.Reflection.BindingFlags) */, L_0, ((int32_t)38));
+		List_1_t2699667469 * L_2 = Enumerable_ToList_TisMethodInfo_t_m2736443864(NULL /*static, unused*/, (Il2CppObject*)(Il2CppObject*)L_1, /*hidden argument*/Enumerable_ToList_TisMethodInfo_t_m2736443864_MethodInfo_var);
+		V_0 = L_2;
+		List_1_t2699667469 * L_3 = V_0;
+		Type_t * L_4 = Object_GetType_m191970594(__this, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		MethodInfoU5BU5D_t152480188* L_5 = VirtFuncInvoker1< MethodInfoU5BU5D_t152480188*, int32_t >::Invoke(54 /* System.Reflection.MethodInfo[] System.Type::GetMethods(System.Reflection.BindingFlags) */, L_4, ((int32_t)22));
+		NullCheck(L_3);
+		List_1_AddRange_m1093450066(L_3, (Il2CppObject*)(Il2CppObject*)L_5, /*hidden argument*/List_1_AddRange_m1093450066_MethodInfo_var);
+		List_1_t2699667469 * L_6 = V_0;
+		NullCheck(L_6);
+		Enumerator_t2234397143  L_7 = List_1_GetEnumerator_m2150560895(L_6, /*hidden argument*/List_1_GetEnumerator_m2150560895_MethodInfo_var);
+		V_2 = L_7;
+	}
+
+IL_002d:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0098;
+		}
+
+IL_0032:
+		{
+			MethodInfo_t * L_8 = Enumerator_get_Current_m1945415651((&V_2), /*hidden argument*/Enumerator_get_Current_m1945415651_MethodInfo_var);
+			V_1 = L_8;
+			MethodInfo_t * L_9 = V_1;
+			NullCheck(L_9);
+			ObjectU5BU5D_t3614634134* L_10 = VirtFuncInvoker1< ObjectU5BU5D_t3614634134*, bool >::Invoke(12 /* System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Boolean) */, L_9, (bool)1);
+			V_4 = L_10;
+			V_5 = 0;
+			goto IL_008d;
+		}
+
+IL_004b:
+		{
+			ObjectU5BU5D_t3614634134* L_11 = V_4;
+			int32_t L_12 = V_5;
+			NullCheck(L_11);
+			int32_t L_13 = L_12;
+			Il2CppObject * L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+			V_3 = ((Attribute_t542643598 *)CastclassClass(L_14, Attribute_t542643598_il2cpp_TypeInfo_var));
+			Attribute_t542643598 * L_15 = V_3;
+			if (!((FactorySetter_t648583075 *)IsInstClass(L_15, FactorySetter_t648583075_il2cpp_TypeInfo_var)))
+			{
+				goto IL_0087;
+			}
+		}
+
+IL_0061:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+			Type_t * L_16 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Action_t3226471752_0_0_0_var), /*hidden argument*/NULL);
+			MethodInfo_t * L_17 = V_1;
+			Delegate_t3022476291 * L_18 = Delegate_CreateDelegate_m2101460062(NULL /*static, unused*/, L_16, __this, L_17, /*hidden argument*/NULL);
+			V_6 = ((Action_t3226471752 *)IsInstSealed(L_18, Action_t3226471752_il2cpp_TypeInfo_var));
+			Action_t3226471752 * L_19 = V_6;
+			if (!L_19)
+			{
+				goto IL_0087;
+			}
+		}
+
+IL_0080:
+		{
+			Action_t3226471752 * L_20 = V_6;
+			NullCheck(L_20);
+			Action_Invoke_m3801112262(L_20, /*hidden argument*/NULL);
+		}
+
+IL_0087:
+		{
+			int32_t L_21 = V_5;
+			V_5 = ((int32_t)((int32_t)L_21+(int32_t)1));
+		}
+
+IL_008d:
+		{
+			int32_t L_22 = V_5;
+			ObjectU5BU5D_t3614634134* L_23 = V_4;
+			NullCheck(L_23);
+			if ((((int32_t)L_22) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_23)->max_length)))))))
+			{
+				goto IL_004b;
+			}
+		}
+
+IL_0098:
+		{
+			bool L_24 = Enumerator_MoveNext_m2294671071((&V_2), /*hidden argument*/Enumerator_MoveNext_m2294671071_MethodInfo_var);
+			if (L_24)
+			{
+				goto IL_0032;
+			}
+		}
+
+IL_00a4:
+		{
+			IL2CPP_LEAVE(0xB7, FINALLY_00a9);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00a9;
+	}
+
+FINALLY_00a9:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m186564181((&V_2), /*hidden argument*/Enumerator_Dispose_m186564181_MethodInfo_var);
+		IL2CPP_END_FINALLY(169)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(169)
+	{
+		IL2CPP_JUMP_TBL(0xB7, IL_00b7)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00b7:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.ComponentFactoryStarterBehaviour::SetBehaviourComponentFactory()
+extern "C"  void ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m3496159002 (ComponentFactoryStarterBehaviour_t3249343815 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m3496159002_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral1055265386, /*hidden argument*/NULL);
+		VuforiaBehaviourComponentFactory_t1383853028 * L_0 = (VuforiaBehaviourComponentFactory_t1383853028 *)il2cpp_codegen_object_new(VuforiaBehaviourComponentFactory_t1383853028_il2cpp_TypeInfo_var);
+		VuforiaBehaviourComponentFactory__ctor_m4023364043(L_0, /*hidden argument*/NULL);
+		BehaviourComponentFactory_set_Instance_m3406469245(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.CylinderTargetBehaviour::.ctor()
+extern "C"  void CylinderTargetBehaviour__ctor_m2197210535 (CylinderTargetBehaviour_t2091399712 * __this, const MethodInfo* method)
+{
+	{
+		CylinderTargetAbstractBehaviour__ctor_m3025238902(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::.ctor()
+extern "C"  void DefaultInitializationErrorHandler__ctor_m2781804906 (DefaultInitializationErrorHandler_t965510117 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler__ctor_m2781804906_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		__this->set_mErrorText_2(L_0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::Awake()
+extern "C"  void DefaultInitializationErrorHandler_Awake_m2567656739 (DefaultInitializationErrorHandler_t965510117 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_Awake_m2567656739_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var);
+		VuforiaRuntime_t2075282796 * L_0 = VuforiaRuntime_get_Instance_m4069915631(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)DefaultInitializationErrorHandler_OnVuforiaInitializationError_m1319028211_MethodInfo_var);
+		Action_1_t1951195598 * L_2 = (Action_1_t1951195598 *)il2cpp_codegen_object_new(Action_1_t1951195598_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3262798437(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3262798437_MethodInfo_var);
+		NullCheck(L_0);
+		VuforiaRuntime_RegisterVuforiaInitErrorCallback_m1800574616(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::OnGUI()
+extern "C"  void DefaultInitializationErrorHandler_OnGUI_m2796165714 (DefaultInitializationErrorHandler_t965510117 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_OnGUI_m2796165714_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_mErrorOccurred_3();
+		if (!L_0)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		int32_t L_1 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Rect__ctor_m1220545469(&L_3, (0.0f), (0.0f), (((float)((float)L_1))), (((float)((float)L_2))), /*hidden argument*/NULL);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)DefaultInitializationErrorHandler_DrawWindowContent_m1741663736_MethodInfo_var);
+		WindowFunction_t3486805455 * L_5 = (WindowFunction_t3486805455 *)il2cpp_codegen_object_new(WindowFunction_t3486805455_il2cpp_TypeInfo_var);
+		WindowFunction__ctor_m977095815(L_5, __this, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Window_m2988139263(NULL /*static, unused*/, 0, L_3, L_5, _stringLiteral3233100706, /*hidden argument*/NULL);
+	}
+
+IL_003e:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::OnDestroy()
+extern "C"  void DefaultInitializationErrorHandler_OnDestroy_m3502240837 (DefaultInitializationErrorHandler_t965510117 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_OnDestroy_m3502240837_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var);
+		VuforiaRuntime_t2075282796 * L_0 = VuforiaRuntime_get_Instance_m4069915631(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)DefaultInitializationErrorHandler_OnVuforiaInitializationError_m1319028211_MethodInfo_var);
+		Action_1_t1951195598 * L_2 = (Action_1_t1951195598 *)il2cpp_codegen_object_new(Action_1_t1951195598_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3262798437(L_2, __this, L_1, /*hidden argument*/Action_1__ctor_m3262798437_MethodInfo_var);
+		NullCheck(L_0);
+		VuforiaRuntime_UnregisterVuforiaInitErrorCallback_m2870938817(L_0, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::DrawWindowContent(System.Int32)
+extern "C"  void DefaultInitializationErrorHandler_DrawWindowContent_m1741663736 (DefaultInitializationErrorHandler_t965510117 * __this, int32_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_DrawWindowContent_m1741663736_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		Rect__ctor_m1220545469(&L_2, (10.0f), (25.0f), (((float)((float)((int32_t)((int32_t)L_0-(int32_t)((int32_t)20)))))), (((float)((float)((int32_t)((int32_t)L_1-(int32_t)((int32_t)95)))))), /*hidden argument*/NULL);
+		String_t* L_3 = __this->get_mErrorText_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		Rect__ctor_m1220545469(&L_6, (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_4/(int32_t)2))-(int32_t)((int32_t)75)))))), (((float)((float)((int32_t)((int32_t)L_5-(int32_t)((int32_t)60)))))), (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_7 = GUI_Button_m3054448581(NULL /*static, unused*/, L_6, _stringLiteral3033402446, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		Application_Quit_m3885595876(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0063:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::SetErrorCode(Vuforia.VuforiaUnity/InitError)
+extern "C"  void DefaultInitializationErrorHandler_SetErrorCode_m617037449 (DefaultInitializationErrorHandler_t965510117 * __this, int32_t ___errorCode0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultInitializationErrorHandler_SetErrorCode_m617037449_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get_mErrorText_2();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral649327173, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = ___errorCode0;
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 0)
+		{
+			goto IL_004b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 1)
+		{
+			goto IL_00ab;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 2)
+		{
+			goto IL_009b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 3)
+		{
+			goto IL_007b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 4)
+		{
+			goto IL_008b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 5)
+		{
+			goto IL_006b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 6)
+		{
+			goto IL_005b;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 7)
+		{
+			goto IL_00bb;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 8)
+		{
+			goto IL_00cb;
+		}
+		if (((int32_t)((int32_t)L_2+(int32_t)((int32_t)10))) == 9)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		goto IL_00eb;
+	}
+
+IL_004b:
+	{
+		__this->set_mErrorText_2(_stringLiteral819182375);
+		goto IL_00eb;
+	}
+
+IL_005b:
+	{
+		__this->set_mErrorText_2(_stringLiteral2499172356);
+		goto IL_00eb;
+	}
+
+IL_006b:
+	{
+		__this->set_mErrorText_2(_stringLiteral2968979042);
+		goto IL_00eb;
+	}
+
+IL_007b:
+	{
+		__this->set_mErrorText_2(_stringLiteral3603496816);
+		goto IL_00eb;
+	}
+
+IL_008b:
+	{
+		__this->set_mErrorText_2(_stringLiteral3442848064);
+		goto IL_00eb;
+	}
+
+IL_009b:
+	{
+		__this->set_mErrorText_2(_stringLiteral1812102461);
+		goto IL_00eb;
+	}
+
+IL_00ab:
+	{
+		__this->set_mErrorText_2(_stringLiteral2487108583);
+		goto IL_00eb;
+	}
+
+IL_00bb:
+	{
+		__this->set_mErrorText_2(_stringLiteral2986049441);
+		goto IL_00eb;
+	}
+
+IL_00cb:
+	{
+		__this->set_mErrorText_2(_stringLiteral557470275);
+		goto IL_00eb;
+	}
+
+IL_00db:
+	{
+		__this->set_mErrorText_2(_stringLiteral2104855582);
+		goto IL_00eb;
+	}
+
+IL_00eb:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::SetErrorOccurred(System.Boolean)
+extern "C"  void DefaultInitializationErrorHandler_SetErrorOccurred_m3043577076 (DefaultInitializationErrorHandler_t965510117 * __this, bool ___errorOccurred0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___errorOccurred0;
+		__this->set_mErrorOccurred_3(L_0);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultInitializationErrorHandler::OnVuforiaInitializationError(Vuforia.VuforiaUnity/InitError)
+extern "C"  void DefaultInitializationErrorHandler_OnVuforiaInitializationError_m1319028211 (DefaultInitializationErrorHandler_t965510117 * __this, int32_t ___initError0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___initError0;
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		int32_t L_1 = ___initError0;
+		DefaultInitializationErrorHandler_SetErrorCode_m617037449(__this, L_1, /*hidden argument*/NULL);
+		DefaultInitializationErrorHandler_SetErrorOccurred_m3043577076(__this, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0014:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::.ctor()
+extern "C"  void DefaultSmartTerrainEventHandler__ctor_m2500188526 (DefaultSmartTerrainEventHandler_t870608571 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::Start()
+extern "C"  void DefaultSmartTerrainEventHandler_Start_m2088335438 (DefaultSmartTerrainEventHandler_t870608571 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultSmartTerrainEventHandler_Start_m2088335438_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_0 = Component_GetComponent_TisReconstructionBehaviour_t4009935945_m3509900328(__this, /*hidden argument*/Component_GetComponent_TisReconstructionBehaviour_t4009935945_m3509900328_MethodInfo_var);
+		__this->set_mReconstructionBehaviour_2(L_0);
+		ReconstructionBehaviour_t4009935945 * L_1 = __this->get_mReconstructionBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_3 = __this->get_mReconstructionBehaviour_2();
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MethodInfo_var);
+		Action_1_t245871341 * L_5 = (Action_1_t245871341 *)il2cpp_codegen_object_new(Action_1_t245871341_il2cpp_TypeInfo_var);
+		Action_1__ctor_m206058748(L_5, __this, L_4, /*hidden argument*/Action_1__ctor_m206058748_MethodInfo_var);
+		NullCheck(L_3);
+		ReconstructionAbstractBehaviour_RegisterPropCreatedCallback_m4192941617(L_3, L_5, /*hidden argument*/NULL);
+		ReconstructionBehaviour_t4009935945 * L_6 = __this->get_mReconstructionBehaviour_2();
+		IntPtr_t L_7;
+		L_7.set_m_value_0((void*)(void*)DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MethodInfo_var);
+		Action_1_t2023440477 * L_8 = (Action_1_t2023440477 *)il2cpp_codegen_object_new(Action_1_t2023440477_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1475023678(L_8, __this, L_7, /*hidden argument*/Action_1__ctor_m1475023678_MethodInfo_var);
+		NullCheck(L_6);
+		ReconstructionAbstractBehaviour_RegisterSurfaceCreatedCallback_m3624331525(L_6, L_8, /*hidden argument*/NULL);
+	}
+
+IL_004a:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::OnDestroy()
+extern "C"  void DefaultSmartTerrainEventHandler_OnDestroy_m904284311 (DefaultSmartTerrainEventHandler_t870608571 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultSmartTerrainEventHandler_OnDestroy_m904284311_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_0 = __this->get_mReconstructionBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_2 = __this->get_mReconstructionBehaviour_2();
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MethodInfo_var);
+		Action_1_t245871341 * L_4 = (Action_1_t245871341 *)il2cpp_codegen_object_new(Action_1_t245871341_il2cpp_TypeInfo_var);
+		Action_1__ctor_m206058748(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m206058748_MethodInfo_var);
+		NullCheck(L_2);
+		ReconstructionAbstractBehaviour_UnregisterPropCreatedCallback_m2048741868(L_2, L_4, /*hidden argument*/NULL);
+		ReconstructionBehaviour_t4009935945 * L_5 = __this->get_mReconstructionBehaviour_2();
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)(void*)DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MethodInfo_var);
+		Action_1_t2023440477 * L_7 = (Action_1_t2023440477 *)il2cpp_codegen_object_new(Action_1_t2023440477_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1475023678(L_7, __this, L_6, /*hidden argument*/Action_1__ctor_m1475023678_MethodInfo_var);
+		NullCheck(L_5);
+		ReconstructionAbstractBehaviour_UnregisterSurfaceCreatedCallback_m1039740100(L_5, L_7, /*hidden argument*/NULL);
+	}
+
+IL_003e:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::OnPropCreated(Vuforia.Prop)
+extern "C"  void DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839 (DefaultSmartTerrainEventHandler_t870608571 * __this, Il2CppObject * ___prop0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultSmartTerrainEventHandler_OnPropCreated_m2699063839_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_0 = __this->get_mReconstructionBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_2 = __this->get_mReconstructionBehaviour_2();
+		PropBehaviour_t966064926 * L_3 = __this->get_PropTemplate_3();
+		Il2CppObject * L_4 = ___prop0;
+		NullCheck(L_2);
+		ReconstructionAbstractBehaviour_AssociateProp_m920258964(L_2, L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0023:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultSmartTerrainEventHandler::OnSurfaceCreated(Vuforia.Surface)
+extern "C"  void DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307 (DefaultSmartTerrainEventHandler_t870608571 * __this, Il2CppObject * ___surface0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultSmartTerrainEventHandler_OnSurfaceCreated_m3013324307_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_0 = __this->get_mReconstructionBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		ReconstructionBehaviour_t4009935945 * L_2 = __this->get_mReconstructionBehaviour_2();
+		SurfaceBehaviour_t2405314212 * L_3 = __this->get_SurfaceTemplate_4();
+		Il2CppObject * L_4 = ___surface0;
+		NullCheck(L_2);
+		ReconstructionAbstractBehaviour_AssociateSurface_m4192971254(L_2, L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0023:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::.ctor()
+extern "C"  void DefaultTrackableEventHandler__ctor_m205667975 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::Start()
+extern "C"  void DefaultTrackableEventHandler_Start_m93544099 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultTrackableEventHandler_Start_m93544099_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_0 = Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957(__this, /*hidden argument*/Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957_MethodInfo_var);
+		__this->set_mTrackableBehaviour_2(L_0);
+		TrackableBehaviour_t1779888572 * L_1 = __this->get_mTrackableBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_3 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_3);
+		TrackableBehaviour_RegisterTrackableEventHandler_m1156666476(L_3, __this, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::OnTrackableStateChanged(Vuforia.TrackableBehaviour/Status,Vuforia.TrackableBehaviour/Status)
+extern "C"  void DefaultTrackableEventHandler_OnTrackableStateChanged_m2460643418 (DefaultTrackableEventHandler_t1082256726 * __this, int32_t ___previousStatus0, int32_t ___newStatus1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___newStatus1;
+		if ((((int32_t)L_0) == ((int32_t)2)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_1 = ___newStatus1;
+		if ((((int32_t)L_1) == ((int32_t)3)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_2 = ___newStatus1;
+		if ((!(((uint32_t)L_2) == ((uint32_t)4))))
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0015:
+	{
+		DefaultTrackableEventHandler_OnTrackingFound_m1963976755(__this, /*hidden argument*/NULL);
+		goto IL_0026;
+	}
+
+IL_0020:
+	{
+		DefaultTrackableEventHandler_OnTrackingLost_m3813626281(__this, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::OnTrackingFound()
+extern "C"  void DefaultTrackableEventHandler_OnTrackingFound_m1963976755 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultTrackableEventHandler_OnTrackingFound_m1963976755_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RendererU5BU5D_t2810717544* V_0 = NULL;
+	ColliderU5BU5D_t462843629* V_1 = NULL;
+	Renderer_t257310565 * V_2 = NULL;
+	RendererU5BU5D_t2810717544* V_3 = NULL;
+	int32_t V_4 = 0;
+	Collider_t3497673348 * V_5 = NULL;
+	ColliderU5BU5D_t462843629* V_6 = NULL;
+	int32_t V_7 = 0;
+	{
+		RendererU5BU5D_t2810717544* L_0 = Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var);
+		V_0 = L_0;
+		ColliderU5BU5D_t462843629* L_1 = Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var);
+		V_1 = L_1;
+		RendererU5BU5D_t2810717544* L_2 = V_0;
+		V_3 = L_2;
+		V_4 = 0;
+		goto IL_002c;
+	}
+
+IL_001a:
+	{
+		RendererU5BU5D_t2810717544* L_3 = V_3;
+		int32_t L_4 = V_4;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Renderer_t257310565 * L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_2 = L_6;
+		Renderer_t257310565 * L_7 = V_2;
+		NullCheck(L_7);
+		Renderer_set_enabled_m142717579(L_7, (bool)1, /*hidden argument*/NULL);
+		int32_t L_8 = V_4;
+		V_4 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_002c:
+	{
+		int32_t L_9 = V_4;
+		RendererU5BU5D_t2810717544* L_10 = V_3;
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		ColliderU5BU5D_t462843629* L_11 = V_1;
+		V_6 = L_11;
+		V_7 = 0;
+		goto IL_0056;
+	}
+
+IL_0041:
+	{
+		ColliderU5BU5D_t462843629* L_12 = V_6;
+		int32_t L_13 = V_7;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		Collider_t3497673348 * L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		V_5 = L_15;
+		Collider_t3497673348 * L_16 = V_5;
+		NullCheck(L_16);
+		Collider_set_enabled_m3489100454(L_16, (bool)1, /*hidden argument*/NULL);
+		int32_t L_17 = V_7;
+		V_7 = ((int32_t)((int32_t)L_17+(int32_t)1));
+	}
+
+IL_0056:
+	{
+		int32_t L_18 = V_7;
+		ColliderU5BU5D_t462843629* L_19 = V_6;
+		NullCheck(L_19);
+		if ((((int32_t)L_18) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length)))))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_20 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_20);
+		String_t* L_21 = TrackableBehaviour_get_TrackableName_m3173853042(L_20, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1040926105, L_21, _stringLiteral759218142, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.DefaultTrackableEventHandler::OnTrackingLost()
+extern "C"  void DefaultTrackableEventHandler_OnTrackingLost_m3813626281 (DefaultTrackableEventHandler_t1082256726 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DefaultTrackableEventHandler_OnTrackingLost_m3813626281_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RendererU5BU5D_t2810717544* V_0 = NULL;
+	ColliderU5BU5D_t462843629* V_1 = NULL;
+	Renderer_t257310565 * V_2 = NULL;
+	RendererU5BU5D_t2810717544* V_3 = NULL;
+	int32_t V_4 = 0;
+	Collider_t3497673348 * V_5 = NULL;
+	ColliderU5BU5D_t462843629* V_6 = NULL;
+	int32_t V_7 = 0;
+	{
+		RendererU5BU5D_t2810717544* L_0 = Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var);
+		V_0 = L_0;
+		ColliderU5BU5D_t462843629* L_1 = Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var);
+		V_1 = L_1;
+		RendererU5BU5D_t2810717544* L_2 = V_0;
+		V_3 = L_2;
+		V_4 = 0;
+		goto IL_002c;
+	}
+
+IL_001a:
+	{
+		RendererU5BU5D_t2810717544* L_3 = V_3;
+		int32_t L_4 = V_4;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Renderer_t257310565 * L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_2 = L_6;
+		Renderer_t257310565 * L_7 = V_2;
+		NullCheck(L_7);
+		Renderer_set_enabled_m142717579(L_7, (bool)0, /*hidden argument*/NULL);
+		int32_t L_8 = V_4;
+		V_4 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_002c:
+	{
+		int32_t L_9 = V_4;
+		RendererU5BU5D_t2810717544* L_10 = V_3;
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		ColliderU5BU5D_t462843629* L_11 = V_1;
+		V_6 = L_11;
+		V_7 = 0;
+		goto IL_0056;
+	}
+
+IL_0041:
+	{
+		ColliderU5BU5D_t462843629* L_12 = V_6;
+		int32_t L_13 = V_7;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		Collider_t3497673348 * L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		V_5 = L_15;
+		Collider_t3497673348 * L_16 = V_5;
+		NullCheck(L_16);
+		Collider_set_enabled_m3489100454(L_16, (bool)0, /*hidden argument*/NULL);
+		int32_t L_17 = V_7;
+		V_7 = ((int32_t)((int32_t)L_17+(int32_t)1));
+	}
+
+IL_0056:
+	{
+		int32_t L_18 = V_7;
+		ColliderU5BU5D_t462843629* L_19 = V_6;
+		NullCheck(L_19);
+		if ((((int32_t)L_18) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length)))))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_20 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_20);
+		String_t* L_21 = TrackableBehaviour_get_TrackableName_m3173853042(L_20, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1040926105, L_21, _stringLiteral3033297088, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::.ctor()
+extern "C"  void GLErrorHandler__ctor_m2689292648 (GLErrorHandler_t3809113141 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::SetError(System.String)
+extern "C"  void GLErrorHandler_SetError_m381241178 (Il2CppObject * __this /* static, unused */, String_t* ___errorText0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GLErrorHandler_SetError_m381241178_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___errorText0;
+		IL2CPP_RUNTIME_CLASS_INIT(GLErrorHandler_t3809113141_il2cpp_TypeInfo_var);
+		((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->set_mErrorText_2(L_0);
+		((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->set_mErrorOccurred_3((bool)1);
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::OnGUI()
+extern "C"  void GLErrorHandler_OnGUI_m3766403336 (GLErrorHandler_t3809113141 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GLErrorHandler_OnGUI_m3766403336_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GLErrorHandler_t3809113141_il2cpp_TypeInfo_var);
+		bool L_0 = ((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->get_mErrorOccurred_3();
+		if (!L_0)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_1 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Rect__ctor_m1220545469(&L_3, (0.0f), (0.0f), (((float)((float)L_1))), (((float)((float)L_2))), /*hidden argument*/NULL);
+		IntPtr_t L_4;
+		L_4.set_m_value_0((void*)(void*)GLErrorHandler_DrawWindowContent_m161374698_MethodInfo_var);
+		WindowFunction_t3486805455 * L_5 = (WindowFunction_t3486805455 *)il2cpp_codegen_object_new(WindowFunction_t3486805455_il2cpp_TypeInfo_var);
+		WindowFunction__ctor_m977095815(L_5, __this, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Window_m2988139263(NULL /*static, unused*/, 0, L_3, L_5, _stringLiteral2015436302, /*hidden argument*/NULL);
+	}
+
+IL_003d:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::DrawWindowContent(System.Int32)
+extern "C"  void GLErrorHandler_DrawWindowContent_m161374698 (GLErrorHandler_t3809113141 * __this, int32_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GLErrorHandler_DrawWindowContent_m161374698_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_2;
+		memset(&L_2, 0, sizeof(L_2));
+		Rect__ctor_m1220545469(&L_2, (10.0f), (25.0f), (((float)((float)((int32_t)((int32_t)L_0-(int32_t)((int32_t)20)))))), (((float)((float)((int32_t)((int32_t)L_1-(int32_t)((int32_t)95)))))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GLErrorHandler_t3809113141_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->get_mErrorText_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUI_Label_m2412846501(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		Rect__ctor_m1220545469(&L_6, (((float)((float)((int32_t)((int32_t)((int32_t)((int32_t)L_4/(int32_t)2))-(int32_t)((int32_t)75)))))), (((float)((float)((int32_t)((int32_t)L_5-(int32_t)((int32_t)60)))))), (150.0f), (50.0f), /*hidden argument*/NULL);
+		bool L_7 = GUI_Button_m3054448581(NULL /*static, unused*/, L_6, _stringLiteral3033402446, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		Application_Quit_m3885595876(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.GLErrorHandler::.cctor()
+extern "C"  void GLErrorHandler__cctor_m454494933 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GLErrorHandler__cctor_m454494933_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		((GLErrorHandler_t3809113141_StaticFields*)GLErrorHandler_t3809113141_il2cpp_TypeInfo_var->static_fields)->set_mErrorText_2(L_0);
+		return;
+	}
+}
+// System.Void Vuforia.HideExcessAreaBehaviour::.ctor()
+extern "C"  void HideExcessAreaBehaviour__ctor_m1434979708 (HideExcessAreaBehaviour_t3495034315 * __this, const MethodInfo* method)
+{
+	{
+		HideExcessAreaAbstractBehaviour__ctor_m283987487(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ImageTargetBehaviour::.ctor()
+extern "C"  void ImageTargetBehaviour__ctor_m2964661606 (ImageTargetBehaviour_t2654589389 * __this, const MethodInfo* method)
+{
+	{
+		ImageTargetAbstractBehaviour__ctor_m3584284597(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::.ctor()
+extern "C"  void IOSUnityPlayer__ctor_m676692974 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::LoadNativeLibraries()
+extern "C"  void IOSUnityPlayer_LoadNativeLibraries_m1172109064 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_LoadNativeLibraries_m1172109064_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		VuforiaNativeIosWrapper_t1210651633 * L_0 = (VuforiaNativeIosWrapper_t1210651633 *)il2cpp_codegen_object_new(VuforiaNativeIosWrapper_t1210651633_il2cpp_TypeInfo_var);
+		VuforiaNativeIosWrapper__ctor_m1946048060(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaWrapper_t3750170617_il2cpp_TypeInfo_var);
+		VuforiaWrapper_SetImplementation_m1019610825(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::InitializePlatform()
+extern "C"  void IOSUnityPlayer_InitializePlatform_m286541247 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	{
+		IOSUnityPlayer_setPlatFormNative_m2804175766(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.VuforiaUnity/InitError Vuforia.IOSUnityPlayer::InitializeVuforia(System.String)
+extern "C"  int32_t IOSUnityPlayer_InitializeVuforia_m260052685 (IOSUnityPlayer_t3656371703 * __this, String_t* ___licenseKey0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_InitializeVuforia_m260052685_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRenderer_t2933102835_il2cpp_TypeInfo_var);
+		VuforiaRenderer_t2933102835 * L_0 = VuforiaRenderer_get_Instance_m1621768183(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(15 /* Vuforia.VuforiaRenderer/RendererAPI Vuforia.VuforiaRenderer::GetRendererAPI() */, L_0);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		int32_t L_3 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_4 = ___licenseKey0;
+		int32_t L_5 = IOSUnityPlayer_initQCARiOS_m4109121394(NULL /*static, unused*/, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		int32_t L_6 = V_1;
+		if ((((int32_t)L_6) < ((int32_t)0)))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		IOSUnityPlayer_InitializeSurface_m4219932605(__this, /*hidden argument*/NULL);
+	}
+
+IL_0025:
+	{
+		int32_t L_7 = V_1;
+		return (int32_t)(L_7);
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::StartScene()
+extern "C"  void IOSUnityPlayer_StartScene_m2357985464 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::Update()
+extern "C"  void IOSUnityPlayer_Update_m3611099589 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_Update_m3611099589_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		bool L_0 = SurfaceUtilities_HasSurfaceBeenRecreated_m2740261893(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		IOSUnityPlayer_InitializeSurface_m4219932605(__this, /*hidden argument*/NULL);
+		goto IL_002b;
+	}
+
+IL_0015:
+	{
+		int32_t L_1 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_mScreenOrientation_0();
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		IOSUnityPlayer_SetUnityScreenOrientation_m3793088327(__this, /*hidden argument*/NULL);
+	}
+
+IL_002b:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::Dispose()
+extern "C"  void IOSUnityPlayer_Dispose_m444239215 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::OnPause()
+extern "C"  void IOSUnityPlayer_OnPause_m2518700507 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_OnPause_m2518700507_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnPause_m2422224752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::OnResume()
+extern "C"  void IOSUnityPlayer_OnResume_m921094382 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_OnResume_m921094382_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnResume_m2186520633(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::OnDestroy()
+extern "C"  void IOSUnityPlayer_OnDestroy_m3703758411 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_OnDestroy_m3703758411_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_Deinit_m4072609744(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::InitializeSurface()
+extern "C"  void IOSUnityPlayer_InitializeSurface_m4219932605 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_InitializeSurface_m4219932605_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_OnSurfaceCreated_m3675640541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IOSUnityPlayer_SetUnityScreenOrientation_m3793088327(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.IOSUnityPlayer::SetUnityScreenOrientation()
+extern "C"  void IOSUnityPlayer_SetUnityScreenOrientation_m3793088327 (IOSUnityPlayer_t3656371703 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IOSUnityPlayer_SetUnityScreenOrientation_m3793088327_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_mScreenOrientation_0(L_0);
+		int32_t L_1 = __this->get_mScreenOrientation_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_SetSurfaceOrientation_m3106547277(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_mScreenOrientation_0();
+		IOSUnityPlayer_setSurfaceOrientationiOS_m3165018273(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL setPlatFormNative();
+// System.Void Vuforia.IOSUnityPlayer::setPlatFormNative()
+extern "C"  void IOSUnityPlayer_setPlatFormNative_m2804175766 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(setPlatFormNative)();
+
+}
+extern "C" int32_t DEFAULT_CALL initQCARiOS(int32_t, int32_t, char*);
+// System.Int32 Vuforia.IOSUnityPlayer::initQCARiOS(System.Int32,System.Int32,System.String)
+extern "C"  int32_t IOSUnityPlayer_initQCARiOS_m4109121394 (Il2CppObject * __this /* static, unused */, int32_t ___rendererAPI0, int32_t ___screenOrientation1, String_t* ___licenseKey2, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, char*);
+
+	// Marshaling of parameter '___licenseKey2' to native representation
+	char* ____licenseKey2_marshaled = NULL;
+	____licenseKey2_marshaled = il2cpp_codegen_marshal_string(___licenseKey2);
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(initQCARiOS)(___rendererAPI0, ___screenOrientation1, ____licenseKey2_marshaled);
+
+	// Marshaling cleanup of parameter '___licenseKey2' native representation
+	il2cpp_codegen_marshal_free(____licenseKey2_marshaled);
+	____licenseKey2_marshaled = NULL;
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL setSurfaceOrientationiOS(int32_t);
+// System.Void Vuforia.IOSUnityPlayer::setSurfaceOrientationiOS(System.Int32)
+extern "C"  void IOSUnityPlayer_setSurfaceOrientationiOS_m3165018273 (Il2CppObject * __this /* static, unused */, int32_t ___screenOrientation0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(setSurfaceOrientationiOS)(___screenOrientation0);
+
+}
+// System.Void Vuforia.MaskOutBehaviour::.ctor()
+extern "C"  void MaskOutBehaviour__ctor_m3872076058 (MaskOutBehaviour_t2994129365 * __this, const MethodInfo* method)
+{
+	{
+		MaskOutAbstractBehaviour__ctor_m3743365693(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.MaskOutBehaviour::Start()
+extern "C"  void MaskOutBehaviour_Start_m3914251470 (MaskOutBehaviour_t2994129365 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MaskOutBehaviour_Start_m3914251470_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Renderer_t257310565 * V_0 = NULL;
+	int32_t V_1 = 0;
+	MaterialU5BU5D_t3123989686* V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_0 = VuforiaRuntimeUtilities_IsVuforiaEnabled_m1774515559(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		Renderer_t257310565 * L_1 = Component_GetComponent_TisRenderer_t257310565_m2803939486(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t257310565_m2803939486_MethodInfo_var);
+		V_0 = L_1;
+		Renderer_t257310565 * L_2 = V_0;
+		NullCheck(L_2);
+		MaterialU5BU5D_t3123989686* L_3 = Renderer_get_materials_m810004692(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		V_1 = (((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length))));
+		int32_t L_4 = V_1;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Renderer_t257310565 * L_5 = V_0;
+		Material_t193706927 * L_6 = ((MaskOutAbstractBehaviour_t3489038957 *)__this)->get_maskMaterial_2();
+		NullCheck(L_5);
+		Renderer_set_sharedMaterial_m391095487(L_5, L_6, /*hidden argument*/NULL);
+		goto IL_005b;
+	}
+
+IL_0032:
+	{
+		int32_t L_7 = V_1;
+		V_2 = ((MaterialU5BU5D_t3123989686*)SZArrayNew(MaterialU5BU5D_t3123989686_il2cpp_TypeInfo_var, (uint32_t)L_7));
+		V_3 = 0;
+		goto IL_004d;
+	}
+
+IL_0040:
+	{
+		MaterialU5BU5D_t3123989686* L_8 = V_2;
+		int32_t L_9 = V_3;
+		Material_t193706927 * L_10 = ((MaskOutAbstractBehaviour_t3489038957 *)__this)->get_maskMaterial_2();
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_10);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_9), (Material_t193706927 *)L_10);
+		int32_t L_11 = V_3;
+		V_3 = ((int32_t)((int32_t)L_11+(int32_t)1));
+	}
+
+IL_004d:
+	{
+		int32_t L_12 = V_3;
+		int32_t L_13 = V_1;
+		if ((((int32_t)L_12) < ((int32_t)L_13)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		Renderer_t257310565 * L_14 = V_0;
+		MaterialU5BU5D_t3123989686* L_15 = V_2;
+		NullCheck(L_14);
+		Renderer_set_sharedMaterials_m2669445156(L_14, L_15, /*hidden argument*/NULL);
+	}
+
+IL_005b:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.MultiTargetBehaviour::.ctor()
+extern "C"  void MultiTargetBehaviour__ctor_m3457059082 (MultiTargetBehaviour_t3504654311 * __this, const MethodInfo* method)
+{
+	{
+		MultiTargetAbstractBehaviour__ctor_m3602545575(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ObjectTargetBehaviour::.ctor()
+extern "C"  void ObjectTargetBehaviour__ctor_m26156260 (ObjectTargetBehaviour_t3836044259 * __this, const MethodInfo* method)
+{
+	{
+		ObjectTargetAbstractBehaviour__ctor_m4149910295(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.PropBehaviour::.ctor()
+extern "C"  void PropBehaviour__ctor_m2238867581 (PropBehaviour_t966064926 * __this, const MethodInfo* method)
+{
+	{
+		PropAbstractBehaviour__ctor_m1260771068(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ReconstructionBehaviour::.ctor()
+extern "C"  void ReconstructionBehaviour__ctor_m2616285522 (ReconstructionBehaviour_t4009935945 * __this, const MethodInfo* method)
+{
+	{
+		ReconstructionAbstractBehaviour__ctor_m2037226869(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.ReconstructionFromTargetBehaviour::.ctor()
+extern "C"  void ReconstructionFromTargetBehaviour__ctor_m2764930605 (ReconstructionFromTargetBehaviour_t2111803406 * __this, const MethodInfo* method)
+{
+	{
+		ReconstructionFromTargetAbstractBehaviour__ctor_m2704257964(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.SurfaceBehaviour::.ctor()
+extern "C"  void SurfaceBehaviour__ctor_m1448804633 (SurfaceBehaviour_t2405314212 * __this, const MethodInfo* method)
+{
+	{
+		SurfaceAbstractBehaviour__ctor_m4051989004(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.TextRecoBehaviour::.ctor()
+extern "C"  void TextRecoBehaviour__ctor_m2446679806 (TextRecoBehaviour_t3400239837 * __this, const MethodInfo* method)
+{
+	{
+		TextRecoAbstractBehaviour__ctor_m3986867921(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.TurnOffBehaviour::.ctor()
+extern "C"  void TurnOffBehaviour__ctor_m1873134682 (TurnOffBehaviour_t3058161409 * __this, const MethodInfo* method)
+{
+	{
+		TurnOffAbstractBehaviour__ctor_m1043676009(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.TurnOffBehaviour::Awake()
+extern "C"  void TurnOffBehaviour_Awake_m4285356927 (TurnOffBehaviour_t3058161409 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TurnOffBehaviour_Awake_m4285356927_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshRenderer_t1268241104 * V_0 = NULL;
+	MeshFilter_t3026937449 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_0 = VuforiaRuntimeUtilities_IsVuforiaEnabled_m1774515559(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		MeshRenderer_t1268241104 * L_1 = Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477(__this, /*hidden argument*/Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477_MethodInfo_var);
+		V_0 = L_1;
+		MeshRenderer_t1268241104 * L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		MeshFilter_t3026937449 * L_3 = Component_GetComponent_TisMeshFilter_t3026937449_m1427366350(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var);
+		V_1 = L_3;
+		MeshFilter_t3026937449 * L_4 = V_1;
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0024:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.TurnOffWordBehaviour::.ctor()
+extern "C"  void TurnOffWordBehaviour__ctor_m2227245698 (TurnOffWordBehaviour_t584991835 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.TurnOffWordBehaviour::Awake()
+extern "C"  void TurnOffWordBehaviour_Awake_m2854048885 (TurnOffWordBehaviour_t584991835 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TurnOffWordBehaviour_Awake_m2854048885_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshRenderer_t1268241104 * V_0 = NULL;
+	Transform_t3275118058 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_0 = VuforiaRuntimeUtilities_IsVuforiaEnabled_m1774515559(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		MeshRenderer_t1268241104 * L_1 = Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477(__this, /*hidden argument*/Component_GetComponent_TisMeshRenderer_t1268241104_m3385851477_MethodInfo_var);
+		V_0 = L_1;
+		MeshRenderer_t1268241104 * L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_t3275118058 * L_4 = Transform_FindChild_m2677714886(L_3, _stringLiteral3423762541, /*hidden argument*/NULL);
+		V_1 = L_4;
+		Transform_t3275118058 * L_5 = V_1;
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		Transform_t3275118058 * L_7 = V_1;
+		NullCheck(L_7);
+		GameObject_t1756533147 * L_8 = Component_get_gameObject_m3105766835(L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+	}
+
+IL_003f:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.UserDefinedTargetBuildingBehaviour::.ctor()
+extern "C"  void UserDefinedTargetBuildingBehaviour__ctor_m2304938643 (UserDefinedTargetBuildingBehaviour_t4184040062 * __this, const MethodInfo* method)
+{
+	{
+		UserDefinedTargetBuildingAbstractBehaviour__ctor_m3581213318(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VideoBackgroundBehaviour::.ctor()
+extern "C"  void VideoBackgroundBehaviour__ctor_m2133855431 (VideoBackgroundBehaviour_t3161817952 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VideoBackgroundBehaviour__ctor_m2133855431_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VideoBackgroundAbstractBehaviour_t395384314_il2cpp_TypeInfo_var);
+		VideoBackgroundAbstractBehaviour__ctor_m397100456(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VirtualButtonBehaviour::.ctor()
+extern "C"  void VirtualButtonBehaviour__ctor_m3984899111 (VirtualButtonBehaviour_t2515041812 * __this, const MethodInfo* method)
+{
+	{
+		VirtualButtonAbstractBehaviour__ctor_m855896756(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaBehaviour::.ctor()
+extern "C"  void VuforiaBehaviour__ctor_m3143982076 (VuforiaBehaviour_t359035403 * __this, const MethodInfo* method)
+{
+	{
+		VuforiaAbstractBehaviour__ctor_m3900338923(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaBehaviour::Awake()
+extern "C"  void VuforiaBehaviour_Awake_m3772880569 (VuforiaBehaviour_t359035403 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviour_Awake_m3772880569_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		VuforiaBehaviour_AddOSSpecificExternalDatasetSearchDirs_m4168849520(__this, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GameObject_AddComponent_TisComponentFactoryStarterBehaviour_t3249343815_m658142107(L_0, /*hidden argument*/GameObject_AddComponent_TisComponentFactoryStarterBehaviour_t3249343815_m658142107_MethodInfo_var);
+		VuforiaAbstractBehaviour_Awake_m232471254(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.VuforiaBehaviour Vuforia.VuforiaBehaviour::get_Instance()
+extern "C"  VuforiaBehaviour_t359035403 * VuforiaBehaviour_get_Instance_m790681192 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviour_get_Instance_m790681192_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var);
+		VuforiaBehaviour_t359035403 * L_0 = ((VuforiaBehaviour_t359035403_StaticFields*)VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var->static_fields)->get_mVuforiaBehaviour_19();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		VuforiaBehaviour_t359035403 * L_2 = Object_FindObjectOfType_TisVuforiaBehaviour_t359035403_m318208984(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisVuforiaBehaviour_t359035403_m318208984_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var);
+		((VuforiaBehaviour_t359035403_StaticFields*)VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var->static_fields)->set_mVuforiaBehaviour_19(L_2);
+	}
+
+IL_001a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var);
+		VuforiaBehaviour_t359035403 * L_3 = ((VuforiaBehaviour_t359035403_StaticFields*)VuforiaBehaviour_t359035403_il2cpp_TypeInfo_var->static_fields)->get_mVuforiaBehaviour_19();
+		return L_3;
+	}
+}
+// System.Void Vuforia.VuforiaBehaviour::AddOSSpecificExternalDatasetSearchDirs()
+extern "C"  void VuforiaBehaviour_AddOSSpecificExternalDatasetSearchDirs_m4168849520 (VuforiaBehaviour_t359035403 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaBehaviour::.cctor()
+extern "C"  void VuforiaBehaviour__cctor_m1552098219 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaBehaviourComponentFactory::.ctor()
+extern "C"  void VuforiaBehaviourComponentFactory__ctor_m4023364043 (VuforiaBehaviourComponentFactory_t1383853028 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.MaskOutAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddMaskOutBehaviour(UnityEngine.GameObject)
+extern "C"  MaskOutAbstractBehaviour_t3489038957 * VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m3602623915 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m3602623915_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		MaskOutBehaviour_t2994129365 * L_1 = GameObject_AddComponent_TisMaskOutBehaviour_t2994129365_m1425322069(L_0, /*hidden argument*/GameObject_AddComponent_TisMaskOutBehaviour_t2994129365_m1425322069_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.VirtualButtonAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddVirtualButtonBehaviour(UnityEngine.GameObject)
+extern "C"  VirtualButtonAbstractBehaviour_t2478279366 * VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m273150123 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m273150123_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		VirtualButtonBehaviour_t2515041812 * L_1 = GameObject_AddComponent_TisVirtualButtonBehaviour_t2515041812_m3118105184(L_0, /*hidden argument*/GameObject_AddComponent_TisVirtualButtonBehaviour_t2515041812_m3118105184_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.TurnOffAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddTurnOffBehaviour(UnityEngine.GameObject)
+extern "C"  TurnOffAbstractBehaviour_t4084926705 * VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m3691970091 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m3691970091_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		TurnOffBehaviour_t3058161409 * L_1 = GameObject_AddComponent_TisTurnOffBehaviour_t3058161409_m2052882313(L_0, /*hidden argument*/GameObject_AddComponent_TisTurnOffBehaviour_t3058161409_m2052882313_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.ImageTargetAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddImageTargetBehaviour(UnityEngine.GameObject)
+extern "C"  ImageTargetAbstractBehaviour_t3327552701 * VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m110195307 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m110195307_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		ImageTargetBehaviour_t2654589389 * L_1 = GameObject_AddComponent_TisImageTargetBehaviour_t2654589389_m3351511077(L_0, /*hidden argument*/GameObject_AddComponent_TisImageTargetBehaviour_t2654589389_m3351511077_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.MultiTargetAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddMultiTargetBehaviour(UnityEngine.GameObject)
+extern "C"  MultiTargetAbstractBehaviour_t3616801211 * VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m1008182955 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m1008182955_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		MultiTargetBehaviour_t3504654311 * L_1 = GameObject_AddComponent_TisMultiTargetBehaviour_t3504654311_m1135184387(L_0, /*hidden argument*/GameObject_AddComponent_TisMultiTargetBehaviour_t3504654311_m1135184387_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.CylinderTargetAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddCylinderTargetBehaviour(UnityEngine.GameObject)
+extern "C"  CylinderTargetAbstractBehaviour_t665872082 * VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m2573942991 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m2573942991_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		CylinderTargetBehaviour_t2091399712 * L_1 = GameObject_AddComponent_TisCylinderTargetBehaviour_t2091399712_m912348918(L_0, /*hidden argument*/GameObject_AddComponent_TisCylinderTargetBehaviour_t2091399712_m912348918_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.WordAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddWordBehaviour(UnityEngine.GameObject)
+extern "C"  WordAbstractBehaviour_t2878458725 * VuforiaBehaviourComponentFactory_AddWordBehaviour_m3806508403 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddWordBehaviour_m3806508403_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		WordBehaviour_t3366478421 * L_1 = GameObject_AddComponent_TisWordBehaviour_t3366478421_m80916061(L_0, /*hidden argument*/GameObject_AddComponent_TisWordBehaviour_t3366478421_m80916061_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.TextRecoAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddTextRecoBehaviour(UnityEngine.GameObject)
+extern "C"  TextRecoAbstractBehaviour_t2386081773 * VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m2915043667 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m2915043667_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		TextRecoBehaviour_t3400239837 * L_1 = GameObject_AddComponent_TisTextRecoBehaviour_t3400239837_m3447592645(L_0, /*hidden argument*/GameObject_AddComponent_TisTextRecoBehaviour_t3400239837_m3447592645_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.ObjectTargetAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddObjectTargetBehaviour(UnityEngine.GameObject)
+extern "C"  ObjectTargetAbstractBehaviour_t2805337095 * VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m3475568395 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m3475568395_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		ObjectTargetBehaviour_t3836044259 * L_1 = GameObject_AddComponent_TisObjectTargetBehaviour_t3836044259_m2560584915(L_0, /*hidden argument*/GameObject_AddComponent_TisObjectTargetBehaviour_t3836044259_m2560584915_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.VuMarkAbstractBehaviour Vuforia.VuforiaBehaviourComponentFactory::AddVuMarkBehaviour(UnityEngine.GameObject)
+extern "C"  VuMarkAbstractBehaviour_t1830666997 * VuforiaBehaviourComponentFactory_AddVuMarkBehaviour_m2639490483 (VuforiaBehaviourComponentFactory_t1383853028 * __this, GameObject_t1756533147 * ___gameObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_AddVuMarkBehaviour_m2639490483_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___gameObject0;
+		NullCheck(L_0);
+		VuMarkBehaviour_t2060629989 * L_1 = GameObject_AddComponent_TisVuMarkBehaviour_t2060629989_m1435287781(L_0, /*hidden argument*/GameObject_AddComponent_TisVuMarkBehaviour_t2060629989_m1435287781_MethodInfo_var);
+		return L_1;
+	}
+}
+// Vuforia.VuforiaAbstractConfiguration Vuforia.VuforiaBehaviourComponentFactory::CreateVuforiaConfiguration()
+extern "C"  VuforiaAbstractConfiguration_t1891710424 * VuforiaBehaviourComponentFactory_CreateVuforiaConfiguration_m931474600 (VuforiaBehaviourComponentFactory_t1383853028 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaBehaviourComponentFactory_CreateVuforiaConfiguration_m931474600_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		VuforiaConfiguration_t3823746026 * L_0 = ScriptableObject_CreateInstance_TisVuforiaConfiguration_t3823746026_m559723354(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisVuforiaConfiguration_t3823746026_m559723354_MethodInfo_var);
+		return L_0;
+	}
+}
+// System.Void Vuforia.VuforiaConfiguration::.ctor()
+extern "C"  void VuforiaConfiguration__ctor_m2808042321 (VuforiaConfiguration_t3823746026 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaConfiguration__ctor_m2808042321_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaAbstractConfiguration_t1891710424_il2cpp_TypeInfo_var);
+		VuforiaAbstractConfiguration__ctor_m1625969650(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaRuntimeInitialization::InitPlatform()
+extern "C"  void VuforiaRuntimeInitialization_InitPlatform_m3197388960 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaRuntimeInitialization_InitPlatform_m3197388960_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_SetStandardInitializationParameters_m3220511984(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var);
+		VuforiaRuntime_t2075282796 * L_0 = VuforiaRuntime_get_Instance_m4069915631(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Il2CppObject * L_1 = VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VuforiaRuntime_InitPlatform_m3306160978(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaRuntimeInitialization::InitVuforia()
+extern "C"  void VuforiaRuntimeInitialization_InitVuforia_m2546903059 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaRuntimeInitialization_InitVuforia_m2546903059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaAbstractConfiguration_t1891710424_il2cpp_TypeInfo_var);
+		VuforiaAbstractConfiguration_t1891710424 * L_0 = VuforiaAbstractConfiguration_get_Instance_m3543652287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GenericVuforiaConfiguration_t3866211740 * L_1 = VuforiaAbstractConfiguration_get_Vuforia_m3334047132(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_2 = GenericVuforiaConfiguration_get_DelayedInitialization_m282560601(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var);
+		VuforiaRuntime_t2075282796 * L_3 = VuforiaRuntime_get_Instance_m4069915631(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		VuforiaRuntime_InitVuforia_m2353933398(L_3, /*hidden argument*/NULL);
+	}
+
+IL_001e:
+	{
+		return;
+	}
+}
+// Vuforia.IUnityPlayer Vuforia.VuforiaRuntimeInitialization::CreateUnityPlayer()
+extern "C"  Il2CppObject * VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	{
+		NullUnityPlayer_t754446093 * L_0 = (NullUnityPlayer_t754446093 *)il2cpp_codegen_object_new(NullUnityPlayer_t754446093_il2cpp_TypeInfo_var);
+		NullUnityPlayer__ctor_m483624113(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		AndroidUnityPlayer_t852788525 * L_2 = (AndroidUnityPlayer_t852788525 *)il2cpp_codegen_object_new(AndroidUnityPlayer_t852788525_il2cpp_TypeInfo_var);
+		AndroidUnityPlayer__ctor_m2233000524(L_2, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0058;
+	}
+
+IL_001d:
+	{
+		int32_t L_3 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_3) == ((uint32_t)8))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		IOSUnityPlayer_t3656371703 * L_4 = (IOSUnityPlayer_t3656371703 *)il2cpp_codegen_object_new(IOSUnityPlayer_t3656371703_il2cpp_TypeInfo_var);
+		IOSUnityPlayer__ctor_m676692974(L_4, /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_0058;
+	}
+
+IL_0033:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_5 = VuforiaRuntimeUtilities_IsPlayMode_m2939358997(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		PlayModeUnityPlayer_t918240325 * L_6 = (PlayModeUnityPlayer_t918240325 *)il2cpp_codegen_object_new(PlayModeUnityPlayer_t918240325_il2cpp_TypeInfo_var);
+		PlayModeUnityPlayer__ctor_m2126346857(L_6, /*hidden argument*/NULL);
+		V_0 = L_6;
+		goto IL_0058;
+	}
+
+IL_0048:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_7 = VuforiaRuntimeUtilities_IsWSARuntime_m3848252715(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		WSAUnityPlayer_t425981959 * L_8 = (WSAUnityPlayer_t425981959 *)il2cpp_codegen_object_new(WSAUnityPlayer_t425981959_il2cpp_TypeInfo_var);
+		WSAUnityPlayer__ctor_m1279021334(L_8, /*hidden argument*/NULL);
+		V_0 = L_8;
+	}
+
+IL_0058:
+	{
+		Il2CppObject * L_9 = V_0;
+		return L_9;
+	}
+}
+// System.Void Vuforia.VuMarkBehaviour::.ctor()
+extern "C"  void VuMarkBehaviour__ctor_m1415860126 (VuMarkBehaviour_t2060629989 * __this, const MethodInfo* method)
+{
+	{
+		VuMarkAbstractBehaviour__ctor_m326197713(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeBehaviour::.ctor()
+extern "C"  void WireframeBehaviour__ctor_m420914080 (WireframeBehaviour_t2494532455 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_ShowLines_3((bool)1);
+		Color_t2020392075  L_0 = Color_get_green_m2671273823(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_LineColor_4(L_0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeBehaviour::Start()
+extern "C"  void WireframeBehaviour_Start_m2184757344 (WireframeBehaviour_t2494532455 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeBehaviour_Start_m2184757344_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Material_t193706927 * L_0 = __this->get_lineMaterial_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		Material_t193706927 * L_2 = __this->get_lineMaterial_2();
+		Material_t193706927 * L_3 = (Material_t193706927 *)il2cpp_codegen_object_new(Material_t193706927_il2cpp_TypeInfo_var);
+		Material__ctor_m1440882780(L_3, L_2, /*hidden argument*/NULL);
+		__this->set_mLineMaterial_5(L_3);
+		goto IL_0031;
+	}
+
+IL_0027:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral599011397, /*hidden argument*/NULL);
+	}
+
+IL_0031:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WireframeBehaviour::OnRenderObject()
+extern "C"  void WireframeBehaviour_OnRenderObject_m2411339956 (WireframeBehaviour_t2494532455 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeBehaviour_OnRenderObject_m2411339956_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	CameraU5BU5D_t3079764780* V_1 = NULL;
+	bool V_2 = false;
+	Camera_t189460977 * V_3 = NULL;
+	CameraU5BU5D_t3079764780* V_4 = NULL;
+	int32_t V_5 = 0;
+	MeshFilter_t3026937449 * V_6 = NULL;
+	Mesh_t1356156583 * V_7 = NULL;
+	Vector3U5BU5D_t1172311765* V_8 = NULL;
+	Int32U5BU5D_t3030399641* V_9 = NULL;
+	int32_t V_10 = 0;
+	Vector3_t2243707580  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	Vector3_t2243707580  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Vector3_t2243707580  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaManager_t2424874861_il2cpp_TypeInfo_var);
+		VuforiaManager_t2424874861 * L_0 = VuforiaManager_get_Instance_m425433003(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = VirtFuncInvoker0< Transform_t3275118058 * >::Invoke(10 /* UnityEngine.Transform Vuforia.VuforiaManager::get_ARCameraTransform() */, L_0);
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_2 = Component_get_gameObject_m3105766835(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		NullCheck(L_3);
+		CameraU5BU5D_t3079764780* L_4 = GameObject_GetComponentsInChildren_TisCamera_t189460977_m3116941434(L_3, /*hidden argument*/GameObject_GetComponentsInChildren_TisCamera_t189460977_m3116941434_MethodInfo_var);
+		V_1 = L_4;
+		V_2 = (bool)0;
+		CameraU5BU5D_t3079764780* L_5 = V_1;
+		V_4 = L_5;
+		V_5 = 0;
+		goto IL_0042;
+	}
+
+IL_0024:
+	{
+		CameraU5BU5D_t3079764780* L_6 = V_4;
+		int32_t L_7 = V_5;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Camera_t189460977 * L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_3 = L_9;
+		Camera_t189460977 * L_10 = Camera_get_current_m2639890517(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_11 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_12 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		V_2 = (bool)1;
+	}
+
+IL_003c:
+	{
+		int32_t L_13 = V_5;
+		V_5 = ((int32_t)((int32_t)L_13+(int32_t)1));
+	}
+
+IL_0042:
+	{
+		int32_t L_14 = V_5;
+		CameraU5BU5D_t3079764780* L_15 = V_4;
+		NullCheck(L_15);
+		if ((((int32_t)L_14) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_15)->max_length)))))))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		bool L_16 = V_2;
+		if (L_16)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0054:
+	{
+		bool L_17 = __this->get_ShowLines_3();
+		if (L_17)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0060:
+	{
+		MeshFilter_t3026937449 * L_18 = Component_GetComponent_TisMeshFilter_t3026937449_m1427366350(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var);
+		V_6 = L_18;
+		MeshFilter_t3026937449 * L_19 = V_6;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_20 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		if (L_20)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0075:
+	{
+		Material_t193706927 * L_21 = __this->get_mLineMaterial_5();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_22 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_21, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral599011397, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0091:
+	{
+		MeshFilter_t3026937449 * L_23 = V_6;
+		NullCheck(L_23);
+		Mesh_t1356156583 * L_24 = MeshFilter_get_sharedMesh_m1310789932(L_23, /*hidden argument*/NULL);
+		V_7 = L_24;
+		Mesh_t1356156583 * L_25 = V_7;
+		NullCheck(L_25);
+		Vector3U5BU5D_t1172311765* L_26 = Mesh_get_vertices_m626989480(L_25, /*hidden argument*/NULL);
+		V_8 = L_26;
+		Mesh_t1356156583 * L_27 = V_7;
+		NullCheck(L_27);
+		Int32U5BU5D_t3030399641* L_28 = Mesh_get_triangles_m3988715512(L_27, /*hidden argument*/NULL);
+		V_9 = L_28;
+		GL_PushMatrix_m1979053131(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_29 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Matrix4x4_t2933234003  L_30 = Transform_get_localToWorldMatrix_m2868579006(L_29, /*hidden argument*/NULL);
+		GL_MultMatrix_m767401141(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		Material_t193706927 * L_31 = __this->get_mLineMaterial_5();
+		NullCheck(L_31);
+		Material_SetPass_m2448940266(L_31, 0, /*hidden argument*/NULL);
+		Material_t193706927 * L_32 = __this->get_mLineMaterial_5();
+		Color_t2020392075  L_33 = __this->get_LineColor_4();
+		NullCheck(L_32);
+		Material_SetColor_m650857509(L_32, _stringLiteral895546098, L_33, /*hidden argument*/NULL);
+		GL_Begin_m3874173032(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		V_10 = 0;
+		goto IL_015f;
+	}
+
+IL_00f2:
+	{
+		Vector3U5BU5D_t1172311765* L_34 = V_8;
+		Int32U5BU5D_t3030399641* L_35 = V_9;
+		int32_t L_36 = V_10;
+		NullCheck(L_35);
+		int32_t L_37 = L_36;
+		int32_t L_38 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		NullCheck(L_34);
+		V_11 = (*(Vector3_t2243707580 *)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_38))));
+		Vector3U5BU5D_t1172311765* L_39 = V_8;
+		Int32U5BU5D_t3030399641* L_40 = V_9;
+		int32_t L_41 = V_10;
+		NullCheck(L_40);
+		int32_t L_42 = ((int32_t)((int32_t)L_41+(int32_t)1));
+		int32_t L_43 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		NullCheck(L_39);
+		V_12 = (*(Vector3_t2243707580 *)((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_43))));
+		Vector3U5BU5D_t1172311765* L_44 = V_8;
+		Int32U5BU5D_t3030399641* L_45 = V_9;
+		int32_t L_46 = V_10;
+		NullCheck(L_45);
+		int32_t L_47 = ((int32_t)((int32_t)L_46+(int32_t)2));
+		int32_t L_48 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_47));
+		NullCheck(L_44);
+		V_13 = (*(Vector3_t2243707580 *)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48))));
+		Vector3_t2243707580  L_49 = V_11;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_49, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_50 = V_12;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_51 = V_12;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_51, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_52 = V_13;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_53 = V_13;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_53, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_54 = V_11;
+		GL_Vertex_m4110027235(NULL /*static, unused*/, L_54, /*hidden argument*/NULL);
+		int32_t L_55 = V_10;
+		V_10 = ((int32_t)((int32_t)L_55+(int32_t)3));
+	}
+
+IL_015f:
+	{
+		int32_t L_56 = V_10;
+		Int32U5BU5D_t3030399641* L_57 = V_9;
+		NullCheck(L_57);
+		if ((((int32_t)L_56) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_57)->max_length)))))))
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		GL_End_m2374230645(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GL_PopMatrix_m856033754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeBehaviour::OnDrawGizmos()
+extern "C"  void WireframeBehaviour_OnDrawGizmos_m4179942854 (WireframeBehaviour_t2494532455 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeBehaviour_OnDrawGizmos_m4179942854_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshFilter_t3026937449 * V_0 = NULL;
+	Mesh_t1356156583 * V_1 = NULL;
+	Vector3U5BU5D_t1172311765* V_2 = NULL;
+	Int32U5BU5D_t3030399641* V_3 = NULL;
+	int32_t V_4 = 0;
+	Vector3_t2243707580  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t2243707580  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	{
+		bool L_0 = __this->get_ShowLines_3();
+		if (!L_0)
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		bool L_1 = Behaviour_get_enabled_m4079055610(__this, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		MeshFilter_t3026937449 * L_2 = Component_GetComponent_TisMeshFilter_t3026937449_m1427366350(__this, /*hidden argument*/Component_GetComponent_TisMeshFilter_t3026937449_m1427366350_MethodInfo_var);
+		V_0 = L_2;
+		MeshFilter_t3026937449 * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0029:
+	{
+		GameObject_t1756533147 * L_5 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Transform_t3275118058 * L_6 = GameObject_get_transform_m909382139(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_t2243707580  L_7 = Transform_get_position_m1104419803(L_6, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_8 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Transform_t3275118058 * L_9 = GameObject_get_transform_m909382139(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Quaternion_t4030073918  L_10 = Transform_get_rotation_m1033555130(L_9, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_11 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Transform_t3275118058 * L_12 = GameObject_get_transform_m909382139(L_11, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Vector3_t2243707580  L_13 = Transform_get_lossyScale_m1638545862(L_12, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_14 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_7, L_10, L_13, /*hidden argument*/NULL);
+		Gizmos_set_matrix_m1590313986(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		Color_t2020392075  L_15 = __this->get_LineColor_4();
+		Gizmos_set_color_m494992840(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		MeshFilter_t3026937449 * L_16 = V_0;
+		NullCheck(L_16);
+		Mesh_t1356156583 * L_17 = MeshFilter_get_sharedMesh_m1310789932(L_16, /*hidden argument*/NULL);
+		V_1 = L_17;
+		Mesh_t1356156583 * L_18 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_19 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_18, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00f9;
+		}
+	}
+	{
+		Mesh_t1356156583 * L_20 = V_1;
+		NullCheck(L_20);
+		Vector3U5BU5D_t1172311765* L_21 = Mesh_get_vertices_m626989480(L_20, /*hidden argument*/NULL);
+		V_2 = L_21;
+		Mesh_t1356156583 * L_22 = V_1;
+		NullCheck(L_22);
+		Int32U5BU5D_t3030399641* L_23 = Mesh_get_triangles_m3988715512(L_22, /*hidden argument*/NULL);
+		V_3 = L_23;
+		V_4 = 0;
+		goto IL_00ef;
+	}
+
+IL_0097:
+	{
+		Vector3U5BU5D_t1172311765* L_24 = V_2;
+		Int32U5BU5D_t3030399641* L_25 = V_3;
+		int32_t L_26 = V_4;
+		NullCheck(L_25);
+		int32_t L_27 = L_26;
+		int32_t L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		NullCheck(L_24);
+		V_5 = (*(Vector3_t2243707580 *)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28))));
+		Vector3U5BU5D_t1172311765* L_29 = V_2;
+		Int32U5BU5D_t3030399641* L_30 = V_3;
+		int32_t L_31 = V_4;
+		NullCheck(L_30);
+		int32_t L_32 = ((int32_t)((int32_t)L_31+(int32_t)1));
+		int32_t L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		NullCheck(L_29);
+		V_6 = (*(Vector3_t2243707580 *)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_33))));
+		Vector3U5BU5D_t1172311765* L_34 = V_2;
+		Int32U5BU5D_t3030399641* L_35 = V_3;
+		int32_t L_36 = V_4;
+		NullCheck(L_35);
+		int32_t L_37 = ((int32_t)((int32_t)L_36+(int32_t)2));
+		int32_t L_38 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		NullCheck(L_34);
+		V_7 = (*(Vector3_t2243707580 *)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_38))));
+		Vector3_t2243707580  L_39 = V_5;
+		Vector3_t2243707580  L_40 = V_6;
+		Gizmos_DrawLine_m1315654064(NULL /*static, unused*/, L_39, L_40, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_41 = V_6;
+		Vector3_t2243707580  L_42 = V_7;
+		Gizmos_DrawLine_m1315654064(NULL /*static, unused*/, L_41, L_42, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_43 = V_7;
+		Vector3_t2243707580  L_44 = V_5;
+		Gizmos_DrawLine_m1315654064(NULL /*static, unused*/, L_43, L_44, /*hidden argument*/NULL);
+		int32_t L_45 = V_4;
+		V_4 = ((int32_t)((int32_t)L_45+(int32_t)3));
+	}
+
+IL_00ef:
+	{
+		int32_t L_46 = V_4;
+		Int32U5BU5D_t3030399641* L_47 = V_3;
+		NullCheck(L_47);
+		if ((((int32_t)L_46) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_47)->max_length)))))))
+		{
+			goto IL_0097;
+		}
+	}
+
+IL_00f9:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::.ctor()
+extern "C"  void WireframeTrackableEventHandler__ctor_m4253736968 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::Start()
+extern "C"  void WireframeTrackableEventHandler_Start_m1475947192 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeTrackableEventHandler_Start_m1475947192_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_0 = Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957(__this, /*hidden argument*/Component_GetComponent_TisTrackableBehaviour_t1779888572_m2013987957_MethodInfo_var);
+		__this->set_mTrackableBehaviour_2(L_0);
+		TrackableBehaviour_t1779888572 * L_1 = __this->get_mTrackableBehaviour_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_3 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_3);
+		TrackableBehaviour_RegisterTrackableEventHandler_m1156666476(L_3, __this, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::OnTrackableStateChanged(Vuforia.TrackableBehaviour/Status,Vuforia.TrackableBehaviour/Status)
+extern "C"  void WireframeTrackableEventHandler_OnTrackableStateChanged_m106630617 (WireframeTrackableEventHandler_t1535150527 * __this, int32_t ___previousStatus0, int32_t ___newStatus1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___newStatus1;
+		if ((((int32_t)L_0) == ((int32_t)2)))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		int32_t L_1 = ___newStatus1;
+		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
+		{
+			goto IL_0019;
+		}
+	}
+
+IL_000e:
+	{
+		WireframeTrackableEventHandler_OnTrackingFound_m563781220(__this, /*hidden argument*/NULL);
+		goto IL_001f;
+	}
+
+IL_0019:
+	{
+		WireframeTrackableEventHandler_OnTrackingLost_m3180126272(__this, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::OnTrackingFound()
+extern "C"  void WireframeTrackableEventHandler_OnTrackingFound_m563781220 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeTrackableEventHandler_OnTrackingFound_m563781220_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RendererU5BU5D_t2810717544* V_0 = NULL;
+	ColliderU5BU5D_t462843629* V_1 = NULL;
+	WireframeBehaviourU5BU5D_t2935582494* V_2 = NULL;
+	Renderer_t257310565 * V_3 = NULL;
+	RendererU5BU5D_t2810717544* V_4 = NULL;
+	int32_t V_5 = 0;
+	Collider_t3497673348 * V_6 = NULL;
+	ColliderU5BU5D_t462843629* V_7 = NULL;
+	int32_t V_8 = 0;
+	WireframeBehaviour_t2494532455 * V_9 = NULL;
+	WireframeBehaviourU5BU5D_t2935582494* V_10 = NULL;
+	int32_t V_11 = 0;
+	{
+		RendererU5BU5D_t2810717544* L_0 = Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var);
+		V_0 = L_0;
+		ColliderU5BU5D_t462843629* L_1 = Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var);
+		V_1 = L_1;
+		WireframeBehaviourU5BU5D_t2935582494* L_2 = Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706_MethodInfo_var);
+		V_2 = L_2;
+		RendererU5BU5D_t2810717544* L_3 = V_0;
+		V_4 = L_3;
+		V_5 = 0;
+		goto IL_0036;
+	}
+
+IL_0023:
+	{
+		RendererU5BU5D_t2810717544* L_4 = V_4;
+		int32_t L_5 = V_5;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Renderer_t257310565 * L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_3 = L_7;
+		Renderer_t257310565 * L_8 = V_3;
+		NullCheck(L_8);
+		Renderer_set_enabled_m142717579(L_8, (bool)1, /*hidden argument*/NULL);
+		int32_t L_9 = V_5;
+		V_5 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0036:
+	{
+		int32_t L_10 = V_5;
+		RendererU5BU5D_t2810717544* L_11 = V_4;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		ColliderU5BU5D_t462843629* L_12 = V_1;
+		V_7 = L_12;
+		V_8 = 0;
+		goto IL_0061;
+	}
+
+IL_004c:
+	{
+		ColliderU5BU5D_t462843629* L_13 = V_7;
+		int32_t L_14 = V_8;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		Collider_t3497673348 * L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		V_6 = L_16;
+		Collider_t3497673348 * L_17 = V_6;
+		NullCheck(L_17);
+		Collider_set_enabled_m3489100454(L_17, (bool)1, /*hidden argument*/NULL);
+		int32_t L_18 = V_8;
+		V_8 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_0061:
+	{
+		int32_t L_19 = V_8;
+		ColliderU5BU5D_t462843629* L_20 = V_7;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		WireframeBehaviourU5BU5D_t2935582494* L_21 = V_2;
+		V_10 = L_21;
+		V_11 = 0;
+		goto IL_008c;
+	}
+
+IL_0077:
+	{
+		WireframeBehaviourU5BU5D_t2935582494* L_22 = V_10;
+		int32_t L_23 = V_11;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		WireframeBehaviour_t2494532455 * L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		V_9 = L_25;
+		WireframeBehaviour_t2494532455 * L_26 = V_9;
+		NullCheck(L_26);
+		Behaviour_set_enabled_m1796096907(L_26, (bool)1, /*hidden argument*/NULL);
+		int32_t L_27 = V_11;
+		V_11 = ((int32_t)((int32_t)L_27+(int32_t)1));
+	}
+
+IL_008c:
+	{
+		int32_t L_28 = V_11;
+		WireframeBehaviourU5BU5D_t2935582494* L_29 = V_10;
+		NullCheck(L_29);
+		if ((((int32_t)L_28) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_29)->max_length)))))))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_30 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_30);
+		String_t* L_31 = TrackableBehaviour_get_TrackableName_m3173853042(L_30, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_32 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1040926105, L_31, _stringLiteral759218142, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WireframeTrackableEventHandler::OnTrackingLost()
+extern "C"  void WireframeTrackableEventHandler_OnTrackingLost_m3180126272 (WireframeTrackableEventHandler_t1535150527 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WireframeTrackableEventHandler_OnTrackingLost_m3180126272_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RendererU5BU5D_t2810717544* V_0 = NULL;
+	ColliderU5BU5D_t462843629* V_1 = NULL;
+	WireframeBehaviourU5BU5D_t2935582494* V_2 = NULL;
+	Renderer_t257310565 * V_3 = NULL;
+	RendererU5BU5D_t2810717544* V_4 = NULL;
+	int32_t V_5 = 0;
+	Collider_t3497673348 * V_6 = NULL;
+	ColliderU5BU5D_t462843629* V_7 = NULL;
+	int32_t V_8 = 0;
+	WireframeBehaviour_t2494532455 * V_9 = NULL;
+	WireframeBehaviourU5BU5D_t2935582494* V_10 = NULL;
+	int32_t V_11 = 0;
+	{
+		RendererU5BU5D_t2810717544* L_0 = Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisRenderer_t257310565_m1076536047_MethodInfo_var);
+		V_0 = L_0;
+		ColliderU5BU5D_t462843629* L_1 = Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisCollider_t3497673348_m496323568_MethodInfo_var);
+		V_1 = L_1;
+		WireframeBehaviourU5BU5D_t2935582494* L_2 = Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706(__this, (bool)1, /*hidden argument*/Component_GetComponentsInChildren_TisWireframeBehaviour_t2494532455_m1655243706_MethodInfo_var);
+		V_2 = L_2;
+		RendererU5BU5D_t2810717544* L_3 = V_0;
+		V_4 = L_3;
+		V_5 = 0;
+		goto IL_0036;
+	}
+
+IL_0023:
+	{
+		RendererU5BU5D_t2810717544* L_4 = V_4;
+		int32_t L_5 = V_5;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Renderer_t257310565 * L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_3 = L_7;
+		Renderer_t257310565 * L_8 = V_3;
+		NullCheck(L_8);
+		Renderer_set_enabled_m142717579(L_8, (bool)0, /*hidden argument*/NULL);
+		int32_t L_9 = V_5;
+		V_5 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_0036:
+	{
+		int32_t L_10 = V_5;
+		RendererU5BU5D_t2810717544* L_11 = V_4;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		ColliderU5BU5D_t462843629* L_12 = V_1;
+		V_7 = L_12;
+		V_8 = 0;
+		goto IL_0061;
+	}
+
+IL_004c:
+	{
+		ColliderU5BU5D_t462843629* L_13 = V_7;
+		int32_t L_14 = V_8;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		Collider_t3497673348 * L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		V_6 = L_16;
+		Collider_t3497673348 * L_17 = V_6;
+		NullCheck(L_17);
+		Collider_set_enabled_m3489100454(L_17, (bool)0, /*hidden argument*/NULL);
+		int32_t L_18 = V_8;
+		V_8 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_0061:
+	{
+		int32_t L_19 = V_8;
+		ColliderU5BU5D_t462843629* L_20 = V_7;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_20)->max_length)))))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		WireframeBehaviourU5BU5D_t2935582494* L_21 = V_2;
+		V_10 = L_21;
+		V_11 = 0;
+		goto IL_008c;
+	}
+
+IL_0077:
+	{
+		WireframeBehaviourU5BU5D_t2935582494* L_22 = V_10;
+		int32_t L_23 = V_11;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		WireframeBehaviour_t2494532455 * L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		V_9 = L_25;
+		WireframeBehaviour_t2494532455 * L_26 = V_9;
+		NullCheck(L_26);
+		Behaviour_set_enabled_m1796096907(L_26, (bool)0, /*hidden argument*/NULL);
+		int32_t L_27 = V_11;
+		V_11 = ((int32_t)((int32_t)L_27+(int32_t)1));
+	}
+
+IL_008c:
+	{
+		int32_t L_28 = V_11;
+		WireframeBehaviourU5BU5D_t2935582494* L_29 = V_10;
+		NullCheck(L_29);
+		if ((((int32_t)L_28) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_29)->max_length)))))))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		TrackableBehaviour_t1779888572 * L_30 = __this->get_mTrackableBehaviour_2();
+		NullCheck(L_30);
+		String_t* L_31 = TrackableBehaviour_get_TrackableName_m3173853042(L_30, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_32 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1040926105, L_31, _stringLiteral3033297088, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WordBehaviour::.ctor()
+extern "C"  void WordBehaviour__ctor_m581909702 (WordBehaviour_t3366478421 * __this, const MethodInfo* method)
+{
+	{
+		WordAbstractBehaviour__ctor_m1415816009(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::.ctor()
+extern "C"  void WSAUnityPlayer__ctor_m1279021334 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::LoadNativeLibraries()
+extern "C"  void WSAUnityPlayer_LoadNativeLibraries_m2310474608 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::InitializePlatform()
+extern "C"  void WSAUnityPlayer_InitializePlatform_m2450540007 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	{
+		WSAUnityPlayer_setPlatFormNative_m413995854(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Vuforia.VuforiaUnity/InitError Vuforia.WSAUnityPlayer::InitializeVuforia(System.String)
+extern "C"  int32_t WSAUnityPlayer_InitializeVuforia_m1467576933 (WSAUnityPlayer_t425981959 * __this, String_t* ___licenseKey0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = ___licenseKey0;
+		int32_t L_1 = WSAUnityPlayer_initVuforiaWSA_m2461582347(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) < ((int32_t)0)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		WSAUnityPlayer_InitializeSurface_m2485130165(__this, /*hidden argument*/NULL);
+	}
+
+IL_0014:
+	{
+		int32_t L_3 = V_0;
+		return (int32_t)(L_3);
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::StartScene()
+extern "C"  void WSAUnityPlayer_StartScene_m2884648656 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::Update()
+extern "C"  void WSAUnityPlayer_Update_m3453039605 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_Update_m3453039605_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		bool L_0 = SurfaceUtilities_HasSurfaceBeenRecreated_m2740261893(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		WSAUnityPlayer_InitializeSurface_m2485130165(__this, /*hidden argument*/NULL);
+		goto IL_002e;
+	}
+
+IL_0015:
+	{
+		int32_t L_1 = WSAUnityPlayer_GetActualScreenOrientation_m2906081196(__this, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		int32_t L_3 = __this->get_mScreenOrientation_0();
+		if ((((int32_t)L_2) == ((int32_t)L_3)))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		WSAUnityPlayer_SetUnityScreenOrientation_m3964512799(__this, /*hidden argument*/NULL);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::Dispose()
+extern "C"  void WSAUnityPlayer_Dispose_m459169223 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::OnPause()
+extern "C"  void WSAUnityPlayer_OnPause_m2815166635 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_OnPause_m2815166635_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnPause_m2422224752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::OnResume()
+extern "C"  void WSAUnityPlayer_OnResume_m2572251502 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_OnResume_m2572251502_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_OnResume_m2186520633(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::OnDestroy()
+extern "C"  void WSAUnityPlayer_OnDestroy_m3845019931 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_OnDestroy_m3845019931_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_Deinit_m4072609744(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::InitializeSurface()
+extern "C"  void WSAUnityPlayer_InitializeSurface_m2485130165 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_InitializeSurface_m2485130165_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_OnSurfaceCreated_m3675640541(NULL /*static, unused*/, /*hidden argument*/NULL);
+		WSAUnityPlayer_SetUnityScreenOrientation_m3964512799(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::SetUnityScreenOrientation()
+extern "C"  void WSAUnityPlayer_SetUnityScreenOrientation_m3964512799 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_SetUnityScreenOrientation_m3964512799_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = WSAUnityPlayer_GetActualScreenOrientation_m2906081196(__this, /*hidden argument*/NULL);
+		__this->set_mScreenOrientation_0(L_0);
+		int32_t L_1 = __this->get_mScreenOrientation_0();
+		IL2CPP_RUNTIME_CLASS_INIT(SurfaceUtilities_t4096327849_il2cpp_TypeInfo_var);
+		SurfaceUtilities_SetSurfaceOrientation_m3106547277(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get_mScreenOrientation_0();
+		WSAUnityPlayer_setSurfaceOrientationWSA_m2082052129(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.ScreenOrientation Vuforia.WSAUnityPlayer::GetActualScreenOrientation()
+extern "C"  int32_t WSAUnityPlayer_GetActualScreenOrientation_m2906081196 (WSAUnityPlayer_t425981959 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WSAUnityPlayer_GetActualScreenOrientation_m2906081196_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((!(((uint32_t)L_1) == ((uint32_t)5))))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		int32_t L_2 = Input_get_deviceOrientation_m2415424840(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 0)
+		{
+			goto IL_003e;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 1)
+		{
+			goto IL_0045;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 2)
+		{
+			goto IL_0030;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)1)) == 3)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		goto IL_004c;
+	}
+
+IL_0030:
+	{
+		V_0 = 3;
+		goto IL_0053;
+	}
+
+IL_0037:
+	{
+		V_0 = 4;
+		goto IL_0053;
+	}
+
+IL_003e:
+	{
+		V_0 = 1;
+		goto IL_0053;
+	}
+
+IL_0045:
+	{
+		V_0 = 2;
+		goto IL_0053;
+	}
+
+IL_004c:
+	{
+		V_0 = 3;
+		goto IL_0053;
+	}
+
+IL_0053:
+	{
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void Vuforia.WSAUnityPlayer::setPlatFormNative()
+extern "C"  void WSAUnityPlayer_setPlatFormNative_m413995854 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = 0;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("VuforiaWrapper"), "setPlatFormNative", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'setPlatFormNative'"));
+		}
+	}
+
+	// Native function invocation
+	il2cppPInvokeFunc();
+
+}
+// System.Int32 Vuforia.WSAUnityPlayer::initVuforiaWSA(System.String)
+extern "C"  int32_t WSAUnityPlayer_initVuforiaWSA_m2461582347 (Il2CppObject * __this /* static, unused */, String_t* ___licenseKey0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("VuforiaWrapper"), "initVuforiaWSA", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'initVuforiaWSA'"));
+		}
+	}
+
+	// Marshaling of parameter '___licenseKey0' to native representation
+	char* ____licenseKey0_marshaled = NULL;
+	____licenseKey0_marshaled = il2cpp_codegen_marshal_string(___licenseKey0);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(____licenseKey0_marshaled);
+
+	// Marshaling cleanup of parameter '___licenseKey0' native representation
+	il2cpp_codegen_marshal_free(____licenseKey0_marshaled);
+	____licenseKey0_marshaled = NULL;
+
+	return returnValue;
+}
+// System.Void Vuforia.WSAUnityPlayer::setSurfaceOrientationWSA(System.Int32)
+extern "C"  void WSAUnityPlayer_setSurfaceOrientationWSA_m2082052129 (Il2CppObject * __this /* static, unused */, int32_t ___screenOrientation0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("VuforiaWrapper"), "setSurfaceOrientationWSA", IL2CPP_CALL_DEFAULT, CHARSET_UNICODE, parameterSize, false);
+
+		if (il2cppPInvokeFunc == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'setSurfaceOrientationWSA'"));
+		}
+	}
+
+	// Native function invocation
+	il2cppPInvokeFunc(___screenOrientation0);
+
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
