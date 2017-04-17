@@ -17,6 +17,10 @@
 @import "bootstrap";
 @import 'bootstrap/theme';
 
+a:hover {
+    text-decoration: none;
+}
+
 
 body {
     padding: 8%;
@@ -38,10 +42,7 @@ body {
     color: #76323F;
 }
 
-a {
-    text-decoration: none;
-}
-.content {
+.body {
     font-family: 'Open Sans', sans-serif;
 }
 

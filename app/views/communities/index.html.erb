@@ -1,21 +1,14 @@
 <p id="notice"><%= notice %></p>
 
+
 <h1>Communities</h1>
 
-
     <% @communities.each do |community| %>
-        <div class="square">
-          <div class="content">
-            <div id="map-container">
-              <div id="map-canvas"></div>
-            </div>
-            <h2><%= link_to community.name, community_path(community) %></h2>
-            <h3> <%= community.address %> </h3>
-        </div>
-        </div>
-    <% end %>
+             <h2><%= link_to community.name, community_path(community) %></h2>
+             <h3> <%= community.address %> </h3>
+         </div>
+         </div>
+     <% end %>
 
-
-<br>
-
+        
 <%= link_to 'New Community', new_community_path %>

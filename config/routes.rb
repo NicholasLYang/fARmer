@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :produces
   resources :communities
   resources :plants
   resources :plots
@@ -8,10 +9,12 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
                sessions: 'users/sessions'
              }
-  get '/users/:id', to: 'users#show', as: 'user'
+
+  get '/user/:id', to: 'users#show', as: 'user'
   get '/plots_json', to: 'plots#index_json'
   get '/plant_json/:id', to: 'plants#show_json'
   get '/user_json/:id', to: 'users#show_json'
+  get '/users_json', to: 'users#index_json'
   get '/communities_json', to: 'communities#index_json'
   get '/seed', to: 'plots#seed'
 
